@@ -1,0 +1,61 @@
+;File created: 05/29/2024 18:00
+;Record count: 52
+$ORIGIN medical-ci.co.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102442	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+s2-mrmail._domainkey	86400	IN	CNAME	s2-mrmail.domainkey.npvs45.mrmail.jp.
+lp	86400	IN	CNAME	medicalcollectiveintellige.mktoweb.com.
+em	86400	IN	CNAME	mkto-sj250184.com.
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJyrJa0MnzGVg4Um2q+O4Vm9SkvYRqMjIk66Qm0h1i7jmpUrs5NxkBrntGEoIBRfkBfSxt3eQBMCvYqW3tJpzkDBdIG16NaLsTBRJl+QyxJ3uvd68wk91JuDQy01BgwAoX365OwKZoCJLMPnGLO/LnMWsqyoOqGvf5qEUgTHAUOwIDAQAB"
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+www	86400	IN	CNAME	aelheyt19wfv.wpeproxy.com.
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+careers	86400	IN	CNAME	5flh1g32c4u4.wpeproxy.com.
+dmlab-stg	300	IN	CNAME	dmlab-stg.medical-ci.co.jp.edgekey.net.
+@	86400	IN	TXT	"apple-domain-verification=e5oVd5Ol5IIIwy16"
+dmlab	300	IN	CNAME	dmlab.medical-ci.co.jp.edgekey.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+s1-mrmail._domainkey	86400	IN	CNAME	s1-mrmail.domainkey.npvs45.mrmail.jp.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*	86400	IN	TXT	"v=spf1 -all"
+mail.careers	86400	IN	CNAME	careers.medical-ci.co.jp.
+ftp.careers	86400	IN	CNAME	careers.medical-ci.co.jp.
+www.careers	86400	IN	CNAME	careers.medical-ci.co.jp.
+mrmail	86400	IN	CNAME	npvs45.mrmail.jp.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+dm	86400	IN	A	40.74.122.51
+stg-dm	86400	IN	A	40.74.122.51
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAovdErPSVv0K+/jj39USRxLGRfZwA+N6S9tfex2lyBxfp2fgq1wuwaYVAUSCA32XEjfyitWBOSaFALpj05K4Ja3sEvMM1H7NNcrxOZudv/l9nHYrhyixh2fQspo+bqMk67W0/LG1Qn5UsR+UL1vednpide41LHcMqDX8+FrNozejCBos6bgKg4Jwzy0awla1Th" "0ZTKMsTHBkOvcJxB7Puuo3s+W9VkPtNZCKgwf4wa5nVXmZshK6h6/Z3LFzAHecVKOMkhNI9u950uyJFt5lbIEtKcz3LvaA0Rhg67rP0rtw9VRco7oRmvPXxMzNW/lj0gOkbyWcn+KtlL6w4R0ECBwIDAQAB"
+_acme-challenge.dmlab-dev	60	IN	CNAME	ac.06cad3375173c4b478857310a6d6da64.dmlab-dev.medical-ci.co.jp.validate-akdv.net.
+_acme-challenge.dmlab-stg	60	IN	CNAME	ac.5a406671f06046a03d81e4afedc17fdd.dmlab-stg.medical-ci.co.jp.validate-akdv.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_208c2a160b20cae9d8c15fb584b4928c	86400	IN	CNAME	6eede9e50242789315c2ae0644e4dbd6.95501cd864786bfb9d3146e464d71858.a51929c5f8184bf293a5.sectigo.com.
+stg-www	86400	IN	A	40.74.122.51
+stg-careers	86400	IN	A	40.74.122.51
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:mci-research.com ip4:123.220.251.57 ip4:114.179.102.132 ip4:150.249.199.57 include:mktomail.com -all"
+_acme-challenge.dmlab	60	IN	CNAME	ac.a4ec42063f5594d3532f81b0f473cadb.dmlab.medical-ci.co.jp.validate-akdv.net.
+_9ddccd9ab7fd6682d9160fae5c2cac69	86400	IN	CNAME	c8cb2f4b2c3aaafa1d73d8ea183659b9.7f815bd33bed5c50f49f39e30d447bf1.eae4812493dc4a8d821c.sectigo.com.
+@	86400	IN	TXT	"google-site-verification=BwVYX_t-9KG1RNy_iqk1xV33vm27YhG4tNmVLmw_usU"
+selector1._domainkey	60	IN	CNAME	selector1-medicalci-co-jp01i._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 medicalci-co-jp01i.mail.protection.outlook.com.
+selector2._domainkey	60	IN	CNAME	selector2-medicalci-co-jp01i._domainkey.oneomnicom.onmicrosoft.com.
+dmlab-dev	300	IN	CNAME	dmlab-dev.medical-ci.co.jp.edgekey.net.

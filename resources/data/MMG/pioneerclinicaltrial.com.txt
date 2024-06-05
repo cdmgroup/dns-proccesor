@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:02
+;Record count: 18
+$ORIGIN pioneerclinicaltrial.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021051018	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+em6888.mmgct.com	86400	IN	CNAME	u21563303.wl054.sendgrid.net.
+s1._domainkey.mmgct.com	86400	IN	CNAME	s1.domainkey.u21563303.wl054.sendgrid.net.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+www	86400	IN	CNAME	pioneerclinicaltrial.com.
+asuid.eu	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+url2305.mmgct.com	86400	IN	CNAME	sendgrid.net.
+21563303.mmgct.com	86400	IN	CNAME	sendgrid.net.
+s2._domainkey.mmgct.com	86400	IN	CNAME	s2.domainkey.u21563303.wl054.sendgrid.net.
+eu	86400	IN	CNAME	blprnclgacprod-eu.azurewebsites.net.
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"

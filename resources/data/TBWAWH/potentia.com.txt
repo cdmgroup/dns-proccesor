@@ -1,0 +1,30 @@
+;File created: 05/29/2024 18:10
+;Record count: 21
+$ORIGIN potentia.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011351	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAztgl4ZHN+SegpLAvTPVOgSAWlMHbwCZYLjjTBZCLbqcZV1RBYxIOfUwN4/SLliJu5L+vqsRxz3wF9fv8tKXrgtgLJM3bQdnMJpN9Y2rw9Zd93gZ+0wpPj2x3HnXfaGkZbZhaX3oTVueGnAC3CJFPk2dYhl0NVwYNpN41gMGSWEWWpcJu80hSy4ILtCosCEM+j" "jOWTtbPvyyowBEu+VX1wXzs2WPXohdrHTLsl41n2ndaH59sAtSA2IXA4jam37OvqCCmuHrNtaU3n5ArfSOku25ge/AGppPZHn11RosTCdOkoOurpNmb0GRqcIRqTE67B9eGsWTO+Cdc4CP2n1tjTwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=wIu8pyQol-9PNSikR3hvnV2l1mbWzVpqkiZOhVgcAm8"
+selector1._domainkey	86400	IN	CNAME	selector1-potentia-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-potentia-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 potentia-com.mail.protection.outlook.com.

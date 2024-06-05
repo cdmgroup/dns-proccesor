@@ -1,0 +1,39 @@
+;File created: 05/29/2024 18:00
+;Record count: 30
+$ORIGIN mci-research.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102317	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=EELoqi3RKNAaVzmcPucgDmvrImV7n8lJgxoS-UiBisw"
+@	84600	IN	TXT	"v=spf1 a:enqsvr-1.mci-research.com a:enqsvr-2.mci-research.com ip4:54.199.87.200/32 ip4:54.248.178.183/32 ip4:153.127.33.163/32 ip4:54.95.221.213/32 -all"
+gst	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+enqsvr-2	86400	IN	A	54.199.87.200
+stgsvr	86400	IN	A	54.95.221.213
+enqsvr-2	86400	IN	TXT	"v=spf1 mx:mci-research.com a ip4:54.248.178.183/32 ip4:54.199.87.200/32 ip4:153.127.33.163/32 ip4:54.95.221.213/32 -all"
+stgsvr	86400	IN	TXT	"v=spf1 a mx ip4:54.248.178.183/32 mx:enqsvr-1.mci-research.com ip4:54.199.87.200/32 mx:enqsvr-2.mci-research.com ip4:153.127.33.163/32 mx:mci-research.com ip4:54.95.221.213/32 -all"
+my	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+enqsvr-1	86400	IN	A	54.248.178.183
+gst-test	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+enqsvr-1	86400	IN	TXT	"v=spf1 mx:mci-research.com a ip4:54.248.178.183/32 ip4:54.199.87.200/32 ip4:153.127.33.163/32 ip4:54.95.221.213/32 -all"
+stg-tmxtest	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+stg	86400	IN	CNAME	lb-stg-mci-721165488.ap-northeast-1.elb.amazonaws.com.
+www-test	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+@	86400	IN	MX	10 mci-research.com.
+adm	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+@	86400	IN	A	153.127.33.163
+adm-test	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+www	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+docnavi	86400	IN	A	153.127.33.163
+my-test	86400	IN	CNAME	lb-mci-268861797.ap-northeast-1.elb.amazonaws.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_14015430909a4f5d68828a37121814b6	86400	IN	CNAME	e9020171910445b24e4c3c239dd2d858.2e87ff7caeb0c812841806cf6145e2b9.4e04a1a1e6704da3a514.sectigo.com.

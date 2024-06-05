@@ -1,0 +1,22 @@
+;File created: 05/29/2024 15:31
+;Record count: 13
+$ORIGIN repcommplatform.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091724	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_cad0a3bf3313a9d49be5227f5bc800d2	86400	IN	CNAME	72d4de6cf261c2bb52cbf6c1f06c5e49.484e6b8cc86dcaf715e2f6b0c6e1bcd5.893d1fc543a045bbb0b4.sectigo.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+www	86400	IN	CNAME	repcommplatform.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+staging	86400	IN	A	20.231.244.114
+@	86400	IN	A	20.231.244.114

@@ -1,0 +1,23 @@
+;File created: 05/29/2024 18:15
+;Record count: 14
+$ORIGIN qrposters.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020100317	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	APEXALIAS	qrposters.org.edgekey.net.
+poster	86400	IN	CNAME	poster.qrposters.org.edgekey.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+_acme-challenge	60	IN	TXT	"JXTdtcj6Vln7RIqgWTtkK9RwoaIquYHw0Esud67ZNLU"
+_acme-challenge	60	IN	TXT	"3tvVbTn6HnU6Akzq22u-_X3ou7C6UWrnCLwlZsnrnDU"
+_a39146d6e7dd1131d59ddbbdc1d4edf0	86400	IN	CNAME	75675e0874799755ab4e967e6d700389.ced2f0a069c415229312a20b2b1d140f.136712e6b03143efb777.sectigo.com.

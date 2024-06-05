@@ -1,0 +1,26 @@
+;File created: 05/29/2024 18:15
+;Record count: 17
+$ORIGIN evaluateplatform.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016051711	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+merckquiz	86400	IN	A	63.32.233.229
+_1d9cb4e085d5ebf773d7bfaa2ce8f801	86400	IN	CNAME	d9ae544996325da5e14349b7971b9275.85a43bddf7c3292a67eeb74903049c29.804d1a8cb3de49f58605.sectigo.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+demoquiz	86400	IN	A	63.32.233.229
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+novartisquiz	86400	IN	A	63.32.233.229
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+merck	86400	IN	CNAME	merck.evaluateplatform.com.edgekey.net.
+demo	86400	IN	CNAME	demo.evaluateplatform.com.edgekey.net.
+adc	86400	IN	CNAME	adc.evaluateplatform.com.edgekey.net.
+novartis	86400	IN	CNAME	novartis.evaluateplatform.com.edgekey.net.

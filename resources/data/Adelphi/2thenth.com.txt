@@ -1,0 +1,37 @@
+;File created: 05/29/2024 18:15
+;Record count: 28
+$ORIGIN 2thenth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2015110616	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	2whty7sysf4u.wpeproxy.com.
+@	86400	IN	APEXALIAS	2whty7sysf4u.wpeproxy.com.
+@	86400	IN	MX	0 2thenth-com.mail.protection.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_6b291e729c26566cfd4917ca795e7332	86400	IN	CNAME	1e8c89d1de0b9bd2aa11313ecc68e9be.e13354bad766e664c8ac4d03495c5928.76894301af5f4fabb060.sectigo.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+link	86400	IN	CNAME	track.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjPB+BxE/jzhcTgQgPUWyy2povHuQVTjsgLdNPZGOjcAgCYsR1UxseLnggfbIiYkY14DxWKPfvjoj6nV2hRLciGV1m26lxquH+TG7cIVo39xV3zljJYcRL4SsjIr0wY4cBaaXhN3V0jBfQPzhIFrSE7ew+xhM9RhGretoIL8aJfKtyzLWh0Dccq34QxOWPzIth" "E3fNXpr3E5veyDErks+pGZ4O90KkxpUIEiOHbu2+QiGTS9zwbwZuXix6X2ARP+4lhCcaJUWdRIuUssGvqh0LozoXB6SSLwhFUbl2SyeYJgDNihG+v8Vntnku+GO+8CGds3eV87Q39XTso07ZdZ7fwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=a9Fu8NXvCGBdfyi6uXohqndkmebe22ymFlUX0KsLRIA"
+selector1._domainkey	86400	IN	CNAME	selector1-2thenth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-2thenth-com._domainkey.oneomnicom.onmicrosoft.com.

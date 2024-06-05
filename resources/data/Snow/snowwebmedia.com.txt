@@ -1,0 +1,73 @@
+;File created: 05/29/2024 18:08
+;Record count: 64
+$ORIGIN snowwebmedia.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020082630	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www.bax-test	86400	IN	A	75.119.201.136
+ftp.test	86400	IN	A	75.119.201.136
+ssh.bax-test	86400	IN	A	75.119.201.136
+ftp.test1	86400	IN	A	75.119.201.136
+mysql.dbell	86400	IN	A	66.33.202.118
+ssh.herceptin	86400	IN	A	75.119.201.136
+ftp.test3	86400	IN	A	75.119.201.136
+ftp.otezla	86400	IN	A	75.119.201.136
+www.xolair	86400	IN	A	75.119.201.136
+msn.jabber.test	86400	IN	CNAME	test.snowwebmedia.com.
+ssh.laomaja-devel	86400	IN	A	75.119.201.136
+ftp.actemra	86400	IN	A	75.119.201.136
+mysql	86400	IN	A	66.33.202.118
+ftp.herceptin	86400	IN	A	75.119.201.136
+ssh.test1	86400	IN	A	75.119.201.136
+ftp	86400	IN	A	75.119.201.45
+ssh.actemra	86400	IN	A	75.119.201.136
+ssh	86400	IN	A	75.119.201.45
+www.herceptin	86400	IN	A	75.119.201.136
+www.actemra	86400	IN	A	75.119.201.136
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+conference.jabber.test	86400	IN	CNAME	test.snowwebmedia.com.
+ftp.rituxan	86400	IN	A	208.113.132.197
+ssh.test2	86400	IN	A	75.119.201.136
+ssh.otezla	86400	IN	A	75.119.201.136
+ssh.test3	86400	IN	A	75.119.201.136
+ssh.avastin	86400	IN	A	75.119.201.136
+ftp.xolair	86400	IN	A	75.119.201.136
+ssh.abilify	86400	IN	A	75.119.201.136
+ssh.rituxan	86400	IN	A	208.113.132.197
+ssh.lucentis	86400	IN	A	75.119.201.136
+ftp.laomaja-devel	86400	IN	A	75.119.201.136
+www.dbell	86400	IN	A	75.119.201.136
+ftp.dbell	86400	IN	A	75.119.201.136
+mysql.bax-test	86400	IN	A	66.33.202.118
+aim.jabber.test	86400	IN	CNAME	test.snowwebmedia.com.
+projects	86400	IN	CNAME	box664.bluehost.com.
+sample	86400	IN	CNAME	box664.bluehost.com.
+ambassadorplaybook	86400	IN	CNAME	box664.bluehost.com.
+programplaybook	86400	IN	CNAME	box664.bluehost.com.
+centraldb	86400	IN	CNAME	box664.bluehost.com.
+www.avastin	86400	IN	A	75.119.201.136
+mysql.test	86400	IN	A	66.33.202.118
+www.abilify	86400	IN	A	75.119.201.136
+dbell	86400	IN	A	75.119.201.136
+ftp.abilify	86400	IN	A	75.119.201.136
+ftp.avastin	86400	IN	A	75.119.201.136
+ftp.test2	86400	IN	A	75.119.201.136
+ssh.xolair	86400	IN	A	75.119.201.136
+ssh.test	86400	IN	A	75.119.201.136
+ftp.bax-test	86400	IN	A	75.119.201.136
+ftp.lucentis	86400	IN	A	75.119.201.136
+www.laomaja-devel	86400	IN	A	75.119.201.136
+ssh.dbell	86400	IN	A	75.119.201.136
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+@	60	IN	A	205.196.218.39
+www	86400	IN	A	205.196.218.39

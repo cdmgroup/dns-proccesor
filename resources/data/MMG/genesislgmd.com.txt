@@ -1,0 +1,22 @@
+;File created: 05/29/2024 18:02
+;Record count: 13
+$ORIGIN genesislgmd.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022111539	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge	60	IN	TXT	"LJHqFZP3-pjRJ7wH4lZqC5xiKE4832wtWgkedhn37Ho"
+review	86400	IN	CNAME	review.genesislgmd.com.edgekey.net.
+@	86400	IN	APEXALIAS	genesislgmd.com.edgekey.net.
+www	86400	IN	CNAME	genesislgmd.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"lhULoEtpt0zcvQFqiZa6uMGWK5JK9m_SLUDrj1gjkp8"

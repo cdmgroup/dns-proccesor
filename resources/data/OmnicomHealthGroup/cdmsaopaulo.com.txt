@@ -1,0 +1,24 @@
+;File created: 05/29/2024 15:21
+;Record count: 15
+$ORIGIN cdmsaopaulo.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111358	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"0ed1fe018a82b94b0641cb42ada9f7aa7fbff62223"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"google-site-verification=Ho2gNGcGDMZwCKLKBgtUEiiHP9NhLQPTx0OM6C9CZ8I"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhjxkP6losEBrp8+wYLH/R4UZ/QUzQn6M630lgHNbseGzW9PI89dAEn1efzFlKht+0GrJrWzP+b6tY6zqi7nPoqJVeTtFhFZYYAAMj4HaHafg1/+bBLFKNCz0WwIkJZ2FprARoX4W9RzgXIOckkyA7tgIE9P1PiHNW9R3/6lmtpNPXhDYJNP74LTJwNvqR0ej+" "lQ+W8cqGleANedjmzuuOhbD9UqbQB+zlJ0kAgwj9sGD42EHzanzNorokIDg7NvmtWAUWDYPmdAfIS13wCZErWWRaBsVjS47KzNqdIKatyIRZgXFSZRQWquVnDyTC/h8Rp2aHPatkzYVCOYUgGeivwIDAQAB"
+selector1._domainkey	86400	IN	CNAME	selector1-cdmsaopaulo-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmsaopaulo-com._domainkey.oneomnicom.onmicrosoft.com.

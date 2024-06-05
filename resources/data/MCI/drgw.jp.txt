@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:00
+;Record count: 18
+$ORIGIN drgw.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102318	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=xYrmwrzHLewSKba_uInq1s7mv41Ehq8kDIFg-rWbXvY"
+@	84600	IN	TXT	"v=spf1 a -all"
+ftp	86400	IN	CNAME	drgw.jp.
+www	86400	IN	CNAME	drgw.jp.
+mail	86400	IN	CNAME	drgw.jp.
+@	86400	IN	MX	10 drgw.jp.
+@	86400	IN	A	203.137.179.6
+s1._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1Wz23b0jwZDJQOIjTEtMSLLGPqauKBgt7J0oJWiwOFLCFaTB3xvzZ5AIJ0yKo1HMlth7m/f/WaG0ylwMjadb3zzlLmhzsPIUbdcXpdvcwExJcgNIfcidXTrDY1JdP29spdpFVS21brFbMGA6/zojPz7AuzHUhgVjmzOvhsVgKZcDcPnDcytD/RlfILFSiwERL" "bGgiZ4n8NrMtX6cMeh/9YAz1vbV8bBm92fUh99P8l3t/ucM/CBnKhYLhYyemYPczpPyePVGNA4YPFx3hbmfO52ROWxkx0QlGJIit3+vWVQimAOUcRUJeDI+ApmvmZ5wKfZ9sDUGOnTVtc+vHs5yMwIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_ed2ea1cd4908c5ca21c8bdf83ce95739	86400	IN	CNAME	702433d24f38b509d0aeb9df6965437b.6223444c6208d649319a04d218e27b49.77a0b3bb4f3441e69b5d.sectigo.com.
+pre-drgw.jp	86400	IN	A	210.236.254.21

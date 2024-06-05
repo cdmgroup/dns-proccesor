@@ -1,0 +1,24 @@
+;File created: 05/29/2024 15:31
+;Record count: 15
+$ORIGIN email-itci.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021041946	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+bounce	84600	IN	TXT	"google-site-verification=NIFIWe3B-927_HLwfvItyblSoDs29FPhb5lRRpLl0Kg"
+bounce	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+@	84600	IN	TXT	"google-site-verification=fWMLRogMgU0YlbrYOgZSE9dbQx4mj3D_kdHJ903auqU"
+@	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	136.147.129.27
+bounce	86400	IN	MX	10 inbound.s7.exacttarget.com.
+200608._domainkey	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGoQCNwAQdJBy23MrShs1EuHqK/dtDC33QrTqgWd9CJmtM3CK2ZiTYugkhcxnkEtGbzg+IJqcDRNkZHyoRezTf6QbinBB2dbyANEuwKI5DVRBFowQOj9zvM3IvxAEboMlb0szUjAoML94HOkKuGuCkdZ1gbVEi3GcVwrIQphal1QIDAQAB"
+@	86400	IN	MX	10 inbound-reply.s7.exacttarget.com.
+*	86400	IN	TXT	"v=spf1 -all"

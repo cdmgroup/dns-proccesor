@@ -1,0 +1,36 @@
+;File created: 05/29/2024 15:21
+;Record count: 27
+$ORIGIN simplytold.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023061218	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 simplytold-com.mail.protection.outlook.com.
+@	3600	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+@	3600	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWYT/R7Te60HepcU3PbZLdVNjKWbzKXyipskOH3mG7IqESX0XRk/IrM4wQk1KNjDkEAi3NJUE/GcZWDNL9m4CJYo7uDtIQN5oE0DFR5LxxaKzysS+0iMaouHlXbN+14gCRwt52HQE484vG4saneqkPRVm4VmVM0u+QQ7ChbyL+5qaQbgJfrtbpoUwnJitK4TN" "RriArc8Fm4tUq4sHYmL0M4FThN5bNSnv4HS3svPu+Won+d6YZMr43Ao3TVoFvqRgdo+bWYI5UPIWj/SJySCPaXCXtKR1G0/g8tTodDQ9LZrnYWPWtcmJCji5mxtN4/oAEgspStihstPwa/s3wU5ewIDAQAB"
+_b772627e1d6d2cf437c2cb19200b75e9	86400	IN	CNAME	3ef5894e93802f772d2e5926d2f874ba.e9817d64b00f4d8b1e94564d559540fd.a483f1c625384d04be94.sectigo.com.
+@	3600	IN	TXT	"google-site-verification=_a6PRdyrs4WEjHcMtVD1c0SWu1kXbcAEqqI9jBcC73U"
+selector1._domainkey	86400	IN	CNAME	selector1-simplytold-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-simplytold-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	A	3.233.13.178
+www	86400	IN	CNAME	simplytold.com.

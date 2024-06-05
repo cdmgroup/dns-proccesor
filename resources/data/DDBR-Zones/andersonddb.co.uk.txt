@@ -1,0 +1,31 @@
+;File created: 05/29/2024 17:57
+;Record count: 22
+$ORIGIN andersonddb.co.uk.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020022037	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	10 eu-smtp-inbound-1.mimecast.com.
+@	86400	IN	MX	10 eu-smtp-inbound-2.mimecast.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_amazonses	86400	IN	TXT	"GDcjtKr3H430e1OX+JyZYhHykNQqHSmL5y177wPVlUU="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArWZ3n9HyM+ISjdM8YnChvGfIYk2be/Qt4lwiD5rEHkcttVarFJNniqqf/WprEL3yeFioL66/0DIT53V6dUr6PYyeX0l8OFVGcEPaXb0L65k87NFAEFCD1wPgAV3YXCPWXMkcYXaK3dkqFj9rp0qcLW0CskuF1hNoEUvZI0duA7VAwVYj7dtyCWI77/3WEyBaS" "LcAosLaIP2J+6e6QVLqqf9thmblrNcC0HC5qTn9bUKchPcJyQwBedUw0linB87F0aRG1Y+RBUutZSs9VCwlisfrijBZhmQcY7dv91R31BzEnACIPau2akMOQTDctVA4NFiWPfZbof8Nh0NISSqkIwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=lVdIhG42ihOBL_p8Zlqe3Hm4hqeoNd2boSHaT8ogRXE"
+selector1._domainkey	86400	IN	CNAME	selector1-andersonddb-co-uk._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-andersonddb-co-uk._domainkey.oneomnicom.onmicrosoft.com.

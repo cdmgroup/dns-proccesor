@@ -1,0 +1,32 @@
+;File created: 05/29/2024 18:10
+;Record count: 23
+$ORIGIN corbett.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011346	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*.trials	86400	IN	A	52.72.155.132
+files	86400	IN	CNAME	cdsmoveit031.teamcds.com.
+@	86400	IN	TXT	"0ed1fe018a650977440e794ddda26e26e1c7fdd2f9"
+trials	86400	IN	A	52.72.155.132
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhGg7GOVXhsYnaJgbq6sLNpbKSolJ54uUBI74fC0xGb+QDLzk1kMbHafC7blU13LdnZrRoCyJc7Swc/2JtdmqSjmkOesvsNl2G3kGoSw9XygcnPbdvlhIv3pUBaI8GKGex7LNCmb4BFeCirdIcHPtb7WDrX7yz+qBF3u9K3M+PATbHZF67D+VYMI8E3TD/6L9q" "4dd8Q+Qapnwt1kTYnK5qnpmFh1S5jt9mwZ6XFomKefFSBCevVSLJ1b5sfdSWmmCpn27B7mf78wQ5+MVIeTGaymkBd8acfnp4bf+iRDgddTw72OrIkkvQoJoWzWhWUplPlVu+H933yye+xouftyIjQIDAQAB"
+@	86400	IN	TXT	"google-site-verification=mlVQmNwi8nx1VHXuWittC2AlmyNEH4J4smLGA7ZM6ZQ"
+selector1._domainkey	86400	IN	CNAME	selector1-corbett-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-corbett-com._domainkey.oneomnicom.onmicrosoft.com.

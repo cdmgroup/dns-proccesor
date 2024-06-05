@@ -1,0 +1,36 @@
+;File created: 05/29/2024 15:21
+;Record count: 27
+$ORIGIN ohgfinancialcenter.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016062969	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"0ed1fe018a8887d59691414e469a2ba461380c2fe0"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"ciscocidomainverification=69df233f267ad88942741a889693e984a38cd4fc760e5dd68cf3f5b280bda639"
+@	86400	IN	TXT	"google-site-verification=fKyjfRtYjqdfkyF-JQ53p9xgqyP6HSUFjgICItGYEus"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhZ4U4N5q+nkOkrItDPZ+n5d7aEqbEt2P5/WohJSYYA1sbAbmKSLEAy3IhU2F9qZw41GVDr0Jj5US72igzj1NULbJeijDHLprKMxHLfnEMrggM6QVNBrkRtUdUzuhJ+gGp6BlLeY1IMnGrPoe4lP6BN8XaLpk9LjogcR0caT2h6DP3eQs9XYHHBcc0rk8q43Ap" "V4AhjxhV55Z3hEM2gIF7CGZ94fiVJHwyw5Ra0vVgU7bP4lpu4NPw8l1w5iptzgltFygFgK/dIEhJOKI0YmYhwEGtpyogEyqeYdjMkG168DveH+3gKt8x5hiPq3rr07LG8OuUiuT60paY8eQC/YNoQIDAQAB"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+selector1._domainkey	86400	IN	CNAME	selector1-ohgfinancialcenter-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-ohgfinancialcenter-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 ohgfinancialcenter-com.mail.protection.outlook.com.

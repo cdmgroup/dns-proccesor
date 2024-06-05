@@ -1,0 +1,81 @@
+;File created: 05/29/2024 18:02
+;Record count: 72
+$ORIGIN matthewsgroup.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014070980	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	A	199.181.113.76
+@	86400	IN	A	199.181.113.76
+archive	86400	IN	A	12.173.53.40
+bright	86400	IN	A	12.173.53.40
+cancergov	86400	IN	A	12.173.53.40
+cssc	86400	IN	A	199.181.113.76
+ctpr	86400	IN	A	12.173.53.40
+dccps	86400	IN	A	199.181.113.72
+dccps-intranet	86400	IN	A	12.173.53.40
+dns	86400	IN	A	12.173.53.18
+ftp	86400	IN	A	12.173.53.40
+han	86400	IN	A	12.173.53.50
+staging	86400	IN	A	199.181.113.76
+surveys	86400	IN	A	199.181.113.76
+tc	86400	IN	A	192.168.95.18
+trot	86400	IN	A	12.173.53.40
+smokefree	86400	IN	A	12.173.53.40
+vrc	86400	IN	A	12.173.53.40
+w33	86400	IN	A	12.173.53.123
+webmail	86400	IN	A	12.173.53.40
+webtrends	86400	IN	A	12.173.53.60
+hints	86400	IN	A	12.173.53.40
+hints-dev	86400	IN	A	12.173.53.40
+otir	86400	IN	A	12.173.53.40
+otir-redesign	86400	IN	A	12.173.53.40
+i131	86400	IN	A	12.173.53.40
+ireland	86400	IN	A	12.173.53.50
+logos	86400	IN	A	12.173.53.40
+owh	86400	IN	A	12.173.53.50
+mail	86400	IN	A	192.168.95.47
+maps	86400	IN	A	199.181.113.87
+pink	86400	IN	A	12.173.53.40
+planet	86400	IN	A	12.173.53.40
+post	86400	IN	A	12.173.53.16
+project	86400	IN	A	12.173.53.40
+mecc	86400	IN	A	12.173.53.40
+meetings	86400	IN	A	12.173.53.50
+mmg-exch	86400	IN	A	192.168.95.47
+mmg-wtrd	86400	IN	A	192.168.120.60
+nac-redesign	86400	IN	A	12.173.53.40
+nhsc	86400	IN	A	12.173.53.40
+nhsc-ccms	86400	IN	A	12.173.53.50
+nhsc-nac	86400	IN	A	12.173.53.50
+niaid	86400	IN	A	12.173.53.50
+nih-dtm	86400	IN	A	12.173.53.40
+ns1	86400	IN	A	12.173.53.18
+ns2	86400	IN	A	12.173.53.20
+pypth	86400	IN	A	12.173.53.40
+review	86400	IN	A	12.173.53.40
+roam	86400	IN	A	12.173.53.40
+screensavers	86400	IN	A	12.173.53.40
+secure	86400	IN	A	12.173.53.40
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCOXs+iHZgnfvwdBC7rNWAQXM3ijj/407iNewZfRWATqWoXKgDyE29futHJ0iA7S8J9+HVTkn9vnEM6zalKLjJoIAGNETdG4gaTCFHcDY+4R+9UwzdgPYM3v7ExpbnJ5qD6Py8YHpbe2c2fc8j7YeSb1+viSkgllSJZkUtpwRZuyyq0E/bfXrvceHKi0cIbY9" "rlHsk0eWo2vtZ5+4pgm25I4CAIzW7O3QPf+LVq0klWC8IFjrtUytbWhQsYUnh30DuQ3/Xst0IsyGYa2Hsw57N6LoPLNnOvlu0ounKgLUxG5IFikVzSWf3hGiWn2xksNxReEIU1wv2AqOcNDmHMndwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=ilhfPAmkER5fI1UlqqYbTf9t8Ux7-PgeejeVwjLjCBU"
+selector2._domainkey	86400	IN	CNAME	selector2-matthewsgroup-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-matthewsgroup-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 matthewsgroup-com.mail.protection.outlook.com.

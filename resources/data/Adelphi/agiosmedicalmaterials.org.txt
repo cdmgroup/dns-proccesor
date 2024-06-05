@@ -1,0 +1,23 @@
+;File created: 05/29/2024 18:15
+;Record count: 14
+$ORIGIN agiosmedicalmaterials.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023072614	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_76982c64b41bfa3351b18ebcfa4c9d9e	86400	IN	CNAME	049b3a69ca197208e8308c82d9bfc4ac.7f973f5dc4417ec98f5aaf90de74b6a8.c1838ef27b54448b94d6.sectigo.com.
+_acme-challenge.www	60	IN	CNAME	ac.f96c1b74a5d7159948bc7ae3fac5642a.www.agiosmedicalmaterials.org.validate-akdv.net.
+@	86400	IN	APEXALIAS	agiosmedicalmaterials.org.edgekey.net.
+www	86400	IN	CNAME	www.agiosmedicalmaterials.org.edgekey.net.
+_acme-challenge	60	IN	CNAME	ac.50a2ce1af1d632f2729aa7ec4c6cfe73.agiosmedicalmaterials.org.validate-akdv.net.

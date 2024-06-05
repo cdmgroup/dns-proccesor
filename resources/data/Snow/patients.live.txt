@@ -1,0 +1,31 @@
+;File created: 05/29/2024 18:08
+;Record count: 22
+$ORIGIN patients.live.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081345	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 patients-live.mail.protection.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	300	IN	A	204.74.99.100
+www	300	IN	A	204.74.99.100
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhY14UJFTbMAqB2JbtQB0IpYgppX7sTkLa51l/CMBK7ZDYCTKBZ1jYFC8zPo1aFSZO7a2DQ/g4R/qkC9BjAi/Mheq5QTUkACwllp3MZBKMoIjNKYVb/tKSj58vGehMZoZzZKMRpHGPz7jhX9E7+ygK18GqfSNaWul4zFWiJKYzi6sOHTLco+HlntduvRoIq7/F" "46xcFmLDTH+33NTLZ0vX5T66J7o+YTgWoFsq5UNdUY23vUB6kI16adfOM8buCk5d+uYHm03Q8Bgauh6b9zl+BZ8UvCJD9Ee2ln6H2wTQgSHGla36FpNR5ppbZ9W8pn4VtZPOQ02Bl9ZnReX96/uJwIDAQAB"
+selector1._domainkey	86400	IN	CNAME	selector1-patients-live._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-patients-live._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	TXT	"google-site-verification=rbgPUAijdIkeRQFZHYbGIImfWpuKAzQeu1d1fyfy3Zc"

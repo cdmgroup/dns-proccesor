@@ -1,0 +1,18 @@
+;File created: 05/29/2024 18:02
+;Record count: 9
+$ORIGIN estherglaucomastudy.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023011033	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_acme-challenge.www	60	IN	TXT	"TSuTqediSgfnBEh9N0paNNDiN6fXxZguyXfzmL0mO9c"
+_acme-challenge	60	IN	TXT	"5ivbe9KUBXF-mosT4sAruOdZ2ukyh18tA6Yn5DnuH-c"
+_acme-challenge	60	IN	TXT	"hvLmmcbMXfQufaR0X3WXhu_XWfVUJ9lWPjj3E6kPIN0"
+_acme-challenge.www	60	IN	TXT	"FlgGmi41owUgxj1n1MjpKTfItCAJJ88oFiDwzRxs0iU"

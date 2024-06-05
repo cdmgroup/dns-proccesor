@@ -1,0 +1,48 @@
+;File created: 05/29/2024 15:21
+;Record count: 39
+$ORIGIN emcjapan.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011452	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u13698270.wl021.sendgrid.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u13698270.wl021.sendgrid.net.
+fs	86400	IN	A	104.46.229.37
+em8732	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+vpn	86400	IN	A	150.249.199.41
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	APEXALIAS	ndawp23e7r42.wpeproxy.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+www	86400	IN	CNAME	ndawp23e7r42.wpeproxy.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1Coz0RC1zuMXdsXRG0rf+kwIni7zS744m47SrgVj9NZVQLRZXMh7Mo+b28Lr9BjfB54SDvwtVPSMdea1J/BO2EEuDGtP0VU5y5hd49Ed8ravZkz3gyBxMueNpWpLPlgTjg5/Y7wg/QQYPb/BDz/ilgT+u8c7jdReZpJ+a+a/+zXZXwPKG1RlDspcEPl5c3ePk" "mZl4VSqbyITV+GRFoCvbWRPbYirW0xh8vTq5zDSRVWlhTvLJTaeJQ9vuPM74ovRjVYBwBIrWzR91iisIYoXjE2iGGVeWNkxDL4IQlWKwFQR8nkRZ5LO+cKOZ4dF0nzCsDysIOnVx/mBIIUPc3JlsQIDAQAB"
+veeva	86400	IN	MX	10 mxb.mailgun.org.
+veeva	86400	IN	TXT	"v=spf1 include:mailgun.org -all"
+veeva._domainkey.veeva	86400	IN	TXT	"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGw573pzmHRJGIKz/arC1avCOV44IS0kTndnlZNXmqwrBoQ9b7iHc5cl61anNATqDTrvIbYgsM9MZmJBz365DJF8SsnUckIeJJj3xv1ACuJXwX2LoGaM7wRLliJEBYmqdMHCjM70Qb7B96tZOG8Qe8qRWGiYs+PuUZYU3jjqFvXWs1dPaA23uzAH8MDgIAMMI7EtsuMaDP" "Sit/7+hiQYzOwONkiVEJmdEBwjwIX/bBt8v6ywmf7IBlMhu6hmp+3NAWmJ/S1JYBA8YMiUohsiEx86HsVOscZAa8NSIqMievezw9jLZfVYWDcBodCpjSOwYfOgkQxSWQvme4JMc08PjwIDAQAB"
+veeva	86400	IN	MX	10 mxa.mailgun.org.
+ae.veeva	86400	IN	CNAME	mailgun.org.
+_265dc4e050c1645be9d964c81b726ba5	86400	IN	CNAME	46e05031e10c588c0003342b6191901f.07418b6246d7f9f61aaf1493f9e2adde.eea2bd86dda8471990b1.sectigo.com.
+_fbdf4a7d1ee1b78923c7701bfe07f401	86400	IN	CNAME	73578d07ee0aa807c7940a6184afdd71.b2eeac61089e6f1d300d343b6caca10b.5cede07136a442ea9425.sectigo.com.
+selector1._domainkey	86400	IN	CNAME	selector1-emcjapan-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-emcjapan-com._domainkey.oneomnicom.onmicrosoft.com.
+_543e8d9719a38c9b664784e03b7a46b2	86400	IN	CNAME	5e0171b805f58e27ecaac806411499d8.b584ecaff2a7216cfc08bd5fae50ab6a.63680c4e1ee24f709d31.sectigo.com.
+@	86400	IN	MX	0 emcjapan-com.mail.protection.outlook.com.

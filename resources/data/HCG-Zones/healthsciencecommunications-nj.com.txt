@@ -1,0 +1,20 @@
+;File created: 05/29/2024 14:11
+;Record count: 11
+$ORIGIN healthsciencecommunications-nj.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020010919	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=cSKhMN0S58S4wW9iqO3Q87coVfDopJaCXTsKvnjDC4s"
+@	86400	IN	MX	20 mx2.hcg-int.com.
+@	86400	IN	MX	10 mx1.hcg-int.com.
+@	84600	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"

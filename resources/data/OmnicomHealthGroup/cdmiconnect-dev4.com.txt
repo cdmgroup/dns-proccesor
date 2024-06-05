@@ -1,0 +1,19 @@
+;File created: 05/29/2024 15:21
+;Record count: 10
+$ORIGIN cdmiconnect-dev4.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111325	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*	86400	IN	A	216.158.181.211
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_6974ba8883f612dce8a5f9e112c8167e	86400	IN	CNAME	a38945259956d0582db72f88b9067169.79a15f659f5db3d7e1fed75e6c08ec4b.9d780229a01e45d5b402.sectigo.com.

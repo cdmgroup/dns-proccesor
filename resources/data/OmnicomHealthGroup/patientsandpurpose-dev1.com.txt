@@ -1,0 +1,42 @@
+;File created: 05/29/2024 15:21
+;Record count: 33
+$ORIGIN patientsandpurpose-dev1.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020080440	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	A	52.170.85.184
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+onesource	86400	IN	CNAME	onesource.patientsandpurpose-dev1.com.edgekey.net.
+hepdelta	86400	IN	CNAME	hepdelta.patientsandpurpose-dev1.com.edgekey.net.
+alexiononesource	86400	IN	CNAME	alexiononesource.patientsandpurpose-dev1.com.edgekey.net.
+compass-navigator	86400	IN	CNAME	compass-navigator.patientsandpurpose-dev1.com.edgekey.net.
+takedapatientsupport	86400	IN	CNAME	takedapatientsupport.patientsandpurpose-dev1.com.edgekey.net.
+staging	86400	IN	CNAME	staging.patientsandpurpose-dev1.com.edgekey.net.
+takedapatientsupport-v2	86400	IN	CNAME	takedapatientsupport-v2.patientsandpurpose-dev1.com.edgekey.net.
+teplizumab	86400	IN	CNAME	teplizumab.patientsandpurpose-dev1.com.edgekey.net.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+screenfortype1	300	IN	A	52.170.85.184
+origin-hepcludex	86400	IN	A	20.127.162.140
+watchourworknow	300	IN	A	52.170.85.184
+apipnpsite	86400	IN	CNAME	apipnpsite.patientsandpurpose-dev1.com.edgekey.net.
+hepdeltaapi	86400	IN	CNAME	hepdeltaapi.patientsandpurpose-dev1.com.edgekey.net.
+hepcludexhcp	86400	IN	CNAME	hepcludexhcp.patientsandpurpose-dev1.com.edgekey.net.
+onepath	86400	IN	CNAME	onepath.patientsandpurpose-dev1.com.edgekey.net.
+pnpsite	86400	IN	CNAME	pnpsite.patientsandpurpose-dev1.com.edgekey.net.
+onesourcestartform	86400	IN	CNAME	onesourcestartform.patientsandpurpose-dev1.com.edgekey.net.
+tzield	86400	IN	CNAME	tzield.patientsandpurpose-dev1.com.edgekey.net.
+tzield-campaign	86400	IN	CNAME	tzield-campaign.patientsandpurpose-dev1.com.edgekey.net.
+tzieldlanding	86400	IN	CNAME	tzieldlanding.patientsandpurpose-dev1.com.edgekey.net.
+vemlidyhcp	86400	IN	CNAME	vemlidyhcp.patientsandpurpose-dev1.com.edgekey.net.
+whatishepdeltaapi	86400	IN	CNAME	whatishepdeltaapi.patientsandpurpose-dev1.com.edgekey.net.
+whatishepdelta	86400	IN	CNAME	whatishepdelta.patientsandpurpose-dev1.com.edgekey.net.

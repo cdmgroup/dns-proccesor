@@ -1,0 +1,39 @@
+;File created: 05/29/2024 15:21
+;Record count: 30
+$ORIGIN ohg-ap.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020051274	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+@	86400	IN	TXT	"google-site-verification=yTA9qPWY0HY2efSpOQ3SqMgyLnzHi7jhFCELyyb0cm8"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwpzur7q6E169wEerjMCx1xU5rEGTvuc+BGZ102YGFSVvEklbYF6ag3IDSlmI6FrsM6LZBxp/SLdaq0WTh1Dxb5MMs08A63eNJXeFX6DxY0lHr6/i7z2GZ8XSfGxCPzDW64PJ8SB6cXCVMaaTV89bQKmTXcs45YlwYKiEEFSt7J8hEmp6AtnDpnUGZASCL8kH" "gUaqiU9gOfF8RJUIBaASC/n+Y11dTYlHB5Fg8HyOQ/eWWE1saomhAGAzy3zkQC7iB+c7hqFXrElL2gkZTAMvMDJaHzH1E1vU509o3m/UdEXxJAuyTVx4SxCKgCxhF7RAwK6txW8HgtaApWwDGL5/wIDAQAB"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+www	86400	IN	A	141.193.213.20
+www	86400	IN	A	141.193.213.21
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+selector2._domainkey	86400	IN	CNAME	selector2-ohgap-com0i._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ohgap-com0i._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 ohgap-com0i.mail.protection.outlook.com.

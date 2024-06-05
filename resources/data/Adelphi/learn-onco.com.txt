@@ -1,0 +1,18 @@
+;File created: 05/29/2024 18:15
+;Record count: 9
+$ORIGIN learn-onco.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022110115	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	enqg04w4nyha.wpeproxy.com.
+@	86400	IN	APEXALIAS	enqg04w4nyha.wpeproxy.com.
+_75b6460e749cc7d339da77b80ecb8714	86400	IN	CNAME	53587c4dde0b77391fcf3ae42fbedf42.eccd6c7d30e279eebfafda27c1d9d8fb.5298999782b847ada051.sectigo.com.
+_503b3cf575aec2b4a3d8eb9ae147457f	86400	IN	CNAME	bbdd1d1885c155f67db22613b9adcf49.b31e7b36a8276a23582438ec3c232561.ad2855c5b0ec4ff192f4.sectigo.com.

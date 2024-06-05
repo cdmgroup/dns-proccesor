@@ -1,0 +1,23 @@
+;File created: 05/29/2024 18:02
+;Record count: 14
+$ORIGIN pragmaticalung.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023080313	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+@	86400	IN	A	20.119.0.20
+www	86400	IN	A	20.119.0.20
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_d9f15ee80778273b78f0e2ccd0d5adc9	86400	IN	CNAME	18e5ff28f21527ccf14bc641607bf0c4.c5e7c12e76e39ad477c4775171563716.e8eb271289dd4ea28d6f.sectigo.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"

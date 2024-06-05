@@ -1,0 +1,21 @@
+;File created: 05/29/2024 14:11
+;Record count: 12
+$ORIGIN aeriespeakerportal.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020010927	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+test	86400	IN	CNAME	TSG-AWS-PWEB02-ALB-1841931750.us-east-1.elb.amazonaws.com.
+@	86400	IN	APEXALIAS	TSG-AWS-PWEB02-ALB-1841931750.us-east-1.elb.amazonaws.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+www	86400	IN	CNAME	TSG-AWS-PWEB02-ALB-1841931750.us-east-1.elb.amazonaws.com.
+_a1cc755c30ba1d4e7dee59617d8dbd4c	86400	IN	CNAME	e206cf228c3d4ee116ba710ac579fde0.17058645919d62d45a482edc175c6a14.2867c722eb7d499fabfa.sectigo.com.

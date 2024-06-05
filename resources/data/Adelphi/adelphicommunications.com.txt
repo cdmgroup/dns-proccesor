@@ -1,0 +1,30 @@
+;File created: 05/29/2024 18:15
+;Record count: 21
+$ORIGIN adelphicommunications.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021052098	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	jr9qqn1x8wg7.wpeproxy.com.
+@	86400	IN	APEXALIAS	jr9qqn1x8wg7.wpeproxy.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+partners	86400	IN	CNAME	mrpkky0qe717.wpeproxy.com.
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+54d2nt3cakmyrp7sa5zk	86400	IN	CNAME	verify.squarespace.com.
+ftp	86400	IN	CNAME	www.adelphicommunications.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_9793f4bad48f5ab838888597d5bc495a	86400	IN	CNAME	618b0ad072485c04576993502601b7d5.cbeafada4572040fc37660a452ad79b5.8d3239e4c369413d9dfb.sectigo.com.
+_f23589e9d2cf5ed14b99015aec1f35d4	86400	IN	CNAME	1927ecc0962c23bc00625f81052a62ff.8c78b55f471abe029ac4c268aa878774.a3992abdcbf742cfb503.sectigo.com.

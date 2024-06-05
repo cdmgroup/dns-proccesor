@@ -1,0 +1,38 @@
+;File created: 05/29/2024 18:08
+;Record count: 29
+$ORIGIN pppconnections.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081332	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+ftp	86400	IN	CNAME	pppconnections.com.
+www	86400	IN	CNAME	pppconnections.com.
+@	86400	IN	A	173.254.104.237
+cpanel	86400	IN	A	173.254.104.237
+webdisk	86400	IN	A	173.254.104.237
+whm	86400	IN	A	173.254.104.237
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.salesforce.com -all"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyX8xEp9bp1CAxNchwllVzpYMQhpV1g+HXLwKXtl1eP92StKAO5ChrPzx5c51DgimvG99DcCMejCKIeUGT3nV+4eouXH142KwF4eyKTBbZzfRau3dMkDZIyAdnnorHeSmFw57Aji2c6+OrbqC/xEh3hjCXJEn/QVsR66Pum7MVhTGWX2AI3hmljAlv5NW1y+0m" "uP5jbpRfxawhBpb0qv4IsAwILNs1IP4kJnd71tDszC6O4cGbfvuPbBKjCE5paxCozd0wffEHVs0q1NeNggRnaYz14o0AhSVHJWuGN8UYPvOrux+mWVvSH8zXtfuHN1ZXezie08HbDiUTjkB8shhIQIDAQAB"
+pppconnections._domainkey	86400	IN	CNAME	pppconnections.0davlk.custdkim.salesforce.com.
+pppconnections1._domainkey	86400	IN	CNAME	PPPConnections1.tr7sy2.custdkim.salesforce.com.
+@	86400	IN	MX	10 eu-smtp-inbound-1.mimecast.com.
+@	86400	IN	MX	10 eu-smtp-inbound-2.mimecast.com.
+selector1._domainkey	86400	IN	CNAME	selector1-pppconnections-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-pppconnections-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	TXT	"google-site-verification=mmDSO1FbFDyImYsSl9qU4JBXpAa0Ga7whkZWPSkJ0hI"

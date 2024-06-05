@@ -1,0 +1,22 @@
+;File created: 05/29/2024 15:21
+;Record count: 13
+$ORIGIN cdmrare.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111245	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+ftp	86400	IN	CNAME	cdmrare.com.
+_acme-challenge	60	IN	TXT	"8ksd-bVz31UufHvPTMEItKjSHcmNBuP9nQQg4j-Bbtc"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+www	86400	IN	CNAME	www.cdmrare.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"Mwtkz-pgd4RDJZ3PNpRNW8VVNu6ZBPejFo18GFzCbZU"
+@	86400	IN	APEXALIAS	cdmrare.com.edgekey.net.

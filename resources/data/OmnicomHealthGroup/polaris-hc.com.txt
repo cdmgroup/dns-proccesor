@@ -1,0 +1,45 @@
+;File created: 05/29/2024 15:21
+;Record count: 36
+$ORIGIN polaris-hc.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011459	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+imap	86400	IN	CNAME	polaris-hc.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+ftp	86400	IN	CNAME	polaris-hc.com.
+mail	86400	IN	CNAME	polaris-hc.com.
+news	86400	IN	CNAME	polaris-hc.com.
+pop	86400	IN	CNAME	polaris-hc.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	MX	0 polarishc-com01i.mail.protection.outlook.com.
+@	86400	IN	APEXALIAS	ps3vqil2jkzo.wpeproxy.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u13698270.wl021.sendgrid.net.
+em9103	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+www	86400	IN	CNAME	ps3vqil2jkzo.wpeproxy.com.
+smtp	86400	IN	CNAME	polaris-hc.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u13698270.wl021.sendgrid.net.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+vpn	86400	IN	A	118.238.225.201
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkueUUyj6JTzX4naE/6Sx47bQdr/2ST4T9k2UXYuAPmY1r1E1cmGqbelpWq8UaB5Nbi4pV5TxM2Sbs5HUR6iLZbxcJTHW3DsswSPIOctcgvkn4aMQ41YVqtX58OtKhE6nnXNS2QeAekg4b9wRw896wjvpXPEbM6Nwrsc3dsODgZP5bfq97GmOkbswwVDQ9c8bo" "UbL1TOXdJH7uO9aj6fjAQ/Jb0bXKX4negJiq8HBHiooqtA+99b0qJJHVV1pF/QNW80BS6AURZBCxehWvnKV5SsVdBiR4g5SYExR4bILQwFNvd42HOhyG4YdJV2QFubd8yaCifzyzPCzE87qxynAqQIDAQAB"
+selector1._domainkey	60	IN	CNAME	selector1-polarishc-com01i._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	60	IN	CNAME	selector2-polarishc-com01i._domainkey.oneomnicom.onmicrosoft.com.
+_39e8f26a2258930a6601d15deee6ff69	86400	IN	CNAME	680c6f55132ccd9ed44c9f787e5d1986.5532ba379d93d4f1606e4377d66e2b0e.9eafe79667b742019999.sectigo.com.

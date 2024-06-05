@@ -1,0 +1,36 @@
+;File created: 05/29/2024 18:10
+;Record count: 27
+$ORIGIN hotresignation.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023020342	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 hotresignation-com.mail.protection.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjnP+9m+kkxH/bQ0Tka2PkNzLeIjh71VRBMI/LKLGW4jmtRNxaBvB7am3POD4lAF6jVEog4G4XG3L6b39bQMz44OYQwgKKxNCSO+SEUDin+Seg3o78McHahDpEpEooFq3X7SNqcND8Jyu5zZbfZCVPM2wC6R605WWexgEUYvYrXgxYlkZBvsBk9gq+UhRaQXyU" "0QkAm3zb8nknudCbw1zaqbAnTDid1TsajhKFhnTdvv5iZ3XdUuXPhh0m4iLg3u6527rL5v4DOJAnRBrt/8YD2VOfQhGiVZYUe6DZYEGJZ+WcRbn+apBBN6fnQ9PtPgWBIiVrKBGflqil3DN27JRfQIDAQAB"
+@	86400	IN	TXT	"google-site-verification=OmJzHiaTUaZaVkn_Wj4hEqow7P6Pkvw230bhKCxv3gI"
+www	86400	IN	CNAME	www.hotresignation.com.edgekey.net.
+@	86400	IN	APEXALIAS	hotresignation.com.edgekey.net.
+_acme-challenge	60	IN	CNAME	ac.67be236f6ec14a437e7b97a8f0afeaa1.hotresignation.com.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.b9d64eab4a539564e106420a75b0b00f.www.hotresignation.com.validate-akdv.net.
+selector2._domainkey	86400	IN	CNAME	selector2-hotresignation-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-hotresignation-com._domainkey.oneomnicom.onmicrosoft.com.

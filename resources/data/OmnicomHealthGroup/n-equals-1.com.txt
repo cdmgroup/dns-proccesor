@@ -1,0 +1,33 @@
+;File created: 05/29/2024 15:21
+;Record count: 24
+$ORIGIN n-equals-1.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021100737	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.biz.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	MX	0 nequals1-com0c1b.mail.protection.outlook.com.
+@	86400	IN	TXT	"google-site-verification=WRgVD54h0wGbSY8Pfh_xu--yr61rGJwzvRGTHNSB1aM"
+@	86400	IN	APEXALIAS	6r26lmc172y8.wpeproxy.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJdfxurwHp963QTPvaw5nB9KRp0VnihQkMcCxpHGGWSGez9pTPsk6Z2o94SV4lBlqXFB/8dLqShyT0Is7S82pVqUEIfNNahYpv5/pY7k49qA6gs7HoJMsLtg+/XyMU5kCPnvD2vdKPbVa0ljUH6b0ZQI6ylUqfrkstCtzjaO+D2I5YaqLOOg6LWpgwG9RfPeL" "xALMH2QogVztLaMXJqUwVy4YR/sCtP9/yhya+R3c/h/0uPWmgKcNmswImn4av8n2PtHz6XwEzbvIptDa7z17GTj3vnNqqgoOKLBfITc5IURJ0bmCyVa1+KFw4OnKS8EqeFUO2lLG10/l+zoxDZFQQIDAQAB"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+www	86400	IN	CNAME	6r26lmc172y8.wpeproxy.com.
+_b5974f97bdaadb25debcbe98dd28a1d9	86400	IN	CNAME	5B6820E5F83B86A616D1ECFE4D84DFB4.B41E8D50F97CD04815817B11FEC8C54D.99d4a640fada4b8a9bb5.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-nequals1-com0c1b._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-nequals1-com0c1b._domainkey.oneomnicom.onmicrosoft.com.

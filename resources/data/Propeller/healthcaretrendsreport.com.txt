@@ -1,0 +1,21 @@
+;File created: 05/29/2024 18:04
+;Record count: 12
+$ORIGIN healthcaretrendsreport.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022081610	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	A	141.193.213.20
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+_20c9994c40d7c9e8e96ec961fa9506b5	86400	IN	CNAME	3291bceff59d5d93c5ed874273df4027.502b520f331099c9883b804e41fde8d5.725ed57f34a949c1a166.sectigo.com.
+www	86400	IN	CNAME	h2hm30o381im.wpeproxy.com.

@@ -1,0 +1,29 @@
+;File created: 05/29/2024 15:31
+;Record count: 20
+$ORIGIN clincast.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091711	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	65.39.196.10
+*	86400	IN	A	65.39.196.10
+www2	86400	IN	A	208.68.177.242
+www	86400	IN	CNAME	clincast.com.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"google-site-verification=bcBm5lY6M4AmOTwE1j3XBADzIEW5CPoONbTCBgYqbGo"
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	TXT	"SFMC-iV07pRr3YNElJtW_TvA6v0J3fuhX0V69UXyYpQfW"

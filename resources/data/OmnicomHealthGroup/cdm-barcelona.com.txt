@@ -1,0 +1,32 @@
+;File created: 05/29/2024 15:21
+;Record count: 23
+$ORIGIN cdm-barcelona.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011641	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsUt95B7ijglrIQsD6+VaBzG6kOcqVuIsLTtmn8W0S4wb2qJXnkPyhHbYvR8iR+25xz4JXaaotiHcphbUL8BgbaHnFYN2ZLhnu2muow8esrDAS7CY7IaVIAi8S5qqG+FQNPP54rZj1vyU2nNErgJmwYw9rM3lO94dsDOV41JpOHESy7BF4KXC8d0dfrPuJAZOw" "78wu0rjd5+ei2DZOz2kbJcVH5UbpDyIj1IAKfyzdTIsax35t/rusC1cCc+if6sqMJ0H3+/qVdq7TbvQZK8adVTKq3c5MR/RgM05+Z2y4UjjMHhhGtHDNa4EG8SPQ8MPh4JPMxJhkf6IbmtJaLJBWwIDAQAB"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+www	86400	IN	A	149.202.42.47
+@	86400	IN	A	149.202.42.47
+control	86400	IN	CNAME	pdc.servidoresdns.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"google-site-verification=3RfSEo0OFfPB7j4OmIYMCcmRtDSwIo_k17JzFpg3ad8"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+selector1._domainkey	86400	IN	CNAME	selector1-cdmbarcelona-com0i._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmbarcelona-com0i._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 cdmbarcelona-com0i.mail.protection.outlook.com.

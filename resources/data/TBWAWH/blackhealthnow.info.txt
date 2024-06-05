@@ -1,0 +1,19 @@
+;File created: 05/29/2024 18:10
+;Record count: 10
+$ORIGIN blackhealthnow.info.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022101819	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	APEXALIAS	blackhealthnow.info.edgekey.net.
+_8a18abdce87e1d389121074000ce5bfd	300	IN	CNAME	b7820c7f238dcc634339a89933847248.604f4a3195a7eb5bb847606e3dad7f39.e20dbde7d52e405bb6a7.sectigo.com.
+_acme-challenge.www	60	IN	CNAME	ac.12e4bbef659c771c915e9a989c3ce1b0.www.blackhealthnow.info.validate-akdv.net.
+_acme-challenge	60	IN	CNAME	ac.430f83f892999476874171460c755ee7.blackhealthnow.info.validate-akdv.net.
+www	86400	IN	CNAME	www.blackhealthnow.info.edgekey.net.

@@ -1,0 +1,26 @@
+;File created: 05/29/2024 15:21
+;Record count: 17
+$ORIGIN patientandpurpose.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111440	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+www	86400	IN	CNAME	patientandpurpose.com.
+@	86400	IN	A	216.158.191.138
+@	86400	IN	TXT	"v=spf1 -all "
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4vgG3Im7hPIDl+8EpykkTc1cAzpmHUq7UAUvQBrsQJSz0ve6FOMMCrNJSZbdYDyFDeFTaBjIgPykp2BwOAQzIBpjKnASTJPIq+tVGq91a1BYbu81ls1QhQhnsTkMKZvEvi4q555L/E8Z55SyYXe8UIem2epF7TDDVgRvHZft95QIDAQAB"
+engagecorceptsandbox	86400	IN	CNAME	corcepttempsandbox.mktoweb.com.
+engage	86400	IN	CNAME	corcepttherapeutics.mktoweb.com.
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbB8gRx77XZBMeedVqhFN1U7sLBjtIAtgv9CosbMgjBI34/C1iz1P20uU4gEtKUny0guwpKJZR+yTEi42xYLMrLxPR3Doa5uStD4iEIX4jkaheTXmMPFVopUU988UKWf77Ng0Btc7mv1KHMbMmDpv6d2vbEanQjjJ2qnTlrlkhYQIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+go	86400	IN	CNAME	corcepttherapeutics.mktoweb.com.
+gocorceptsandbox	86400	IN	CNAME	corcepttempsandbox.mktoweb.com.

@@ -1,0 +1,18 @@
+;File created: 05/29/2024 18:04
+;Record count: 9
+$ORIGIN powerofpropeller.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022032900	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"

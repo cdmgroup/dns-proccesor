@@ -1,0 +1,33 @@
+;File created: 05/29/2024 18:02
+;Record count: 24
+$ORIGIN natronstudy.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021042873	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+dev	86400	IN	CNAME	dev.natronstudy.com.edgekey.net.
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+review	86400	IN	CNAME	review.natronstudy.com.edgekey.net.
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+@	86400	IN	TXT	"google-site-verification=9faqRwmKOM-MXo7Lp7B0qCFI8BO5ydWiu79wgN0KEJM"
+wxuqpgzgbxm5	86400	IN	CNAME	gv-yidjicufejjqw6.dv.googlehosted.com.
+@	86400	IN	APEXALIAS	natronstudy.com.edgekey.net.
+www	86400	IN	CNAME	www.natronstudy.com.edgekey.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+em3009	86400	IN	CNAME	u21563303.wl054.sendgrid.net.
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u21563303.wl054.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u21563303.wl054.sendgrid.net.
+_acme-challenge	60	IN	TXT	"HPYi_STs4TEPMfe9k5ka7V905bZYP7ZPRr_V58LKjXc"
+_acme-challenge	60	IN	TXT	"uXMfR06Pw7r-oDuy9_JguFnC4JOR_u9hfXZzwgL1tpw"

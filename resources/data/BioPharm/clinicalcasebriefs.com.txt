@@ -1,0 +1,28 @@
+;File created: 05/29/2024 15:31
+;Record count: 19
+$ORIGIN clinicalcasebriefs.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091736	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	A	3.21.69.112
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"google-site-verification=dIlIBAvowDWUHycinHqiFYA8HBOii8fisuIPoM05muA"
+@	86400	IN	TXT	"SFMC-fCgaXFQh-TvWmpHtCMJU3ovH8PK5004mb2pgpeKW"
+*	86400	IN	A	3.21.69.112
+www	86400	IN	A	3.21.69.112
+_b67f105bb9e99acf8b8b1a63d47baceb	86400	IN	CNAME	1170e4964fe6b8c2c645097757b3731a.d80bd3faeeba8cd1ddd0b86b54919464.9fe43e0636304c3fa123.sectigo.com.

@@ -1,0 +1,53 @@
+;File created: 05/29/2024 14:55
+;Record count: 44
+$ORIGIN archbow.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021042106	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 archbow-com.mail.protection.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"google-site-verification=UDWRl5W57aIO8xqKCz0zqZ39qCFJRfIKQLk_sqisAJI"
+@	86400	IN	TXT	"google-site-verification=SL5bpoWlVrvhFNHyL8q0-46q5SH-ljPfcPUi5NohuYQ"
+@	86400	IN	TXT	"+1.646.307.1990,,,691-386-208#"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+email	86400	IN	CNAME	email.secureserver.net.
+www	86400	IN	CNAME	www114.wixdns.net.
+m	86400	IN	CNAME	www114.wixdns.net.
+sg	86400	IN	CNAME	u6312122.wl123.sendgrid.net.
+sel2._domainkey	86400	IN	CNAME	sel2._domainkey.archbow.com.ascendbywix.com.
+sel1._domainkey	86400	IN	CNAME	sel1._domainkey.archbow.com.ascendbywix.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	185.230.63.171
+@	86400	IN	A	185.230.63.186
+@	86400	IN	A	185.230.63.107
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u6312122.wl123.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u6312122.wl123.sendgrid.net.
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqj7bj8XIEmHJJO9YDSwW/EcsVyVk4pneKaMur0ad2aHFFdZem/OMWPfSnCFXl76knFLHj6eevV64HI6o4vNarBm6djlAtUUw64z9OlNavJjPNNjn0zBmBtNuzgouu7oOUJ/WKf2hCKhk79JT0FPO/1sAjNJ6QBwzjGSCa3xTJQaGUd3xP+NO0UMHivamCtx5A" "JxIpUGrrg1LtXkzf26EPAPoyMEPkZDQEKoOkas0y7UbhWOdtjJv7JoKEG+0RmFE33scMpSXObi6Jph1v6/5TORR+B0EViWA65OefXlhClV8b8LxHlftmEg41nMJ/fHBJCOUjc7dQxE0p7rKaBCEzwIDAQAB"
+@	86400	IN	SPF	"v=spf1 include:one.zoho.com ~all"
+1522905413783._domainkey	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7oT3ulMwPJs9RXgXDrI9UWU118pHEMohl3UbL3Jwp4oxp/9N3thh/3WCJnYV134zbEVolZwqaT3JsFEq/mQ/RpW/JnOZ3rnxqJPurb2bcfJol4SDxiWVObzHX31xnANzFcXnq1/5dMK5QvW4Jh7n0fm4+4ywqiy2QIDAQAB"
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+@	86400	IN	TXT	"google-site-verification=t6N_AI0ZN-tRmdHVF0bAoQsBU57u5y0JwIkypHvnRfs"
+selector1._domainkey	86400	IN	CNAME	selector1-archbow-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-archbow-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"

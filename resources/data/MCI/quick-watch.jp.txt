@@ -1,0 +1,20 @@
+;File created: 05/29/2024 18:00
+;Record count: 11
+$ORIGIN quick-watch.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102314	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_119c95fa374d9b3aa917da0daff9a89f	86400	IN	CNAME	2db4e9563cc411d92fe44fc882c8f580.1d832b5fc0339a3c4c7be05984d0dc56.1c4f8f08b1bd41faa078.sectigo.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	210.239.67.105

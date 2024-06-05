@@ -1,0 +1,43 @@
+;File created: 05/29/2024 15:21
+;Record count: 34
+$ORIGIN cdmny.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111707	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+mandrill._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_acme-challenge	60	IN	TXT	"KbxUipKqxuzjAA75g-OMSV07uzV_Igqexp9noYVlWj8"
+@	86400	IN	MX	0 cdmny-com.mail.protection.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.mandrillapp.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"google-site-verification=2Jw4KSsefUfFgQSJMBMG0Rm5_HPOJ48iYx4gUEHVgDc"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+origin	86400	IN	A	20.62.194.53
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA12r+9IIbFTZqbV8Tw+wWOAkUt3jE7+/rF7HlH9FQPTg+HwM5k7CrN36lZGzyKlgzKawno3P+YnJHIvM3caOlHipSYE+ss9Fj9XAJtGJ+fuQ9emsfyKirhy9DTmn5Nz3gB1e4khwy+HlYYClbhlM5QL+fO+BBspzLqax/zq04O+uMIThR2HYlMndFE8RX9DLgX" "cU/KR43I7W9RfcwcUDXMqbxJCyluZ1XHKQViXDQoUjprvUsZ1yj8XO0rir7u/Rq5d3dIu9LanC83tMivzJcGqGISis1fchH0+9d7GZoqHMNALPI/lffBfFPDfZFxlyc+YXXyoIRXVg3jSHXoU25jwIDAQAB"
+origin-staging	86400	IN	A	20.62.194.53
+_d4fe7e148b74b01c0aed5a60244131d9	86400	IN	CNAME	4ee82d3792da31f81a6e21aab78c391d.2e5f618fc8c7c260adba7c163e9f863a.82a3b600dd2c46b4883b.sectigo.com.
+k2._domainkey	300	IN	CNAME	dkim2.mcsv.net.
+k3._domainkey	300	IN	CNAME	dkim3.mcsv.net.
+selector1._domainkey	86400	IN	CNAME	selector1-cdmny-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmny-com._domainkey.oneomnicom.onmicrosoft.com.
+_acme-challenge	60	IN	TXT	"70KllyXk790ht8CA6Vu3a_Ji0PXYWBNqH2IJoKpexTw"
+origin-www	86400	IN	A	20.62.194.53
+www	86400	IN	CNAME	www.cdmny.com.edgekey.net.
+staging	86400	IN	CNAME	staging.cdmny.com.edgekey.net.
+@	86400	IN	APEXALIAS	cdmny.com.edgekey.net.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"

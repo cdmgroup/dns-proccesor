@@ -1,0 +1,36 @@
+;File created: 05/29/2024 15:21
+;Record count: 27
+$ORIGIN dashcf.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111641	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"0ed1fe018a1fee731799a24b9fa8e300a17a065997"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_1098dda5aa1decec47491d611ab761ad	86400	IN	CNAME	38e061ef94639535ffedd0065995ddd3.7a23be03fd0fa10bc0cb00f10be9cacd.662a47bd19514bdba14a.sectigo.com.
+time	86400	IN	A	12.39.106.54
+r3	86400	IN	A	100.78.102.89
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"google-site-verification=wgllWvFu8yO6CSMuF9Kzn5V-AfoKTdv-9_wjlSbidkc"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZ4KHRGIDabYOW3vzm9kHqyQkUkPWW+KZJNEj2UdLsff4SlypIA+RCiueyu37o9rT9wLosmEl4TqCFBMqZPM8/W2knDsZV6U6eyPLMJzPkO3kTzIrC+Fr1wy9SXTJj4o2AGfkyle6p4vAN22Fax9aTYaG1r32F7GFh73z6S+At6nw01d552sf9SuqU7ZFooiK" "ZmOW9Pa4gdlgae0lHhhps1OU8LmT9zM+PT61RKwFZM3mCb3RjfOcKkhQLmSwaAz/Wqx/fUIZtrGSULIi9Mm+MdhdLqTOrxOV1Fg2wuUf6PLowU/KW9ed12AYTpe3RzQlptseYnYSpqTMMb0FILGYQIDAQAB"
+selector1._domainkey	86400	IN	CNAME	selector1-dashcf-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-dashcf-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 dashcf-com.mail.protection.outlook.com.

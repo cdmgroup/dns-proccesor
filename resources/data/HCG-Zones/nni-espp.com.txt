@@ -1,0 +1,18 @@
+;File created: 05/29/2024 14:11
+;Record count: 9
+$ORIGIN nni-espp.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022081523	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_acme-challenge	60	IN	TXT	"kKaxWG15Oxv_I497xHKjqVpSBWA6hMxwK4FzE0oPo7s"
+www	86400	IN	CNAME	nni-espp.com.edgekey.net.
+@	86400	IN	APEXALIAS	nni-espp.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"Mm70s5G5n-0HKoVn9NXpJkMhoFeCPzqE4sU3K5-Ssy0"

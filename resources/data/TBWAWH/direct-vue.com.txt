@@ -1,0 +1,31 @@
+;File created: 05/29/2024 18:10
+;Record count: 22
+$ORIGIN direct-vue.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2013080198	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	TXT	"google-site-verification=hQ7E3N2c5jo9nM-tGjuUbucty6p_p5obeZAUl6FLgQs"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAife+fpLQd/tOhBGjrm8HBiYNKZgNpsqip6REQCMQxKEsf3TBkEE0R0JBLTterW1w1CyHr7NmZEGYz+rVLLtfcYvDOwH0etHn3dupnrRbH7lshRNmdpWa8CpnuMRlFMInG2CQX0m8OI6ZpYsUC5WbLTgB4mxACYIt8uOQGZg0VwTpliXu93e0mX/sUT0Am4TbC" "Y1Sm39esip/YbK30zZ6NWQhT0o33IeITXXBRM4PmSeArKpRqTFmUF7SoLsqzjOFuJkCnNYXB8mm53H6D/nKttNZYjCAiEBWCmLh3v0+cUAlKJyBhyA0mFzwn/AsnGJ10OuwNUMB2iQjQKgQdfqo+QIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	MX	0 directvue-com01e.mail.protection.outlook.com.
+selector1._domainkey	86400	IN	CNAME	selector1-directvue-com01e._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-directvue-com01e._domainkey.oneomnicom.onmicrosoft.com.

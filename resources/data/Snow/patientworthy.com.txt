@@ -1,0 +1,50 @@
+;File created: 05/29/2024 18:08
+;Record count: 41
+$ORIGIN patientworthy.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081385	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+mail	172800	IN	NS	ns3.exacttarget.com.
+mail	172800	IN	NS	ns4.exacttarget.com.
+mail	172800	IN	NS	ns1.exacttarget.com.
+mail	172800	IN	NS	ns2.exacttarget.com.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	MX	0 patientworthy-com.mail.protection.outlook.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+dev	86400	IN	A	159.203.71.253
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+6le2nbunalki	86400	IN	CNAME	gv-qsg4nr3m3ksoqg.dv.googlehosted.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+d1c950046517c52b95dc276bd62e96a8	86400	IN	CNAME	verify.bing.com.
+www	86400	IN	CNAME	patientworthy.com.
+*	86400	IN	TXT	"v=spf1 -all"
+old	86400	IN	A	67.225.129.147
+qone._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;o=-;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0Y0+eHb7xK5nh9CYjH8OGPKNqr4QgtwLPsNmcfwpBz7xCkWcy84tEXOTtybTxDjeGiGbEdNj4/b9OlGNcw8rAyYnT6+04smmH+HvTKJggiRSiDqxwwrWPBqM7RKdRITbgi+hIHuC98ZZOVqCUCq+wgR9NDgfGi5Y6bKVFGLZcVlW+wM3GV3sL05lqTBSvQD" "noChXy/Ogg2OdD4MzjVErHnRi9ikwAstFYSsO9H/Xjhbg41fJesL7pTOn7J3c+0ef/L4L3kqoaHW6TCkk1YBX2JF77Jw6Y8sFa+OovgE4JYzb67+bRHsVuaIa4w0csECnQk92RVfVkhIDTqJ5wFIBbQIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+k2._domainkey	86400	IN	CNAME	dkim2.mcsv.net.
+@	86400	IN	TXT	"Target: 0ed1fe018aae05d670c7304c909c39e2047d4a5414"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyEWShjeNsPsZpUuvRD8ANXMHN42l069Dva6VYDwCqzmKCR3hjtR1IcC9gFEP5qLc9a13y1uMhfp4WYWaJw618hNVe4hmT95IAbywMtpf/X3h2LfXpVi1kLqDsThlOpdIfAuPXlFE3VHzCdUJVY5HJnGAD+7jDK+3YcptMxEws+5Os6woafGniYTqv+mdMrXeA" "dhmc0ygK6eCmp59b1Sp82AEdCkc2Cyy1VkeLJnCPi6rlHDGDy0CvOxhM9Onkb115qdCDi4zt/9NUPM3VjXl795q+VHwBBRVoB2NkQaG9W4A9LOM+2buhfPjMzyjmxMRPRJPlDTsis5BRU/o+CiXHwIDAQAB"
+k3._domainkey	86400	IN	CNAME	dkim3.mcsv.net.
+patientworthy._domainkey	86400	IN	CNAME	patientworthy.cm97ps.custdkim.salesforce.com.
+patientworthyalt._domainkey	86400	IN	CNAME	PatientWorthyAlt.icseoo.custdkim.salesforce.com.
+cdd40419-2de9-4576-9ee0-e673a51ca859	86400	IN	CNAME	verifydomain.docusign.net.
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+@	86400	IN	TXT	"google-site-verification=f4noO76EGT-OXsD8BDv7HPpQvMUiAZ6pjnMgH5otb4c"
+@	86400	IN	TXT	"google-site-verification=yHyHEfIy6jTCgww_fUamTacrUKc9upEGGwmr8pG3nxE"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.protection.outlook.com include:spf.q1platform.com include:_spf.socketlabs.com include:email-od.com include:_spf.salesforce.com -all"
+patientworthy.com	86400	IN	CNAME	kzi1sl08ff3t.wpeproxy.com.
+selector2._domainkey	86400	IN	CNAME	selector2-patientworthy-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-patientworthy-com._domainkey.oneomnicom.onmicrosoft.com.

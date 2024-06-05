@@ -1,0 +1,40 @@
+;File created: 05/29/2024 18:08
+;Record count: 31
+$ORIGIN snowsandbox.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081348	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+sfmc	172800	IN	NS	ns4.exacttarget.com.
+sfmc	172800	IN	NS	ns1.exacttarget.com.
+sfmc	172800	IN	NS	ns3.exacttarget.com.
+sfmc	172800	IN	NS	ns2.exacttarget.com.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+cloud.sfmc	86400	IN	CNAME	pub.s10.exacttarget.com.
+_acme-challenge	86400	IN	CNAME	_acme-challenge.snowsandbox.com.00da0000000gy9pmau.live.siteforce.com.
+@	86400	IN	APEXALIAS	snowsandbox.com.00da0000000gy9pmau.live.siteforce.com.
+@	86400	IN	MX	0 snowsandbox-com.mail.protection.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+ftp	86400	IN	CNAME	snowsandbox.com.
+www	86400	IN	CNAME	snowsandbox.com.
+mail.snowsandbox.com._domainkey	86400	IN	CNAME	mail.snowsandbox.com.hnv4af.custdkim.salesforce.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.salesforce.com -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+snowsandbox.com._domainkey	86400	IN	CNAME	snowsandbox.com.lt3u8q.custdkim.salesforce.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh0EsU/bxPwnBMbuWsuMLeyHl7xV9K1haZIVi1iyFn6q0o1Q6urCCRTwBAb1QJa9aGTdpJk8wvslRK/6Kqk4YHFhJ0VfYJbhc62Cnt9r0P4fSZmVXT/k6uI/cur1dBL+DMzs8jkqcUbaEyBuoud1JxrpfaMWebaKH/HnC8/w+ZJPh1o0qaO8gnZIGwzRKoU8AK" "TDCvQYdcBp5yG8RwuxjLI4tMLwn3D7bOSzr1n6iNlsUIvYWD1ZrZ8VfTP6O1L+55hC7YmhNoA02WoQYLQZCLhvs2a+6mJXXnQZzaQhCXBhdgGf9qo7iUnhNX8P5VpBs671nWy1qNV4gElq4e3emuwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=SmCxJuXBqDtdpTuAR9mKQX92liBLi50zRM7aEgBeYok"
+selector1._domainkey	86400	IN	CNAME	selector1-snowsandbox-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-snowsandbox-com._domainkey.oneomnicom.onmicrosoft.com.

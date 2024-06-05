@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:02
+;Record count: 18
+$ORIGIN covid-19clinicaltrialconnect.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020113111	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+api	86400	IN	A	20.127.162.140
+@	300	IN	A	204.74.99.100
+www	300	IN	A	204.74.99.100
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	300	IN	APEXALIAS	covid-19clinicaltrialconnect.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"cDGONuCRGao_sHSkV1G3pNp0gk9mBlmEAx6pnk-zYgk"
+_acme-challenge.www	60	IN	TXT	"S-TKxMREUdipR3HfUTAmeM81-SMBbG1CtfVxfEmyshc"
+_84465265e055180bd668d91af9bd7221	86400	IN	CNAME	53F7DA1B554F7329DC58DB042F444B09.D624041D68D0AB77E95DAA4C2DD00597.c9940f20d3ca40c7be37.sectigo.com.
+_acme-challenge	60	IN	TXT	"H4_55N6TXiSh51A1MrrZhWZf89q6uQvhQI8GKttltNw"
+_acme-challenge.www	60	IN	TXT	"NrFAOV6FVxVk-px-O04fY0fb8jIBzUER6UjZ2v0sIB4"

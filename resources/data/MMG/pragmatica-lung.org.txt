@@ -1,0 +1,30 @@
+;File created: 05/29/2024 18:02
+;Record count: 21
+$ORIGIN pragmatica-lung.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023080328	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_4cbdc61dc442e836a3ff1c49aa45994c	86400	IN	CNAME	a41b41689cb4b152abe7520db4845e86.4c9bd0cfe8caa547a08292c386e906c2.dbf0697f1f7f4cbe9c13.sectigo.com.
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+review	86400	IN	CNAME	review.pragmatica-lung.org.edgekey.net.
+www	86400	IN	CNAME	www.pragmatica-lung.org.edgekey.net.
+@	86400	IN	APEXALIAS	pragmatica-lung.org.edgekey.net.
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge	60	IN	CNAME	ac.b0ed0a10852ef66869a005d1ef612cfd.pragmatica-lung.org.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.b1f93e321d00f446e49e70e89430ad1e.www.pragmatica-lung.org.validate-akdv.net.
+_acme-challenge.review	60	IN	CNAME	ac.2ec5db5f43cc721bdab003713386f24b.review.pragmatica-lung.org.validate-akdv.net.
+_acme-challenge.dev	60	IN	CNAME	ac.cda512f06cd9356078451b4fc30cc842.dev.pragmatica-lung.org.validate-akdv.net.

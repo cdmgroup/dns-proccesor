@@ -1,0 +1,48 @@
+;File created: 05/29/2024 15:21
+;Record count: 39
+$ORIGIN rx-hc.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011456	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 rxhc-com0e.mail.protection.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_ddfbc8e4c534f770bfef6622ee3f9c31	86400	IN	CNAME	de854541cb66eb1dd9198b4b5d20902b.1ee6d593babf2dd86cdb5d5fa626aca1.0cd7ebeff5ab4041a6a9.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-rxhc-com0e._domainkey.oneomnicom.onmicrosoft.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+smtp	86400	IN	CNAME	rx-hc.com.
+pop	86400	IN	CNAME	rx-hc.com.
+mail	86400	IN	CNAME	rx-hc.com.
+ftp	86400	IN	CNAME	rx-hc.com.
+url5659	86400	IN	CNAME	sendgrid.net.
+imap	86400	IN	CNAME	rx-hc.com.
+www	86400	IN	CNAME	2dvowa38js69.wpeproxy.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u13698270.wl021.sendgrid.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u13698270.wl021.sendgrid.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:sendgrid.net -all"
+em5104	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+news	86400	IN	CNAME	rx-hc.com.
+13698270	86400	IN	CNAME	sendgrid.net.
+@	86400	IN	TXT	"google-site-verification=zwKpNLBb3saEN3riAhztdP1t_IWNjvb61ckg_PS1zvY"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgmUPvLIn+p3DrcaJvDZlmBjmyX3HFv84BatrYYhfXULwilnIVBragi+MuvjnuCMMMB477vn1qMAnb/U3lsQyoIFLsZ91umU3lo9vOgd3q10XGPSjXvrRtRgQz+4A0uml94YAX33c9NBIFSxOO6XmMrCEZ5RFxv7tji/eg+N9Ca23Hos4KflnX/uqU9+u2Gk+m" "9okohAjlEEq2rCNsA9V8aKJArcRhjf4irr52zSFPNivQ5ruxi7i1LLCZmL/hDqj/NsX4hAVALBJ1j/jcQhsjqNvrnX7imwBurgfjSk+OBveReVFbif014vI/yQLXwA1BaN9s8H7OJTAduOve/uUEQIDAQAB"
+em478202	86400	IN	CNAME	return.smtp2go.net.
+@	86400	IN	APEXALIAS	2dvowa38js69.wpeproxy.com.
+vpn	86400	IN	A	118.238.225.201
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+selector1._domainkey	86400	IN	CNAME	selector1-rxhc-com0e._domainkey.oneomnicom.onmicrosoft.com.

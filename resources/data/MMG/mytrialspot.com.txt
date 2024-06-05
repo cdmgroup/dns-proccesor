@@ -1,0 +1,28 @@
+;File created: 05/29/2024 18:02
+;Record count: 19
+$ORIGIN mytrialspot.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014011690	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+dzc	86400	IN	TXT	"jCSas9ly"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_acme-challenge	60	IN	TXT	"3l9t7cQ-f-zLVwXD2qO2UO25BoCW3txs3m-XZWRk-ds\010"
+_acme-challenge	60	IN	TXT	"6M8N1cUDrpG2bJEHqV3-UWs7IoRe1GAauajgvM5xp9A"
+_acme-challenge	60	IN	TXT	"ys6Vc--l6uKjI9R4E6A7eE4XxkGk1I3Gcxh6bUHcxCc"
+_acme-challenge	60	IN	TXT	"fAawKZqxf3iHyncRDQ7iOed3A520Xca3mZTKMXKMIV8"
+_acme-challenge	60	IN	TXT	"3l9t7cQ-f-zLVwXD2qO2UO25BoCW3txs3m-XZWRk-ds"
+_acme-challenge	60	IN	TXT	"zIjGmMhM6qUFSgGKC_vig_GQxbvYdycOn7XH8lzui1s"
+_acme-challenge	60	IN	TXT	"56Z50pfnhnea_I24e8XaQaPnznQ7iVY5fII5XeLcfxQ"
+www	86400	IN	CNAME	www.mytrialspot.com.edgekey.net.
+@	86400	IN	APEXALIAS	mytrialspot.com.edgekey.net.
+_d8f547516df2c4395f0b0f6fa9af581d	86400	IN	CNAME	64f42e818e7d9aca14cca7768e3f3d5c.e3bd5c81cea35f9d8d3829db274a23b0.ed2737a92b454fba9d72.sectigo.com.

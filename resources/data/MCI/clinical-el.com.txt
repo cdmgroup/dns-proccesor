@@ -1,0 +1,45 @@
+;File created: 05/29/2024 18:00
+;Record count: 36
+$ORIGIN clinical-el.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102353	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_e6da68d1b164ae67ae2f8738ca22db74	300	IN	CNAME	16BF3AEEC4379925505311348E3547C2.6DDE050184256D1EBB08DE6E32717ABC.17c2b81d4d9b4153b281.sectigo.com.
+@	86400	IN	A	210.129.12.135
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+vb	86400	IN	A	210.152.80.26
+vbmuscle	86400	IN	A	210.152.80.26
+vbpandp	86400	IN	A	210.152.80.26
+medure-vb	86400	IN	A	210.152.80.26
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+pre-vbmuscle	84600	IN	TXT	"google-site-verification=nENtxmEbZuFzgMkFTWg4RKhc805dLfhX0G0pWqgeKaA"
+pre-vbpandp	84600	IN	TXT	"google-site-verification=27IRNu3BPG5yna0853_81q9DPjnlLt8UjWg3uX75Vlg"
+pre-vb	84600	IN	TXT	"google-site-verification=nDCT0TIseebn-vk9jE7av4GuEYcg39t2CnlxaT59OWI"
+pre-medure-vb	84600	IN	TXT	"google-site-verification=-m2cAhn7yhCavKFeawP9N4_-mkP_0tZvdzSB2ZfXD3M"
+pre-medure-vb	84600	IN	TXT	"v=spf1 ip4:210.236.227.157 -all"
+_3783f531b46aa8f0ddaf00ee57eb81bc	86400	IN	CNAME	087700077ba83fc589d2ed78bb9e496f.fe361d001f4aba302dd382cec9f9918b.bfb1119379a049108e8a.sectigo.com.
+pre-vb	86400	IN	MX	10 pre-vb.clinical-el.com.
+pre-vb	84600	IN	TXT	"v=spf1 ip4:210.236.227.157 -all"
+s1._domainkey.pre-vb	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo/HlNKS36QEptvTi8/Ul28E3OkCJau/9zFFJuDQjmPAK5z1atBt8444ED/8Fb4SWm0h9EUtLyTdsPG7jvDd1yfnipzOdAME0oVvUgWgxazX+QM9SPwmfgAkYaUvkg9efVsswxVLmaklGAANrsUEUyFqdRFqZMQhd3NB1eFknZn5uhUHCk4VTrsUcNdI8joQGR" "nX+QggAU44c+XDGF10bt3W5Zhimr+vzsLKZwF9uAYq/41kQLOWNw8DiNpNxYd4UNE5LW5QsSthdJsC9gf51JeCQ5qyvNW+cuNVBelLqGGC4X+2QgY1jimCM7TywTYXG7UMlXeJ3M/wRNzCmp6RdNwIDAQAB"
+pre-medure-vb	86400	IN	A	210.236.227.157
+pre-medure-vb	86400	IN	MX	10 pre-medure-vb.clinical-el.com.
+pre-vbmuscle	86400	IN	A	210.236.227.157
+pre-vbmuscle	84600	IN	TXT	"v=spf1 ip4:210.236.227.157 -all"
+pre-vbmuscle	86400	IN	MX	10 pre-vbmuscle.clinical-el.com.
+s1._domainkey.pre-medure-vb	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwK0/dorGwvOwHyxZBTnmI7rS5cLdtowEjroIIGTm+VC2R9OkDV4FLwQOnRpwXdGor9trk6UEXt13XzP33uWnVHGhkYLvhnv0ZtPFfR5BZkze4seyYm7QkUq5CbQtp8zjeWG72JQglOvnkhFeQ2xZKVLsViA0dpNrM4XsXmDjBXnLHnSoYvj2Xacdvrik2p+Q/" "mnvvUgXpfLHiDOJE6M1QTBjQsAJNoMV3vv5Z1K1zOB54WrhwqXhShYFEX5hAm2yKFxQAoiBZS1f9FLjwBvZAhEc0pM6HP87Va421H0Rz/Js0h44f0BuzyIYtnQkxRIrc2b8U0zu7NFZ3sJFJKGJPQIDAQAB"
+pre-vb	86400	IN	A	210.236.227.157
+s1._domainkey.pre-vbpandp	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu2BN2Zs1u72AyjoCw0ATqFXBns1Ay28fDwRg6B6387+W8jrtRJNllPMXQE9cw1s0NJtZCJATTHjatP7+3KF8YN6N4tT6f0gC07/3qT3keycXeN3y4PlEwaih/nvyIvvXKgggXUK/Tkb6uTObsmjd6FOKyIpmuJGvfeFV2MEc/jnbBtpulFJmkDUHsnXUiNLJX" "Q/pRTpk7XqZvafY1snW/xWharQM5OqAbb1wbVPqOu4j+Jlaix3cVNqvFsiBpGCv63WKkYxsyg8w5RY3mW0kw3aJN2n1hKE4ZMjGPqdMLJuIhBJ8K2+lHw5AA6E4+wf+2+MLTXtSNHebdbYftdZ0fwIDAQAB"
+pre-vbpandp	86400	IN	MX	10 pre-vbpandp.clinical-el.com.
+pre-vbpandp	86400	IN	A	210.236.227.157
+pre-vbpandp	84600	IN	TXT	"v=spf1 ip4:210.236.227.157 -all"
+s1._domainkey.pre-vbmuscle	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWGy6t16zfB6+lixS6aFU6k2gNXtW/vK+h9nyKLaNrhrEzpTAx+1eUtE3+whp8jold/ss7ALVAdn84FSa99ayjh2vELao5f45ctChJshnt+9LDNJEGLxCLNXRvlAVGYZwNQ0D7SZQ5IHJ5ciRH0i4jezgLoQ5l/U3qwJq4Z9XwkUlvxYeOV8E+R3fFGs404Hw" "zH3C6jWjXIpGrE00q8KD8Q2UjlKV7rQSzIl31MnfFBtU+CbxYR+ziH+98EnqevWT2XQ9La8YgdEGjefpKikLeiQ23H/rQTlXgDMIzvrterV5Nuy1geT1TjA6uxZKvTI6JyuNbqLKE6GnDxLiA54VQIDAQAB"

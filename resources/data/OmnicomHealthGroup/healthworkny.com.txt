@@ -1,0 +1,32 @@
+;File created: 05/29/2024 15:21
+;Record count: 23
+$ORIGIN healthworkny.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111638	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+www	86400	IN	CNAME	healthworkny.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	MX	0 healthworkny-com.mail.protection.outlook.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	A	12.154.40.81
+dev	86400	IN	A	38.117.238.14
+@	86400	IN	TXT	"google-site-verification=FeLNqTz7Y71ml7vyxIksUos7WfVnt0zdDG7S1H-L8dw"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqGA3AXFuB0DrX+MY6CIi2aorqQr9ldQB+PZPUjpu5eMjOb/k+SKrf9Eokd25j5CsWct83EHciloF8NwdXtYYFwJhrq0TtX4yR3C7ux3eMs/agyckFMDXOKwwfh6LZoLWzHyP8QKLYuOcHUU2IQMZKd5KmZ0FGWqKhX2+u/bAS61MwplAFLFYOKSspdN/0yfzd" "7TF1AU+oEhkoTwWGWACoLOLGUA/m06Y6laTGJG/ywmHyXWyeF1eZpSMUdcAh8MF49UpD6gNyk4TPmQd7vH4OkLkbe8H9cR1idBSuin/OgI+lreEPHuFRcBSiFIsh408Yt6nr3O2uU2WM2LG7z7oTQIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-healthworkny-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-healthworkny-com._domainkey.oneomnicom.onmicrosoft.com.

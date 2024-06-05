@@ -1,0 +1,40 @@
+;File created: 05/29/2024 18:00
+;Record count: 31
+$ORIGIN growthring.healthcare.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102346	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_a511d15f804df8d3b452ff5bc6605d2b	86400	IN	CNAME	d9578ad00e70ae9b7a481966be0db2d7.ba65ed116b9ea8a1e4a6c0f60a24beaa.639e747c928c462a8fe8.sectigo.com.
+em	86400	IN	CNAME	mkto-sj250184.com.
+lp	86400	IN	CNAME	medicalcollectiveintellige.mktoweb.com.
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqORlwU+cte1nO0vyMLiX6xzTBBQ0I5D53d9BkmCEwRsUuX6FW1j2gXtZYhjzEbYfLbRSEoQjpG1B0673rxSyo97TcvdvgaPuK0+BgDM0PsvUwc8TE7+Vi9KbvcgBys3h0te073Z+fhHnqnwcccV6O9+9olkAHDvWBSpfaYwTPBQIDAQAB"
+@	84600	IN	TXT	"google-site-verification=HOIaCxT7ZDTtfLjlfHfFf6up5wK71MqSiB-3gp5PE_I"
+@	84600	IN	TXT	"v=spf1 ip4:210.140.43.165 include:smp.ne.jp include:mktomail.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+d20200428-growthring._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnhM7lWtmzY+5QJvYIIavznWGtmwH71y66ywxpTirk7nJE9k9YdU1D8qfjxLKtsn5/tKL89FRtmOjtUgUTB17wDsH9XOsaHZZNwuYm5CVzAvFE53BPZgUwiZJvnmA2R3yDuobUQ04Wy2sFdnck+Go+8V2tGC+ouWV2TnZNi9GqpwIDAQAB"
+@	86400	IN	MX	10 npvs73.kizuna-ds.jp.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_acme-challenge	60	IN	CNAME	ac.28703c97d3c79d822471e53b753df074.growthring.healthcare.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.6762f02c81cc4e6ed5f20bb0edf35fbe.www.growthring.healthcare.validate-akdv.net.
+aws-dev	86400	IN	TXT	"v=spf1 include:amazonses.com ~all"
+_bc04506b47fa17ffa25a9d914da68704	86400	IN	CNAME	0f97100a30faf2f3491bd67cb45276ad.d5a8dc0fa0c3e22e5d7db0ec62e67d42.30f4499a27654821a9c5.sectigo.com.
+pre	84600	IN	TXT	"google-site-verification=zGr7BPMDEXlic1AOVdB4qESQW_fwBPGD1EyYAQx-RCU"
+pre	84600	IN	TXT	"v=spf1 ip4:210.236.254.144 -all"
+@	300	IN	APEXALIAS	growthring.healthcare.edgekey.net.
+pre	86400	IN	A	210.236.254.144
+s1._domainkey.pre	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsbdwiynSGjDgVF/ani4jjwNNoD/snW6aW59CZNpVgOYiEtyjXd55fpoxJa4zjgu5kFE0MPN+zoN8i7OnSCk90O7Sd4RmhRFvQN897MR6piQtq51Tl3GpimTHeMMM4Agr2YM1RQXWinnKORFVIjrmTO6z9xBwAuFTMNtmZFVIHMOCBosd5NuZs/DFpHJu1xBr3" "TZoSgqrTXQNNtBQFJv5+zTfcWdCfFFA5M+8wjF+wScojCDJAOILz+Y268OOoUmXzYEqgxgmenzw7log4sdUGY1FAijdpJbUUb0yCgfDXY4rITVxTfVf4X2LMMyMlkEG3aclZaNzLLaMnxneQX3wLQIDAQAB"
+pre	86400	IN	MX	10 pre.growthring.healthcare.
+3mz2aogr4w5be33ousffwtlwhhri4vfc._domainkey	86400	IN	CNAME	3mz2aogr4w5be33ousffwtlwhhri4vfc.dkim.amazonses.com.
+aws-dev	86400	IN	MX	10 feedback-smtp.ap-northeast-1.amazonses.com.
+hjvfvfbkkxcd7wavy4ua46oemv3siriv._domainkey	86400	IN	CNAME	hjvfvfbkkxcd7wavy4ua46oemv3siriv.dkim.amazonses.com.
+fcnghtx3nh427trmbxe2ukjf3nbcxa5b._domainkey	86400	IN	CNAME	fcnghtx3nh427trmbxe2ukjf3nbcxa5b.dkim.amazonses.com.
+www	300	IN	CNAME	www.growthring.healthcare.edgekey.net.

@@ -1,0 +1,43 @@
+;File created: 05/29/2024 18:08
+;Record count: 34
+$ORIGIN patientvirtualevents.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081341	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+live	86400	IN	TXT	"google-site-verification=hP2NMRnH3V5SD2o04zYGZfV1JBw2ZvBpsrTwAI5e270"
+enterpriseenrollment.live	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+lyncdiscover.live	86400	IN	CNAME	webdir.online.lync.com.
+sip.live	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls.live	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover.live	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp.live	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration.live	86400	IN	CNAME	enterpriseregistration.windows.net.
+www	86400	IN	CNAME	patientvirtualevents.com.
+@	86400	IN	TXT	"ht1978be1e06mqu2j2q8ikd2uv"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvO2Y+7zh/HBv0fkMR+wnKUoFi00tno69XaWHlRvbLuZ7FOtUC23Ld8XkFsZOJV4qRZDrfjSakjJg2vs58TAK4MWekfePq7ISI+2YbY0y/vLaWcaAAypzKHn8kY/ivBJb+sfIdsX3QpyJjeXcSHJEv3VNAhP9QNXyXOl35B8zQjXc22cv4im3jsw3Dvbens7/U" "bbPuPa+2X0BWLCBOlaQtLRJYro6KsQb2I3s5iOB8MJSiryj8WR1/X6ypP9uFvIInrTzJ2yKHT+/ewEseLMY5qzdTpV/uddhNiFUokGeChTKLLRyX5/ic32K7iuLXtj4NBIpDQG0JCdRoGyc8M+CRQIDAQAB"
+@	300	IN	A	204.74.99.100
+live	300	IN	A	204.74.99.100
+@	86400	IN	TXT	"google-site-verification=nPZOmWArT4O7aErGLKi4Sr_WCPfGdVG1sfikqwPgotU"
+selector1._domainkey	86400	IN	CNAME	selector1-patientvirtualevents-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-patientvirtualevents-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey.live	86400	IN	CNAME	selector1-live-patientvirtualevents-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey.live	86400	IN	CNAME	selector2-live-patientvirtualevents-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 patientvirtualevents-com.mail.protection.outlook.com.

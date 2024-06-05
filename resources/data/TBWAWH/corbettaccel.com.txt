@@ -1,0 +1,29 @@
+;File created: 05/29/2024 18:10
+;Record count: 20
+$ORIGIN corbettaccel.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011349	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXxzj/g+QOVhzNlWeTDYIypppxLb86mOLk2+lZynEAifrlW+gRlVJ3vFIf/M9x5JM1d5kmczl6o6i+Lin3d5nGJ/kvWLXTBrw4WucVmT5zodsFyszu7h/+xzVMfaog9VtSWbflc+1rnjjDrnexZHgMtBE9lUlmz8/INHlO1350jUOR+Z92HWXShIejBlcXQpq" "0vBcvQUqTRMbWiAa4UxJkiTXRDPw+6vWjYy3o5SB0ySDGQ7hypAiD0PuSHMgmywRI04J8UQsc2zl77KrPko6j6U/unDL9Vu0RQ7pNwQCWGMbyD+4NJxSuUXZUVRVhE4s7FNSlN1kUcRbp7clUUr1QIDAQAB"
+@	86400	IN	TXT	"google-site-verification=w98umsmqhsxl1pzwLJdap6RdPgeII8dr5n0__Ny6YyE"
+selector1._domainkey	86400	IN	CNAME	selector1-corbettaccel-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-corbettaccel-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 corbettaccel-com.mail.protection.outlook.com.

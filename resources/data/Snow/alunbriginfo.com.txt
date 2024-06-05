@@ -1,0 +1,25 @@
+;File created: 05/29/2024 18:08
+;Record count: 16
+$ORIGIN alunbriginfo.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021011119	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=4l6hXz3SZ7qOJPxgLG3i52tF--DJXZR0CUe-Gty2AZg"
+@	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+bounce	84600	IN	TXT	"google-site-verification=e2XKEbIwX1KfgmwETn1-d69KvcbglmrDnyQQiWrHDtM"
+bounce	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+cloud	86400	IN	CNAME	pub.s10.exacttarget.com.
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	A	13.111.18.27
+bounce	86400	IN	MX	10 bounce.s10.exacttarget.com.
+10dkim1._domainkey	86400	IN	CNAME	10dkim1._domainkey.s10.exacttarget.com.
+@	86400	IN	MX	10 reply.s10.exacttarget.com.

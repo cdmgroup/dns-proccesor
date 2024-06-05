@@ -1,0 +1,29 @@
+;File created: 05/29/2024 18:10
+;Record count: 20
+$ORIGIN cahg.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011361	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	MX	0 cahg-com.mail.protection.outlook.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtlUQPQLrQSNN43uOevC3/TLFsiy1ymoHExIrRbZSXy7nECvuv2kIsCy0IaEUy5500Z3XJcO7ZH3B3Dw4E52tJ/gLdXhxDCFYkc6xG/Oye21Egoup5g9+0iuIk7jnbjZlVCpq/J31qkBsINC8eH25wDHVL/bMnyidypARk0R1E9Oi8GHLMkqcG4UBxHTiZLTdG" "CLE1xDMXbvPDHqlo9t4Xzsv+9SRomjQLq0pJzjG803X25TZTVl0dqTx2vFVRBKpbhKztiyBv1f5O2wLjNinr4Etgn2kGdL8TxJPgnOzOSQSzX51F690tU7y4hDVwgYmPct7kYruEYW+zUOlCsIbkQIDAQAB"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"google-site-verification=F_Im8SNlCEs4A4K12N2UZ9GFeQYmEDFYSESUl429Tmw"
+selector1._domainkey	86400	IN	CNAME	selector1-cahg-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cahg-com._domainkey.oneomnicom.onmicrosoft.com.

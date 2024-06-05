@@ -1,0 +1,35 @@
+;File created: 05/29/2024 15:21
+;Record count: 26
+$ORIGIN undeniablehealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023061416	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	3600	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	3600	IN	TXT	"Target: 0ed1fe018a5e9a1a10274546e4b8e60a3ed2ff92f2"
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApb3tgnu92fGNaP7aBiyLGsxTkMQmBQgMsdg5dXyJWLDWXKzCo4ZK3o5ML5O0o/0CqUml7V9p2AwhXqpWVPtTHc4A8IQdDlexbxzDauAIs54AexBk8fyAwzT4JnVo/yXC6SLUlI2zEONxMRBLjEkVvK6YzRf+bA5xCVbYOtcTqnNUTFn+5eKfgp4KoX9g5KBi8" "hzhVcDTdXrO/V2RQ5bSdSa3LsnZJiK79oamiUVAzgW14qLzK4kEnSe6yGd51q6CQjvJxuMj3v/LkkD8qeAGbxLuJCoc70MT4yhS88xRO82lgkFszND+w7IJZLy/0YMbFflDUzOhZUPBc++i5zvt7wIDAQAB"
+@	3600	IN	TXT	"google-site-verification=7q74qBYUWRglIKKlG62UbvwoVmV-d0xCBbCgo5TWdto"
+@	3600	IN	TXT	"MS=ms95987486"
+@	3600	IN	TXT	"adobe-idp-site-verification=32caa4b5275a7ba823f522badde71a452f6a5eddc8153816e9afe84f65675336"
+selector1._domainkey	86400	IN	CNAME	selector1-undeniablehealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-undeniablehealth-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 undeniablehealth-com.mail.protection.outlook.com.

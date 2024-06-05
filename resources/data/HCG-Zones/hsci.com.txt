@@ -1,0 +1,40 @@
+;File created: 05/29/2024 14:11
+;Record count: 31
+$ORIGIN hsci.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020010989	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+holidays	86400	IN	CNAME	holidays.hsci.com.edgekey.net.
+www	86400	IN	CNAME	hsci.com.edgekey.net.
+@	86400	IN	APEXALIAS	hsci.com.edgekey.net.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+biotech	86400	IN	CNAME	www.hcg-int.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+25years	86400	IN	CNAME	www.hcg-int.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"google-site-verification=A8IP5TC3_SOY0a9G1F7h2EWlkERVVZ9DKSzz63P_9bI"
+test_stage	86400	IN	A	54.197.234.216
+*	86400	IN	TXT	"v=spf1 -all"
+test_www	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+test	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+testwww	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq+pdLkRr+oM2H41HM4TthSwzXr7u3/V1FztpzL2T7jRy/WmoiclMo116MzRVmV090KbXW5Zs/e4XIcr5F/0WHdknqFtSejbE282S4xLuM4iL/s0FdqlbaxnThGVpcabq85m86zonSpol2ZHYsnun5yOSX8paLeKFkOeusiJz9GArYlPUKMG56Bvd3Gzb/SBkZ" "U6f8XhBX3pQh/Ebl23aliFcRgz01T8fe1aCqw+XSGz6Fk2KDS0UYKkumT3KqWTCxqIgjpHRAWi1I7wI783B2OzoAporngF788W8OgzLDctWR+SUGBy4tKTTE78+OYYRrxysq1hvcwIcLPWliBhbCQIDAQAB"
+_fe309e04ef747b329e6d43c135acd044	86400	IN	CNAME	07493f541ad17a65c3d144076142ab38.b477ab788bf0f9d77965e8bd04712974.3addcfcc83d144a9a548.sectigo.com.
+selector1._domainkey	86400	IN	CNAME	selector1-hsci-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-hsci-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 hsci-com.mail.protection.outlook.com.
+_8c58d85f08f8f49bb027cb91c566b429	300	IN	CNAME	f6b56cdf7ea55e28a93162dbff25c867.5666df91fe0ec02bf5d9d5d7af371862.9c7d6842cd4e48138ff4.sectigo.com.

@@ -1,0 +1,52 @@
+;File created: 05/29/2024 15:21
+;Record count: 43
+$ORIGIN patientsandpurpose.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016103018	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+now	86400	IN	A	216.158.191.138
+_acme-challenge	60	IN	TXT	"_acme-challenge.patientsandpurpose.com"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	MX	0 patientsandpurpose-com.mail.protection.outlook.com.
+staging2	86400	IN	A	216.158.191.159
+@	86400	IN	TXT	"facebook-domain-verification=v1fw3hgg4vszsjwh0esljm2w5brlhq"
+k1._domainkey	86400	IN	CNAME	dkim.mcsv.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:servers.mcsv.net include:mktomail.com -all"
+styleguide	86400	IN	A	216.158.191.175
+blog	86400	IN	A	216.158.191.163
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+www	86400	IN	CNAME	www.patientsandpurpose.com.edgekey.net.
+@	86400	IN	TXT	"google-site-verification=wzjTucXngcDP-IIiY3o1_1J1HBcYwBHEa4kz11ERNV4"
+staging	86400	IN	CNAME	staging.patientsandpurpose.com.edgekey.net.
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbB8gRx77XZBMeedVqhFN1U7sLBjtIAtgv9CosbMgjBI34/C1iz1P20uU4gEtKUny0guwpKJZR+yTEi42xYLMrLxPR3Doa5uStD4iEIX4jkaheTXmMPFVopUU988UKWf77Ng0Btc7mv1KHMbMmDpv6d2vbEanQjjJ2qnTlrlkhYQIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqy21TnoJ3movQyUai4M2btUedRi5OIFUDZXjNlKd6LetBsaFsoEVHTKt4BA1jNEB6GaDeWCXR3n2rL4p7+P8B073CUr9tLwIRmUXdUW4lK/4IluIISLTxQT8yq5pazbibi9wMrE1tsqBo5LftwBR704Zr/4odvCyFoHIf6fHJktaS0YYCPZcqBLiPp+PHyw2/" "M3qwXdb/dnWdeL7/g0PoE+ikHT5GzF2NSzH5Jtt8BMajA/Zuy+MQHvkTpUXIYmAJSFS2GCydA0//L5MGeRHupaVjcJ94A7mzZmGo0HuXce3RkJ4FxKSw34j+t2Fbiz8y/YoucSJF72j3GKb+1iQxQIDAQAB"
+m1._domainkey	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4vgG3Im7hPIDl+8EpykkTc1cAzpmHUq7UAUvQBrsQJSz0ve6FOMMCrNJSZbdYDyFDeFTaBjIgPykp2BwOAQzIBpjKnASTJPIq+tVGq91a1BYbu81ls1QhQhnsTkMKZvEvi4q555L/E8Z55SyYXe8UIem2epF7TDDVgRvHZft95QIDAQAB"
+_d2a90952f6ae3caf8e93b1951e776d97	86400	IN	CNAME	35ee7c6499f206c0df6895c61980fc1a.4a66ce44747154562fc3070dc4ba5035.44d464d3966044b6b8b5.sectigo.com.
+@	86400	IN	APEXALIAS	patientsandpurpose.com.edgekey.net.
+screenfortype1	300	IN	A	52.170.85.184
+screenfort1d	86400	IN	A	20.62.194.53
+_acme-challenge	60	IN	TXT	"J_c5_-wxbTk0JfOtz8wZxTf_5nqKijqNjEMV_-Hz6Sg"
+_acme-challenge	60	IN	TXT	"5hjm3Ue1NFlcmw3XzxpPqY5gwz4C-jc0WlMqAN06DPQ"
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+selector2._domainkey	86400	IN	CNAME	selector2-patientsandpurpose-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-patientsandpurpose-com._domainkey.oneomnicom.onmicrosoft.com.

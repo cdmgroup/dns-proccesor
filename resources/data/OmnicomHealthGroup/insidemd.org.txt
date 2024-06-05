@@ -1,0 +1,35 @@
+;File created: 05/29/2024 15:21
+;Record count: 26
+$ORIGIN insidemd.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016042176	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	A	12.39.106.240
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	MX	0 insidemd-org.mail.protection.outlook.com.
+www	86400	IN	A	12.39.106.240
+@	86400	IN	TXT	"0ed1fe018a51da86ea4f884c70956e033dd2ac9f58"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u3251513.wl014.sendgrid.net.
+default	86400	IN	CNAME	u3251513.wl014.sendgrid.net.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u3251513.wl014.sendgrid.net.
+@	86400	IN	TXT	"google-site-verification=69duyhSq7MDAWYwXrxPTcrQT6ndisIkclhxl1JXj4V0"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5D9e1ng59N/To6TzK28WJ7OyEiW2X6PB81cNnIpGepE1nVr7X/bASu2a3SNTWsURLdWwJZ97jgdW4v4yImvH8OMH1OffbEOR+Gsr2ZpOJu6orpQ4UEP4MuBN4k4eayyd/mDi/0Cm6tVRdtN3iReShi2FybfTUmCfJ2AntXCn37itBBDFsiDCI2THu/h3HIVu" "zcyk6RabBN4rlvh8vXhkp0BW0B/QwLhXKvPr0xIT/LG40UJw66mJfr7DrIrzQa72/yMebu1yMhl1tamTW9lkZNHdz20RtNaVv12jmZs0AXbrT8m9iN86zOVkhQ5PHFhymyd14Al4xipU0xf0X3SRQIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-insidemd-org._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-insidemd-org._domainkey.oneomnicom.onmicrosoft.com.

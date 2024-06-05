@@ -1,0 +1,74 @@
+;File created: 05/29/2024 15:31
+;Record count: 65
+$ORIGIN biopharmcommunications.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2017012760	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+@	86400	IN	A	157.245.246.148
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	MX	0 biopharmcommunications-com.mail.protection.outlook.com.
+_b5fa624e11682afba6eda1f3a8e027be	86400	IN	CNAME	bf4e4b39c5fbd97ac104e7f069175039.d2083dc274f242ab061d2517315f565b.4af0abeca3ae49ca8864.sectigo.com.
+library	86400	IN	A	52.3.16.141
+sf._domainkey	86400	IN	TXT	"v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIE/ogEVzHZDuFVJ++vKaQ+UWirtorT8kF5P2RzEMCG7RSLB7GOnhbG8k92Hdabaf6fNVyX+9t+Nq0Le3ijItrlyYZuyjqQPssk6Xnx4/2z6d37cddjk2VgIWd6m7gjbHCh3g0BW00vFmI5Cex4QwIaOpvmSkO3mEXsP/cCkMr8wIDAQAB; s=email; t=s"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+www	86400	IN	CNAME	biopharmcommunications.com.
+bounces	86400	IN	CNAME	bounces.m.appature.com.
+sharedpool._domainkey	86400	IN	CNAME	sharedpool._domainkey.m.appature.com.
+ftp	86400	IN	CNAME	biopharmcommunications.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn4RV+eMjXdpLTNZcyY2y93ZPjmBI4CHxhHhyvT0IG3Sk3dbdchxFkRZvvEPh0w8NhXFpcdTr3Z2Jv1S5u9B5DFLNjiYQ5K/pWHnpOhz6gmEdDlDzBYLOq7WdvNvSA5v6vfuAwGuG3SOQUbmpDozrsARQ52bLrkelCq73oxC+YkLL7NRK/HYAWVAGkI3Gq4F1S" "JE1q91tU3tCdsCvjw/Nktt8JltyShLv39HC93dAeFcWOcPJu9SIE7mUBMNUKTNtDrPFm038y8CjWQXDJ3JbzekhusDoce5fRwWdtMthy1OrxgkTpFj4ckie1McBeY92KBi5RTaSo7t5kkViwi7aDQIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u7261616.wl117.sendgrid.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+data	86400	IN	CNAME	data-biopharmcommunications-com.o.waas.oci.oraclecloud.net.
+ar	86400	IN	A	13.210.120.176
+email.send.ar	86400	IN	CNAME	mailgun.org.
+k1._domainkey.send.ar	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCm9VHNvTtz3LxTNYZnfKqJbtd9jaX6gdL9jxgH9rlffAnmMoWcS+RAw0caTHKm6HFnZ/6Xsv0bzmtBjX3cEAMrnxp4u9jrZwF4/L0Wba5uiYGCLX73N8QHdxka3MPgvaJbnFvKywi5dqzTFNexXhGMZx1r2uXF5DuaQKIeLFjxiwIDAQAB"
+send.ar	86400	IN	MX	10 mxa.mailgun.org.
+send.ar	86400	IN	MX	10 mxb.mailgun.org.
+email	86400	IN	TXT	"SFMC-_bpGaebp5jnXMWI6rpSoqqNf4OsbPNBM3n7qy3NE"
+em3433	86400	IN	CNAME	u8188896.wl147.sendgrid.net.
+email	86400	IN	TXT	"SFMC-LbJ_DOAZrtIEEb11Gx1IFSGvzvOg843gsZp1VGRw"
+analytics	86400	IN	CNAME	250analytics.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u7261616.wl117.sendgrid.net.
+dp	86400	IN	A	157.245.246.148
+em2363	86400	IN	CNAME	u7261616.wl117.sendgrid.net.
+_5f4aae69c706a74a5a332d5678b679d3	86400	IN	CNAME	193873f381048f237b7b90e84c9025ad.b2f553299f43f0378eb3c6ad839c19fa.d44ca67ba5ed4a50862c.sectigo.com.
+email	172800	IN	MX	10 reply-mx.s7.exacttarget.com.
+_b9bafb7baff721c66b591a4107e5e78d	86400	IN	CNAME	fd7690bf5c1af91ab9414d99732004fe.3b2e650473fe06dfce8f9dc49b0a9bf7.626db7edfcc64cfa86bb.sectigo.com.
+send.ar	84600	IN	TXT	"google-site-verification=Q1boKIhycXa8hDc8Dqhb6bImo9Nb2Sn82-KQAa34AHQ"
+send.ar	84600	IN	TXT	"v=spf1 include:mailgun."
+email	86400	IN	TXT	"google-site-verification=Ac9-35MGsbxCc8A6RIs2BzWvn46MtWb-ZXcFXEBQwps"
+@	300	IN	TXT	"mandrill_verify.pqZ56R_S9HGJTgp_JNMM-w"
+mte2._domainkey	300	IN	CNAME	dkim2.mandrillapp.com.
+mte1._domainkey	300	IN	CNAME	dkim1.mandrillapp.com.
+@	300	IN	TXT	"google-site-verification=BVH-SqPzJzvFGlNETpBWUFzEXZQSHES5xIb-5k-qWy8"
+@	300	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+@	300	IN	TXT	"SFMC-L73Mwm3PnVm2_TXa8KNZkg_ArGSB-lqGj8xNrZrx"
+@	300	IN	TXT	"SFMC-tmlXyhlHJ3-tQJHUYVWckxNHfL0U14avsKzWaj6h"
+@	300	IN	TXT	"v=b499963057c94363a7fd0c1065faf90f"
+@	300	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.m.appature.com include:_spf.salesforce.com -all"
+selector2._domainkey	86400	IN	CNAME	selector2-biopharmcommunications-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-biopharmcommunications-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey.email	86400	IN	CNAME	selector1-email-biopharmcommunications-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey.email	86400	IN	CNAME	selector2-email-biopharmcommunications-com._domainkey.oneomnicom.onmicrosoft.com.

@@ -1,0 +1,59 @@
+;File created: 05/29/2024 18:10
+;Record count: 50
+$ORIGIN tbwaworldhealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011526	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+vpn	86400	IN	A	12.154.41.227
+@	300	IN	TXT	"0ed1fe018a7d2e89f6e58540c29191a9d3f0741737"
+@	300	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+@	300	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	300	IN	TXT	"apple-domain-verification=OyyiTfIxFb2u4kC9"
+digitalprocess	86400	IN	A	98.129.229.110
+secureftp	86400	IN	A	216.158.188.7
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+printprocess	86400	IN	A	98.129.229.4
+cm._domainkey	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRAiHxv+cDcAxEtxjVcoCfpSZuIDJ19YjGeY2COjEsN/L818Ma0JIU4bgmM/pRlAg91QsguelIdsGdlD7dRgOCa+kIn/PUbHsc3RBzbI4qE7HCRrwL3BuYN627APDHVEtsDmp3Rb7Z7Tv5+1iBfezcgFPkExejOlvIREJ1FQYC7QIDAQAB"
+google3a46a9f71129cd00	86400	IN	CNAME	google.com.
+mg	86400	IN	TXT	"v=spf1 include:mailgun.org -all"
+test	86400	IN	CNAME	website-tbwaworldhealth.os.factory.tools.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+smartsheet-site-validation	86400	IN	TXT	"uapSecret:B5NUzi9GVgSDZ2W247Q83ZKFihn9pOdRRmyBYwheRz0="
+pic._domainkey.mg	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2WIy/93V+tzqMSVSBNybQxp8tnAaEcrx4R9rtVZh64BJS0aEcd4ggCtIP27l35q69CjlNY+EZTGbNqy0jpqy9s8AWo4VjCXErH6/LWjUxELBzbK3kAX7f8gsps0JT5G4lGn3od4DXqaWySOmGBuL7lC1xH3JH8cwjwlKYePalyQIDAQAB"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+careers	300	IN	A	204.74.99.100
+link	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+*	86400	IN	TXT	"v=spf1 -all"
+lynparza	86400	IN	CNAME	www90.wixdns.net.
+abbvie	300	IN	A	204.74.99.100
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjujgzNEs+HqvxfIjrYZi7us4PlOYHFT5WHSfAvEeHQIarOLfRVtOhPdZnP6+QKflrA0w3bHvHkOtcAv/6yIJtk8GuiqpxPAAMD79MtUDaTlE6YGAe8w4on6/6ogDIoIOFcVfP2Cz783X805IgmsaKkgJIfGIUCfxoZaFQzmvDmo4ds5Bv6EQftILAM7GI2CMW" "Rkm0U7zuM67eGmGv0L2h9+avSzx5nCjx3qXJjLoQdZ3OSSQyEpYVL22av/n4txv1BYPSAwLkbrrGivV0fz54k3vq/bCx9Ewg6ZvHBMJ+sAek3NBcHn5c/bzohj6ixxMtpslXwoIeeKM70ImlJTJDQIDAQAB"
+lobby	300	IN	A	204.74.99.100
+www	86400	IN	CNAME	www.tbwaworldhealth.com.edgekey.net.
+@	86400	IN	APEXALIAS	tbwaworldhealth.com.edgekey.net.
+london	86400	IN	A	3.221.115.106
+wildtype	86400	IN	A	3.221.115.106
+@	300	IN	TXT	"extensis-domain-verification=eb722f65-e148-4a06-8ad6-bb3de8e77ead"
+_cc52e898e9b8da20719bd9de85940533	86400	IN	CNAME	e743cab440eb5587d95a280c368064de.84b6bed8d5f93c3a4467c75990ea39d3.828cbdbe86e64a6b908b.sectigo.com.
+_acme-challenge	60	IN	CNAME	ac.87b2df9451a41c11f273a47bafdbf8f4.tbwaworldhealth.com.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.fa6ddb6ce7f7d417e095380fcbb92527.www.tbwaworldhealth.com.validate-akdv.net.
+49248757	3600	IN	CNAME	google.com.
+@	300	IN	TXT	"google-site-verification=CZmvOWmMZf9tdSyI63yLztvakwLXdthdMqH73K46E_g"
+selector1._domainkey	86400	IN	CNAME	selector1-tbwaworldhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-tbwaworldhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 tbwaworldhealth-com.mail.protection.outlook.com.

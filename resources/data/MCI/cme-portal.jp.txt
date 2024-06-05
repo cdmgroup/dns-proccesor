@@ -1,0 +1,99 @@
+;File created: 05/29/2024 18:00
+;Record count: 90
+$ORIGIN cme-portal.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102413	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+nnpvs65	300	IN	A	210.236.254.158
+s1-nnpvs65._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr0+DiDLxvRQi3xK4uq5P63GNizydI86odn/vfzbYuXEJQOqTvnkuHyGnvErniqPGzE06S+qNO5eTWNAdNTLrKngebiFFXXFKfRkSDf+h9hn+eNUv4D1zCbibnKpOqVnGD3ZKOiZhTTTAI1q37k17WckCq0AvaVFueGu7db+BWtkJmHB4CHve/lJULXfq0Gk9n" "tAbtpT4PQxzjbRsH5mlr2+YZg+4OhE1d8rUvAZpGKc+kZ0C+0B65uNyVlOo9H3xtWPfWGgoDe1qzUzLl3SAiL5lCSWh1Cq5x23CHLOPlyqNB2Q1takX/Kx+AJhPGrRY9hkz2SW68oZg8nkY8RF9zQIDAQAB"
+nnpvs65	300	IN	TXT	"v=spf1 ip4:210.236.254.158 include:idcfc-spf.kizuna-ds.jp -all"
+nnpvs65	300	IN	MX	10 nnpvs65.cme-portal.jp.
+_e70596c225b990401c25cc5314ac2266	86400	IN	CNAME	e672dd20ffc990574b9a65b6a1ffcfc1.5e5cee78e4c691d1414196ce3a9c3e5b.edf27d151b5846019f43.sectigo.com.
+pre	86400	IN	MX	10 pre.cme-portal.jp.
+pde-webtest	86400	IN	A	203.137.178.142
+dav-npvs22643-033	86400	IN	A	210.129.9.56
+dav-npvs22643-034	86400	IN	A	210.129.12.135
+mtpc-mo-webtest	86400	IN	A	210.129.11.122
+cms-jama	86400	IN	A	210.129.9.56
+npvs66	86400	IN	MX	10 npvs66.cme-portal.jp.
+ms-one-webtest	86400	IN	A	210.129.11.122
+npvs54	86400	IN	MX	10 npvs54.cme-portal.jp.
+@	86400	IN	A	203.137.180.209
+jama-webtest	86400	IN	A	210.152.80.153
+npvs66	86400	IN	A	210.129.12.135
+cms-clinical	86400	IN	A	210.129.9.56
+npvs65	86400	IN	A	210.129.9.56
+ms-one	86400	IN	A	210.129.11.178
+mtpc-mo	86400	IN	A	210.239.69.229
+bjd-webtest	86400	IN	A	203.137.178.142
+npvs65	86400	IN	MX	10 npvs65.cme-portal.jp.
+pde	86400	IN	A	203.137.178.221
+@	86400	IN	TXT	"v=spf1 -all"
+jeadv-webtest	86400	IN	A	203.137.178.142
+s1-npvs66._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArRPE68tCMXih5G2a1TLzpsBwL7MgAEFKnxta3alOmxVIbyjjotE2donw2ogvIr2AgBr7Twi/zUVZo4dsyUmYs83tYmcCzHV76Y5XLTOzRIj9OeugOsGQUIV1SBTeIbOZYDgf/qUIJXaAVTlj4xdy8W0fZ3uxTp3A7xScQbhu5W4nPVOS3Rj5Lv9AFm+0lHG63" "3vPMCbsLVI2MpTt8G3aV2A2iOtvUURQcDJ7bjevuZAjumGHIUDYOQXpZxfhwf2ETUXq6REHijjFCzwd+B6NrwPyRBilZISTsowwPJTaintKvrimUsCMPtEdyWeu0eG/Gk/qbR0WuW/mZiFtbQ6ZmwIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+s1-npvs54._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArb5pe270AURIu298S0RE452xhgrgMEtaLj4wPPu2nq6kwgT9Mv9myllLWQDgfmG1q/KxSk8LrEQkzWDwBHTukCiqeQVdXCi5hbRI/nMYUYtzmTIrz2HGTsNm2Jg/jdHIszkaYzes2EHc3ZZ1zfyEHHYuZaUY5E4T41Gsk4hQ9cpFIHlZyzgoy4LruEc9kbtIG" "QRX8YYWRHSRqPFQAn4DPEpOy82esy3516GSkSGwghMwbgFcODNGt9apxSG6/xPniTRs+l8bq2dZ96PreRWSvwOgSBHQfXIONcXZuDxpRslw0YAnhPPpSEOw57y+XVVphq8JNw4NuE8s0a6PnfsYQQIDAQAB"
+s1-npvs65._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDeD5zUsgVHSoTYKTbtVbf8AFr+HfyILomkRZbfDHNMEkTRUC6qnlST5gBvyWbtJG8YkcjetvSKaSoRivQPRdSu37ZyONeKWXw/8BdzXvAxHCREhfTsim2bxG4tnno9v/Ld6ouPxwuz+nPUtz1mB37q7Ux8d4psOHGPeJpd26u8ruHSjLYzqs9PMA+k2FaZhx" "a2jKzt6P4ITjQ//JAzew9XJkWmUecZET6PKHAp1j5XTDK0DkkQFEwNpajyLzcaQhJ8Ap9rUhABaiw7fmTorFKIq3rWsqVS0cOhPnh31/WIj+Kg1xGcKerk3Xam0v2Z1WjEgBQdzXuRocqMk+ICORwIDAQAB"
+jeadv	86400	IN	A	203.137.180.209
+s1-nnpvs54._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApaXBI7w5qF6s1ctAE6O7Kr8hXMugtpFXr2ZP7dS5YdcTfkeyxkZxepqq0uECvGN6vwWPItht0smbYl6F9Ep4ACEOikxsspTGnwFqvsJAXHjOXiHRt3Lm90+HrHvXvAiPbBu1ERhcHO/v/sBULDaNJaxJZy6p+pdF7bOoPsn18dJ7kJ+BcX71uqyojk16OY/NU" "j+H6s6XNYAOVijmszW6x1erz4qiGNWts3kzGMZnCPpO6MdpJ1BFbfluD/HqZp7xzBX60xd+aGxllxzkRx2EozPMsdTGi8HDCHzdin8MmwhtbeHY+GyRS1GOdI/65dp3wX5Cv7w45pZ8nEMJ6fKwRQIDAQAB"
+nnpvs54	300	IN	TXT	"v=spf1 ip4:210.236.254.241 include:idcfc-spf.kizuna-ds.jp -all"
+nnpvs54	300	IN	A	210.236.254.241
+npvs54	300	IN	A	210.129.9.110
+npvs54	300	IN	TXT	"google-site-verification=deG8FSRUPnJr5WId9eFtL71zs-OZSnXNgi8k7bcKCiY"
+npvs54	300	IN	TXT	"v=spf1 ip4:210.129.187.157 include:idcfc-spf.kizuna-ds.jp -all"
+npvs54sawai	300	IN	A	210.236.254.241
+npvs54sawai	300	IN	TXT	"v=spf1 ip4:210.236.254.241 include:idcfc-spf.kizuna-ds.jp -all"
+npvs66	84600	IN	TXT	"google-site-verification=hCRIFKlAsDhkUxb4IkV4C9xsjwhQFkvqRWW6zSnRAmM"
+npvs66	84600	IN	TXT	"v=spf1 ip4:210.129.12.135 include:idcfc-spf.kizuna-ds.jp -all"
+pre	84600	IN	TXT	"google-site-verification=GU-wBy22vv3KpT2T7U8lZZQFjLeBtgm4LqJG4XssW8k"
+pre	84600	IN	TXT	"v=spf1 ip4:210.236.254.13 -all"
+pre-jeadv	84600	IN	TXT	"google-site-verification=bSNbikEBLdAzFbKIVCNIfodNSh5wLtqbbDTJGIhd7LQ"
+pre-jeadv	84600	IN	TXT	"v=spf1 ip4:210.236.225.95 -all"
+pre-pde	84600	IN	TXT	"google-site-verification=OGNdBGuKYyvqHVWVeZgdWeXw9m6GSxpkrFRcoMdTGTE"
+pre-pde	84600	IN	TXT	"v=spf1 ip4:210.236.225.95 -all"
+npvs65	84600	IN	TXT	"google-site-verification=CYDsgrAgn58E8O0sTocTNJB0bJnDmLNhAHSJ3_NNPFw"
+npvs65	84600	IN	TXT	"v=spf1 ip4:210.129.9.56 include:idcfc-spf.kizuna-ds.jp -all"
+pre	86400	IN	A	210.236.254.13
+pre-jeadv	86400	IN	MX	10 pre-jeadv.cme-portal.jp.
+s1._domainkey.pre-jeadv	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymQSher32hkGvFnl9oTykOGH4q61ODcfELA+MrL+iKhst1yTU5jpp+2po/ifB2Sq/NnQlZeJ/x6+Ga3UcAYFyzDssyYl9cKIkuWzvToPoh/p4m947iarWnTA+P3xytAx9yfFb1V57dvpd6rWXYSPZH1Yq2vTPdn+eha59+m1SswP147a1uY0Bt+5WlB88mmbj" "3yfCFwoP+OFFmbfpAXv76jmeOWk4RfR7FgDH3LTDiUgtv1blDMsEJOYyh401qgWXLG91wVuZykVcCO0r/swzbzRe19xWcgr1VktTKLKcyhIx0huviG2mMFHE6Sqcie4RLuTC6saaUVsAK+JZcsQbQIDAQAB"
+pre-npvs40	86400	IN	A	210.236.225.95
+pre-pde	86400	IN	A	210.236.225.95
+pre-pde	86400	IN	MX	10 pre-pde.cme-portal.jp.
+pre-jeadv	86400	IN	A	210.236.225.95
+pre-test	86400	IN	A	210.236.254.13
+s1._domainkey.pre-pde	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApx729HqsPPOVUQqqK4+Iym4l8mszlvcGIWgRBNKt3YTwwWYOoAeYSeIYj6cMM8Fmw3MureNhhkmm0V5vUxe5xevjfbRi0vs0dOZHEeAQefx4sF/Qy3JxRGCZzoWDG2xu8we1veHTTuAgNPobMAeIK+pdWfcaYJ1wCahtUbheMbj592fbUxTgKOa+bntIZE4tz" "irFVr8YuXU7cSEp5oqlsIVYWDVkFQKvDqKMMmdPzWRIVddnwleMMjMSN7OcgBiRpKfI24qcLtQ4qisZmVZBCSZ0fjq2E7vgrSjupZ2TTWRxlD5+x4heIuNP2EaAHcnzK0Ode+5K5pqRZ21SBISHWQIDAQAB"
+s1._domainkey.pre	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAotnVlJyemR5u6cBnGPCbJqU1CDHkATEa+HJ4QGxvfO0Ujy6gC5jglYqa0ubRwBWjELE1R0tkGQPMzyLGHoZM3VhgHJ0ruKdDlFXDgBw9hi7fK29+XByS2HaewBmfSu+3wyGyF8d04eOM5HZSpperyTJj9jAitUBbXvHzesl4NOS+EvQrz5XCGUuXpUgp6koSS" "EtSjZQWpSEB/3OEX2PbHsHwwJFuV7mF3tLL5c90vKjp9Bn/ze85qcYraTuAnepnK5F6zxh0OcP7dJi/wKseZJAcajvXIMV6eCgWdyXYvySYhiSzE1GA1lZoOOV8StI5zIPuiVHOq3MoDOoNV5w6DwIDAQAB"
+test-cms-clinical	300	IN	A	210.236.254.158
+test-cms-clinical	300	IN	MX	10 test-cms-clinical.cme-portal.jp.
+test-cms-clinical	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.test-cms-clinical	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYDEIvbn/P8jRZ1lTFtU+M7Ub6Ze14TEL2+BzlAfTfyMo/u/9iWCUK9DKJxHUbja49RvtugG2TXxbASjIWs20auLx6zvDjei6FYhWwgFKCovXsTPpIX0zDtduOTV7eqvFD5lY9AQNFT0d79j+aNkcn/yutz48c+41M1Gks/rfYVcChlpSxZ7C1ApZPPT5+E6x" "9Bg+xmx0K8pAS+QtISjgKhbDdXJwRqoefCE3js3XNMCgF9lNSvKhlD4O0v25PY/nQDXZsRTerGjTOlO8mMU+hJ+pDoa+xhQUtvhm1wEu8yKHHSNob1C/zSKT+atEpWLeOHS8u+1tFFrD3wGUHskWQIDAQAB"
+test-cms-jama	300	IN	A	210.236.254.158
+test-cms-jama	300	IN	MX	10 test-cms-jama.cme-portal.jp.
+test-cms-jama	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.test-cms-jama	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1pvai+kjmu4vAwNNN0ijO63CZStl89D71OYj2zaNbi1nITeU/CMb8Jv3T8qcZlktZVsI0NzbmJcX7T+JyclKKOT4aiWTCZXcq09DJ5ImOw+2uFEJTdn73oLGvmugSlz2X1qbpHIVCRO8SSebXnSZa+pM0zAooZPNiP7lq6sxe6ERPre1MFD6vMf+CJ+aLO9KY" "zW60tlPbB6bUFb9ESXpBN3jnZIdXXzSmD7IEDRV2E9XKBw9nksuMtfNZy+5JUvbPF1TFooCQgSSlg/Ca0SwCT5GX/mtG3IxTCfQbPiOvL2yixWdka9zx7m4E5MCs6B5jc4DtdTALqbXpPBuKvtTHQIDAQAB"
+pre2-cms-clinical	300	IN	MX	10 pre2-cms-clinical.cme-portal.jp.
+pre2-cms-clinical	300	IN	A	210.236.254.158
+pre2-cms-jama	300	IN	A	210.236.254.158
+pre2-cms-jama	300	IN	MX	10 pre2-cms-jama.cme-portal.jp.
+pre2-cms-clinical	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+pre2-cms-jama	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.pre2-cms-clinical	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYDEIvbn/P8jRZ1lTFtU+M7Ub6Ze14TEL2+BzlAfTfyMo/u/9iWCUK9DKJxHUbja49RvtugG2TXxbASjIWs20auLx6zvDjei6FYhWwgFKCovXsTPpIX0zDtduOTV7eqvFD5lY9AQNFT0d79j+aNkcn/yutz48c+41M1Gks/rfYVcChlpSxZ7C1ApZPPT5+E6x" "9Bg+xmx0K8pAS+QtISjgKhbDdXJwRqoefCE3js3XNMCgF9lNSvKhlD4O0v25PY/nQDXZsRTerGjTOlO8mMU+hJ+pDoa+xhQUtvhm1wEu8yKHHSNob1C/zSKT+atEpWLeOHS8u+1tFFrD3wGUHskWQIDAQAB"
+s1._domainkey.pre2-cms-jama	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1pvai+kjmu4vAwNNN0ijO63CZStl89D71OYj2zaNbi1nITeU/CMb8Jv3T8qcZlktZVsI0NzbmJcX7T+JyclKKOT4aiWTCZXcq09DJ5ImOw+2uFEJTdn73oLGvmugSlz2X1qbpHIVCRO8SSebXnSZa+pM0zAooZPNiP7lq6sxe6ERPre1MFD6vMf+CJ+aLO9KY" "zW60tlPbB6bUFb9ESXpBN3jnZIdXXzSmD7IEDRV2E9XKBw9nksuMtfNZy+5JUvbPF1TFooCQgSSlg/Ca0SwCT5GX/mtG3IxTCfQbPiOvL2yixWdka9zx7m4E5MCs6B5jc4DtdTALqbXpPBuKvtTHQIDAQAB"
+pre2-jeadv-webtest	300	IN	A	210.236.255.165
+pre2-jeadv-webtest	300	IN	MX	10 pre2-jeadv-webtest.cme-portal.jp.
+pre2-jeadv-webtest	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+s1._domainkey.pre2-jeadv-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApXgjhyTP0i8i9sK99QHvVW7M+yGn3Jt8lx6bcwR2cGDFDxrytS7fYo0u3A31nZYU0JixPwHqjW7pmsF24pwrsemzZJUGoH2WbMpbV59RLeIi1OlGEUi4HMEi+HKrnZmTIN+i8MJLvodkKC05CmtEWvBLWPEhdI48ogypDD3k39bBKg7tV73Ch92PqcbO0PEZL" "ihAn3At2qn+hTcspmzaL67efHs8urxF7ZBrRazi2h8nalbfGn/Au9q6gierz4LRaS0Y96CJtYcahlimV0JoG2a7uHlWXnaTs4vNfS+PuWJGf2OZEtYXeSz7ylC5tIDn6AlZ8Id90ttxPW4Xm0juPwIDAQAB"
+pre2-pde-webtest	300	IN	A	210.236.255.165
+s1._domainkey.pre2-pde-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArweqOrqH6tCDOlPfXFhPLdNUswSUQdrbnwM0ln2jCGAVQNGkGSbDHJgkc7JmPMgodeTJqU/ct8zasN9o/o/igYOWa3VKtSiTqutSeuvw4a3C6MQn2z/orOzmivdGPv72gFg73chDLtugorOO3H7RpoOuxM9X6aqQFIflTFkduu+dolTXZCLKwTUJ9IGsTJUJy" "KB8wZCQXrfCVxU68hDEuI1CxAJLAgpH0tsblDDHBL1Lt8gRVXyDl4LuzuD5GQgE7oGU2ljnKvOXq9QGrU4qFA75kZ2YvHS6TcWlCONXYbQlONW2sR0bK6+RYLgHBvn0fLEnGI32UVVXZMnHCPT7+wIDAQAB"
+pre2-pde-webtest	300	IN	MX	10 pre2-pde-webtest.cme-portal.jp.
+pre2-pde-webtest	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"

@@ -1,0 +1,301 @@
+;File created: 05/29/2024 18:00
+;Record count: 292
+$ORIGIN mrmail.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102742	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+pre-npvs68	300	IN	A	210.236.253.75
+pre-npvs68	300	IN	MX	10 pre-npvs68.mrmail.jp.
+pre-npvs68	300	IN	TXT	"v=spf1 ip4:210.236.253.75 -all"
+s1-nnpvs68._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApGaIuP7rYSzxFYhBFNvfFljTyDjk272H6N7mRywYWHRta0U3eS8ssuMfkKf0KcuS+/vPyMcVFdZ6XGLwt6Arge1H58e8J/tE1+Cii4pddP7uW3MLIJVYIy2Qv57BAt//+Rfc6BgcPQTM//KmOYBVXyBOVlsgdZF7NBQ05yWYZjZQK2MyytqExcazB/z35xz9V" "0xxv+Ji6MTF804QFFp9qjduzpJGWlI5786tRmh5IL04xoBUz0xF+BDg0FmgnX5eV2bld59+fCEfab7XqIYXkksnv9tQ0TqTGs+VvG7frngG+TRgxCvdOvmCaqM1HtuFoY/2NrvzSEAfi6xrwU6evQIDAQAB"
+s1-npvs40._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy88HatzQb+Ao98LS09o2DzuBUeco5i7/6WRe2nhQkgcBeEm7xQ/szd6rpFEewKVlwYeOISquH39Dgik860Sej3aU0g19zF4b+2EKNNjjcHEDZdN3RdLTkKJXItI7/MNG7UAWodk1NAluZCxebQ+RyTB7ztNKoRckrxC8TZ890UpbKCUE0+bc39+znfeI6R5qH" "yw5blM5jOi51jf/YPg0wVxmump7Mtaph1e5LY9n9H0dcaBkVGxY3ZeDcM8y7qmH09jzJy8SB/YJJ2eFVQ/HK7w7EdixnrtLRJGkt4KwUQt3Tqg+onJu9lawAlt9/msB7bLwB/dY2xDcpglE0WWGWwIDAQAB"
+zeria	300	IN	A	210.236.254.47
+cms-zeria	300	IN	TXT	"v=spf1 ip4:210.236.254.47 -all"
+npvs59	300	IN	A	210.236.254.47
+npvs59	300	IN	TXT	"google-site-verification=6k7QcIJGPcwBubYqMTk4jEpdrjcuxw3E5yOI6E4htAE"
+npvs59	300	IN	TXT	"v=spf1 ip4:210.236.254.47 include:idcfc-spf.kizuna-ds.jp -all"
+med-kissei-lop	300	IN	A	210.140.47.134
+med-kissei-dev	300	IN	A	210.140.47.134
+s1-npvs61._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxp6YVuO+9ILbMJteUYxkD/Dsae0kOfdtlf/4ukOpkQcQftP/0QEx2+RXoodtD91e9TCfDpsADT2FPY65pv8tCaXhLIXdqE3N/5HLskbQhWOI2KrvYslkqYI1+/fPyiLUeRBW1kssJOy/+5OqovDBVxpXjLIdp/CDAWdZTwUlVYxw9ssf8f7gC88jHnH6p6Euh" "R3055Gla2nHg+wFT2YNJtUnAQtDUHLhDJxnfaCazTNqFmnMvsaJEGEsKSrJtI3wp4frh517AyZUQuYjRdDALK1MeDCuQL7HEuldVS/hCGlZwGShFPmgFdA95Od+Tc0oxTFgRrx0UQQ3KJpOGjbt5wIDAQAB"
+s1-npvs66._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA/NnUAhcxGamWAN5DwNCNS9+bBr3z9k1av42CtoiuNztWRcRz+MCWt54l4OjOZFhVh3dsDeuVIvpsnzyMQVkTOqkVIuRfA479YuBG3hzWMYHZUhEOG0x64Nt+KX5X6iIDK8EFytJmiNCsr6mbNoAgVH9TZHOJEWB/B0dX2x+pJ9IXbASnCoRdxoIQMAyTBE4Ln" "bKKXrkjPRn4F13/kBDLvNC5Z2NF0gA57rtaxmUS4Zwh1PGwTCVnFJUnzjjLUVqcLcn9+0g1LZZwKrAIm4b48TN8wN0OgLFWpyX4/v+gSFYkoadBYpcQgtKuvnCKGma1BLeNH4glWIlLCLvJwU283wIDAQAB"
+mtpc-sendgridtest	86400	IN	A	210.239.64.66
+npvs94	86400	IN	A	210.239.64.66
+npvs94	86400	IN	MX	10 npvs94.mrmail.jp.
+s1-nnpvs58._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAouhsrZLLPHicemAO801CGySCb3u41PPxgzze7Ys/PpFkvgXBMKdxmWbDr2p9O2GUFon8V6NqCVD+sOud5QyZxftZRE7bP6iM+uN/rKcVffd8slIyUcShCVhokiMAUvhD4gjmeRO4v9QOGfNYgLrDp0Ijg+2QN19gT/8BRTyC0pNuVHPnWSRJr9JRx5ePyBrjT" "YoOC0NxI+L1nkW3JMiKhLZKxcANSbVh/k39zHyx942ipQ4WEjM53QpVSCnBn2GyusLUrSmSRXidvUqHiTJjbxNluNHYFLjNM9NsFYF42wbshmO3DXCxVKAeVzdjbIktVbw46jiLe0BeD5rwhO3VmwIDAQAB"
+medical-kyowakirin-webtest	300	IN	A	210.236.255.165
+npvs58	300	IN	TXT	"google-site-verification=jcjKpvkJc50V1cmqm57ra3TfBHVa6j7jNRXAq45tlZE"
+s1-npvs56._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9cFahCigU4XdclaVOeW4d1DtqT5xvua+CBRskn0JUKlkCB+040uviv+OJno7+JTmCkezbX7PQ9ynamlvAus3HEKaXhyr7/Vw3xir7UR1oDVWcn3mCCJQ5RU7mlvEz5KYiD353drSgPyoWWVVZN2HeFWqO3mOcfrXn9XlR10CucAyb67CdJ/RimKlP5jO3vIP4" "sS47S1kotZOr9Vx0pJ6fd//orASAfmAzUgG74C23ekqjYSfjBV8cFcwINxDqO/LAEmXfDmM25kVmitl4j7W/O1PnSgm8pThJTdvC5tuRYTYwo9t3o5fQOlxqizE9v4SNjk/83avqFx0f2uLtQ0vqQIDAQAB"
+cms-zeria-dev	300	IN	A	210.236.255.165
+zeria-dev2	300	IN	A	210.236.255.165
+med-kissei-dev2	300	IN	A	210.236.255.165
+kyorin-dev2	300	IN	A	210.236.255.165
+_7933e89d64a925010118f0078ed94b4f	86400	IN	CNAME	2e825084513ca7ebe64e2c64e7f3a77b.be99ab9a95ccc589f2bfd27fb3953be1.c4f556aca1a040048d08.sectigo.com.
+pre-staging2-medical-kyowakirin	300	IN	A	210.236.255.165
+pre-medical-kyowakirin-sitetest	300	IN	A	210.236.255.165
+pre-medical-kyowakirin-webtest	300	IN	A	210.236.255.165
+s1-npvs62._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7wxJpERuP9t6o7LlVqdMbZOs9Bw/SBVq4kWNHWfjo4Slq9RaoJk0piyjq7S073P+zU+sub5LwQSyGaYkRD7yj/dNIUOzcLZH7fpCGPpbQpzUrz5+4OYGaG6cNQIBuI8zrkMUREM84IJUL9TfL3R1+Riv0UNELyXPhVSChJYSBnXPvDnXj3Ljw7kqZi1KaVPqH" "TiOceVS279ZdKX9KN+KRr9dqO3hHcZfoedNSv3ycIEVEhqnEDaAKO0VFDY8SlgV6p2USRfy6iiHVnHQlFZ7CW0lF1vVXUjhJzqlEzRHH2bNlTuH5xvzBu09yGstoWY/B/fPiWfDz6AJcq3p8Kic/wIDAQAB"
+s1-npvs46._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzxiBj4Ha0km2N+qDW/i5iWgfzJS6N0RJGCQzzuIKVtONHsaUsmxX+VtVdEANBgV7jERuOHgd2QWzUlhfl54bMpSHC6YOb/pm8m7tG+0Hvjw5560JyVluZqUfDADBB6xf2swHtp2v7ECsZ2tOplYDvzUdnfPP+u35poj6wYdG1aXjv7DB/vntmisYbaDfikgfd" "sjqXzXH2WO74tAQb8tLb/tGWbtnOQHBVpGsSgPoNkiv9peut/MdV8nCcaoXLjlIS9S62mLuzx2n2mF8jayJdY8T9QXcfAvm5gvvd8Uy7iqH+hnwHSzWB5ocDvD5h7RfRlyr6J+s2o2cV/ytTPlLxQIDAQAB"
+meiji-dev	300	IN	A	210.236.255.165
+npvs65	86400	IN	MX	10 npvs65.mrmail.jp.
+20200825._domainkey.npvs59	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXty5R6o5kQk/GckiPsJE4BtkolLniMgjPMWuQAiH3DGmaYBV1VO1YXkS/RdEqKGN5OmeqiN5hGYqY3wjtywus0uUOfuXt6zn/6cUfBZoECmwk2UgwfvqiE3/ypC8bQhjdZJY6xmTYScYBpaayiFEtexdQ7eFFVBFWxjg19Jz8DQIDAQAB"
+symbio-webtest	86400	IN	A	210.152.80.153
+msl-dev	86400	IN	A	203.137.178.142
+npvs43	86400	IN	A	202.230.16.21
+npvs66	86400	IN	MX	10 npvs66.mrmail.jp.
+npvs65	86400	IN	A	210.140.45.213
+kksmile-bakup	86400	IN	A	210.152.80.153
+novartis-dev	86400	IN	A	210.129.11.122
+npvs62	86400	IN	MX	10 npvs62.mrmail.jp.
+npvs61	86400	IN	MX	10 npvs61.mrmail.jp.
+npvs47	86400	IN	MX	10 npvs47.mrmail.jp.
+msl	86400	IN	A	203.137.178.142
+novartis-dev2	86400	IN	A	210.129.11.122
+npvs45	86400	IN	A	210.129.11.122
+npvs47	86400	IN	A	210.129.13.67
+ds-dev2	86400	IN	A	203.137.178.142
+kyorin	86400	IN	A	210.140.45.213
+dav-npvs21242-045	86400	IN	A	210.152.85.223
+symbio	86400	IN	A	210.140.41.53
+npvs43	86400	IN	MX	10 npvs43.mrmail.jp.
+meiji	300	IN	A	210.236.254.238
+npvs46	86400	IN	MX	10 npvs46.mrmail.jp.
+meiji-webtest	86400	IN	A	210.152.87.212
+npvs64	86400	IN	A	210.152.85.223
+dav-testweb-candela	86400	IN	A	210.152.80.153
+dev	86400	IN	A	203.137.178.142
+dav-npvs21242-040	86400	IN	A	210.152.83.147
+mtpc-dev	86400	IN	A	210.129.11.122
+npvs61	86400	IN	A	210.152.14.115
+www5	86400	IN	A	210.129.11.122
+npvs48	86400	IN	MX	10 npvs48.mrmail.jp.
+npvs40	86400	IN	MX	10 npvs40.mrmail.jp.
+npvs58	86400	IN	MX	10 npvs58.mrmail.jp.
+zeria-dev	86400	IN	A	210.152.80.153
+ds-dev	86400	IN	A	203.137.178.142
+fj-webtest	86400	IN	A	210.129.11.122
+npvs40	86400	IN	A	203.137.176.193
+medical-kyowakirin-dev	86400	IN	A	210.152.80.153
+www6	86400	IN	A	210.129.11.122
+kksmile	86400	IN	A	210.129.187.153
+symbio-sitetest	86400	IN	A	210.152.80.153
+npvs69	300	IN	A	210.236.227.230
+meiji-pre	300	IN	A	210.140.43.157
+bayer-webtest	86400	IN	A	210.129.11.122
+npvs45	86400	IN	MX	10 npvs45.mrmail.jp.
+npvs62	86400	IN	A	210.152.80.153
+npvs66	86400	IN	A	210.140.40.82
+s1._domainkey.npvs62	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbo8z2e3TpREPnUInyI7vwNVRQwVfYpgmSAGC8BKLYRCO7YCrNuzlR55pOfh2Qy4kdMFOaWoZCAot6Td5RlTFuf/R3cAvY7oy2t8Pd+nImkdC/68VaxY5pwh2CBMten1+1IaeatCR2VkOe+53EH6Bdyg7v7qmsAuK4Vo8xj4WBuwIDAQAB"
+mtpc	86400	IN	A	210.239.69.49
+npvs67	86400	IN	MX	10 npvs67.mrmail.jp.
+npvs68	86400	IN	MX	10 npvs68.mrmail.jp.
+npvs67	300	IN	A	210.236.254.238
+npvs64	86400	IN	MX	10 npvs64.mrmail.jp.
+meiji-stg	86400	IN	A	210.140.40.82
+npvs59	86400	IN	MX	10 npvs59.mrmail.jp.
+20190304._domainkey.npvs45	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEib3mvpWaj9kcZ+g+yovRIaCd7Gkq10roiXENmj9Ve+6y1jM89HdlpATG68b1Se5ouAlzhO9xkU2HTRhk3cUC3RwNKL3RWRanCBjGwwtAKK9bErB0WZPRcJM8TTSpbxGJFs02ryg0EDuy3mjrWnRuszivhpUMDw6YmudkvSG1IQIDAQAB"
+npvs46	300	IN	A	210.129.9.155
+bayer-dev	86400	IN	A	210.129.11.122
+fj	86400	IN	A	210.129.13.67
+npvs68	300	IN	A	210.236.253.75
+medical-kyowakirin-sitedev	86400	IN	A	210.152.80.153
+fj-dev	86400	IN	A	210.129.11.122
+npvs69	300	IN	MX	10 npvs69.mrmail.jp.
+novartis-webtest	86400	IN	A	210.129.11.122
+kyorin-webtest	86400	IN	A	210.152.80.153
+dav-w-001	86400	IN	A	210.152.14.115
+mtpc-webtest	86400	IN	A	210.129.11.122
+*	86400	IN	TXT	"v=spf1 -all"
+pre-staging-medical-kyowakirin	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+s2-mrmail.domainkey.npvs45	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk6s2k/31J87vMZT3YLIIhqp9mwZGOF2HtBxQAZJ/d5dFpKHDAmcOCd8W4vmf1KxFe9rLtD/MvFUk0n5XzWku1WNG6C0B0RjQpoAz3LhSsa4uIZP/gX37wLDC6c4rrCYo4hzlkeacCW/65aQeFfOa/q8WzA72OZk5Gbbx52AKiZwIDAQAB"
+s1-mrmail.domainkey.npvs45	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsR18PO2ODPCUsHTLAeRYFJ7jAdAppIUdjQNYZWKvgTgwW7v8mnHJtJEQMR2Bz6Yxk8hiELukmWn6EF4ipQjNGfTXBa6HYPrCt0dShCXOscD5wdvMFEVELwsE7pSCbKMJ78SUT6YwO25b5BJGl9uhy9QsYqQ7/oL2dXLhST0AVEwIDAQAB"
+www7	86400	IN	A	210.152.80.153
+s1-npvs60._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzdH8au2/Sk0/JAci1tx8yonvDH1A31rRI4frG0zfyQ5wRdpZG4iVwGpSnIm0ZbxjcwwBN6l6GcPsoQJYlOMKai5iuxZoEJfP3JphY5uN7ht7w3cYJjAYk3dsTGSNvGjEQnuiHfxGJF533wUqE2Km8KTUfJSgCS6zeQDR07FH3W0fCLVu5p9SXvoCXXODcYrRP" "RuXK1DNXamLqrXFxby2FtY/eTmtVzpIGBQkHIFnaS8VXHM4+2ZoVgTDRwudwhU5RE197k6pCu3+NDWHEkqt9b4tlYB7F8PRiJwBQ9gqCiQsTL9BxpPmF0Fz6IqdqHnwLdhdPUlfKk7lASA3eM+/bwIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+bayer	300	IN	A	210.129.9.155
+npvs46	300	IN	TXT	"google-site-verification=lyVhB4zX8yFPmp6AnsVy-_bracnABueFvW8kVI-whbI"
+npvs46	300	IN	TXT	"v=spf1 ip4:210.129.9.155 ip4:212.64.225.216 ip4:212.64.225.215 ip4:212.64.225.220 ip4:212.64.225.221 ip4:212.64.225.222 ip4:212.64.225.223 include:idcfc-spf.kizuna-ds.jp include:bayer.com -all"
+s1-npvs58._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzFTMV6Bun3Xy8f86e32BMMqBoO/X1XoghZne0C19SZ1t9ydoTFCF2aIgnPFYzxzsmSbFnsRLjMCfHONSiKbWk0sIXak7sp89bSIZgtKnJGoYhfT5Xj3Kp3zT/b822uDJm0595elXJoNq3MF4gkKEsIE6s6RXEwRU2YwBolbl86uPFqwgynUuQiITk7baLw+uv" "emxoGbGzm0ZORUTWsx//H9g4vhpAoSam/MV1FWMaMUNWw1cXNEaeqEvlVasflCveyM9Qvqzn7OursPjRmnkNywvjWux8FERzbR7YUnCmhnM3aCXpqbpE9he99IBx+sIJvbXOzxpqGZliGUZiXiUmQIDAQAB"
+s1-npvs47._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArzNfzvKp6OcA7q7zSgkPpFUe/i4fxkQTayceREWhjFMEHYUKetTukD9GiBuifDwM4YRDy0SyHeVwcyeHD7tBPfnkXhpmQm/9c60ldFfz8ECJL1RU2wvPhq4FDjlAncWqBG0JoMkYnjKDqj6e5emePS/FxggXg9rrsObNpv5J3t1bjkSdyjVkxCE+0peRIDdL+" "tt2KBuIba/XT5VEn7c/6uxBhjZSofDwvv4/djT3V+7OJERj8NLOCPDe5HG9erF7CiANLLVCM3XfLTLSlgf53vT8198AKnf8BIqvhyTDaTaqWZ4qx1HBFMsOQoTu852LuunAJrgE0vh5G/Hd/wOxAQIDAQAB"
+medical-kyowakirin-sitetest	300	IN	A	210.236.255.165
+npvs58	300	IN	A	210.236.255.101
+npvs58	300	IN	TXT	"v=spf1 ip4:210.236.255.101 include:idcfc-spf.kizuna-ds.jp -all"
+medical-kyowakirin	300	IN	A	210.236.255.101
+staging-medical-kyowakirin	300	IN	A	210.236.255.101
+cms-medical-kyowakirin	300	IN	A	210.236.255.101
+dr-medical-kyowakirin	300	IN	A	210.236.255.101
+cmstest-medical-kyowakirin	300	IN	A	210.236.255.101
+med-kissei	300	IN	A	210.236.253.55
+s1-npvs67._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA13o11RWJUap+3003l166KdDNuSlUzGSwlIr3qJCboE17RVseX2Wz9Fx0wZ8NzeI764ROU7IO/yCuIFjRhPtXpxqnO8mc59HKlygnpM0ZHKoARPHM5sna9DWAlfTwo1MWev1KA8fKoKXANtPC8zOZxd8rA81N3lyxXnsTtdUpcu3d3QQxEQl9OphSUZCAdbYBo" "uYMmTZOMR/OiUPMrNtF+pOuNcG5njDQ8ppczDzbne05rNxbn/gVBP1GbGCzHChoa/PK8qC/4gbLGxUWUTIMmfuIq337JRSvYLDbp+KU23PG7VSd+nPpABR1eaNjqwnwubBmxbBjkbDIw6sBzvwIKQIDAQAB"
+npvs56	86400	IN	A	210.239.71.177
+npvs56	86400	IN	MX	10 npvs56.mrmail.jp.
+novartis	86400	IN	A	210.239.71.18
+s1._domainkey.npvs94	86400	IN	CNAME	s1.domainkey.u34614756.wl007.sendgrid.net.
+em1724.npvs94	86400	IN	CNAME	u34614756.wl007.sendgrid.net.
+s2._domainkey.npvs94	86400	IN	CNAME	s2.domainkey.u34614756.wl007.sendgrid.net.
+s1-npvs65._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuKVFizpMtbanQKtqmI9AgunAXEdq1qELYRjOPKAP0mhgROl/P9nKSJ7Z2kWZvHUbP0+pisJ0nVz+7+SlUkjQsfapcsimSJ/7pFt28/mHv9UvsCGsAdOIIcH4Nex14QK5lKpLnFRN2SIaU20wXz0UbNzTDx+Sir14B/HgaMeGTVEdzzsaJOhTPlsQYwWY3CPIz" "u2eoBdvWIKVjjk3lJHkCl2wUv3VlAWbkV6nEQjYny96CG+SGCQzHQqZH6R+j/IVtWiAisK+5Mfs056tkc7cS65ID+5HHtSpw6B5+WU+eNLif2fT4zhBfBJZlfFlOZBxtECv+Xoe4HYbdJc/GlkWMwIDAQAB"
+s1-npvs48._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqqz3JZfy6QV+GRAlha0bPblgk5ZqZhM2tgGRf9RD98yZk7nm/U1t2zJQZSrh4wcZhApa10T6iK73rsbd+UGAHU10DNFy0FiuMcYKSKYrQWDLsGWZQAagt3mGh5d2WFJ9rVTUJjXpdSLXrmVkO+gEuOpb+4WLPNPspUfqs44GRqXOy+JLxxbOurlPMXzdTv33T" "ooe/Z9rrhs3eAcD3dj/B0JqiO9EW9MHRIzNrGg3UdYbZ39RxT2cuN00h+27C78FrFMdAr7oxi704PDbf9NR3w5RIZbTbO6WWA964UovBwn59umGMzzwIRexZaE83s95K74rHATrK209nG9Fd5wMzQIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+kyorin-dev	86400	IN	A	210.152.80.153
+s1-npvs45._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA21A8t0yA2+Ig4O+tCfqsv/Q1ldOhdTNv0eJWivD3piNs2xRne0uP/Zj/44I5n/yzQdlkd/VRCSxi7u2HBnyFxU0evm8rALS4U6lpxdBsVCsFch7cSbqwb8DDaKtCYfooScrocfhMNamk/LzP/kXoPLjglgVBJaIoOprwiXPBLX23rd7G7ltDVsDfNgZXovmr9" "7MHf1WIXHcmnR0zBcGZBCVgqTFquEYUZu/YCnbzGtCgFGzApvYk+blAeB+W7Uqbt80VX8wyREa8KGc8DWBDSJl584TJ+Y+II3mFfPMFBiLug6pmvYFd6oN7CABDphbPt6GjK5m+5GE+Di17TO63DQIDAQAB"
+s1-npvs68._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4h9rdIvXXEQUeFl1FxTw4xRHoZM6YVMgX5ju/d7i7lmctIZiF24quwx08VjMkPaera7xCwiKvX3aMhNxfd2WVUqCJUV18A1WuYNYwsBjWx2cNESnwGPMTM4EeOGxK8qmNUOVOseAJceBDNtkVl70kn27eErdAPLX1MVhd+r+0X52twzHPusx3bf1J/qk4HD5N" "YGWHJIEuSJlY+lqGb9vIPt1wf9Cdu5xkqS7O2xCnbZzb7sELm6fC+jfqY00RvCp8K5kdGMZvf/5KLhPsaaZO4NsSDfOxiReBgTrBAH/gLYF+BWG7uqW4PLcHKfBTSOkxYtL5W4mKx9zI6deTBNUgQIDAQAB"
+npvs48	86400	IN	A	210.239.71.38
+npvs60	86400	IN	MX	10 npvs60.kizuna-ds.jp.
+dav-npvs30001-011	300	IN	A	210.236.255.101
+med-kissei-sitelop	300	IN	A	210.140.47.134
+s1-nnpvs60._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfAZIT6e4Fe+TZMEoBOFHV3ioLmSqZMncmmy0WLik3SLkPXGYNYVZarmggi8diLf1JBL1vZXUJ3gt23vd5RRedN5+2fz+QsOdmwVb2xJl+jDryfPYFRQ7wgIAasqiYshYEhr7RzTEl4OAafUSlequvlMLOK1k6sWu6OdvgoEQfCXHMhIyZf9usTUxwsi10TW9" "kzthrN26LbgkGOdtaM03wbXs96frZi824xRyQKpOkuy8ULIKSmUeh46DJ/KllCkoifOOaYLXZYiTtXfLwS0SPqo9zF43EDbtptDy2DXEZTIqvGhvay/1StKdgnqXm7spQQvLYIUhusS24dNO5gsxwIDAQAB"
+med-kissei	300	IN	TXT	"v=spf1 ip4:210.236.253.55 -all"
+s1-npvs69._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqlVhudWK/q9uv9UYRAxwo/bM/gfFvezrcLSP18YrStAUSCi45EnKYw7cr/xh2rqgRuByYKDQ901z7Y42jGRGsLk1Tn5qSmCIRhGzOuy0yvv4gzr7Y/7/LIqy2iMLAVINvjmbrkFcm+cxsEvjNzlNgWw0YLQT/dRXF/t4s4GNp99U/dNoq9jkm6JdeYvtUXwqu" "Hil1DM8HT/yJsR46Pc2XkZmPcVwluxb0k6zMv22y+3KngNXeHrnpI1uZHFNAudUMUwPqQuLsb5sf67JR2LHNSwZPRP3dzJd2m/Nefpb/ywE4O55GC+sGyG0LBqG03M9KM6sbr41dyRV0GMZlkTZCwIDAQAB"
+s1-nnpvs69._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtad8JgeKKL1UGICq248s4Jz//Ka/yFHW+rmKtBsI5sVO3llJXETTEsbEQvl8tubwi//WXbiDB4dvSXRyMNzldczJaotjyd33bKifSbHOzg3zpWRAd/mlfclowypkHqkycvo8o5bp3cfFI3+c3nQfloFkVqXjwyipntBmkK5AqNvBCI/dgOjR55B/3ipR0ZqUr" "ONvCZZz+Xf1i9xqbDhLKHZVJSINimXK7xo4dzjCLESrn0wh3vmj60fTdzInQTbnSSqFOrpK+cCxH61+WONOw9DGMccY9DKc57xV2OtL42kkKcRh7OcrK/hmbUOoEr2LMSxewwKBGiwJjjK2N42myQIDAQAB"
+dav-npvs21242-042	86400	IN	A	210.236.254.47
+cms-zeria	300	IN	A	210.236.254.47
+s1._domainkey.cms-zeria	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAokxZXcy0wZ0ImrIlWjj933Zi0KgpfZ+jYk6CCxJ26oFyeQBrMdybAMmKsbFZnoSNBrm7srjAfX3A8HwQz0sA1NDP8dxU5Crkl+vd4MgNaGtDP4s+m6WPll7/Xzc5Kx0NswN7ytnd+bvSkfxn7V2jP2QvhBwSRijv3ovohMjrhFblZmltyiZwdYbqz+qvTXf8+" "wBPBiAcyo3dxxqNuufK0RSJUwXOnwgffGgmNdCwXg84bL2VyuFmiz/xFd/4mgtOtr+PNUs7b57sYFb8rcf0ssR/32gmp5RLHQMv35JSaa/N0iaccO/i2lkhp7U/c03NJTgmYjy4Lwg79+nuTWUldQIDAQAB"
+nnpvs67	300	IN	A	210.236.254.238
+nnpvs67	300	IN	TXT	"v=spf1 ip4:210.236.254.238 include:idcfc-spf.kizuna-ds.jp -all"
+s1-npvs59._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4NPC/u3mhrIzZBajvw2EBnPUNlRsuWfAymohtAUL0WA58koCA3HtNIjgWO8OloEQQuubwSaodeUqQnNb5v8FwMsDZayy0tm5REuI5tykNsFT5JezMSnfZfThMee1myGeS8EPQ20Czwx7bRgU661gSn1iLS8Z7//eR2JPmGFE36QxDyeOMcwWTD2hRFC8s/wbS" "uTe5+G63lMfbR7sG0HsxXdi10rHU4t/iTuWAW/WfF98sUXNm/G4CwMQ2lNuaTWGMDE2E6vsjLgFlJUYBKZVG1gLDXIhhEttbDBj37455PJnmb/bpS2b1LF4/2m4qb7ixK7uEILQYsv2E4p9Zz+x2wIDAQAB"
+npvs67	300	IN	TXT	"google-site-verification=-mPognU_Kct3wpXRpz8T5tHOuEOHAemqwCdaIUQnJSk"
+s1._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqCO41AVDrk64dZ6sS9DD8Ww2JfljyyanXdI3V+2WM11d45jX5jDux4NGoH1kRqEQ/gfCU6+BHP5xhgFmdLUiYE6VOcZcqtt87aZlljcr/syCHtebv1pYQZzBPqpsFDM+U7cZ222G8uW3wLVSRZnLqjA8+7zUKtbyGTwWaarP8VjtUbmZGTro0EZplyYb4E4cX" "RKLyKZfQzCZxzI3yGg5nyYAL6L0DWTYRpdYYPMq6RqoGp5dmkT2q+usbE5mUFRq+WaSO4fwftpQBO/9o0z8IblNQ8Y457hAux5tCH83gz16dFUI9rWJxOjJy1k3zJ4AE2nPP4vb2TJ8QHAOInFQZwIDAQAB"
+pre-cmstest-medical-kyowakirin	84600	IN	TXT	"google-site-verification=Igmso2PAy8-7fPiOwMatuR8wC-B-SAvRzgWtdyDF32s"
+pre-cmstest-medical-kyowakirin	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+pre-cms-zeria	84600	IN	TXT	"google-site-verification=0I02-SwPeT7fS8P8ABqeR-IA90j5MB8mL6lnWVZ4E6Y"
+pre-meiji	84600	IN	TXT	"google-site-verification=emhioVb5QNMJHQW98QnqphpZVIGaxjsisPtWE4Ua6-I"
+pre-zeria-dev	84600	IN	TXT	"google-site-verification=dnieAQ-XXeUcT0fiK0gyF9SikbbiFZwQENconbV_QWw"
+pre-cms-medical-kyowakirin	84600	IN	TXT	"google-site-verification=Yn8yOfiFKfA9HIOmmttabXvXhQcKW2_8SlkJJqDYKEE"
+pre-medical-kyowakirin	84600	IN	TXT	"google-site-verification=fmmMekPoG2-xb7c3gjU0hjD72g5vbaRH-cY1s1KW-uE"
+pre-medical-kyowakirin	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+pre-kyorin	84600	IN	TXT	"google-site-verification=9luZwyXyDOPXXgBy4HkkvQzJUQHvPAsUHRSClQriyvc"
+npvs56	84600	IN	TXT	"google-site-verification=PPvi-WTLAC6UwwB4B9r0wf50XVKHFApfwti5bCsmbF0"
+pre-bayer	84600	IN	TXT	"google-site-verification=9canaNICuUW6AnzxwiBNHSX_yckCzPVqRxMRmUwXMbs"
+pre-npvs69	84600	IN	TXT	"google-site-verification=dndplVuKjg2sfce9FoUW07aM_ZXHgWcGB-bfUR2nZ_0"
+pre-npvs69	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs62	84600	IN	TXT	"google-site-verification=Ee8DizwBN1SKqnqX1cgTf1VaRSmEP5sE7LShjphgk8Q"
+pre-med-kissei	84600	IN	TXT	"google-site-verification=SJKnqF8hCoZjWrx32PTBvv8M2v5D3dSLfVmsGdVDrDg"
+pre-med-kissei	84600	IN	TXT	"v=spf1 ip4:210.236.253.55 -all"
+npvs94	84600	IN	TXT	"google-site-verification=u9cY6hdUgXXHsp7h3ANCclViRPiEsG-hXJQ71c11RQA"
+pre-staging-medical-kyowakirin	84600	IN	TXT	"google-site-verification=BJyXahBNnfw76ncjEv6siCt2qpKm0D44Pitn0x6MBqM"
+pre-dr-medical-kyowakirin	84600	IN	TXT	"google-site-verification=w8Zu4xatJGqzctsbGDer4EtnfYRYBYaUnJ6gly7fb9M"
+pre-dr-medical-kyowakirin	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+npvs56	84600	IN	TXT	"v=spf1 ip4:210.129.187.163 ip4:210.129.12.86 ip4:210.239.71.177 include:idcfc-spf.kizuna-ds.jp -all"
+npvs56	84600	IN	TXT	"google-site-verification=cvNOKr92619hT6HB7UTV0lqqmMoNmOHdZPmW01gNr90"
+npvs61	84600	IN	TXT	"google-site-verification=9pFiba0DcLSXwlMG6jrUpFBnX5yEqqKo2fjlti7fYqE"
+npvs48	84600	IN	TXT	"google-site-verification=8rOpOdIpdUHC_C9ZlMPmbVw-XGQSmm06ZskgN3ThpxE"
+npvs61	84600	IN	TXT	"v=spf1 ip4:210.152.14.115 include:idcfc-spf.kizuna-ds.jp -all"
+npvs48	84600	IN	TXT	"v=spf1 ip4:210.239.68.108 ip4:210.239.71.38 ip4:210.239.69.199 include:idcfc-spf.kizuna-ds.jp -all"
+npvs40	84600	IN	TXT	"google-site-verification=FIv4xnC9w8PsgaKdJ0EZkOPecttioenYgyI_sgmXMSI"
+npvs62	84600	IN	TXT	"v=spf1 ip4:210.152.80.153 include:idcfc-spf.kizuna-ds.jp -all"
+npvs64	84600	IN	TXT	"google-site-verification=cNCuUR7QRG0XbYZREziSZ92-AQMbVq8AylqRMhNDl3o"
+npvs64	84600	IN	TXT	"v=spf1 ip4:210.152.85.223 include:idcfc-spf.kizuna-ds.jp -all"
+npvs65	84600	IN	TXT	"google-site-verification=hgaRkcAkPEORIBn8Q0yCCPd_NVgXa6TqOxyA6Zzzn54"
+npvs65	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs66	84600	IN	TXT	"google-site-verification=VC0ay_--259lPOJN5uI9xb1Hewa0lxF3q1W6zGgY7FM"
+npvs66	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs67	300	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs60	84600	IN	TXT	"google-site-verification=Dmukj667KMIdOTuHJJxnGZ_BG9Bd3rNlBsAZkzgxhik"
+npvs60	84600	IN	TXT	"v=spf1 ip4:210.152.85.83 -all"
+npvs47	84600	IN	TXT	"google-site-verification=3e-WOV4R43kM_MDpA6vO2a_XfuqN8ShvUsiAxDCp4RE"
+npvs68	84600	IN	TXT	"google-site-verification=70cnHbZvKOjT3AhurR0QOvQTkBTUx0PC1xxP4VljTSI"
+npvs68	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs47	84600	IN	TXT	"v=spf1 ip4:210.129.187.142 include:idcfc-spf.kizuna-ds.jp -all"
+npvs45	84600	IN	TXT	"google-site-verification=MZpna3H4KLCwizm3Nqh3K3IeCYBaqecweEdF3hpU7EM"
+npvs45	84600	IN	TXT	"v=spf1 ip4:210.129.222.206 include:idcfc-spf.kizuna-ds.jp -all"
+npvs43	84600	IN	TXT	"google-site-verification=EAzXyACK4LIwW-R4mGKGaa9pSJMo8VzMC-GcDMlHovk"
+npvs43	84600	IN	TXT	"v=spf1 ip4:202.230.16.21 include:idcfc-spf.kizuna-ds.jp -all"
+npvs40	84600	IN	TXT	"v=spf1 ip4:202.230.7.28 include:idcfc-spf.kizuna-ds.jp -all"
+s1-npvs97._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfAZIT6e4Fe+TZMEoBOFHV3ioLmSqZMncmmy0WLik3SLkPXGYNYVZarmggi8diLf1JBL1vZXUJ3gt23vd5RRedN5+2fz+QsOdmwVb2xJl+jDryfPYFRQ7wgIAasqiYshYEhr7RzTEl4OAafUSlequvlMLOK1k6sWu6OdvgoEQfCXHMhIyZf9usTUxwsi10TW9" "kzthrN26LbgkGOdtaM03wbXs96frZi824xRyQKpOkuy8ULIKSmUeh46DJ/KllCkoifOOaYLXZYiTtXfLwS0SPqo9zF43EDbtptDy2DXEZTIqvGhvay/1StKdgnqXm7spQQvLYIUhusS24dNO5gsxwIDAQAB"
+pre-medical-kyowakirin	86400	IN	A	210.236.255.101
+pre-cms-medical-kyowakirin	86400	IN	A	210.236.255.101
+npvs69	300	IN	TXT	"v=spf1 ip4:210.236.227.230 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs97	300	IN	TXT	"v=spf1 ip4:210.236.253.49 -all"
+npvs97	300	IN	A	210.236.253.49
+pre-zeria-dev	86400	IN	A	210.236.254.47
+pre-cms-zeria	86400	IN	A	210.236.254.47
+pre-med-kissei	86400	IN	A	210.236.253.55
+pre-npvs67	86400	IN	A	210.236.254.238
+pre-meiji	86400	IN	A	210.236.254.238
+pre-npvs46	86400	IN	A	210.236.254.236
+pre-bayer	86400	IN	A	210.236.254.236
+pre-bayer	84600	IN	TXT	"v=spf1 ip4:210.236.254.236 -all"
+pre-bayer	86400	IN	MX	10 pre-bayer.mrmail.jp.
+pre-kyorin	86400	IN	A	210.236.253.244
+pre-npvs65	86400	IN	A	210.236.253.244
+pre-kyorin	86400	IN	MX	10 pre-kyorin.mrmail.jp.
+pre-symbio	84600	IN	TXT	"v=spf1 ip4:210.236.254.59 -all"
+s1._domainkey.pre-symbio	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3bF2YopuYmNyliRUjP9FjtHLDMT7aNImydQJjupQbdr2oKP0TgGMBUzCSa7orCO8Wp7apBkbbOOzSgh9RaJpW04FfNdJhNvsMN58D5A6Marvw/o8QHf9Xyn3SE5xCfagSCcBoqAsbEAHbgUOrsztcAryQqVB8t6eUFtcojRUoK4ANxXTweArnyFnzKpwnCs/I" "1QzNzVyfyITkiHo/fWXsojRJSGeN+dHUO/dF1HaDTb2B6dBjucUNqrZOcq7HpxNaFX4S2SA9R9Rr/knohAZ7hkZnDHF94TNdbg8oGLvO8VGYpimGRiQdhfC+m5jrG+aC8xbEEZBRWuC0+rQU0nbFQIDAQAB"
+pre-npvs59	300	IN	MX	10 pre-npvs59.mrmail.jp.
+pre-npvs59	300	IN	A	210.236.254.47
+pre-npvs59	300	IN	TXT	"v=spf1 ip4:210.236.254.47 -all"
+pre-npvs67	300	IN	MX	10 pre-npvs67.mrmail.jp.
+pre-npvs67	300	IN	TXT	"v=spf1 ip4:210.236.254.238 -all"
+s1-nnpvs67._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv0dzwyrxLEA0aw1vrt83hYkFZu6GQA6e5Wx8nf5F4tNaHfjWCRn3rEjmU0hBJvPJ5h0OScJ+iyMr9/JjSFZ65mRN4/g2+9Ybs79eNOLQb0EcgQzN1bVufjoK8laoGNlW+Hl2HqWPDTjkdRHEytF5xtzt0Sf76suT77MxCQeL7jW40+tI4c/5jeMdp8fBvSeH4" "aDHww95TNeuz3z/4qAb80RNH2VJ01PplrwL8TSetEwMY1AfwY1CA5Q8gaYTtjQnBPJg76VRY4QlafoK8ysXSkp1J06lGu/lvjoghiH/iIJ7wjwc36MQhxEBLOjEgLA/LBClSYEmN9k0OzmTgkUtawIDAQAB"
+pre-npvs62	86400	IN	A	210.236.254.47
+pre-zeria-dev	84600	IN	TXT	"v=spf1 ip4:210.236.254.47 -all"
+pre-zeria-dev	86400	IN	MX	10 pre-zeria-dev.mrmail.jp.
+s1._domainkey.pre-zeria-dev	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0yTdhqqzvYnPWvweiIy9yWfcw8/3/nQ6P36IGzdPzxXvu+VmzuBfWXfpARgpVl9KrdgQ2SssneYsZ8ODaWJHxuVCu5JUjUSIw8diAMl8ZweuNF+4fg/9YA3xoExhNmjhEVMrg5OOuRjGt7tRAQsCiTFXPQ59E6fMKgq9obd/v0/W3lC0kuXNvNu2jdAtr6zo2" "QeXTYXBs94peKcxmNgtyP3pqJeLMOkIX9Zrxuj50hhsGvZAbh19aAuUE15SUTzkLMhP6oa65Gz9MP21qkkY4In2M1qWuXH5GqvDhkcPHkCu+glDRnRnnXLvSK/9rl5UYL5xSAxATCD2zCooncdlUQIDAQAB"
+pre-cms-zeria	84600	IN	TXT	"v=spf1 ip4:210.236.254.47 -all"
+s1._domainkey.pre-cms-zeria	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk82bo8ExmYL8OdjyyY442uMI3DRK/DXe0jgUG7Wc8eeouOeH/7Trqa7S0JRneiQobdKlIWybkAWRLGSFZOT0oFaGRDypxsT1LkSwtZIBRwRal1vELQ02J2k9sSZbH0w/Az8IV3h9cscs4SWovO9lIbFbsAkwIsgOaPoRGxJbpckiQfXQIMBb3MYHpIckhajrl" "WP2EdwLnNOGfjZM+075klr+ZVK1Xrs8X2o+wPzHdKaN+oiltJhXykV69Xzd0U8aSC+Io/cYKMq6tX/42O6FlbHs5zF/81CVYn9Lo642min9GRpPLWDaB+OdMBtBU2Eig0WitC7lYAY8RRnUOA2ulQIDAQAB"
+pre-npvs58	86400	IN	A	210.236.255.101
+s1._domainkey.pre-medical-kyowakirin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoNHVPCWIFpCnOi1w1RT7OvwKnqRw4BkLMbDjr5+1jgl9DO8eV1Lz+whbNb8wXJO+4P70wqeIU0ZHnQODBDNA1U2IMI1irY4h9zTg3TueUInnPw87K7HfccNlkWqXHklZuZXPZ8mOcHw8kYCLOQ4JhX83maR1AioK/eVAi1lnC36PLHAuX4NK2CDrI/Je8KCuA" "JIQ7mfklTTlqtUBkzVkdQk+Tf393c8PsYgJ6x9MkXLro6+QPpjyhB+6haS5zMR6hs+DeUtey+XoCJVbc+zCqKFG+XT3FJAKJ/vhxoRn4PsFUFgq/5e4WwsQP5qMj9oM7LA4Du6BRIFBA4N3SRXjTwIDAQAB"
+s1._domainkey.pre-cms-medical-kyowakirin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzyRyPKVmalHZnvtFB8aCm9lnDrb+xs7MG+3kvm0rOzY67VpvHqbi+59fGvhvJk3I5mFtt9f9Zmv+eLL97+rUfwSjD8JhHdActlaI6gv/Fr58jcvjOUJvMEfJLtrlpO21rpZZHllM1uwuyOmeqCXY3PGdtfc+cJ7QFRyg+7oqKm5uN+TW+bTpnhaudSOYOAvr6" "5K8oQEaQ6gKODwXkxTCiz/vlfBv5l2utfwl2rVp9323mFT2cKsgU/843ZVR/kM8e8wWAtjkbAIjct38fe/Ubi/Vqcq9XsbRPoxkyct6faXbtTCyHyD2/nTdpWXfCJkeRuPZO0HAFcPzYepGEKBgCwIDAQAB"
+s1._domainkey.pre-dr-medical-kyowakirin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA02J0DKXfQE+rhmfhNQX5dmFH+CyasHl5c44R1jNYJunQbsK8iCtz1j1WZipL2FW+V1lNytI0sS9Wxq7XsPco1ZDBYIbXmomrLNSVeL6MO/03+6oxWtChp7rQOV/wXro0rMRi6mSTsoObb/pZ0eUhw5XA48TFjCFu338CcABofFOrPnDyYTyyDsoVGKPFxiDLp" "wLNOQXg9hoyUrDxj2mMGyQuHZ5ewdJg1OcmZHpac1OLKbt2TaebZKskbQs541pFVEfO9yhg8w4lQaMQSnxkM1GT7nSJEEhX9M6FdKqzZQmr7+aEETcK/oY+ZLbUuszYmzJH6QUA0qjbfrsDMECvRwIDAQAB"
+pre-npvs69	86400	IN	A	210.236.255.84
+pre-staging-medical-kyowakirin	86400	IN	MX	10 pre-staging-medical-kyowakirin.mrmail.jp.
+pre-cms-zeria	86400	IN	MX	10 pre-cms-zeria.mrmail.jp.
+pre-symbio	86400	IN	A	210.236.254.59
+pre-cmstest-medical-kyowakirin	86400	IN	A	210.236.255.101
+pre-dr-medical-kyowakirin	86400	IN	A	210.236.255.101
+pre-medical-kyowakirin	86400	IN	MX	10 pre-medical-kyowakirin.mrmail.jp.
+pre-cmstest-medical-kyowakirin	86400	IN	MX	10 pre-cmstest-medical-kyowakirin.mrmail.jp.
+pre-staging-medical-kyowakirin	86400	IN	A	210.236.255.101
+pre-dr-medical-kyowakirin	86400	IN	MX	10 pre-dr-medical-kyowakirin.mrmail.jp.
+pre-kyorin	84600	IN	TXT	"v=spf1 ip4:210.236.253.244 -all"
+pre-cms-medical-kyowakirin	86400	IN	MX	10 pre-cms-medical-kyowakirin.mrmail.jp.
+pre-med-kissei	86400	IN	MX	10 pre-med-kissei.mrmail.jp.
+pre-symbio	86400	IN	MX	10 pre-symbio.mrmail.jp.
+pre-meiji	86400	IN	MX	10 pre-meiji.mrmail.jp.
+pre-npvs69	86400	IN	MX	10 pre-npvs69.mrmail.jp.
+pre-cms-medical-kyowakirin	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+pre-meiji	84600	IN	TXT	"v=spf1 ip4:210.236.254.238 -all"
+s1._domainkey.pre-cmstest-medical-kyowakirin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnfDQqnsjp5DaXkX9ha6YL+P6TVWtxzzXOqrbkJzVDBq00rPHUdchSFimPxnAi7sfPKcdDjg0Pb0Ky+kACWLk+HutzVk5RhdoC2ReRwp0KVCjR7r1GWH47+HKZ7pbJVByUK0Pnjtpt3j7losQMXWCRQeCtnRp6rLSPxAyrVJV7SkZ2bzNio10nUE5CeZwaV289" "BKSSCJgY6Ff1KFEnOj/2Y0WLtTz4HnGMS3Hh6bW4y86rcgQ+CXfuYjeoZbRfBwydPrA+GqB5E60kAKjU+bVHzNTfDrKaXxAR6dXXhoSEvpOKsnvtE09vO9+fdtsMA3vMvHZ2xfbsZRTI5jvlKPVmQIDAQAB"
+s1._domainkey.pre-kyorin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5rrj56x6Rasm5+D1lUKbrg/q8D5wPlz8dIyMH4UsSXbwsn99b/jcimmdAHpHYpqMDDZlas+mG5pweAfDTZnezkWL93Bk2SnHU6HmuDUj6jDQz3JntpL+nkV8Ut1HgnDjuYYeVN84xPk4Hx3fELMRyRo4owm3CzeBxYfI1OtaE+ReMkJWfp3zCm7a14ZoUzL19" "QOARMa6ZT1INZHt5HNLAzxhVPraNUZP8TlrU6CYCUbDXFRHLEBMT7Q3NTYTd4qPHT8ah3xdTU1AOxW8PPQio2jt4oQrt5gDRwwfCnFPvNtwG8bof5KMlU2BJ93QuT5xhClxiCsQGrzNAdzFRb/fAQIDAQAB"
+s1._domainkey.pre-med-kissei	86400	IN	TXT	"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlJMozL5wJTQWP6MTzv6V/bqjntmwf8Utj6ViDRhmmQEzPv59Tww5T6anthwAQ9dqQKv9JvFdrUX/3BDOjK9nA3TmFcYZotYQsWsQLslmViL6RdCBmBDbdRxh/jHnUsJKOI7Vjr5uUBy77KOIHr2VFz2Qk0+bOe9d2N8CCNQJw0GhCE2qDRXNtuINVGnLjIwqSG/OGDuHrDur/afTX" "G8nZIbAS0L5zu5bjeOB9O3kpoGMbfISv+bzUbY59TRGdDxg4LekTFlVUS6mtwevbcWPc+MN/34YbNnPNPRD32xpP1zdMLVgC8gpJKaxY+IOFVpZp+TwwwVxg6Io2l4kX82OgQIDAQAB"
+s1._domainkey.pre-bayer	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnih0SnRqo3s5a1WLtAI1Rz668VpOR9WV/sFnJTfAtYOAr7t0LrUnt22JMezbsmgpjkccxzyoYTAwQ8Yzhvbg251Nz5M0I8E8GUDqoCXV+LHnxeYiMizZt9gP3KrIYOgf5y3eglS4dgkW/BZv899lvR7w7tPPh8ablvodLJK0qIqtOMqnSo1vNP1vs8nS4ps2H" "Qu+qDEzYfX3yq3t0BbI13XzuFTVI0eK0y00gY0i2yOXMBQpUG2fluHQOohueAUVjS/5iApKVlDh1pjXBYRJk8YmOcKfv2LS9VjuDak0XQZVm+n7/Qh2RdjAOIVH4B/32Ab1HKYJ8so/9vJ0k5GhMQIDAQAB"
+s1._domainkey.pre-staging-medical-kyowakirin	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArrFI/1DI4t86AkBUoEFl+2XSthlKnjor7bfIOfMWKkmK+CfdrPhWzHNHNRuh2p1yH/ukccKUiHPipSVhfHzRS2ft2QXAtm1v9sgEgBpm76TxLepMY1JPyv0/QkoIeuh1PdcHKnChxYfin/UrZCzKaqbOnh+4HYBLIV2q751PQ7dpBkqIxcO1YYY44MME01JAz" "qtPQhYVGOzd+nEaDPekG6TdAZfxXTxCq0F2SkhD5Wu8cE8vU+AghwS2N5/sBfcPAABS+d0BLVZ15A7yNUJbglXJqxLhe6Y128O8XpQprcnGUJmIwv0l1N6iV9gokyoJpr/LHt0H50+/tW9TmFf7MQIDAQAB"
+s1._domainkey.pre-meiji	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7AJLV6HdR71POah5Ld7+qqXcyIs3DXPPpnLHZgwhm+ehpS4qbyps5alPsazAL17Iq9oLClnH2Jt8tH3RkKN8jlUWI40COrCxqpyWamLhGA5BQ50WyvcunTURi/g3TVrZE/rSYc4LaaQSHnvA7xKikSBeNPcrtftmUs0/82onIhD90ks5M5M/N9s3PMVheI7yV" "jRr1NRTNLTWYOqRJcaLS5csC4r6fjK6fKKGKCYuPHDj2wf/nq7hfSbJNyDlJIJZAKj6hic5yk2115m4WppfaMwHUIjeM6DBkPdlpCCQeRZtn2B7AIfxf6FB2xK+tH1wEFCznO3vK7defPijhkEBiwIDAQAB"
+pre-symbio	84600	IN	TXT	"google-site-verification=lE-uRFQmvwn-lYp7HUWVX_fV2jEIfRc69XcW8y6sGaU"
+test-med-kissei-sitetest	300	IN	A	210.236.227.230
+s1._domainkey.test-med-kissei-sitetest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzBYLW6vOCwpWAv7XMEbtyv/KsB0h96km6dCoKKSR4vR6BET0c6GZwgg2bDHBe9DopFX4mT8d1dDKwpINyd+12ref8yOctGE7e/AvqbpxjxS6EAvIxVePV5377bZ/plpYHneSVdyi+lrpymT14AAeF+sMVA/6Q8Enw7uVBJp3fVEPoU3AonPWqzbXtWZ9VkPxI" "xvVRIbC0UnpmjzUPZ19Ef8pMB7TJ0RFR8GDAzy313Zt0DdyELuMjT9yGbw9XCKSjv51Vnd+zRnCSwsBqGG1Rw+Rkv+dtF7QxLs4xySoPSE9mdfMjq4FxYNPOxSllYQ2PEaHFtJrZ+c8FRcz680n0QIDAQAB"
+test-med-kissei-sitetest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+test-med-kissei-sitetest	300	IN	MX	10 test-med-kissei-sitetest.mrmail.jp.
+test-med-kissei-webtest	300	IN	A	210.236.227.230
+test-med-kissei-webtest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+test-med-kissei-webtest	300	IN	MX	10 test-med-kissei-webtest.mrmail.jp.
+s1._domainkey.test-med-kissei-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3pHBEDZ+k/GyDtCnvFkimql+IMiCRhCqNCmHKaiCPYPf/jwoJbvi0saRVXBmCMCj6tOYGCNteW3zuCAqL0RlQNOSFr6diEmXyy3kls4EZuhrPPzr2HRvHGN0j3fBgI3088zJ8VpLzwSs/UjjQJlGlxLLzjF+MNjD/XDrN2fJBhHzeFaMJHzWLvumOorXQzitd" "0cDC5wh/a/UM/JJlYI052fqQIi9sAJjDEAIl3AIYmD8pfDW7oFHjU99/aKwTeSbbONt2QfIefg32m5Wm1nYnVdOTVdGvYWEoxA/IqXEwQON6x8WMkV4Dcs811HwiUBJXITO9yGi/HEIsI7u9eyOEwIDAQAB"
+pre2-med-kissei-sitetest	300	IN	A	210.236.227.230
+pre2-med-kissei-webtest	300	IN	A	210.236.227.230
+pre2-med-kissei-sitetest	300	IN	MX	10 pre2-med-kissei-sitetest.mrmail.jp.
+pre2-med-kissei-webtest	300	IN	MX	10 pre2-med-kissei-webtest.mrmail.jp.
+pre2-med-kissei-webtest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+pre2-med-kissei-sitetest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+s1._domainkey.pre2-med-kissei-sitetest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmDYbEA0FFXxyqoAMJgd3zxG1dop/CTQ0eDQc1LriTohPHqqi8vy13I//Et3qqws8YJJNDZnX3SZhF0EEJv+ojjFW19pdiCp7eZIQCfM60F+fdZcMZWffx/NR6WLTShLTK4xP14aEptMrhPczpPSBNWOjc9S0xLjYRYmYAsPc81Kb+yFsc9Us3d6DXqXYhFQHg" "9sPSTMoHk/of2FPP/thGDVpfjwgreBViiXc30zBiNcvdUItSoDPNkdC5K8Y8tUr/c5RAOPOP9CSi9o/Hc1zb0Qx4GtarJVPFbteKAXU/y8bzu/0VUOLDNzzgXceYb3/22Vy5MkqRYbL31G9ro3yHwIDAQAB"
+s1._domainkey.pre2-med-kissei-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy/B9v6G15ji7H0Ni08neOBpZDbLZNo2UJNGVOqqdpo+wChPnxZroh7xDi3ri4ZPKIRL8Kff8kY9a/0b+Z9xFoIxQUp2/yTwUL9Wv0Z52kWqYiTPDjbIzlPJZAaSyvWeS/H33u5+gtya3e39kQyS5Qn9yjTQ3MZXUNUfttNjs3ljrldUuUAmnQEisTOF5r8mni" "yJ4wDHsz7aiekPO6L43y3/BOgQWrswS4JDnmBRHdNZ0nosTUW3m8LTT+fHpD+oO5DqrpoZqEuTNNJU4GoYpU9O98xTWfwaP8dSdsmnfZg8eebjPv69oiS/ofrQ/RQ5G66rAN4FQANyW5YFd8prwVwIDAQAB"
+med-kissei-webtest	300	IN	A	210.236.227.230
+med-kissei-sitedev	300	IN	A	210.140.47.134
+med-kissei-sitetest	300	IN	A	210.236.227.230
+nnpvs61	300	IN	TXT	"v=spf1 ip4:203.137.196.186 include:idcfc-spf.kizuna-ds.jp -all"
+nnpvs61	300	IN	MX	10 nnpvs61.mrmail.jp.
+s1-nnpvs61._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0+Qe7vuajmnZSnoX4EJzwK4/s0koG+d0kzEgdwQvMGOhJlPuD/Li4pAsJKBTviihMbg9nxfmYsyIEK1nuzdfmTyJvxFpqEqYAra+NnGBubRHozFjlo43BvG+wU7KebEdKzjEvIbIBhvUV8bjvajMqRwAHVHpxkEJPbMHkciZg3cSatmOkW7w0c7tPvHgCog5i" "zQCCdp73cG7O1Z7knhu3x6coabKOJSLnP86BCQwCdoBl9Rfsb7Zpxw3VdTmGO+QrcgTxZ2R7dTwndGRqIrmY30kUI2iaNcl89SUswRUQVYXhNw8nhKdvCUckSOuBkqZMArvKcY6v5TdXV+4x+k/FQIDAQAB"
+nnpvs61	300	IN	A	203.137.196.186
+pre2-meiji-webtest	300	IN	A	210.236.254.158
+pre2-meiji-webtest	300	IN	MX	10 pre2-meiji-webtest.mrmail.jp.
+pre2-meiji-webtest	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.pre2-meiji-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwTZljyn4eGmXN2CU/SYSvSXLFOZd54gpx5fi/K3ps8HhJq7mpE32xKHelNMf/Ot866NoVl1rY/lKdtz0qmp3j5x0KuktLvHx/T9+IA/r58Q4li37Sfy6NydTtoxk0wtiokd6jIlrfaa7XZxx5KxnluyN5JOqAOiv4WhIMEvU/G9KwP5p4SjzPt0YL89RUapDV" "9NwdvRp1m27wQDpF4KxVa5PyH+Xt7vY7qgunQey4UBOxQM1OowLOrYycWBxfmVGd6ra2UcvBHCxws0PN2pEL4Ela9F80omrOF50ZI7P9uZgAfGK9ry0ON8E/vnEQTFEuu7FUJICFcno44h4F6Z+ZQIDAQAB"
+nnpvs65	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1-nnpvs59._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzZMgWaATzZ4gCmselwbKdXQIzGHhNDTwKeTZWHCUwlWyf2znSk9rfWkCjODogCa9+uAQmSB2pgiVDytQIcw4aZKINM6VuP6/G3KJKeal3SD5Z1OXyN57xT04Z0gPT1CxoKm+7qO1JaNC4mL3AJN2VsP7FviX8ygl5dsKqs33JHc+sVlV2QofZAJD2jNY+4W8D" "BuMZQ0CI7VKwChvrivdOXDDqSPwfsE6Ma+H3HYWp4BZaqR+dpHC3pKgR4l9e0PGgk1iPnTmQ7IidW/xat9uUVpL3XGVOiJ/1qv8lsM2JJlC1TfGC6LwbJJhXpIxBEhLed9e/1sb+K7eICkE+RbPnQIDAQAB"

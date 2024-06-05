@@ -1,0 +1,50 @@
+;File created: 05/29/2024 15:21
+;Record count: 41
+$ORIGIN sscgmedia.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111751	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	86400	IN	APEXALIAS	n9n5mm0q7n8m.wpeproxy.com.
+@	86400	IN	MX	0 sscgmedia-com.mail.protection.outlook.com.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	TXT	"MS=03923434307E40CF5F123D2F3E12D39551A39B43"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+prod	86400	IN	A	13.92.46.124
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"google-site-verification=xv2Wm9eAbn5SoF2CGCypDnepUPuWF9avEYfBj-wWqq8"
+www	86400	IN	CNAME	n9n5mm0q7n8m.wpeproxy.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8ci1ZDxSOHEIewq/vkjZHIkktAZCGITMT60W6G+wDreN6ZThtKzC+6QQy+Dck6YfE6CHjQjgYIYq134OgCBfI1RWEy7AAP1DLbePn+RMa1p+h80Rq8JImX4vBuPG502ZNGE49M2dXucU0N00297pfF/YE2VkTHF1v1Bf9y5vQDhMgsowXNrCIKypGdZ0/RCOF" "wFBgHshmmpBCz9R1t1LfOade6gxKNyB7kM962vDO6mwaxry3IKefeTPYwRlE/2zf2h5HwB0A1L13YZiQMdVmpLN/Sz8Zar2CiebTbY4qXOSe0S5LPuHDNODNRs7tm7UKhj7rDTMYvAVstvoNYuWOQIDAQAB"
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+origin-essistage	86400	IN	A	20.62.194.53
+essistage	86400	IN	CNAME	essistage.sscgmedia.com.edgekey.net.
+staging	86400	IN	CNAME	n9n5mm0q7n8m.wpeproxy.com.
+essidev	86400	IN	A	20.62.194.53
+origin-essi	86400	IN	A	20.62.194.53
+origin-essiconnect	86400	IN	A	20.62.194.53
+origin-essiconnectstage	86400	IN	A	20.62.194.53
+essiconnect	86400	IN	CNAME	essiconnect.sscgmedia.com.edgekey.net.
+_9664b3344b4b59f5a3944e0c5597ebb3	86400	IN	CNAME	ea8d6162f1d03cbcf5699eb3fc57b538.c8a02cb0488fda73e17737afbee36b38.790a483dc7b1408c8c35.sectigo.com.
+essi	86400	IN	CNAME	essi.sscgmedia.com.edgekey.net.
+selector1._domainkey	86400	IN	CNAME	selector1-sscgmedia-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-sscgmedia-com._domainkey.oneomnicom.onmicrosoft.com.
+essiconnectdev	86400	IN	A	20.62.194.53
+essiconnectstage	86400	IN	CNAME	essiconnectstage.sscgmedia.com.edgekey.net.

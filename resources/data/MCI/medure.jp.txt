@@ -1,0 +1,38 @@
+;File created: 05/29/2024 18:00
+;Record count: 29
+$ORIGIN medure.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021080344	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+dav-npvs21135-031	86400	IN	A	203.137.181.226
+bc5o6g6ptolxvm3ewkbiswpnajbdvgf5._domainkey	86400	IN	CNAME	bc5o6g6ptolxvm3ewkbiswpnajbdvgf5.dkim.amazonses.com.
+aws	86400	IN	MX	10 feedback-smtp.ap-northeast-1.amazonses.com.
+cpirjezzckn322b6rti3r6hn3ptqdc4j._domainkey	86400	IN	CNAME	cpirjezzckn322b6rti3r6hn3ptqdc4j.dkim.amazonses.com.
+xt4zcnbbfiwoyruk7wkifu7l75ngjduj._domainkey	86400	IN	CNAME	xt4zcnbbfiwoyruk7wkifu7l75ngjduj.dkim.amazonses.com.
+aws	86400	IN	TXT	"v=spf1 include:amazonses.com ~all"
+@	84600	IN	TXT	"google-site-verification=b7dTJnwM-tpb3rSxVabQ-OpubIakWCmbEN_ECI6QhiY"
+@	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp -all"
+s1._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtWywQV1f3+2AadgnYDYzoVQ3nddn1vKX0bGL0S91yvalCq1N6PgYli2LY1WEWmjvkbi58iH0GJ5GkUjbFu4Ep8YrMTGBM8OBuFj2070+8D9tHqVEm4lMwnqYKvFuGxIHSppxQeTV/XTT+pr2WEhy6IpLBwBL2H/eKREZhNcHiKMtYosiNN/a4t5rOpWRXMxha" "OTd90RB8v9iQO9u5Dl9MZ9wGZgTYuS8821GxSJbPwbZVFuErtagt83/YD3mjF5yM6T8ZTfJzucC5Nzu3/Vc0JjE0Wva7k8V8koUHmFkR2/TiimyRgLGJTh5u3iKvhRnq9Wxsbewhb+8vQfFvUx77wIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	300	IN	MX	10 medure-mail.kizuna-ds.jp.
+_acme-challenge	60	IN	CNAME	ac.96d0dedc9060fd6cbb759efa9c16513a.medure.jp.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.26bb49410785a23217d8c9f6fa57c1c0.www.medure.jp.validate-akdv.net.
+_7b0508ed69f5fd86a73ac354e4eebe1e	86400	IN	CNAME	3e101c658970bed9c6bcceff92b2af46.ec9591389e90c2e0b0e2dc0a0ff988dc.f833936c175b4ece9594.sectigo.com.
+nbhz2hls2ovrwactbgarwajbrt6jvpcm._domainkey	86400	IN	CNAME	nbhz2hls2ovrwactbgarwajbrt6jvpcm.dkim.amazonses.com.
+aws-dev	86400	IN	MX	10 feedback-smtp.ap-northeast-1.amazonses.com.
+aws-dev	86400	IN	TXT	"v=spf1 include:amazonses.com ~all"
+zomcogmj3bd4ma3zjofcwxa4gxa3meis._domainkey	86400	IN	CNAME	zomcogmj3bd4ma3zjofcwxa4gxa3meis.dkim.amazonses.com.
+_7fcd877f6a096a8a71388da235cb086d	86400	IN	CNAME	1988fdaba6cdce815ca280fe198f185c.10e75275df64b6056a64edf34e17d92e.97f746cc898b4fff823b.sectigo.com.
+@	300	IN	APEXALIAS	medure.jp.edgekey.net.
+zfqipdbr5arbhxe6uiyynlz23c7nle7b._domainkey	86400	IN	CNAME	zfqipdbr5arbhxe6uiyynlz23c7nle7b.dkim.amazonses.com.
+www	300	IN	CNAME	www.medure.jp.edgekey.net.

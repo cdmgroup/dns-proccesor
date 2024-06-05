@@ -1,0 +1,35 @@
+;File created: 05/29/2024 14:11
+;Record count: 26
+$ORIGIN hyphenhealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020010949	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 hyphenhealth-com.mail.protection.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+intranet	86400	IN	CNAME	intranet.hyphendigital.com.
+www	86400	IN	CNAME	www.hyphendigital.com.
+extranet	86400	IN	CNAME	extranet.hyphendigital.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+lillymat	86400	IN	CNAME	lillymat.hyphendigital.com.
+lillypreview	86400	IN	CNAME	lillypreview.hyphendigital.com.
+lillymatmedia	86400	IN	CNAME	lillymat.hyphendigital.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"google-site-verification=qWbq9OUvGoY5ALbQWrTsFeQ8zm_P7SLvN98LqyB3S6Q"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvoDzN3IGu9ZS5/uX4ZZe1T1JYxoANGaaxN32lVQpTEpO7i6hyUBTPFAs5S2YuJ58qIXbKDct4O2CKhxlRdUW58mQOHLA40wEcFhnVAfLaevZ0T212zciVx5+5126q1eGUseR4kar0i+L3ZGYc8iqWrsrhL/JTbt1TzYF+xF+v48g2Ii/fZFnrzGAJLIGMb0mI" "PweBlwX39YnKNDZrLg513LSTZ3VaiABJyz7q8p3AihyV9sYbkwB7HCeJwgShn7zjzO76TJzHe6GMG/dsP8nEW05lBIDcEL9Epd6xsZMAhkaCp4tSclKZdrbuPmT3sTGR5V5TmRbmulQRtEsx0jbiQIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-hyphenhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-hyphenhealth-com._domainkey.oneomnicom.onmicrosoft.com.

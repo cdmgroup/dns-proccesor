@@ -1,0 +1,35 @@
+;File created: 05/29/2024 15:21
+;Record count: 26
+$ORIGIN marketecturehealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023020808	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"Target: 0ed1fe018ab91f558c22d94dbcab5d1733431c0b31"
+@	86400	IN	MX	10 eu-smtp-inbound-2.mimecast.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+*	86400	IN	TXT	"v=spf1 -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	MX	10 eu-smtp-inbound-1.mimecast.com.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"MS=ms74686052"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlM1CEZWlvWBpGpb6wqvPUfpeVXmSM9NlKY+OlIWfByQs4a00Owx//pQE5/at0Sa4CzHinc+27KGjMQmDinmc8uqtVNfsT6b5XdjZfs89nIwRqggyCoequucP0cJ9m+xZ8va1NbQUWjm9wrqgM6NNvaVrK4tfSE2fdCYEXw1nt4kdF4pxMhc3bxhvUs3PrXBYP" "BVVXRh81fTTdmPYE/8nXt/TRaPgHAAt1jXJGASqJ6F7jzth0XvwLJeiMFmQjQT7vg+HuRxe6JSInofw3TfOZrRkK0lUd9HArw+v4lSORzXs3bFwJsN55EzDPrEjHmuUzQLdGGjK16+YR6lh6G9CywIDAQAB"
+@	86400	IN	TXT	"google-site-verification=8OqLToQE0FBv4Udep1j8W38vjxJwxIA-yFPNIqaA6m0"
+selector2._domainkey	86400	IN	CNAME	selector2-marketecturehealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-marketecturehealth-com._domainkey.oneomnicom.onmicrosoft.com.

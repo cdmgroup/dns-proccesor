@@ -1,0 +1,31 @@
+;File created: 05/29/2024 18:10
+;Record count: 22
+$ORIGIN tbwahc.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022071119	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+*	86400	IN	TXT	"v=spf1 -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"0ed1fe018ac6158711e080404ba13c77f5750e03b4"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+RNvvo0agHHR82C0expLaz2KyoFx2vIOkbkWqSRjcxl0tfbe764zxYFOSWpReKTEs+u0AzvA+vtV/6m4MRrXcH4VB0+vY7xtpaxqe73DFUXZa/6dz/fRuoXK6ideKZu0vIlc/EDvU/4oi4So4nE27h8xn48S6dAu96RtkGXil7j0iUR3elt1qiRheFdLT/WS" "i3w4cYv3qE1uQGmJPjUUYVnitc/SNYMW9psSftHdK/Z/rpHt8iSeFG6O8u2YXup/7HF87w6wTKLXaPgvrsNlhlu4nJ85ybBVHugJReeZ7SKxMA2qjScOBOH+hKLoxVfahX0e0FVPGhYx+WfXig9qwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=wJ3xA1oxU0M5WNelu_tFYDwNXXoNTirBjSLExMrYZD4"
+selector1._domainkey	86400	IN	CNAME	selector1-tbwahc-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-tbwahc-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 tbwahc-com.mail.protection.outlook.com.

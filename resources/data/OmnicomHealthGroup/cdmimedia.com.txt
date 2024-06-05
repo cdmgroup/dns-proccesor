@@ -1,0 +1,29 @@
+;File created: 05/29/2024 15:21
+;Record count: 20
+$ORIGIN cdmimedia.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111636	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 cdmimedia-com.mail.protection.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"google-site-verification=7P-Qnp7h0BDlLvsUCwt7sakqf5HPUS_WR9lpLazxn0o"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn4zotf5Cfk+f2+mymLppdAi1WQw3oTijc29anLekeeG37ckhnKCNizTnNVFEaj4s5ZDoB1wi+/PM+kfLmB9sqx+8hjOLyzqS37gNtFVOT9lT/TrVseqyyPL2RQZE6RlbgyDwfaj03/7cTdJiqOqedK8KGYQUmv42ineEeVr2LIptBSu7D9PN44jX0gzOzmjDP" "WqwlgEseN4T9Y7HuoOaE6cAhX6PVavuKH8pt3g9ODj/0h18XZpyVRt7fhDhxUVBhluqNcoOh3zOACzIdB/Fr5ADIJ1YuQ6gLvaeiYE5pOWFi7mpwyzm02OLah/75sHjuPSTBOyGi15ob8f3KQqfjQIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+selector1._domainkey	86400	IN	CNAME	selector1-cdmimedia-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmimedia-com._domainkey.oneomnicom.onmicrosoft.com.

@@ -1,0 +1,27 @@
+;File created: 05/29/2024 15:31
+;Record count: 18
+$ORIGIN formularyfacts.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091713	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+_cae1cd3a3303bf5586ea781af232f8e4	86400	IN	CNAME	11e12b51c7f82ce5362e41b9ff3d380a.11db4c180c61f80a6a84f478e61ebb0e.6ae4099ecc9342e7b1c0.sectigo.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	TXT	"google-site-verification=x7PAZLwS5BgAgOeBS2NF2meQRlDFuQSoUpXzEkJhviY"
+@	86400	IN	TXT	"SFMC-kSY77cbllGMi4h362c1PphjYpP09ZK7Y9R-_80An"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_23246ccffd23468eeb83c7fa4c9c2c27	86400	IN	CNAME	ed3782bedda44d9ea14c27059dc36e7a.8575c4a2128a8576715d1e6f261ef829.fa46c2d7a96d45d2a4c7.sectigo.com.

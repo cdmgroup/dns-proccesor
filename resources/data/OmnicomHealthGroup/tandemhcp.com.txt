@@ -1,0 +1,44 @@
+;File created: 05/29/2024 15:21
+;Record count: 35
+$ORIGIN tandemhcp.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022042599	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+analytics	86400	IN	CNAME	250analytics.com.
+email	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	300	IN	A	204.74.99.100
+email	86400	IN	MX	10 eu-smtp-inbound-1.mimecast.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm8fLdMxQxXXBUQZtxcW7oH9GBlUKk3OX3rmWZr1yY5ST9fMstD1J8GAowkS8RnguJZ9CeVcZDjW+huTCO/Jf2v3SP6QR3I2CF/26TyISIJ1rdTsZ34Y9yaGCo3FOK34rstaW93i3u9PO6gXV4HzbrnamfV9U8SAWLfN55X17LeCQUkPZYsV83KdO+otoklLo3" "ccP7aOR6LrRGNhYUUBvVuTZ6JVBxGv8ff/Gs4GEJJAfvpJbeABHdttlBl0VDr0EOmrvW6cAep4JjVtcSCEVmxwgXxsxGiAtEdAPIzeW6U9Qkqe/sqg4O1rzz6ORvQzTiHTIj8+2xR01aXKuj6m1AQIDAQAB"
+_bf7ea75367b71bf794484c29e5076720	86400	IN	CNAME	ebb71dc4c28b6a6f9c73183aa4fa12ad.eb4d11d2a5b417c9681ced8e1817280d.7f92e89079a2462db543.sectigo.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"Target: 0ed1fe018ae3e518119752492f89ab85562c75b62f"
+email	86400	IN	MX	10 eu-smtp-inbound-2.mimecast.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+selector2._domainkey.email	86400	IN	CNAME	selector2-email-tandemhcp-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey.email	86400	IN	CNAME	selector1-email-tandemhcp-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-tandemhcp-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-tandemhcp-com._domainkey.oneomnicom.onmicrosoft.com.
+email	86400	IN	TXT	"google-site-verification=JBQsN6D6f0zTcwTtuBQnrPvZlCOkYKutCQvVj8cV6_w"
+@	86400	IN	TXT	"google-site-verification=FPoJCyBiUMVEl-vDQ2tnAFxcD4T9TAfwgCfPJeGy_cY"
+@	86400	IN	MX	0 tandemhcp-com.mail.protection.outlook.com.

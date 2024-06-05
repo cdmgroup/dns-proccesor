@@ -1,0 +1,178 @@
+;File created: 05/29/2024 15:21
+;Record count: 169
+$ORIGIN thecdmgroup.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111792	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	A	216.158.191.138
+via3workflowservice	86400	IN	A	216.158.191.161
+apps	86400	IN	A	216.158.191.137
+speed3	86400	IN	A	216.158.191.138
+link9oestageadminservice	86400	IN	A	12.39.106.242
+link9oeidentityservice	86400	IN	A	216.158.191.161
+mail	86400	IN	A	38.117.238.30
+actharis	86400	IN	A	216.158.191.131
+ccompare	86400	IN	A	216.158.191.138
+findit	86400	IN	A	216.158.191.131
+sprs	86400	IN	A	38.117.238.41
+actharms-v2	86400	IN	A	216.158.191.131
+krewedequit	86400	IN	A	216.158.191.138
+clientextranet	86400	IN	A	216.158.191.137
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+brandsharestage	86400	IN	A	216.158.191.135
+mobileapps	86400	IN	A	38.105.175.3
+portal1	86400	IN	A	38.117.238.17
+teamsite	86400	IN	A	216.158.191.137
+jira	86400	IN	A	216.158.191.137
+link9oe	86400	IN	A	216.158.191.161
+eoffice2	86400	IN	A	38.117.238.5
+testgate	86400	IN	A	38.117.238.41
+ink9oe	86400	IN	A	216.158.191.137
+services1	86400	IN	A	38.117.238.41
+atlspeed80	86400	IN	A	216.158.191.138
+eoffice3	86400	IN	A	152.179.173.18
+teams	86400	IN	A	216.158.191.137
+iosappsstage	86400	IN	A	216.158.191.137
+appraisals	86400	IN	A	216.158.191.131
+cdmiconnect	86400	IN	A	12.154.40.236
+via	86400	IN	A	216.158.191.135
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+acthardmpm	86400	IN	A	216.158.191.131
+teamsitestage	86400	IN	A	216.158.191.135
+webdav	86400	IN	A	12.154.40.236
+link9oestagejobservice	86400	IN	A	12.39.106.242
+iventureshealth	86400	IN	A	216.158.191.137
+via3	86400	IN	A	216.158.191.161
+groupscoop	86400	IN	A	216.158.191.138
+actharhcp	86400	IN	A	216.158.191.131
+guest	86400	IN	CNAME	myhive.aerohive.com.
+xtandi-option1	86400	IN	A	216.158.191.131
+adfs	86400	IN	A	65.196.50.4
+openfire	86400	IN	A	216.158.191.160
+mysite	86400	IN	A	216.158.191.131
+intranet	86400	IN	A	216.158.191.137
+nephunbranded	86400	IN	A	216.158.191.131
+ohgstage	86400	IN	A	216.158.191.137
+atlspeed443	86400	IN	A	216.158.191.137
+actharms	86400	IN	A	216.158.191.131
+services3	86400	IN	A	38.117.238.19
+easweb	86400	IN	A	216.158.191.137
+viastaging	86400	IN	A	38.117.238.41
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+async	86400	IN	A	38.117.238.37
+bizdev	86400	IN	A	216.158.191.138
+viapm	86400	IN	A	38.117.238.41
+xtandi-dev	86400	IN	A	216.158.191.135
+xtandi-option2	86400	IN	A	216.158.191.131
+via3pushdataservice	86400	IN	A	216.158.191.161
+viastag	86400	IN	A	38.117.238.41
+brandshare	86400	IN	A	216.158.191.137
+pictures	86400	IN	A	38.117.238.41
+spreporting	86400	IN	A	38.117.238.41
+ep	86400	IN	A	216.158.191.137
+link9oejobservice	86400	IN	A	216.158.191.161
+cdmijboss	86400	IN	A	216.158.191.138
+finditstage	86400	IN	A	216.158.191.135
+cdmdigital	86400	IN	A	216.158.191.131
+link9oestagepushdataservice	86400	IN	A	12.39.106.242
+livestream	86400	IN	A	216.158.191.138
+rootedingiving	86400	IN	A	12.154.40.236
+testcas	86400	IN	A	38.117.238.39
+banzel	86400	IN	CNAME	gate2.thecdmgroup.com.
+helpdesk	86400	IN	A	216.158.191.137
+londigital	86400	IN	A	216.158.191.138
+gate2	86400	IN	A	38.117.238.30
+link9oestage	86400	IN	A	12.39.106.242
+mondigital	86400	IN	A	216.158.191.138
+hub	86400	IN	A	216.158.191.137
+actharmsrelapse	86400	IN	A	216.158.191.131
+cdminet3	86400	IN	A	216.158.191.138
+esvpn	86400	IN	A	62.82.223.43
+speed	86400	IN	A	216.158.191.138
+inside	86400	IN	A	216.158.191.131
+extranet	86400	IN	A	216.158.191.131
+email	86400	IN	A	38.117.238.30
+dssi	86400	IN	A	216.158.191.137
+config	86400	IN	A	38.117.238.30
+ns1	86400	IN	A	216.158.191.150
+fpmvia	86400	IN	A	216.158.191.131
+actharlupus	86400	IN	A	216.158.191.131
+workspacestage	86400	IN	A	216.158.191.135
+acthar	86400	IN	A	216.158.191.131
+iosappsdev	86400	IN	A	216.158.191.137
+via3identityservice	86400	IN	A	216.158.191.161
+understandkidneydisease	86400	IN	A	216.158.191.131
+link9oepushdataservice	86400	IN	A	216.158.191.161
+projectstage	86400	IN	A	216.158.191.135
+workspace	86400	IN	A	216.158.191.131
+spreportingstag	86400	IN	A	38.117.238.41
+via3adminservice	86400	IN	A	216.158.191.161
+sisterpact	86400	IN	A	216.158.191.138
+devsites	86400	IN	A	216.158.191.138
+portal	86400	IN	A	38.117.238.24
+orion	86400	IN	A	216.158.191.137
+password	86400	IN	A	216.158.191.137
+staging	86400	IN	A	216.158.191.137
+ns2	86400	IN	A	12.39.106.241
+gate	86400	IN	A	38.117.238.41
+ftp2	86400	IN	A	38.117.238.7
+www	86400	IN	A	216.158.191.138
+github	86400	IN	A	216.158.191.153
+share	86400	IN	A	216.158.191.137
+gate3	86400	IN	A	38.117.238.32
+vidyo	86400	IN	A	38.98.85.132
+revolution	86400	IN	A	216.158.191.137
+esig	86400	IN	A	216.158.191.138
+actemrahcp	86400	IN	A	216.158.191.138
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+cas	86400	IN	A	38.117.238.39
+actemra	86400	IN	A	216.158.191.138
+mestage	86400	IN	A	216.158.191.135
+guardian	86400	IN	A	216.158.191.162
+insidestage	86400	IN	A	38.117.238.41
+actharvideo	86400	IN	A	216.158.191.131
+eoffice	86400	IN	A	216.158.191.188
+it	86400	IN	A	38.117.238.34
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+actharnephunbrandedfull	86400	IN	A	216.158.191.131
+link9oeadminservice	86400	IN	A	216.158.191.161
+dssidev	86400	IN	A	216.158.191.137
+eoffice4	86400	IN	A	216.158.191.188
+link9oestageidentityservice	86400	IN	A	12.39.106.242
+project	86400	IN	A	216.158.191.131
+via-atl	86400	IN	A	216.158.191.131
+iosapps	86400	IN	A	216.158.191.137
+nye-mailrelay02	86400	IN	A	38.117.238.45
+cdmadfs	86400	IN	A	216.158.191.137
+samscastg	86400	IN	A	216.158.191.137
+me	86400	IN	A	216.158.191.131
+owa	86400	IN	A	38.117.238.30
+erivedge	86400	IN	A	216.158.191.138
+nye-mailrelay01	86400	IN	A	38.117.238.44
+world	86400	IN	A	216.158.191.131
+@	86400	IN	TXT	"google-site-verification=WcJK-kdCpULR4wFTHCKnr6E0fmrlJNsvntFAhM2NHOg"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAipMRJuXPyLn27wu3+BlMgd3/nFZ0edBYvpDm99DK5iDVMI8u3Qso/j9F9Q44Jc6NlKSlj/C1U7KnJK55304rS2Oa8TSn3Rm4UeRe1niQSHpk6Q8O0QL7z/fWdwG/nupnWS0icwWmlb4Y622w0WOj2fOz8cE7QVCJNSpxu2QwurcYoZZxDJyl0qrxdih96fqtb" "CfT2A3OEuCaVwAxwgx9iWmWYdoj78X7lkRe2Uxjj9OpNFaLq5aJdqb8M7KfGHUNrW2C8WwMpODsF2y3Z6XnlKNnVxT8kgyF7UKvKFaAiq/g0SsZKrnejAd+y3hiJIQvthhCz9kfRofdPQutPMTgyQIDAQAB"
+s478202._domainkey.github	86400	IN	CNAME	dkim.smtp2go.net.
+kolservices	86400	IN	A	216.158.191.174
+em478202.github	86400	IN	CNAME	return.smtp2go.net.
+link.github	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+selector1._domainkey	86400	IN	CNAME	selector1-thecdmgroup-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-thecdmgroup-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 thecdmgroup-com.mail.protection.outlook.com.

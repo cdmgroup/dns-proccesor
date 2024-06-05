@@ -1,0 +1,96 @@
+;File created: 05/29/2024 15:21
+;Record count: 87
+$ORIGIN biolumina.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014121232	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.org.
+my-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa-hcp-interim-banner-mybeigene.stage	86400	IN	CNAME	stage.biolumina.com.
+adstiladrin-day10.fergene.stage	86400	IN	CNAME	stage.biolumina.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_acme-challenge	60	IN	TXT	"OEOZlh3TZUO_iqArilmWv1gX1dT4PF5pFFNmQUTyCyc"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+ion.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+@	86400	IN	MX	0 biolumina-com.mail.protection.outlook.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+clients	86400	IN	A	216.158.191.205
+mailrelay	86400	IN	A	12.154.43.198
+portal	86400	IN	A	12.222.253.75
+vpn	86400	IN	A	8.31.237.223
+webfile	86400	IN	A	216.158.191.207
+cabometyxhcp.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+happyholidays2019	86400	IN	CNAME	biolumina.com.
+goodbye2020	86400	IN	CNAME	biolumina.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+stg	86400	IN	A	20.62.194.53
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgq2c5HieTe54uGc6BkWaPPhBy8KEmVUVAPSVux3Djims9sqj1JzMu8uGvlBD4CYPs38x4wxmg2o6nGvXCKrFMxb7+MF/DMEH3vDz5O7kquwMgBkccCLjgJ9J76J01p2vQpRro2nxMz6AzRJsMVzbLPeyZ6Rz59XdFC62MDz2sJJDpRD4rspJBabYdI90/wRB+" "U3mRFt3BrvNz5XgSNSWhwtuUKQxiKg2t6M/Jur/wPXvbI4jP/I7UW9ifJ1e6X8vexA1j6tFztf1AHe30JsNjfdmo1wIlxL9/r8bMQgXFbkX3cOSazulleXR+EJ3BB0p0ZZgrWYr0AqbsC645EaJUQIDAQAB"
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u25371810.wl061.sendgrid.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u25371810.wl061.sendgrid.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:u25371810.wl061.sendgrid.net -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+brafmek.array.stage	86400	IN	CNAME	stage.biolumina.com.
+@	86400	IN	TXT	"akr3uh8780c26673mq413t71dd"
+cabometyxhcp-lu.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+adstiladrin-day1.fergene.stage	86400	IN	CNAME	stage.biolumina.com.
+stage	86400	IN	A	3.224.82.87
+adstiladrin-day60.fergene.stage	86400	IN	CNAME	stage.biolumina.com.
+cometriq.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+ux.stage	86400	IN	CNAME	stage.biolumina.com.
+arcusbio.stage	86400	IN	CNAME	stage.biolumina.com.
+arcusbio-phase2.stage	86400	IN	CNAME	stage.biolumina.com.
+adstiladrin.fergene.stage	86400	IN	CNAME	stage.biolumina.com.
+fergene.stage	86400	IN	CNAME	stage.biolumina.com.
+cabometyxhcp-9er.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+orserdu.stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+fergene-phase3.stage	86400	IN	CNAME	stage.biolumina.com.
+cabometyxhcp-v2.exelixis.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa.beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+my.beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa-new-campaign-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+em7908.brukinsa.beigene.stage	86400	IN	CNAME	u25371810.wl061.sendgrid.net.
+s1._domainkey.brukinsa.beigene.stage	86400	IN	CNAME	s1.domainkey.u25371810.wl061.sendgrid.net.
+cabometyxhcp-badge-removal.exelixis.stage	86400	IN	CNAME	stage.Biolumina.com.
+*	86400	IN	TXT	"v=spf1 -all"
+simplytold.stage	300	IN	CNAME	stage.biolumina.com.
+brukinsa-beigene-cll-interim.stage	86400	IN	CNAME	stage.biolumina.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+em7250	86400	IN	CNAME	u25371810.wl061.sendgrid.net.
+beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+webar.tagrisso.stage	86400	IN	CNAME	stage.biolumina.com.
+s2._domainkey.brukinsa.beigene.stage	86400	IN	CNAME	s2.domainkey.u25371810.wl061.sendgrid.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+orserdu-day0-stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+btkinhibition.beigene.web.dev	86400	IN	CNAME	dev.biolumina.com.
+btkinhibition.beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+www	300	IN	CNAME	www.biolumina.com.edgekey.net.
+brukinsa-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+orserdu-stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+elzonris-stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+mmportfolio-janssen.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa-hcp-cll-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa-patient-interim-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+brukinsa-cll-beigene.stage	86400	IN	CNAME	stage.biolumina.com.
+@	86400	IN	APEXALIAS	biolumina.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"y6wLiL1pII9wpGP-g1zECl9qI1VBuyB5RTMMej7oCMI"
+orserdu-patient-stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+dev	86400	IN	A	100.110.90.154
+holiday22	86400	IN	A	3.233.13.178
+orserdu-hcp-stemline.stage	86400	IN	CNAME	stage.biolumina.com.
+deploy	86400	IN	A	3.228.133.47
+_80da46f78b4fd3ad58d2416ebd626a57.deploy	86400	IN	CNAME	D9AD0384B0359A594CF63EF5A8B66C75.5CF174B8ED7B83D208DDF2A6FA772CDD.1dac43e5338caac.comodoca.com.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+selector2._domainkey	86400	IN	CNAME	selector2-biolumina-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-biolumina-com._domainkey.oneomnicom.onmicrosoft.com.

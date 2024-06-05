@@ -1,0 +1,47 @@
+;File created: 05/29/2024 15:21
+;Record count: 38
+$ORIGIN cdmiconnect.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111661	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+help	86400	IN	A	216.158.191.138
+cfdailyapp-api	86400	IN	A	216.158.191.134
+demo	86400	IN	A	216.158.191.134
+gate2	86400	IN	A	38.117.238.30
+juicebox	86400	IN	CNAME	cdmihealthyconnections.com.
+wiki	86400	IN	A	12.154.40.236
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+www	86400	IN	A	12.154.40.236
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+dev	86400	IN	A	38.117.238.14
+edg	86400	IN	A	12.154.40.236
+email	86400	IN	A	38.117.238.14
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+apps	86400	IN	A	216.158.191.133
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+blog	86400	IN	A	12.154.40.81
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	A	12.154.40.236
+@	86400	IN	TXT	"google-site-verification=rDz-TlHHv_dxHYh6y-pXIyzX0kMFzhFeKhMjjaYE0lo"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2QdCLMqgzT176z2SJ673ZGTHQLaMghiImGEPYOLV09AxA91HZJGdYXQfNjtBIFsTUpCYhjfIdjOrUo0fYTTygfHVryoaro2+o9XwV3HCo9/bObUWIxIOB2ZftZAjcKB9EPJrUV4fMCgbqKQ7hrdjcvdIfna4fPJUlytS4bQZ9UrNjbk3W9NgbwXDqrCE481B7" "SOb3kc/YBumICEorDwP+W87tlqkFTxPLhfriGanGwjIA9D6hwhh/yFxpyyTNML2zHYq690O0JNPB2D1y13WoH04k53gP84Xt96IWRErsNLYfTciktmWgBEt6GixT6UxhldmZS1+tqlYLfCNxXmmmwIDAQAB"
+_91a14f144554c8783dfde2334e6a850f	86400	IN	CNAME	2891717202617fd82e671ad2f2592a20.112e2ceeb045b34a35960aac66e8f529.0aa643bb453446aa91e8.sectigo.com.
+selector1._domainkey	86400	IN	CNAME	selector1-cdmiconnect-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmiconnect-com._domainkey.oneomnicom.onmicrosoft.com.
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+@	86400	IN	MX	0 cdmiconnect-com.mail.protection.outlook.com.

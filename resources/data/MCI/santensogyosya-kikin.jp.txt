@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:00
+;Record count: 18
+$ORIGIN santensogyosya-kikin.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102328	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+mail	86400	IN	CNAME	santensogyosya-kikin.jp.
+ftp	86400	IN	CNAME	santensogyosya-kikin.jp.
+@	86400	IN	MX	10 santensogyosya-kikin.jp.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_acme-challenge	60	IN	CNAME	ac.57c60cab63218b9c1eba47f8a5f5c1b1.santensogyosya-kikin.jp.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.56afb5bbdf0d20b21fc4a845c3c771bf.www.santensogyosya-kikin.jp.validate-akdv.net.
+@	84600	IN	TXT	"google-site-verification=cHGYHpY7PgypIGDmTJMY2c3CHSqpEwze9HOryhgWqFE"
+@	84600	IN	TXT	"v=spf1 a:www3535.sakura.ne.jp mx -all"
+@	300	IN	APEXALIAS	santensogyosya-kikin.jp.edgekey.net.
+_81a0e66a12cf81e0cabec128d754b274	86400	IN	CNAME	3a39c1cfa4688acce1ad73faf34cee1c.ae5a03f8296d558774a5b297848e5f50.cc8393393c9f46b8939b.sectigo.com.
+www	300	IN	CNAME	www.santensogyosya-kikin.jp.edgekey.net.

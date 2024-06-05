@@ -1,0 +1,31 @@
+;File created: 05/29/2024 18:08
+;Record count: 22
+$ORIGIN pharmingfamily.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081333	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 pharmingfamily-com.mail.protection.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.salesforce.com -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+pharmingfamily._domainkey	86400	IN	CNAME	pharmingfamily.jio481.custdkim.salesforce.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt90EGheJOt8NzWk4p0xA8VJeJMrmQzHphxhvLp9NO0c/4diHHnP30ZlL5hj/++ZYD93hHr7T7gZE8JIQvkNZ5DNmcJFoXI5Co5Sb4DZ234tZuT8RTdMLIzwrxqg/W3AcX9Lf2RmxjGUfyiRH9xArf1f6YdD/I6yjdyGYEOHGrY5SCb1QnT/7mB4lBvNmRes8p" "DQ92BnUmwgC54iOww8KHkavkczRdwHnjoEfTJHhu3oZhGEZOXCpjbWjNiTSbohQYViESQcGc9V9RW+GRLfKK5Fb0exWyFFTLaCGbV8tqncwJk1MMJTVHv9FTjLjqIB51EZstlFoG4dyaywSU+3M8QIDAQAB"
+pharmingfamilyalt._domainkey	86400	IN	CNAME	pharmingfamilyalt.o8k48a.custdkim.salesforce.com.
+@	86400	IN	TXT	"google-site-verification=iO39tI_KVDXGsYCKymCudWf3WylxSDBnuLOAzoyS-dw"
+selector1._domainkey	86400	IN	CNAME	selector1-pharmingfamily-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-pharmingfamily-com._domainkey.oneomnicom.onmicrosoft.com.

@@ -1,0 +1,33 @@
+;File created: 05/29/2024 15:21
+;Record count: 24
+$ORIGIN iventureshealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111648	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+rhkknpcmcz2ywjfzmktc	86400	IN	CNAME	verify.squarespace.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	MX	0 iventureshealth-com.mail.protection.outlook.com.
+@	86400	IN	TXT	"0ed1fe018a48983d245a90426a888e4d3faeb1904a"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+www	86400	IN	A	216.158.191.138
+@	86400	IN	A	216.158.191.138
+@	86400	IN	TXT	"google-site-verification=qkgqq6Ig_OLiqyEdE7JANynrueAt651QBEvaaDQcdlA"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkHzOWAAJX1hZfMkAM/CJdF3liwaE0U6/DK7+mtgdpyMeULI4I3fpjG94GV28vaoi808l/ZA08msSZPYx4eHHMUt4YN04ltEGsagIQYXLKGQjYxzg+jK40KfM+iYwjC+E936ldZxlDss3fQ43jBEqmYjZVKoZFfxzuLtQWMLjXT59VNrXwuOMxINNESS35IEVI" "qSC8qOBFpkzJPFRbQC4bmK25iqLZz1xcsghrNtZg9LxtuInSpG86ygQqWPflIAYXrATovN3JtinpdSjGu4QSL5cKzNzlaMuPob+NTlbItOEA91kn0ZwZjdQM+BKbQ/VOIo2lj/8JYvI8w2vkzFIdwIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+selector1._domainkey	86400	IN	CNAME	selector1-iventureshealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-iventureshealth-com._domainkey.oneomnicom.onmicrosoft.com.

@@ -1,0 +1,44 @@
+;File created: 05/29/2024 15:31
+;Record count: 35
+$ORIGIN clincases.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091749	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+@	84600	IN	TXT	"google-site-verification=lnwqVfxyKPnyBLIMoDCGC4Dvh0wmkEy06NthXxAhniY"
+@	84600	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	84600	IN	TXT	"google-site-verification=lqhvjToLovWH1ei5XCGOg5oMagcqwS5957l3oyQX3J0"
+@	84600	IN	TXT	"SFMC-RaKBUTfI5MshUwmV8L3V-CFffxaBgg3-zwVc63VS"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+ar	86400	IN	A	13.210.120.176
+@	86400	IN	A	3.21.69.112
+*	86400	IN	A	3.21.69.112
+analytics	86400	IN	CNAME	250analytics.com.
+send.ar	86400	IN	MX	10 mxb.mailgun.org.
+send.ar	86400	IN	MX	10 mxa.mailgun.org.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	MX	10 eu-smtp-inbound-2.mimecast.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	MX	10 eu-smtp-inbound-1.mimecast.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+email.send.ar	86400	IN	CNAME	mailgun.org.
+pic._domainkey.send.ar	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuHUfnd4J3o0qSPEUeppFqkgg0F+BMJe2AabO0l2AGUJ2Ukb3BUDpNXOz23sbavBENVm8nhEBnc1Z3auNX7WoBMnapSoXmWM2MUHNTLFwZGhCZl5i7z05U30c5+2+kmtMwTDlX7q47obZpL3j0CF8UI0ubtaIMP21HhFvtE96fXQIDAQAB"
+send.ar	84600	IN	TXT	"google-site-verification=t19hY_pLJBmHTf9ltaDiIwFsr3Fz-hED5gIcRctKzeE"
+send.ar	84600	IN	TXT	"v=spf1 include:mailgun.org -all"
+_9265c4af3048647db461b2add204efa8	86400	IN	CNAME	c781f07824bf438fc54f1c58889bb2ea.273525507640d0d50ab83b97aa4c14d2.c7b55ac7c0d14f19ba55.sectigo.com.

@@ -1,0 +1,16 @@
+;File created: 05/29/2024 15:21
+;Record count: 7
+$ORIGIN l3immersiveexperience.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023022311	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	A	20.62.194.53
+_62bc0641e7350973d4801fa233948cf3	86400	IN	CNAME	639eb18a9a486c170d56a6fe30ce93a5.a67f68efb0e49b999814dd0ad590769d.bb2f6ec98c424b8985bc.sectigo.com.

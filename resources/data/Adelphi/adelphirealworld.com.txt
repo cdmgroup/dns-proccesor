@@ -1,0 +1,26 @@
+;File created: 05/29/2024 18:15
+;Record count: 17
+$ORIGIN adelphirealworld.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014013150	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	86400	IN	CNAME	elink.clickdimensions.com.
+@	86400	IN	APEXALIAS	s7cg0c1kx1z0.wpeproxy.com.
+www	86400	IN	CNAME	s7cg0c1kx1z0.wpeproxy.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+web	86400	IN	CNAME	analytics.clickdimensions.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_b89e54a0ac626d0260d2e061a49275a6	86400	IN	CNAME	10dfac8e5a9b8ea85b0ec32c553e21d7.032c6b1156580f446f980e8ad3a8dcf7.7a8bc309075b4d499a12.sectigo.com.

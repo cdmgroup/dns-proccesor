@@ -1,0 +1,33 @@
+;File created: 05/29/2024 15:21
+;Record count: 24
+$ORIGIN cdmagencies.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111363	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	A	216.158.191.184
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	MX	0 cdmagencies-com.mail.protection.outlook.com.
+@	86400	IN	TXT	"0ed1fe018ad971c7dd90fa47fe9777c812d9b5b5ff"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	A	216.158.191.184
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0VCzgOwnRQkr1Vp9YwgWlBL7msBdhDyTfrlCQ1TmivhwFsjhM+hbYOyW4clClE/7GN0jJaHMCxEPJ9TWOhztcy+vYPlH0kBML2G3V+lrYCWqbElk5INmFDjbtW2KfGVntcUBTD7zYxgS6KDVtp4bUI/P1qJwcrkNeUyk3dLWo033qYTOI37Zn67eW1fn3Rs1z" "hDTK2QsnKXjklQaJ7iXPF3X2+pldoH4iG2C6QY2JZpeyL0+uVTKv23Lp0gXNpSqez0cQ5Coo5tov/x1l49vRm8bdoUvSXlrF66fQ8LsRFnmNbZnOXspxyOeXnukfte2ZTHKOMSmX+sl7PtaZPeNaQIDAQAB"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	TXT	"google-site-verification=McBGdm20iP8cqy4FJHAUnWd6rrh_oD6XxWs7Dg2XUdI"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+selector1._domainkey	86400	IN	CNAME	selector1-cdmagencies-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmagencies-com._domainkey.oneomnicom.onmicrosoft.com.

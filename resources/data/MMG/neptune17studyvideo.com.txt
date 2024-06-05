@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:02
+;Record count: 18
+$ORIGIN neptune17studyvideo.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023100522	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge	60	IN	CNAME	ac.ab333cf01dce0b740646d5077142aa86.neptune17studyvideo.com.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.d4aad43e928b296f9cd8c97d4bf43b24.www.neptune17studyvideo.com.validate-akdv.net.
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_acme-challenge.dev	60	IN	CNAME	ac.9ecaf445643eac6b3d6cfa32dbdf2678.dev.neptune17studyvideo.com.validate-akdv.net.
+_acme-challenge.review	60	IN	CNAME	ac.2258b2fa47bb80ee8c2207b622297457.review.neptune17studyvideo.com.validate-akdv.net.
+www	300	IN	A	204.74.99.100
+@	86400	IN	APEXALIAS	neptune17studyvideo.com.edgekey.net.

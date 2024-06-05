@@ -1,0 +1,39 @@
+;File created: 05/29/2024 15:21
+;Record count: 30
+$ORIGIN unifiedjapan.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019121398	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"google-site-verification=eZyGy4AbaNF7T2-5tViKBIKagemRLlO7p41vL6vEWx0"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7tPu2A/kRbORGyf/yOyxSXQ1wZwaj4Up3AG61q5d8VpR+jehfhWNzvSDF/eMCazNAoYLBZfX0r4Mc9dQWsmQL/XlXFkK0zcVBB2Ahjmo4A4HrnWshAlpXaEPc33zPflUKMd1ASL1YckAMoemoUv/sSQGTYupWE2eSXq2xTmFqY17IGuFylu2Z6XyU9QLQHY9" "TsO41LhjojTpvJv1E/Jar7a/kOMUoU0aliJYok9SuWq0vvh9C3LcHT1vTf+MBGGR4E5B2t9gYcBNZg75fvI3gN4Oja2blCs5grEwoEToYa63sQ4llsw6etyEaEP2iaG1XSH1fBCKQW2jeGzWVXt4QIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+www	86400	IN	A	141.193.213.20
+www	86400	IN	A	141.193.213.21
+@	86400	IN	A	141.193.213.20
+_6cf959d7f4439f582e6a998d854fe571	86400	IN	CNAME	03207C6847A796B8389F8B6D465FD0C3.3BFC50EBEB27F7F8D8D0395402922F92.8c66dd6302bf4df2b149.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-unifiedjapan-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-unifiedjapan-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 unifiedjapan-com.mail.protection.outlook.com.

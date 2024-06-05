@@ -1,0 +1,48 @@
+;File created: 05/29/2024 15:31
+;Record count: 39
+$ORIGIN expertperspectives.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2017021044	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.biz.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+@	86400	IN	MX	10 reply-mx.s7.exacttarget.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"google-site-verification=SrAb-QblgDEv05nGikbeWFS0OCMqQxgv5OqD4t3lvgo"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+google-site-verification	86400	IN	TXT	"=m9FonJLQbAW0qfjTMbTDj7hqt35n1AIsXx9M0FoMLj0"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ftp	86400	IN	CNAME	expertperspectives.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:cust-spf.exacttarget.com a:spf.speedyrails.com -all"
+staging	86400	IN	A	3.21.69.112
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*	86400	IN	TXT	"v=spf1 -all"
+em1577	86400	IN	CNAME	u7261616.wl117.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u7261616.wl117.sendgrid.net.
+@	86400	IN	TXT	"google-site-verification=487OG4Ss4qt-QArVOt7zmPoCSLjb1bU4W7yHmDt0odk"
+www	86400	IN	CNAME	expertperspectives.com.
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	TXT	"google-site-verification=e3ZN3chK5uvgDBcKK2O1timMTcqW6c_RuB42oSMynJ0"
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u7261616.wl117.sendgrid.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgCX8t8n598gypSitqlUp4rFOzrbD/8AuzoJPQsH5aVcHcvxEY8cK+HKg6TJQH2HS6mJJeONlQzrXWKC3soZdwv5BZxB2lLl0tpIUyUawSvLID5gXhnXvEy+9axJCpoi8h4tM14VshH8IBR+KQTzDZWc0g4fXQg6Zr3jYjOkiBtkjhpSuW7QZCmljDHwRvi1e/" "NtmUbEn5F/XdmKTXNYnwjf55kNxMsTNdg4jiP+hwkBmXEOxBbdjQmdXLTDiesAnXWoe2rN/RVPwl+1gHZUub4c9gNpoJjM8z8gI5AY7mrFTkKnkpJRx1bJzlq4NIP9BsQLHAwWl4YYoRexmkDI2ZwIDAQAB"
+_8f05fc03d75b7ce26c378bd46d01fdf6	86400	IN	CNAME	d4bdb082e88aa8bdd2f65365954e2da2.353d3ebeabea6a4f6278862838734e71.f251140ebbdb47fb8baa.sectigo.com.
+@	86400	IN	A	157.245.246.148
+email	86400	IN	TXT	"google-site-verification=fEa9fEJOObIOgq9iUMn46nGt7VA1TjNtaEnoBKVXA10"
+selector1._domainkey	86400	IN	CNAME	selector1-expertperspectives-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-expertperspectives-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey.email	86400	IN	CNAME	selector1-email-expertperspectives-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey.email	86400	IN	CNAME	selector2-email-expertperspectives-com._domainkey.oneomnicom.onmicrosoft.com.

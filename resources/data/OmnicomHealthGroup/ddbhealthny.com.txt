@@ -1,0 +1,30 @@
+;File created: 05/29/2024 15:21
+;Record count: 21
+$ORIGIN ddbhealthny.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016052781	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	A	37.60.236.217
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"google-site-verification=eTw0DzU0onjwLIDjyjG4KO6_2SKrWVa-eqBvdwAKSsY"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjUO/+PdoOxM22XgNIdYXrxHHvGlsw3+W0lf5H2QBteiGVEwV2/MwsP4i+pLwSSKMPboJoZcJRLj469GPpjCASTa3RLu11gTFGJX6s7SyCK8927H/5Dz1uJk9uBObf1iFplvX5wIgSE6jIKCog1vjXUil5lN9BQvh38/JWL3ZX43ks3VcmHY1ywDZ8GZOwDPkA" "CPvSSZq2RbVX3oDzcC2dwGD9k2Kt4kJcQGfNcR3364JlnidxpL5jCnTcM6Yx1z1VrmRqADYeT/F7XCnMN6RaEm3mcY9RoCCghB6RiAdyhzVL1dYNmTSFFif2Y6BaHXuJWLftuGCtszby3HWBdjMawIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-ddbhealthny-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ddbhealthny-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 ddbhealthny-com.mail.protection.outlook.com.

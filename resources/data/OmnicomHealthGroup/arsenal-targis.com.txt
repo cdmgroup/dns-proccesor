@@ -1,0 +1,24 @@
+;File created: 05/29/2024 15:21
+;Record count: 15
+$ORIGIN arsenal-targis.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011425	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=m3phYgZgqsAvHJ7wvbv9AeflLqV-e9l5I9wV1xMiUOc"
+@	84600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+@	86400	IN	A	188.165.227.71
+google3a46a9f71129cd00	86400	IN	CNAME	google.com.
+www	86400	IN	CNAME	arsenal-targis.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	MX	0 arsenaltargis-com01i.mail.protection.outlook.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"

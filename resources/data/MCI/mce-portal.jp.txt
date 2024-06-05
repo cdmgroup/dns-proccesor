@@ -1,0 +1,30 @@
+;File created: 05/29/2024 18:00
+;Record count: 21
+$ORIGIN mce-portal.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102325	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+npvs57	84600	IN	TXT	"v=spf1 ip4:210.129.9.120 -all"
+npvs57	86400	IN	MX	10 npvs57.kizuna-ds.jp.
+_61801c4b0653a61a31fc2d5a4ed4b785	86400	IN	CNAME	f196a031f62d94531a8e6ade631aec9a.08c9db45aab5ac30a77b122772f9b3cb.99f0e7cc93994050be1b.sectigo.com.
+npkk360cv-test	86400	IN	A	210.129.45.94
+npkk360cv	86400	IN	MX	10 npkk360cv.mce-portal.jp.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+npkk-webtest	86400	IN	A	210.140.40.120
+@	86400	IN	A	210.129.9.120
+npkk360cv	86400	IN	A	210.129.45.94
+s1-npvs57._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxxVQlQuoRN5HNx63U7B+XFPtARXutf/BZnPKlgLYIsmFie52adiGLaH6vXNf6GvuIV+//o8sZEhOeyphTCXukcz/M2fytfVJYelq7cOKZ/Zig1N9zgy4/UibjRTAdWyqzYFcGHa7jVjkOcVas+C12Kdi1wLXr8uhMboRVtVUdvUe5fQVtcbyRcD0DYyD8cpl3" "QSi0HVd1NNzP+pLwVLG0mwUda8oJ4aYqehmBS0v43DdcDBcocr1btCQTgMXwtaV1kc/6lfxOJDy3jsR7/kJdQ4Earmgd90pg+4Z7zFxBOYEEBCogivUhrY5YhOujvx82m6FFCHxSMce2I3JC0Y5pwIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+npkk360cv	84600	IN	TXT	"google-site-verification=utboK9e6zIRWDl9CFjVvKc0cTWqoWlWflBvLzEMGAHY"
+npkk360cv	84600	IN	TXT	"v=spf1 ip4:210.129.45.94 ~all"
+npvs57	84600	IN	TXT	"google-site-verification=-cv1v3K_EgEohhOlbNp1wvZWkTKYi32t1PgKgSNIuds"

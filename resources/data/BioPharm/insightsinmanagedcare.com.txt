@@ -1,0 +1,28 @@
+;File created: 05/29/2024 15:31
+;Record count: 19
+$ORIGIN insightsinmanagedcare.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091725	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+@	86400	IN	A	3.21.69.112
+www	86400	IN	CNAME	k8s-default-commonal-3ead7fe860-1447917049.us-east-2.elb.amazonaws.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+analytics	86400	IN	CNAME	250analytics.com.
+*	86400	IN	CNAME	k8s-default-commonal-3ead7fe860-1447917049.us-east-2.elb.amazonaws.com.
+@	86400	IN	TXT	"google-site-verification=QudS4zr8EWADl6A921vyOZak-quIn2yT8U_T5G4OWEw"
+@	86400	IN	TXT	"SFMC-Cr71awXJByk3aZjxBoX0bAn6ltGhJ0BHhHrTW-q4"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_b13a8901b28321ff793f9d9cbf32bac2	86400	IN	CNAME	9D6688C28DA162DC3CDFF8BFC7DE8602.33F9108257D541D2A8A7F874A175B668.sectigo.com.

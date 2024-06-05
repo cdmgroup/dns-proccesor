@@ -1,0 +1,49 @@
+;File created: 05/29/2024 15:21
+;Record count: 40
+$ORIGIN targis.co.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011456	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_f844a9309eace46774838f8a98408d75	86400	IN	CNAME	10643787f6589f3c88df2df0c7a6ed19.6a4bb0791d9ef8800221d94d4b265bbc.94467b8d1ef0497ea320.sectigo.com.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u13698270.wl021.sendgrid.net.
+13698270	86400	IN	CNAME	sendgrid.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+vpn	86400	IN	A	118.238.221.44
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+mail	86400	IN	A	61.202.211.10
+em1006	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+srv1	86400	IN	CNAME	mail.targis.co.jp.
+sw	86400	IN	A	61.202.211.14
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u13698270.wl021.sendgrid.net.
+url6270	86400	IN	CNAME	sendgrid.net.
+em2367	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+secure-deliver	86400	IN	A	210.129.154.41
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+pesc440	86400	IN	A	61.202.211.13
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	TXT	"google-site-verification=OHc7op_Ti434e1ZpDLOWpDtg1_SCXLTVYi3BEzeRupg"
+@	86400	IN	APEXALIAS	eee7cx1aqqoj.wpeproxy.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAukv3jdxGcubl5+5Bp+zkWX1qG3Ir2d/VHX4dR1bhCXET+jvH9a1kxM7FyLa51fLv1W7oqppLQ7bYIDObA5Cvclgw34jqCQ0ra8yc3UxcQEBEiPIHv4jHn5Ikhskp3PbmRAJY7BO+cfcd7U7VDYd5Cxk+sKoRLasyRW5Cj4mVMB+CJS3kz86oO7jARm5RefCyR" "vAOElRes5M+9se+Iwsg4rwdmjQSW4FaZVLsrFw7+dzxb1h/genuNnPWWIfL8xu3fug7ih1HLVaCaZw6vW4+unOFpsnzC7w+qYLXA9TIB4RUh02e1CSMH1PoGt9C2bEiMG/kikboLQmIpBFF5rg76wIDAQAB"
+www	86400	IN	CNAME	eee7cx1aqqoj.wpeproxy.com.
+link	86400	IN	CNAME	track.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+_cc1610e1f66e2fa53d49a31f3316be1e	86400	IN	CNAME	6346509b695233a67f366ac6ed3bf24b.805a86a3f6746cab69c2dfbdf4866f86.e10fe701e2d24d319cae.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-targis-co-jp._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-targis-co-jp._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 targis-co-jp.mail.protection.outlook.com.

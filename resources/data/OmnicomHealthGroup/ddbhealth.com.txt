@@ -1,0 +1,41 @@
+;File created: 05/29/2024 15:21
+;Record count: 32
+$ORIGIN ddbhealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016052159	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.mandrillapp.com -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	MX	0 ddbhealth-com.mail.protection.outlook.com.
+3c88hz5hnrj7nzt3yn3k	86400	IN	CNAME	verify.squarespace.com.
+www	86400	IN	CNAME	x6f3enjwfc34.wpeproxy.com.
+@	86400	IN	APEXALIAS	x6f3enjwfc34.wpeproxy.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+link	86400	IN	CNAME	track.smtp2go.net.
+k2._domainkey	86400	IN	CNAME	dkim2.mcsv.net.
+ept	86400	IN	A	35.209.74.94
+k3._domainkey	86400	IN	CNAME	dkim3.mcsv.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkx2S/fWlfzaSbRkDqlQx/+7KYKiNQlRnOKC5Wancxr/zbPQ71Ew159+tcYO5QtCzhPwwxZPxEzzXTJpNMOo61IJzl+gksSjHJCTNcpizuX1NI5vLoonUGr7zvQLURhXcuDbrQkJRgWwYnPcK6eIPTbRrehMuJbJgHxJC/VxbiIIbsINqmgO/vXZ1cSl3DH45Z" "w/PlmJlvjTo64AfJtp4W0JUH4UW+h9YcQ/S+jHqn4bsxzASEW0tP4bDRqCm8eAEclMW7JUHOgAdrk6X/bQQj/XxZfKdWDoaWxrhBF8D+8KnYt7AYx1G0yT4nHEW/bMWdvYBip6006KYkuqdmo5HqQIDAQAB"
+staging	86400	IN	A	52.170.85.184
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+selector2._domainkey	86400	IN	CNAME	selector2-ddbhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ddbhealth-com._domainkey.oneomnicom.onmicrosoft.com.

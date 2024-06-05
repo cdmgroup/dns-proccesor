@@ -1,0 +1,26 @@
+;File created: 05/29/2024 18:04
+;Record count: 17
+$ORIGIN propeller-insight.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022032922	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.org.
+_b82d13392da034cb71ff587d9695b7d6	86400	IN	CNAME	f8216d4af18d25012fbc5cd587dce9cd.520ca03eabbe42f79889f43dcba083ef.ff8ce0ffd8ec46c5b3d9.sectigo.com.
+_5a4b309909288f7a7dc0949f101193d6	86400	IN	CNAME	a8d5f20e5abf4b5a173e2768b6225fa4.60286f42eb093c90f7bab4b5441e1611.d1d561eafe6c40e88403.sectigo.com.
+_b15d63d7b420b51ccf6f492744a1c19c	86400	IN	CNAME	_f7dc5f8c04a5d7dec965a246832bf2f3.duyqrilejt.acm-validations.aws.
+_f7dc5f8c04a5d7dec965a246832bf2f3.duyqrilejt.acm-validations.aws	86400	IN	CNAME	_f7dc5f8c04a5d7dec965a246832bf2f3.duyqrilejt.acm-validations.aws.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_acme-challenge.db	86400	IN	TXT	"dxOPm6Y3B6CTzOZaahhUwuyUIE7Qi84ss33RHE1DYFY"
+db	86400	IN	A	3.222.48.47
+api	86400	IN	CNAME	api.propeller-insight.com.edgekey.net.
+ui	86400	IN	CNAME	ui.propeller-insight.com.edgekey.net.

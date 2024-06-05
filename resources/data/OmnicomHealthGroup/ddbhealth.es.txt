@@ -1,0 +1,35 @@
+;File created: 05/29/2024 15:21
+;Record count: 26
+$ORIGIN ddbhealth.es.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023042526	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 ddbhealth-es.mail.protection.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgOmoLVMALPSFem8aWDtvY2CjHMOmDdD3f+sCIFADV4DlYR/rErYl1469yoacQtXoKj1TmfZimj28FFDF4aqBadUaiN6HLNehcmQy/OCeMUSBDIKNCR6mVxX+ahZmU3HuIH7SpXwgO95Rk2XBsQGbhzWirNC+JuCSqpSs/ETlHtJ4FNzIBd+t1kpjsWo8jbLnB" "C4hxoHPaS1AnEcjujFncQ3V3ZEAKFCLLjKnBc/Md/5cKMDsfCa5vE80pfEbj5UUisDXyqBfknMg4atmmF2FCS65+C6H1d9SkOwtcVx5t+lo0aixfYdyzrh4gFzankMkj+xD4p6mTbW96BXGgXqVswIDAQAB"
+@	86400	IN	TXT	"google-site-verification=FvkD8eo28FUzRgLJssYS4lsV1ONQgUR9rykHrA56SyM"
+selector2._domainkey	86400	IN	CNAME	selector2-ddbhealth-es._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ddbhealth-es._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+www	86400	IN	CNAME	21bvizqw7kka.wpeproxy.com.

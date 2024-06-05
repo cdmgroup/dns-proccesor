@@ -1,0 +1,31 @@
+;File created: 05/29/2024 15:21
+;Record count: 22
+$ORIGIN etalmeded.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111642	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 etalmeded-com.mail.protection.outlook.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	A	82.223.248.140
+www	86400	IN	A	82.223.248.140
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoTqA7paH3T5uaGezzQp5v4pvdOi40ZTfqoBbh19YWA1C0srsK8D/0Ab6Z+Sg1OmwfHnJqNw4xH7J6l4+tzKvBYAG0sxKcaAQYtLnIA6aZxHKY2Fi0lltYrERdQilwcpEfowVPD5x3DtOVqzSIzNY1k04twDlngW/PVWLudRTGPCycIFBzCUV2uQ0EEklkOVoz" "5kCAaYgSmuX/2ebHCcNvVUajEVu/wvMoQK/ybDC5xQ8NC+VhstV7e9DsIMYjTJsTtu4p/ltv3A5a90dK7TWEmzSodzvYhrPB9GnBvE2H5rrahINubUNIeEMLb2wl9MU6Keqi1x5/x/6r3oRjqO7lwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=-gWc9_BRmfcd8IoaTgqdUgJDm-XjpaLbEjEQdbJ2uJw"
+selector2._domainkey	86400	IN	CNAME	selector2-etalmeded-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-etalmeded-com._domainkey.oneomnicom.onmicrosoft.com.

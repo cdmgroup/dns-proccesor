@@ -1,0 +1,17 @@
+;File created: 05/29/2024 18:10
+;Record count: 8
+$ORIGIN notapad.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023083104	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	600	IN	A	3.221.115.106
+www	600	IN	A	3.221.115.106
+_cae2ee2f1c849bc42d281e43adf3e61c	3600	IN	CNAME	0869c98e857a6fd1c08f06756567d378.c252e07cc3198d5545dd23feccb95413.c734dd17aa254426932d.sectigo.com.

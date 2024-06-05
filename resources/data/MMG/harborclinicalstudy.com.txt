@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:02
+;Record count: 18
+$ORIGIN harborclinicalstudy.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021110488	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_acme-challenge.www	60	IN	TXT	"uLUUYNOmz6J_3SmFtyl_eVUXNFvanNwrFWKl3mA3OM8"
+_acme-challenge.es	60	IN	TXT	"9hbLkg98sZWUJVN3XqGqrRK2k06lprj3I2Etg2d-PDc"
+@	300	IN	A	204.74.99.100
+www	300	IN	A	204.74.99.100
+_acme-challenge	60	IN	TXT	"1W6xJatFzqiHdK-ML2eFlBqrX70h6c6zbFNaerjfwEc"
+@	86400	IN	APEXALIAS	harborclinicalstudy.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"EM8df3DuAp1d98fWWnxfLsGU3Ib4vhXTvNXQjL805aI"
+_acme-challenge.es	60	IN	TXT	"6yacgPhsaJxUbWAUg5lopOFDJyUzlmwdePw9XI1sj7E"
+_acme-challenge.www	60	IN	TXT	"Ks8pdf3rdj8ghILiCA6y4hFzNPQNrmIr5-UP1kut8_I"

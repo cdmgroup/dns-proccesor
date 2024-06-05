@@ -1,0 +1,45 @@
+;File created: 05/29/2024 17:57
+;Record count: 36
+$ORIGIN ddbremedy.co.uk.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020022101	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+nest	86400	IN	A	46.249.199.99
+_b5b7a6191431808436f9153a7b5c655e	300	IN	CNAME	EE5D3088B25DEDB7DC7F1EC94E6A08EC.B93EC086BC351C66B2DCE7B48272061E.baec6526bb7549cdae86.sectigo.com.
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+@	86400	IN	MX	0 ddbremedy-co-uk.mail.protection.outlook.com.
+@	86400	IN	TXT	"Wedtw9OH7H3uivUYFuJKbVjcCW5Jc9jW6jNRqk8wwnc="
+@	86400	IN	TXT	"BlQOQhYj+KgKiBjKoM/d7cb+ezuCUP6ibmulHrrGoE="
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+freelance	86400	IN	A	141.193.213.20
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	TXT	"adobe-idp-site-verification=dd76ed4c-3e1c-428d-9dad-e4c9583c5b9a"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+www	86400	IN	A	141.193.213.20
+www.freelance	86400	IN	A	141.193.213.20
+appleid	86400	IN	TXT	"apple-domain-verification=QMBpDANUw0OZXn4x"
+*	86400	IN	TXT	"v=spf1 -all"
+_amazonses	86400	IN	TXT	"O5HbOj9YulFyQyXzPvFsl614SCbyI/9BIGxpjOMw8gs="
+raid	86400	IN	A	46.249.199.99
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh+Xt+Sn8rwRrARpy4RheCDXoXlp0aXtI/11yRUydfRXiRP21TRmAgiZldgujdvXkMOhyN/UDQov7XCT38mWZPgbDjoLdKbyWHx/zKmR21Y2UiVC0NH2LQkAuUD1akuDNXBxx+Yd4MGfIGvo40OAzPBleLx4lNHPyXEmK3qNb511oT9EKpE3oOnKswsQmdPuR0" "YHH7iXkpeeziZC6VFJPsbZvMn2PHj1vpA30Kzm2Um9e7S3T5n1RalNTMGciq7+AlrSOQbaWhkjAuXjgG5fMm8vfTJAW/ASWumO1fsvmrNTqd81+RPMs0otPUk35Qu5wyyzafF+ynam9sACMLPU92wIDAQAB"
+@	86400	IN	A	141.193.213.20
+selector1._domainkey	86400	IN	CNAME	selector1-ddbremedy-co-uk._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-ddbremedy-co-uk._domainkey.oneomnicom.onmicrosoft.com.

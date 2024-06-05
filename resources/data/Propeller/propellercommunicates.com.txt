@@ -1,0 +1,56 @@
+;File created: 05/29/2024 18:04
+;Record count: 47
+$ORIGIN propellercommunicates.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022032994	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 propellercommunicates-com.mail.protection.outlook.com.
+_0ad74b1bcb9259d97423ceb22c661feb	86400	IN	CNAME	a701add65791cabb746e83ae3230492f.e32a492818e5fc3ecf2ee7782f12adcf.5d417483932a4467876c.sectigo.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+obixdev	86400	IN	A	97.107.141.59
+_23855764ad358b3273523a6edb931ef8	86400	IN	CNAME	_4f7c893f63c780bccfff0bf60f478eb9.vhzmpjdqfx.acm-validations.aws.
+propellerstagingsite	86400	IN	A	18.205.142.180
+slidelibrary	86400	IN	A	34.196.140.29
+v3.propellerstagingsite	86400	IN	A	3.87.20.42
+slidelibrarystaging	86400	IN	A	34.196.140.29
+captainclot	86400	IN	A	34.227.131.179
+v2.propellerstagingsite	86400	IN	A	18.212.69.179
+@	86400	IN	TXT	"google-site-verification=SvInOxQt9TsjlEAeFZoqjGI9XqWD8eb9kDIqj5GtHl8"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiL9XHgzy883+ybBYDO+Dq8Pnb/uK8hITWYOr2iAURQX75ib0PoyG2OrlXSlsSArsTlOykFZfvGdn//NV0P6YNJQbCCkL6rgAC2ezYk0hNz3sZD12vDL3b0Aj8/+d2fCbPNCxKL2kKCRQc3eWPJNex6Ohv4waC2UMMbZq+rwt8Lx+aEUAP38OJXIwsuCXEQ+AT" "qZdQzr/G780UwAF6QKqZByCQMXu4rfTzMtO21dlbn5EjJqnBKrxunJVZyvqFNmJ28LRypDCQyCtA/+FOyUqkg2ctoSOGo2ixKWqgwm342j4LnPq4nI7lBgHlip+X5X1yugZCdLLt0diS8RovEh04wIDAQAB"
+hk	86400	IN	CNAME	hockeykit-1144993833.us-east-1.elb.amazonaws.com.
+apps	86400	IN	A	166.78.129.57
+ppmc	86400	IN	A	54.158.145.228
+asco	86400	IN	A	34.224.164.19
+deckbuilder	86400	IN	A	97.107.141.59
+@	86400	IN	TXT	"google-site-verification=fQOsDXEB-c-wXaiVsJYArwN6MA42UOddTQcWHUVb0WM"
+clearstudyresults.stage	86400	IN	A	18.205.142.180
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.google.com -all"
+njedit	86400	IN	A	10.192.104.14
+www	86400	IN	CNAME	www.propellercommunicates.com.edgekey.net.
+@	86400	IN	TXT	"box-domain-verification=9ee37f7ae37efe84cc4fe80cbb6d595cf05afdd79d4f096e05878bf4d3e52836"
+_79986111b4f29c0425de49985dd5724c	300	IN	CNAME	cdc9010763b4cc843134658578af2821.83815d63c38ca393cfbed26483ed044e.ff466dc451e24c30911f.sectigo.com.
+_acme-challenge	60	IN	TXT	"ZJ5sRmGV8fOFg5W7Mz4JgJ9k9JMrpfccP-LqICPUFbk"
+njssh	86400	IN	A	10.192.104.13
+njtunnel	86400	IN	A	10.192.104.11
+_c385a6bb5fa2584641d4412c33dccb19	86400	IN	CNAME	e411e3886ee305b8136c2ce5c545d3cf.ceabd3ec05c404c1c13d14d4f7d03831.3c17dc99098842498ef7.sectigo.com.
+@	86400	IN	APEXALIAS	propellercommunicates.com.edgekey.net.
+selector2._domainkey	86400	IN	CNAME	selector2-propellercommunicates-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-propellercommunicates-com._domainkey.oneomnicom.onmicrosoft.com.
+_acme-challenge	60	IN	TXT	"6S6XJw5o1PFYJF9-IcQ8pqWIwehL6iUsLHEecNCc1uI"

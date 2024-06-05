@@ -1,0 +1,30 @@
+;File created: 05/29/2024 15:21
+;Record count: 21
+$ORIGIN cdmupstream.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021081031	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	86400	IN	TXT	"google-site-verification=wN5f_qFkzQWOx3S9a6bavND-TGm4ceb5aVa4JitTKGI"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuqf7Xz4umKMgn7PiJAR1pdnLVmocnQaI3IEh/yZha1pYd4HwpW0orquikQ9bHBxQeNQgP+/3Rs1HuF9k+OibkFFPZNUc5DTja/WJJDfzB2uEQNeOnKIOwEPpU2A8xcEPejA0kZwMUGlSlVvXnSpD2CDzOFYhhXYQUy1IHS2JMFZNp9/UfU4/g1pzjaK5aEfl6" "uhlE+MBGNww0FYcZ62+6cwbSGO52EYLRNlL/yTRHgcsLNcPrZLwetyv62iDLHZweFuiad19o2gbX203Ttvc94RfdyGKGLqHBxexWqVKQqVfc5DoI5W5FyDrcEmvB+2tydux/8b4Ifnaf7i9BFaJvwIDAQAB"
+selector1._domainkey	86400	IN	CNAME	selector1-cdmupstream-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmupstream-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 cdmupstream-com.mail.protection.outlook.com.

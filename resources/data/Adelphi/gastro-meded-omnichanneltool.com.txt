@@ -1,0 +1,26 @@
+;File created: 05/29/2024 18:15
+;Record count: 17
+$ORIGIN gastro-meded-omnichanneltool.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021020935	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	41i7ouu8mb5v.wpeproxy.com.
+@	86400	IN	APEXALIAS	41i7ouu8mb5v.wpeproxy.com.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+default._domainkey.gas	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoXAVpZoTCCmuu05qN4EljCj2iZbbFn5HvVlueJfx80WDGB9Otn66RYG54iTMd1iU2kyCBZrT7sCM8XdP2pl0BQgl8khCCcmD/LUTg34caWj88ZhArgbIsd4z4iic0DPNKUFfdiflsAy4qi0jXFKMcrZ1yl5rRS732HfPFKO/6TUzOJ+WeXRhzqcwQozUUMkRG" "46qlsTAVNioIOeM79H9Q5jvj4S7adC/8qr95+0qa76AUGVFBSOFu/hKSlVbANZJiUboTi+VAXTal5pPc+xh/uf4eycFWRYRy4TP5eO6rFlgwfJo59HE6gziLbxoqVLaMtpqmD9YZ1hsO4RYdSNyawIDAQAB;"
+link	86400	IN	CNAME	track.smtp2go.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.

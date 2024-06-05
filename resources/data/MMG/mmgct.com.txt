@@ -1,0 +1,112 @@
+;File created: 05/29/2024 18:02
+;Record count: 103
+$ORIGIN mmgct.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014111094	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+asuid.glacierhcp	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.mmgforsarepta	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com ip4:194.175.112.0/24 ip4:91.126.136.180 ip4:62.14.237.114 -all"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	MX	0 mmgct-com.mail.protection.outlook.com.
+asuid.mmgforaz	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+asuid.agency	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.revmars17study	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+dzc	86400	IN	TXT	"NFBYbqh"
+reviewicecoreapi	86400	IN	CNAME	reviewicecoreapi.mmgct.com.edgekey.net.
+demo	86400	IN	CNAME	demo.mmgct.com.edgekey.net.
+_acme-challenge.api	60	IN	TXT	" x_19w_DdL8iaX3wGV50WeEYj1kuVoOtZIj8RTCrtK0Q"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_acme-challenge.agency	60	IN	TXT	"Ktv0kzEo0KO2LTsksRrIK5Hmeqd7M2J99sCKomsDtgc"
+_acme-challenge.revapi	60	IN	TXT	"kcnRFd5DB-uv7Tj4-5WiASDSQHXeBxoyZXb4n8lF8r8"
+_acme-challenge.api	60	IN	TXT	"MR6WdAhvGnRwcm4ASjKhaFaHLZSDSvquq0LVIov5kjU"
+_acme-challenge.mts	60	IN	TXT	"nBnKcUdZpA0B55whmyzdf0-4d66rNuOXIhHVYoB62B8"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+asuid.outreachapi	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.go	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u21563303.wl054.sendgrid.net.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u21563303.wl054.sendgrid.net.
+asuid.sitecare	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+outreachapi	86400	IN	A	20.119.8.39
+*	86400	IN	TXT	"v=spf1 -all"
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.bwellhbvstudy	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+url2305	86400	IN	CNAME	sendgrid.net.
+21563303	86400	IN	CNAME	sendgrid.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl8LDwLS5RZyMq9z4jcpo9TrJeXmV954YJOunevVPCRFMziJkca76wDraq4yu89S7E5SONwAONkcCFieCiLqAqhgc8Q3dvWxpx+6HWfoE0WM+gHO5Ay4wH7O9M5qUkJPUzAjltCEz0kE035MexqcaHBS7cNCUXLEFLheSrfe1hFfnKpoiwZokPhI0F+tozjika" "+MicT/hYT95ra7KIz3BJ52PlNbmqhU7JyWuaqAwdTuOkbnwnXFdrixFlrEMepGrl8ZuHzKXjhWq1wRXOZ6OVQC6a4zA7mBaaYooeQjDxO1ki6lFwL1w3ELGXJinrI44Ov5UKSBiVr86qCUyhJ7urQIDAQAB"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+em6888	86400	IN	CNAME	u21563303.wl054.sendgrid.net.
+em8678	86400	IN	CNAME	u21563303.wl054.sendgrid.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+_acme-challenge.revapi	60	IN	TXT	"JVqPUBzNXr5g_ramTG3gV40jU8ZGtMuEECcM-Coszfw"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+privacy	300	IN	A	204.74.99.100
+mmgforultragenyx	86400	IN	CNAME	mmgforultragenyx.mmgct.com.edgekey.net.
+asuid.devmel301	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.reviewsitecare	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+mmgforaz	86400	IN	CNAME	mmgforaz.mmgct.com.edgekey.net.
+asuid.reviewtilvance301	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+review	86400	IN	CNAME	review.mmgct.com.edgekey.net.
+@	86400	IN	TXT	"onetrust-domain-verification=36febdfe62304038ade2451bc2a6682f"
+@	86400	IN	APEXALIAS	mmgct.com.edgekey.net.
+www	86400	IN	CNAME	www.mmgct.com.edgekey.net.
+bwellhbvstudy	86400	IN	CNAME	bwellhbvstudy.mmgct.com.edgekey.net.
+sitecare	86400	IN	CNAME	sitecare.mmgct.com.edgekey.net.
+asuid.reviewicecoreops	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.reviewicecoreapi	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.devtilvance301	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge	60	IN	CNAME	ac.5d483b3762fbce41743488ef952756c1.mmgct.com.validate-akdv.net.
+_acme-challenge.mmgforaz	60	IN	CNAME	ac.b4554ab06f0c4bcf9fcbe4a435d2707d.mmgforaz.mmgct.com.validate-akdv.net.
+_acme-challenge.reviewtilvance301	60	IN	CNAME	ac.fb969b5687976fbb96f9cce46b25b798.reviewtilvance301.mmgct.com.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.46fe8c9482dc8930b80444c7a75b8cfc.www.mmgct.com.validate-akdv.net.
+_acme-challenge.mts	60	IN	TXT	"mRKNiv01pevDC2LpgpWAjL8mJ4Z6dTV1MWS7hP3ZDO4"
+_acme-challenge.glacierhcp	60	IN	TXT	"XgmwRzQp6lfUMaHPyKhXJhzk66b2t_c0vz-Du93If9w"
+_acme-challenge.mailings	60	IN	TXT	"Pj4gtKWRhNJtSwMY0RrSJMgQ21tBIlS5wyF4fMwYP2E"
+_acme-challenge.agency	60	IN	TXT	"hwFazNImC1Cev1PVNr7sLCHoUhvTUlJIpXWCsDS618A"
+@	86400	IN	TXT	"google-site-verification=DaJxMod6KGjokaT3caQ-2Wvt05r84sN3623Lsm77kKU"
+asuid.ohg-agencycapabilities	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.mmgforultragenyx	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.uatgskreportingmetrics	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.sitecare-api	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+sitecare-api	86400	IN	A	20.49.104.33
+asuid.gskcapabilities	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+gskcapabilities	86400	IN	A	20.119.8.40
+selector2._domainkey	86400	IN	CNAME	selector2-mmgct-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-mmgct-com._domainkey.oneomnicom.onmicrosoft.com.
+mmgforsarepta	86400	IN	CNAME	mmgforsarepta.mmgct.com.edgekey.net.
+ohg-agencycapabilities	86400	IN	CNAME	ohg-agencycapabilities.mmgct.com.edgekey.net.
+uatgskreportingmetrics	86400	IN	CNAME	uatgskreportingmetrics.mmgct.com.edgekey.net.
+reviewicecoreops	86400	IN	CNAME	reviewicecoreops.mmgct.com.edgekey.net.
+reviewsitecare	86400	IN	CNAME	reviewsitecare.mmgct.com.edgekey.net.
+_acme-challenge.review	60	IN	CNAME	ac.51c978a3ac09dbfbf652b049ef8fa7e7.review.mmgct.com.validate-akdv.net.
+_acme-challenge.mailings	60	IN	TXT	"VTO2v1Y4kGcqMUiRVbOKWQsOaH2q_APxuwd7ZJuRDq8"
+_acme-challenge.glacierhcp	60	IN	TXT	"bersAC56Ta2WcOEpKYViA0191eqCs8pg2QY0r3VyVts"
+asuid.uatsitesupport	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+sitesupport	86400	IN	A	20.119.16.49
+asuid.sitesupport	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+uatsitesupport	86400	IN	A	20.119.16.49
+_acme-challenge.mmgforultragenyx	60	IN	CNAME	ac.961e3c696132f810935fbda28797f4b6.mmgforultragenyx.mmgct.com.validate-akdv.net.
+_acme-challenge.mmgforsarepta	60	IN	CNAME	ac.da3a418e3e08eba2ddeb9d7f5a243f27.mmgforsarepta.mmgct.com.validate-akdv.net.
+_acme-challenge.ohg-agencycapabilities	60	IN	CNAME	ac.44c812799b71414422af3c79ecadb46a.ohg-agencycapabilities.mmgct.com.validate-akdv.net.
+_acme-challenge.reviewicecoreapi	60	IN	CNAME	ac.6d395ce7cfeb4c52b3fba424b0170c33.reviewicecoreapi.mmgct.com.validate-akdv.net.
+_acme-challenge.reviewicecoreops	60	IN	CNAME	ac.c933b66b149230fea0e6d70fac44ae0e.reviewicecoreops.mmgct.com.validate-akdv.net.
+_acme-challenge.reviewsitecare	60	IN	CNAME	ac.83e6f2e657205ec657c1b13c83f9bd24.reviewsitecare.mmgct.com.validate-akdv.net.
+_acme-challenge.uatgskreportingmetrics	60	IN	CNAME	ac.32f2ae9c1f29c5bfbfe2077c99557303.uatgskreportingmetrics.mmgct.com.validate-akdv.net.
+_acme-challenge.theinsightgiststudy.com	60	IN	CNAME	ac.c1a06c6f6bdaccf85a157b3e322868bd.theinsightgiststudy.com.validate-akdv.net.
+_1be9b6fcc9ed6f82c96330df036bbc6f	86400	IN	CNAME	36d7e979e70e00f014d6f1ef19ed6b55.292717774e84693f9cf602fe2b97c1d7.23e8f40ded504f3ca61e.sectigo.com.

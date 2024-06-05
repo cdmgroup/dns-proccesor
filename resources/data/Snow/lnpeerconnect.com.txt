@@ -1,0 +1,23 @@
+;File created: 05/29/2024 18:08
+;Record count: 14
+$ORIGIN lnpeerconnect.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022062709	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+www	86400	IN	A	141.193.213.21
+_36a376c79592ddafb8c953a590b0e34d	86400	IN	CNAME	a5a755107a0d44dfab71b6fdfc212a1f.6ad9b023db97e8128a2c63da7c4579c1.9a74260273ba45f08596.sectigo.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="

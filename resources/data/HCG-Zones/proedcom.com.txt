@@ -1,0 +1,33 @@
+;File created: 05/29/2024 14:11
+;Record count: 24
+$ORIGIN proedcom.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019110872	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	MX	0 proedcom-com.mail.protection.outlook.com.
+stage	86400	IN	A	52.20.220.193
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+*	86400	IN	TXT	"v=spf1 -all"
+www	86400	IN	A	52.3.216.41
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxB11OaezmOUPryP4M1FMSFjZYUikqMpNQzT+a4+QSJNlWjH8Ug79eM4hC997gDqBus+DpeaVh/4Uod58KqJhZYcGoopxBIXeIBdw7tJXcZQumNej9kc3Tt3hGIqd/PhqVDyhJEYQtlePBs655+VZm4kahafaCbBN7FkmE8e50ZHiLQI10A28zVkUwNCB8+6r5" "5gK2GkYEk9Jyi9FSq+E9WWTRawBkRfyRseAxD7M5LqEySl3VGfYiajdfe/7y9FvDlrhm2C5yT1Wzs7ahNCUNHbJEntYvCQFsQt2QLyGVq0Y3gv35pNM8tG42g5FONpwFJ4UIenHc+pCvcq4X9ZW6wIDAQAB"
+@	86400	IN	A	52.3.216.41
+@	86400	IN	TXT	"google-site-verification=W0kW_EX1Q3XzrKv2ns0Q4q5aIZgtklrMQBBbDaoONOc"
+_da46c6f9464bd23552b112553821d1b4	86400	IN	CNAME	ec80f88a3793315d320ff0c4a3daee87.c914cc584353ec9e4887055d02584418.2ac4c3e36be142deb133.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-proedcom-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-proedcom-com._domainkey.oneomnicom.onmicrosoft.com.

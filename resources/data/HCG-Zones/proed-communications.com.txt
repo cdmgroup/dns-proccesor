@@ -1,0 +1,28 @@
+;File created: 05/29/2024 14:11
+;Record count: 19
+$ORIGIN proed-communications.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020122891	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+test	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	APEXALIAS	proed-communications.com.edgekey.net.
+stage	86400	IN	CNAME	stage.proed-communications.com.edgekey.net.
+www	86400	IN	CNAME	www.proed-communications.com.edgekey.net.
+origin-stage	86400	IN	A	52.201.109.215
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+test_stage	86400	IN	A	52.201.109.215
+testproed-communications.com	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+teststage	86400	IN	A	52.201.109.215
+_acme-challenge	60	IN	TXT	"7j58InYGVea_hOaYAQf-nZdopEsx7fsLfIdZMPT7-5I"
+_acme-challenge	60	IN	TXT	"xM9zyYtQ6Wd2USJMhT-WNF5tv-9yb2kQAG0wETTbbNg"

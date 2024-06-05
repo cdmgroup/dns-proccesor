@@ -1,0 +1,59 @@
+;File created: 05/29/2024 18:15
+;Record count: 50
+$ORIGIN adelphivalues.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011022	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+cdmailer	86400	IN	MX	10 inbound1.messagegears.net.
+cdmailer	86400	IN	MX	10 inbound2.messagegears.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.messagegears.net -all"
+gears._domainkey.cdmailer	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnnZ67teJIQQLcfbzztAOx7UMJyFVpz29RX1ZlrV9xf5yJDQyCMCHcwcN5qNaqLMr/cuVzkSW3e1vYqO/9lqfXWkXSgYM8kVeywfubh07vNxTia/5pggiiCPD0+wgSgrMqJFDoKzzFAf+wWwidaHQ9Q9Zel0+w9gWmsi56xt7mRwIDAQAB"
+gears._domainkey	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnnZ67teJIQQLcfbzztAOx7UMJyFVpz29RX1ZlrV9xf5yJDQyCMCHcwcN5qNaqLMr/cuVzkSW3e1vYqO/9lqfXWkXSgYM8kVeywfubh07vNxTia/5pggiiCPD0+wgSgrMqJFDoKzzFAf+wWwidaHQ9Q9Zel0+w9gWmsi56xt7mRwIDAQAB"
+_domainkey.cdmailer	86400	IN	TXT	"o=-;"
+@	86400	IN	MX	0 adelphivalues-com.mail.protection.outlook.com.
+hip	86400	IN	CNAME	hip.adelphivalues.com.edgekey.net.
+cdmailer	84600	IN	TXT	"google-site-verification=3uZ5rCKCwKrYt3QBHiBNQ18NySRHvgMJPZPL5An4W1U"
+cdmailer	84600	IN	TXT	"spf2.0/pra include:_auth.messagegears.net -all"
+cdmailer	84600	IN	TXT	"v=spf1 include:_spf.messagegears.net -all"
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+@	86400	IN	TXT	"adobe-idp-site-verification=f8a9b081-04e2-4443-bee2-cc83447dee3f"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"google-site-verification=28e2SfAhulJEsOGvTku2QQ682_xfT6nhf29qq6lv7DY"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9XDXeSqE+Sls/0HhaC9D583d/LIdU+di/CpR1XVw3gIOKof9R158DcwZ9YeWo8uxeGodt8/mOD7qjrKdd8/Jbgi4/ECWXT4VnTEYCtKDx1eL0mgg1c3xsQ10Qizazj1LyD76OH+dLcnJSW/WwI6JMm4LuqDZ1ay8Uch+Yki3cntT6kX+lgZrAUe+FgS+8pp1E" "qtJTP5FdkJIV/LOL+269F6ijMBmeA7OcQ/q3dXlVGX+tUFDrP3E2Ym9QEV+NZ+ZycLLIF5BhY+k7wmEbJjPnKPFAkWtPU3wQmhoeY6W/zgixBLCAk637L4amQE0Teb8JcVNm1bqcXeU5uRXmAJcEQIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+pcointranet	86400	IN	CNAME	ktlwqn7hjdlq.wpeproxy.com.
+proveintranet	86400	IN	CNAME	dom1y4ph1ph7.wpeproxy.com.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+web	86400	IN	CNAME	analytics.clickdimensions.com.
+email	86400	IN	CNAME	elink.clickdimensions.com.
+_acme-challenge.www	60	IN	TXT	"EZn7dUGSCAByQuh03wmWHjWTGj3D1bVQF5C9PZOsxUo"
+_acme-challenge	60	IN	TXT	"OWnhGwqoXNTM-ZGjMptn4VZuuMHSXMsH110pXCE7wAo"
+_cdb1aabc66db5995561a5e7799f9d5e3	86400	IN	CNAME	f76008b0ed8a260747cf3b17ae5be61a.1c95e0bd3276f37b8e5ab89d0b43ac07.3d193d83091e41318d06.sectigo.com.
+publications	86400	IN	A	52.212.200.121
+_cf-custom-hostname	86400	IN	TXT	"f6121942-acd5-4aec-9dba-c53647ac5012"
+_cf-custom-hostname.www	86400	IN	TXT	"0ee6159e-ae31-4e73-83f9-177b75247c9e"
+www	86400	IN	CNAME	3311gsvzmt3u.wpeproxy.com.
+@	86400	IN	APEXALIAS	3311gsvzmt3u.wpeproxy.com.
+_acme-challenge	60	IN	TXT	"4UILAWwHHh-T8JFJ94yzZ0dkDnbVsJDPZVFABU-7lLw"
+_acme-challenge.www	60	IN	TXT	"fh5uF4M_Ck6Lc_YGk_3nQkmhuKSYFosp-O7LGENbvKk"
+selector1._domainkey	86400	IN	CNAME	selector1-adelphivalues-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-adelphivalues-com._domainkey.oneomnicom.onmicrosoft.com.

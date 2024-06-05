@@ -1,0 +1,59 @@
+;File created: 05/29/2024 15:21
+;Record count: 50
+$ORIGIN harrisonandstar.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2014121281	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+staging	86400	IN	CNAME	staging.harrisonandstar.com.edgekey.net.
+mailrelay	86400	IN	A	12.154.43.198
+webfile	86400	IN	A	216.158.191.207
+vpn	86400	IN	A	8.31.237.223
+ftp	86400	IN	A	12.154.43.198
+extranet	86400	IN	A	12.154.43.199
+holiday	86400	IN	A	34.202.60.4
+portal	86400	IN	A	12.222.253.75
+clients	86400	IN	A	216.158.191.206
+static	86400	IN	CNAME	d1wirtivpnrir1.cloudfront.net.
+streaming	86400	IN	CNAME	s2mo1kpuytsiyy.cloudfront.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:mailgun.org -all"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	MX	0 harrisonandstar-com.mail.protection.outlook.com.
+holiday2.harrisonandstar	86400	IN	A	166.78.217.151
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+analytics	86400	IN	A	8.31.239.106
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+@	86400	IN	TXT	"c0j3ooshvue52vldbko09rt3c0"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg1Llu2HK3zrQcMJFRxfd5AVTljCDfhtNYFc0xToVXZK6E6R/9nEDBBpMu33fuuPd/VoXagsbHkAcYszYczM2Q5upeVIfk1ItYg9UOgmBOyAjRXZlkbHgCR/xCGKBLbqigyb4h7i4ClDZWwRhf5Ys/ck9+jDKkMrngRsOmRjLeH0a4yYHr3A5kUFfkZpEp4Ges" "a008Uh4hS0hYEnKc7tJKCQCRAkQfki9K0Pk03iJfje4/wV1qudQW2juaL6fQziifguzAI5wa0cO5Bt9k5DHFnlxpXJjbE69Cikz6lYkf4LEbSqyz7lvLS5cTfmcm2T/W4dZjqZGtXvsvlR8GcHd3wIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+veeva._domainkey	86400	IN	TXT	"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0xHkQAYwmwWkxCAJtv7V/DA3TxCk6v2jLR7BEYew21K65TXmomVuDHwZlESx993qInZbOfcFz7iye68ETFa8aXqpWuz31djWzBv3jxkTyGiF/6xDcuO28/6xyzVn3fMc8VFq0zUXHRFMYsMmZm+8FgzcF3bIP82xBy9kKeRUbZyBHS2Ae2insXRBtlj3q/WXF8xjaVdvjF" "EF8vRho/Uedh3yeGIhraEXWYMsoXC9OKKRVDKu/tSkpAOA5f46A3TgWu+DbNuNfaD8IGquY7mv3ZkxVOHuTsA6uOpyi2FoxOJw8zDx/NcxWgOfRka8a2FMUmMDXr6w18FXO/yHVy3y5QIDAQAB"
+ae	86400	IN	CNAME	mailgun.org.
+www	86400	IN	CNAME	www.harrisonandstar.com.edgekey.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+disc	86400	IN	A	100.110.73.132
+origin	86400	IN	A	34.202.60.4
+origin-www	86400	IN	A	34.202.60.4
+selector1._domainkey	86400	IN	CNAME	selector1-harrisonandstar-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-harrisonandstar-com._domainkey.oneomnicom.onmicrosoft.com.
+_acme-challenge	60	IN	TXT	"L7kWNI_jb_wJhZ3dcYr8UuKTTbbzM1GYb-d5xQVJMhA"
+_6261891859b6640e2df778883d7e6691	86400	IN	CNAME	683a4f88b880a5e680daf2f40962f9d1.9d5f7829da2e1e654fc9268396d55d97.8e407f387d094a7f949e.sectigo.com.
+@	86400	IN	APEXALIAS	harrisonandstar.com.edgekey.net.
+_81fbc15e1b549d2084d976495819c02e	86400	IN	CNAME	B4D7700FD079F60C9A3BD1CCCDAEAF1F.A8034530BE331223C4F66FABA4E121A2.abb4c45cc442450bac9f.sectigo.com.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+_acme-challenge	60	IN	TXT	"q1TxTPo63VI-1I_pKA3iectj9NRDfyO5eLoeU3NOq0w"

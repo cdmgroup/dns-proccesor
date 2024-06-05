@@ -1,0 +1,22 @@
+;File created: 05/29/2024 18:08
+;Record count: 13
+$ORIGIN dev-snow-companies.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081328	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+_autodiscover._tcp.admin	86400	IN	SRV	0 0 443 cpanelemaildiscovery.cpanel.net.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+_autodiscover._tcp	86400	IN	SRV	0 0 443 cpanelemaildiscovery.cpanel.net.
+@	300	IN	A	204.74.99.100

@@ -1,0 +1,28 @@
+;File created: 05/29/2024 15:31
+;Record count: 19
+$ORIGIN rxpeerinsights.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091733	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+_31690032ef09b336018859c531c9a927	86400	IN	CNAME	8A069C12137BE5410BDECC9640B88ADC.3224F62BAD86F0E82EAC5DD74AA0AC70.sectigo.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	A	3.21.69.112
+@	86400	IN	TXT	"google-site-verification=s4g3scI25n6-ZaJmsUUuYD_iFgRRC6Lv7A8DzEBkIpw"
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	TXT	"SFMC-Fx8xqptiht9lHxF_8tEn8fecSBu7veCbk4CV68Jz"
+*	86400	IN	A	3.21.69.112
+_775b5468e624f189c151df8bbe86082d	86400	IN	CNAME	68be521f6dcfb9791f6c609f0a89d037.ad688e8973174254cc0c816d964a58df.b423d0c7ae084addb6ea.sectigo.com.

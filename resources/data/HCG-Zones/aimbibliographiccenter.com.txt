@@ -1,0 +1,23 @@
+;File created: 05/29/2024 14:11
+;Record count: 14
+$ORIGIN aimbibliographiccenter.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022021057	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	84600	IN	TXT	"google-site-verification=fVIybtHcpHPHOPt8b-KmNIgh11FZfxSC_Yi1OxWRuIg"
+@	84600	IN	TXT	"v=spf1 -all"
+@	84600	IN	TXT	"notokenfound"
+@	84600	IN	TXT	"10gvd5s8flalhborf8b7v5st56"
+_autodiscover._tcp	86400	IN	SRV	0 10 443 autodiscover.accessdomain.com.
+@	86400	IN	MX	10 mail.aimbibliographiccenter.com.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"

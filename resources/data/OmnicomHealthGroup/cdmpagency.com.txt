@@ -1,0 +1,36 @@
+;File created: 05/29/2024 15:21
+;Record count: 27
+$ORIGIN cdmpagency.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021031024	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_acme-challenge	60	IN	TXT	"sUGjsa-UstrTo0IIgIgQE3XTW3vNKvkpMhLrZnFPXvA"
+_acme-challenge.www	60	IN	TXT	"Q2QmXYeOwqZOTbYLQlv8Kg50MPQ508pmuOWkGT_dRVY"
+_acme-challenge.stage	60	IN	TXT	"8I8-5QYBIN9Bib7i6klRKeLuAgXgVKZFgbkzUyHHqSY"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+@	86400	IN	MX	0 cdmpagency-com.mail.protection.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhDB9w4lb/ZOZu/jQ/Ew57QX+w3Kdm9DrBzkNWhFSTGdBoOK+LorEwJhtwHqNeDDQtKd5Q6o+DwOIjYZzDA/ez4oRbOgJbBwNCEqBzC1yyk9+b3GW+yL2nXpSiOwCuaXciiLHn879h2P7bOLdCRBdW676mk9+lQmKdhYezgo6dYRyW4AJ3iOupXmxHcA9smF1Z" "0pQxFfe9mLjM5cfNWsPdH8U4lGWJrhGjfrF+j4cccusyFg023VA4xjBSxD5w7V6BaazrPYpwdw0JgFA6jw4NyXbwMJJ2/qJa1eY1hAprV/Sd448qUNKIo6FLh3AWHoDv/TY+Zp3POMUVbHmb9YnwQIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+dev	86400	IN	CNAME	witty-wave-024f21010.2.azurestaticapps.net.
+selector2._domainkey	86400	IN	CNAME	selector2-cdmpagency-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-cdmpagency-com._domainkey.oneomnicom.onmicrosoft.com.

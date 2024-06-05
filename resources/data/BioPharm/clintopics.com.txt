@@ -1,0 +1,28 @@
+;File created: 05/29/2024 15:31
+;Record count: 19
+$ORIGIN clintopics.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091734	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+_3c60e4ddb59f15a945a301ecb68d328e	86400	IN	CNAME	3C81053042A97C8A1FFC5331ABAA0D08.1290CAA8F7CEF40FD78D94EDA912C6B1.sectigo.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	3.21.69.112
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	A	3.21.69.112
+@	86400	IN	TXT	"google-site-verification=C9Nqf8ElUqWDibjG4XPK7hvTx7HkrvcALh6VfCVJ7ew"
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	TXT	"SFMC-zmljH66g358HAqCDRI0aHjOGa95wLE5UZaS7fJdj"
+_75be1e15203c1ca925d1abf9b203542d	86400	IN	CNAME	664d2940f12ec7863ae2b04bf002b477.f350909b137955a9ec9fda4dbeab0f85.3238b647a98d418ab1d1.sectigo.com.

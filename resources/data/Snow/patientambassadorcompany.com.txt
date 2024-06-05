@@ -1,0 +1,42 @@
+;File created: 05/29/2024 18:08
+;Record count: 33
+$ORIGIN patientambassadorcompany.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020082654	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 patientambassadorcompany-com.mail.protection.outlook.com.
+bounce.mail	84600	IN	TXT	"google-site-verification=ES7rkdTT2J0eEd6mns9iDEd--8g1rrmfwuOfFb1fGGE"
+bounce.mail	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+mail	84600	IN	TXT	"google-site-verification=Ifb7ZA9iA-WSvoFA12sMVtyXmwox2uxbViKZf3gsrwg"
+mail	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.mandrillapp.com include:_spf.salesforce.com -all"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+mandrill._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2yi0GwPYaIbRuCTABKPULz5H9UPojUgt81tHLgjF+vWMashCKRIOmMfA7er3n43SSWXutGGkK0KvYt5PLQIUHRzJ4w3zPRQGjtTvZjyWYCiXrixgxjDXDrTdLM5OmLgnL476cbCrD5Xv21oFH54Cz8PMWWeSJnqLXRJVtaIbMLcjU+uZvXA9/OE0Wpd9ojKJm" "rF+NJl8GI6zBbxkMxOchbOJz5WuFOimZYLCUCvrTWAE1KJTtPz7DIfskrAgdpoQk152H7yyBHoxV8pqUlKwIl7B6P8FHVOd3YxF+9battXLpv6eIudX2StnljK3LlzmWe+3Bk+W0QWSSfclBR9MEwIDAQAB"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+patientambassadorcompanyalt._domainkey	86400	IN	CNAME	patientambassadorcompanyalt.6wej2v.custdkim.salesforce.com.
+cloud.mail	86400	IN	CNAME	pub.s10.exacttarget.com.
+mail	86400	IN	A	13.111.18.27
+mail	86400	IN	MX	10 reply.s10.exacttarget.com.
+10dkim1._domainkey.mail	86400	IN	CNAME	10dkim1._domainkey.s10.exacttarget.com.
+bounce.mail	86400	IN	MX	10 bounce.s10.exacttarget.com.
+patientambassadorcompany._domainkey	86400	IN	CNAME	patientambassadorcompany.rjozc1.custdkim.salesforce.com.
+@	86400	IN	TXT	"google-site-verification=qXDP-vhI8nQXkRcB2cfAdAxpgbqVz3cQ14KS4ysSFYs"
+selector1._domainkey	86400	IN	CNAME	selector1-patientambassadorcompany-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-patientambassadorcompany-com._domainkey.oneomnicom.onmicrosoft.com.

@@ -1,0 +1,24 @@
+;File created: 05/29/2024 15:31
+;Record count: 15
+$ORIGIN oncologybrief.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091706	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns3.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns2.exacttarget.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"google-site-verification=vXprV7jfdlq_uu516abpIq6kCtsCSsTTzcDWRpemGE8"
+@	86400	IN	TXT	"google-site-verification=qDOtF1SdqcXu2j_D2fiv5j67fv2KYYhBITjEBI25oKw"

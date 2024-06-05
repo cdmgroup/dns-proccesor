@@ -1,0 +1,62 @@
+;File created: 05/29/2024 18:02
+;Record count: 53
+$ORIGIN globaltrialsource.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021031962	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+url8705	86400	IN	CNAME	sendgrid.net.
+21563303	86400	IN	CNAME	sendgrid.net.
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+www	300	IN	A	204.74.99.100
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*	86400	IN	TXT	"v=spf1 -all"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh6fJ1w7UsQSyjkQZQUk+Kq5lRR79HNa60Y8/pNfOgJbZx2KLt+5w42MrwQ4eCAZC40LfxvyciYrdrXJKp/cOVlBeKK8+GakE7akpunUAPwbDypgvo2gNIBSIecSU88TDWsbe+sQYjX8klttDWIyxwpPY2WLD1oPKnummnd1KpKn/9StpuE030uvpHDElkht3O" "/W6mcdwavB2TtwtuuUaTAloN+I+oeZYtk4l4tRgeQR+rXRf73IZZ9OBW2iV8NxXx8naVtroIJ4qETTzgAMbOo8fY1Z8z30JQLZbs4pMWytC7fQoFqbTEMzPvE5rZr/hB8jcyUnzwjDJH9HG1/fW4QIDAQAB"
+acdkim2._domainkey	86400	IN	CNAME	dkim.acdkim2.acems1.com.
+acdkim1._domainkey	86400	IN	CNAME	dkim.acdkim1.acems1.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u21563303.wl054.sendgrid.net.
+em7081	86400	IN	CNAME	u21563303.wl054.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u21563303.wl054.sendgrid.net.
+asuid.revapi	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.dsitelink	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.sitelink	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.rsitelink	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+dsitelink	86400	IN	A	20.49.104.8
+review	86400	IN	CNAME	review.globaltrialsource.com.edgekey.net.
+revapi	86400	IN	CNAME	revapi.globaltrialsource.com.edgekey.net.
+rsitelink	86400	IN	CNAME	rsitelink.globaltrialsource.com.edgekey.net.
+api	86400	IN	A	20.119.8.57
+asuid.api	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+@	86400	IN	TXT	"google-site-verification=sSRnHaZ88uAsJilGTSaBfM-iQgVc5h-471SL8j1L5mE"
+_acme-challenge	60	IN	TXT	"sPsr5uvMSjM5VH7LOVdNYl6UA7o_v-cHyJHyvlvIKTk"
+@	86400	IN	A	20.119.8.57
+sitelink	86400	IN	A	20.49.104.15
+prodcvd-spa.azurewebsites.net	86400	IN	CNAME	sitelink.globaltrialsource.com.
+selector1._domainkey	86400	IN	CNAME	selector1-globaltrialsource-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-globaltrialsource-com._domainkey.oneomnicom.onmicrosoft.com.
+_acme-challenge.review	60	IN	CNAME	ac.0bd2bc241ce8c64bac23194c6061fb46.review.globaltrialsource.com.validate-akdv.net.
+_acme-challenge	60	IN	TXT	"9z4A8ssBUJQioJ5w4jOJtsKd59xScGQLJtKlfeezbzw"
+@	86400	IN	MX	0 globaltrialsource-com.mail.protection.outlook.com.
+_acme-challenge.revapi	60	IN	CNAME	ac.22023e7e5fc48a5868ea50f3559002a0.revapi.globaltrialsource.com.validate-akdv.net.
+_acme-challenge.rsitelink	60	IN	CNAME	ac.06dd65b1a7e7820e7f9504af9148c77d.rsitelink.globaltrialsource.com.validate-akdv.net.

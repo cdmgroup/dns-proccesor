@@ -1,0 +1,33 @@
+;File created: 05/29/2024 15:21
+;Record count: 24
+$ORIGIN clinedavis.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111641	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	MX	0 clinedavis-com.mail.protection.outlook.com.
+@	86400	IN	A	12.154.40.236
+www	86400	IN	A	12.154.40.236
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+email	86400	IN	A	38.117.238.14
+easweb	86400	IN	A	216.158.191.137
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"google-site-verification=cqd9BzvL8UbW0FlGfJCHhM9A3nMFTcdLWce3HF2nSMU"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnZ/pXwhcKSMStuCAxQZNh6b+x+Df2H5cVYUKEOA7W54QobQjhJYVz4TcBtfc3OlXwpw9I8w8BSvZhrbTitYeb3It1auU0PxKh91U1M1m9BClN0Ne6fYT8V2l4+vsdoNBwhvFLGUM5a8YdZqesXGIT96eqewUe1anM2fhUVhchYSnjapMyHgAeVtRSZvpFtPd9" "U/TeQCgB2jQw5ANDG2Dpq2Glj/P6n/1Ez9d4Lcz8Um4a83ycLGFVkefqW3//TYsTizThOWbArmwu6yrRuDOFjwDRFc3Cc2rZIOVJfC60nGTY6nm3U9SsCqsgm+kLPTeq8nBVtdDD2cF8eBRvnbpgwIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-clinedavis-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-clinedavis-com._domainkey.oneomnicom.onmicrosoft.com.

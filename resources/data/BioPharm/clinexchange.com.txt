@@ -1,0 +1,40 @@
+;File created: 05/29/2024 15:31
+;Record count: 31
+$ORIGIN clinexchange.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091711	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	84600	IN	TXT	"google-site-verification=K431gHoaJYSMjSnxuDxY_QJ2VeOcTrnlsuT41iWenW8"
+@	84600	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+www	86400	IN	CNAME	clinexchange.com.
+bausch	86400	IN	A	137.116.81.115
+lilly	86400	IN	A	54.165.182.248
+lilly.staging	86400	IN	A	54.175.150.141
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+gilead.staging	86400	IN	A	13.68.29.94
+@	86400	IN	A	65.39.226.84
+staging	86400	IN	A	54.175.150.141
+mallinckrodt	86400	IN	A	54.165.182.248
+gilead	86400	IN	A	137.116.81.115
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+mallinckrodt.staging	86400	IN	A	54.175.150.141
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*	86400	IN	A	65.39.226.84
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+bausch.staging	86400	IN	A	13.68.29.94
+@	86400	IN	MX	0 clinexchange-com.mail.protection.outlook.com.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+analytics	86400	IN	CNAME	250analytics.com.

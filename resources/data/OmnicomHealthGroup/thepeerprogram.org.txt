@@ -1,0 +1,38 @@
+;File created: 05/29/2024 15:21
+;Record count: 29
+$ORIGIN thepeerprogram.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011450	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_ab81f548a62c26e31c97cf36bc0f8bcc	86400	IN	CNAME	f23f619007f31f88c1776b4a70934948.2514480ff184ce090f9a745aff5810a9.d5a19b0c52544797a3b9.sectigo.com.
+@	86400	IN	MX	0 thepeerprogram-org.mail.protection.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+ftp	86400	IN	A	68.169.55.8
+@	86400	IN	A	68.169.55.8
+www	86400	IN	A	68.169.55.8
+enroll	86400	IN	A	68.169.55.8
+test.enroll	86400	IN	A	68.169.55.8
+@	86400	IN	TXT	"qscjpy6lvgjjkv36d1rf280fd1whhygw"
+@	86400	IN	TXT	"google-site-verification=ftaBRO2X_gtuCnCSYCzKeMHMaWv168lYm1cHJ0xqW9o"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm61+BE0q+r8K/fYwS7OgvI4jaJ7Uom0PogsBKYm3qW/R8efj5L+HX0cIU3bpKMNDa+V3mUy247L3lu6DIdp/3WWbH18Ih5FfuiY7hAYyKfpG+aXcKoj6g5dDihQhBQLMFFkGbEI/BuR2DsrfEs7jJeu0GLd5ysMgwQ8RLtKId+mb+4mpT4zFW/DtVaN+P0bSe" "9/Q1Wh6h1r3pfv0l7sE8MLDanvbyxnRQA1l+ABJRaJpIxiLd05QegFw5JvCIjeQl7tjm42PM/DvROaotn9bux2yRWfvkqCoAI4EpHatJYc9Xz1gsPQ8T5Wg4BhsjrVYlQciOK4gfdAkh/wWz7JCqwIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+enroll	86400	IN	TXT	"v=spf1 ip4:68.169.55.8 -all"
+_5a4d258d5af9c3fd98fbfb22124a6c80	86400	IN	CNAME	eded13dcfd5f57ec3db2f67aa060dabe.dea352ace46750a7d9c4fe246756f219.c08dc200bf0f48ca8f83.sectigo.com.
+selector1._domainkey	86400	IN	CNAME	selector1-thepeerprogram-org._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-thepeerprogram-org._domainkey.oneomnicom.onmicrosoft.com.

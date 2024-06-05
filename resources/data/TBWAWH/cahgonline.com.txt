@@ -1,0 +1,36 @@
+;File created: 05/29/2024 18:10
+;Record count: 27
+$ORIGIN cahgonline.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011699	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+20180514-yqw8yv39._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdsi2yfclR97mIkf77xFknZ6ahVq4b75+fEjsxSbkN3ctMkwYjTNf8ocQ0fLRmROh4dOotEgK12LN7xu4EmGXDqY3h3RUolZrb3e7Pl43/rSKFjQj9LsrSko+Q5urilLqo3W89HfEiMhWq0M7AmF5jaxVw9Vnkxsx73M+K2BbisQIDAQAB"
+@	86400	IN	MX	10 mx1.emailsrvr.com.
+mailo._domainkey.mg	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIw/TS/TZBgpeSHgPde53UrgGGfR1Wx77M5lIiyrpJJT/NyfcaN6Z0VDIWb6VMmuoyr360yMQM0KS8kisO1tTgLSRb5sC1ZBSWy9PtCT9Zji3OCfQkHrOlf1N0xivevJ7TLPPMKt3p6wzeXkpbEMmSjzPzwIFiBsMCa77XcUbN3QIDAQAB"
+email.mg	86400	IN	CNAME	mailgun.org.
+2edl6tcj7nksf7paruj7rsaivl5sqje5._domainkey	86400	IN	CNAME	2edl6tcj7nksf7paruj7rsaivl5sqje5.dkim.amazonses.com.
+_amazonses	86400	IN	TXT	"xwm41WZkCDkpMyFFG2N+kxzS8wFLs2ARS5I1bClKmMI="
+@	84600	IN	TXT	"google-site-verification=uxCcZLUipoiOIEkYaeDmEvkIYM5XAvYuvHw3syqNIf8"
+@	84600	IN	TXT	"v=spf1 -all"
+_amazonses	86400	IN	TXT	"ZQx0aSE6Tw5SnygSU9d6VUK2q1PHTK4QLMdVGoIjxcs="
+7f5mema6h6qgaqnn7l2gvvsxwlemh5ev._domainkey	86400	IN	CNAME	7f5mema6h6qgaqnn7l2gvvsxwlemh5ev.dkim.amazonses.com.
+mail	86400	IN	CNAME	mail.emailsrvr.com.
+@	86400	IN	MX	20 mx2.emailsrvr.com.
+webmail	86400	IN	CNAME	mail.cahgonline.com.
+mg	86400	IN	TXT	"v=spf1 include:mailgun.org ~all"
+qtusm4vkdhmnzjkps52b2hdzmqi46k2l._domainkey	86400	IN	CNAME	qtusm4vkdhmnzjkps52b2hdzmqi46k2l.dkim.amazonses.com.
+cdn.cahgonline.com	86400	IN	CNAME	cdn.cahgonline.com.s3-website-us-east-1.amazonaws.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_1455aa298a0f7faf3972fc5447ebc984	300	IN	CNAME	3a0f0f7171b73347bb0e212ea6e77896.5b49fe6d0607ec3e2692f2a1865e0117.df3bbe2517df4700b05b.sectigo.com.
+*	86400	IN	A	52.4.226.14
+@	86400	IN	A	52.4.226.14
+www	86400	IN	A	52.4.226.14

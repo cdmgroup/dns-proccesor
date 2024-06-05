@@ -1,0 +1,19 @@
+;File created: 05/29/2024 18:08
+;Record count: 10
+$ORIGIN shareyourcidpstory.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023060214	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_acme-challenge.www	86400	IN	CNAME	_acme-challenge.www.shareyourcidpstory.com.00da0000000gy9pmau.live.siteforce.com.
+www	86400	IN	CNAME	www.shareyourcidpstory.com.00da0000000gy9pmau.live.siteforce.com.
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+@	60	IN	APEXALIAS	www.shareyourcidpstory.com.

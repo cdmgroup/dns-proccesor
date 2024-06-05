@@ -1,0 +1,35 @@
+;File created: 05/29/2024 18:10
+;Record count: 26
+$ORIGIN tbwahealthcollective.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111330	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 tbwahealthcollective-com.mail.protection.outlook.com.
+_c64c23c82029f8a29a4020b5a765ce72.assets	86400	IN	CNAME	_48a7bd3a580904483f98aa375cc34ec5.ltfvzjuylp.acm-validations.aws.
+www	86400	IN	CNAME	tbwahealthcollective.com.
+assets	86400	IN	CNAME	d3bclduay9dfqe.cloudfront.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqaxKO23dg2SYXltWSS9lt4uWT5NiooQoin0MhqnIg9wsU1XcYozrW3vpEJK3BkXSugCbGTeeAV9ZGVywHhJaEyWuI2s41PlkfiZzBZ5TLtxzgMIIOLVpl0A0CImLfW+kwWr0/x28+omn5mEUzw5l0D5r7uXp7pZ54MVzqtmmu5PjOfKRcG9qUQBFqJfwzHae3" "Wy5PNmCmQDY+YrseTlCwDKakf6qZj13URzuZoIAJoR0bh2Gc7EQ4hqtr+wg5H08nNYuxF6LgmTKkhr4dMGhKRT5s1NEmCUmwyiReJXoK3kTr4AXnkgL0HgDY77lgqEiSx1skz3PpV8tZONcYEnZywIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	52.54.85.11
+staging	86400	IN	A	52.54.85.11
+@	86400	IN	TXT	"google-site-verification=KBQLD1FnC26XMoOrH0XanJpb5z1P_upgVgDIc3sawig"
+selector2._domainkey	86400	IN	CNAME	selector2-tbwahealthcollective-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-tbwahealthcollective-com._domainkey.oneomnicom.onmicrosoft.com.

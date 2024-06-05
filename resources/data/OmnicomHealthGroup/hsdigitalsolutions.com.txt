@@ -1,0 +1,15 @@
+;File created: 05/29/2024 15:21
+;Record count: 6
+$ORIGIN hsdigitalsolutions.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022072706	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_33a843b3b5257be1f6073b737344f103	86400	IN	CNAME	3E54ADE27CFD3B7F5C190B6548277725.D2045701271CB4A77BA8F3FB16ED2A4D.49f361ac5a44476591d6.sectigo.com.

@@ -1,0 +1,17 @@
+;File created: 05/29/2024 18:08
+;Record count: 8
+$ORIGIN vyvgart-you.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023120706	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	APEXALIAS	www.vyvgart-you.com.
+www	60	IN	CNAME	www.vyvgart-you.com.00da0000000gy9pmau.live.siteforce.com.
+_acme-challenge.www	60	IN	CNAME	_acme-challenge.www.vyvgart-you.com.00da0000000gy9pmau.live.siteforce.com.

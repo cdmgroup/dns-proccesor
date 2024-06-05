@@ -1,0 +1,31 @@
+;File created: 05/29/2024 17:57
+;Record count: 22
+$ORIGIN ddbhealth.co.uk.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020022035	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	A	213.229.112.134
+www	86400	IN	A	213.229.112.134
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlk6fjXVBuzEwqrvuRaoKM+t6RMRANaCvBo6W7GzXL1irot6hl9idtgSlrdMQl9bfCx0aEl1FmLDGi8SQJ90X0xquYs2dvTKn49qu7A0rkWkqTgrVee7KIYreaDfTH3qGOrOLyzvliG9g7AmdkIE3OA5Ww0/JFPMN4QBItoYtLjU9PcOWrcZVXljdaUHUGagkj" "LgwIhf58fv2pnm5yyYh5mWhpQkyVS5MerwWO0AfGDOjbRBIhcXZ26IQPEc4+fOTCtlLFGX9czWnn3sJF8vkAIiFN2HhjGvKEtgLlDntqwWlgRGRMDORWF5aRZx98WoX7NwqWItO1KTOTZnmAuw9hQIDAQAB"
+@	86400	IN	TXT	"google-site-verification=qaMP9cTJAwPx8XxSX6RJH8xlkse0OBBxLJeANfneMQA"
+selector2._domainkey	86400	IN	CNAME	selector2-ddbhealth-co-uk._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ddbhealth-co-uk._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 ddbhealth-co-uk.mail.protection.outlook.com.

@@ -1,0 +1,51 @@
+;File created: 05/29/2024 15:21
+;Record count: 42
+$ORIGIN sscggroup.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111643	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 sscggroup-com.mail.protection.outlook.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+dante	86400	IN	A	38.117.238.16
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+fp1	86400	IN	A	38.117.238.2
+digitalrx01	86400	IN	A	38.117.238.24
+cdmijboss	86400	IN	A	38.117.238.24
+cdmiwlwin10	86400	IN	A	38.117.238.24
+devsites	86400	IN	A	38.117.238.24
+portal	86400	IN	A	38.117.238.26
+gate1	86400	IN	A	38.117.238.14
+services3	86400	IN	A	38.117.238.19
+dante2	86400	IN	A	38.117.238.6
+gate2	86400	IN	A	38.117.238.15
+cdminet3	86400	IN	A	38.117.238.24
+owa	86400	IN	CNAME	gate1.sscggroup.com.
+services1	86400	IN	CNAME	gate.sscggroup.com.
+services2	86400	IN	CNAME	gate.sscggroup.com.
+assets	86400	IN	CNAME	gate.sscggroup.com.
+email	86400	IN	CNAME	gate1.sscggroup.com.
+gate	86400	IN	A	38.117.238.14
+owa2	86400	IN	A	38.117.238.15
+dante3	86400	IN	A	38.117.238.11
+ftp	86400	IN	A	38.117.238.7
+owa1	86400	IN	A	38.117.238.14
+@	86400	IN	TXT	"google-site-verification=QW0n2vkWG_d689Glu4dFUgrmEPnD8Q0ez3N4QOu8PkA"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA09oJ1Pjr4Tp1HJ4pHSNkSY5huJdnNBZn1pzLGLRuWyMvwV/m9wOtaVUVMQOtMN41RPzIe7CF25do5M15TCtsrUks+cMBEi+24/xCHTYQPpF6fFNrwuXKEARdt4BNryhmNl1+4Uq1D/s8oEOlDQQPZQQswI1HsxLOPcqTvVINYvE0jz18uVPoCU2hGI1q9BKJp" "9eHions8hgqp6HXiJJYIUxE0jZYRbbmlqd3ZKwTyuloIP1SrIZ52YgZ7m419Z3NUwJ6v7OR/EUtcedWggKXSqREQDzf5T+j9/pc+mxZqzh3zxiYan7Ozh1YvvIjBTZfOgqj4cyckoKjTulYxtOBpwIDAQAB"
+selector2._domainkey	86400	IN	CNAME	selector2-sscggroup-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-sscggroup-com._domainkey.oneomnicom.onmicrosoft.com.

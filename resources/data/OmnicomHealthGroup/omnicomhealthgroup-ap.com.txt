@@ -1,0 +1,27 @@
+;File created: 05/29/2024 15:21
+;Record count: 18
+$ORIGIN omnicomhealthgroup-ap.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020042016	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_fa8aac0a0b180c75707fae7b65ccc4ca	86400	IN	CNAME	9708b264b91ac64c8f6535c9e7fef4e9.b3574b031fc01092f717784570f83700.d2c3b65d445d4aaea232.sectigo.com.
+_66d37f8c8fad51909d6494111c001de8	86400	IN	CNAME	1e92852958df74e0ca92ff10d052320c.9eb06d47c9d1b97b71bce199384d831f.1fab5189b63f4b3887cd.sectigo.com.
+em1181	86400	IN	CNAME	u13698270.wl021.sendgrid.net.
+url6868	86400	IN	CNAME	sendgrid.net.
+13698270	86400	IN	CNAME	sendgrid.net.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u13698270.wl021.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u13698270.wl021.sendgrid.net.
+@	86400	IN	APEXALIAS	i676v65vi9sb.wpeproxy.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+www	86400	IN	CNAME	i676v65vi9sb.wpeproxy.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_642eff149174da2fa90405f62f6ade8d	86400	IN	CNAME	fc3a6d70b0d1575cdf46a7486b9b91a1.581d015187c8c247be6fe88a660e25c9.4e13a6ea9a3447b9b66a.sectigo.com.

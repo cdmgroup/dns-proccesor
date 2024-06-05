@@ -1,0 +1,739 @@
+;File created: 05/29/2024 18:00
+;Record count: 730
+$ORIGIN kizuna-ds.jp.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020103280	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+stg-rt-clozaril-jp	86400	IN	A	210.239.69.64
+stg-rt-www-clozaril-jp	86400	IN	A	210.239.69.64
+stg-rt-cosentyx-jp	86400	IN	A	210.239.69.64
+stg-rt-www-cosentyx-jp	86400	IN	A	210.239.69.64
+s1-npvs72._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0xuIQ3eKjREfAJLmLEM3psW3zC6pO7brbmO15Us89sXhfw5c2B3fcqNJBWecB59T7hnJ52MNLEfyqQKIPgT9NvIH/QsDMUKE4SCMad76Dd3GD/H42cosTEdeHLnx7bhoHJtI8eos4k9HqlsqM8WfbZJvMzX4bmpg3+ranJ1r3g+2HlUR5P+nb9ICUHnv2JRJx" "uP4DVmhM2q5xx4NlJvYHH538XZDxzPP107VAXehGJ0fBkvK8ZtvK8BuT2+ZvajzMB0IOp6MEnHVsh9Tr81dj+KbIYeClMVN8GQQnOnhIC6FGKJ2wc5IKTs1GDjWoDIDMm27wEuq5943Kz92eVSxoQIDAQAB"
+stg-rt-www-enerzair-atectura-jp	86400	IN	A	210.239.69.64
+stg-rt-moumaku-com	86400	IN	A	210.239.69.64
+npvs94	86400	IN	MX	10 npvs94.kizuna-ds.jp.
+stg-xolair	86400	IN	A	210.239.69.64
+m1._domainkey.growthring-sitetest	86400	IN	TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUOTC/MB4vuMG+ob25+fKbYaCzTipmwztIvkeWzNmz24o4y09pSJWa9Gr7QkbTq18tV9neZJrq6mrkuiqq17VB4ljCb9wwTiXLO4l/TMFhak9lysY6yAedHdxEQ3rJ8JNChoA+lu3Rj1Obpm+feyTfdNm5JE/1eaySeayJhUOJoQIDAQAB"
+growthring-sitetest	86400	IN	MX	10 npvs72.kizuna-ds.jp.
+medure-mail	300	IN	A	203.137.181.226
+npvs87	300	IN	A	210.236.253.55
+cms-dmlab	86400	IN	A	210.239.64.164
+med-kissei-mt2	300	IN	A	210.236.254.158
+s1-npvs38._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsHUS8Kq+9kkDYu7aU3XAGImV6QeN0mjYT0fwlnTVUM0N/tAc7twJJp77LPPuYVd81RhK0639LIVmdAGyAdfvmuMq4E88+tQi1TSWoGgrB80HDA8ovCgSBcGpSg7IYSHusBlW+t7WI5V3pKMmp57H0gTl0Bn3ISfroCpsuZbv2Hu8AJ+BzP5GHLPXF7yIIqoY9" "FD2XAZg2ERalSRq7XPeGJS9xh57g7eNSF1ljJ7NZR61j4CJwJNP7x3N99TnbxXVLK85J8pV2b1+nAy6+jVjbEOybt2KWOUzy1mtUUe2Y1p/pBq9qXeNrbT4wFizt820boryLtK7ytCCc0P6eizttwIDAQAB"
+s1-npvs84._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3f+pAMQACr9Oh3mC5EjKt4MzYVPEKmoKVY+Gcg3IQkmpznuF6q/e2LjZ/bsthKn3A5wssSV2qQz+1yqZrJ04w08bhNJ3+CnFMBoC11Abnl7RrO/MfvtWTJ8IW/iTF29193R355oXR2yAmcqzRCddIsv8XK1N3mWG9fOo3l5VjtkFC9KQ+FfUpKlNnvuQnKGhb" "c8XPA7kWBuzrvWEOIwyJV6bcTZhrv326tY8Mand7w8MunFSmtxQeaKSDyVcr5QdVNy57MWEka3vKPdecIrb5Tj7IefLMX2hjvCxH3NCLd23KWd21e52i3Q4FMCjq0JEhNMqat25+WRSuy2vNu4oxQIDAQAB"
+dmlab-lbtest	86400	IN	CNAME	dmlab-medical-ci-co-jp.public.ilb.jp-east-3.idcfcloud.net.
+npvs95	86400	IN	A	210.239.64.140
+npvs95	86400	IN	MX	10 npvs95.kizuna-ds.jp.
+s1-npvs95._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0R1X4TD4JycfIHFEf5zT7dCSZDPtV9XNwkz7R8zDqgtaAZEXypU7w/0Jm+xjEr+CcYWPa6TJtu2zdZAW+uSTbevPMbeSQ7uMv5lBNmPb+6MpLG1FG/qQDF0Qln+Msn5NmQxRauf+jK4qCJIM3/2yCjlJDERF0DryeihMkf+OSndFEhNU9CxpXzz2GtcitBaZ5" "Gm3qsIhE3j0RBNdEunLhEelZjZAoxu6enrcWbiGH8CIsYl9tB8VOMmzRoG+6XYCdP+MuD4eTCw2FsJ+PuFwzwgy7iPSbvbJDoSCrCHT5oYxDF7ZzTJyt/tgbY6bAZunXzNzfqBZy6L3Z1Se9sH6zwIDAQAB"
+stg-shinzo-sos-com	86400	IN	A	210.239.69.64
+santensogyosya-kikin-jp	86400	IN	A	210.239.69.64
+stg-rt-www-moumaku-com	86400	IN	A	210.239.69.64
+stg-rt-enerzair-atectura-jp	86400	IN	A	210.239.69.64
+stg-ketsuatsu-support	86400	IN	A	210.239.69.64
+test-xolair	86400	IN	A	210.239.69.64
+stg-www-hajimete-xolair	86400	IN	A	210.239.69.64
+test-www-hajimete-xolair	86400	IN	A	210.239.69.64
+lp.growthring-sitetest	86400	IN	CNAME	medicalcollectiveintellige.mktoweb.com.
+npvs87	86400	IN	MX	10 npvs87.kizuna-ds.jp.
+npvs89	86400	IN	MX	10 npvs89.kizuna-ds.jp.
+medure-webdev	300	IN	CNAME	medure-webdev.kizuna-ds.jp.edgekey.net.
+santensogyosya-dev	300	IN	CNAME	santensogyosya-dev.kizuna-ds.jp.edgekey.net.
+mwp-dev	300	IN	CNAME	mwp-dev.kizuna-ds.jp.edgekey.net.
+growthring-webdev	300	IN	CNAME	growthring-webdev.kizuna-ds.jp.edgekey.net.
+medure-sitestg	300	IN	CNAME	medure-sitestg.kizuna-ds.jp.edgekey.net.
+medure-webstg	300	IN	CNAME	medure-webstg.kizuna-ds.jp.edgekey.net.
+s1-npvs68._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoJJTrs4atDOlelg6BjpIGSPX6Ifaz8YPxBxjUzhJx426RowkQz5wz7UTJZmQP53NtO0ByJc0+Ql9W5fv21ppZNke55cCaJ0uEFgDWOIdlgAS1TIQY/aQL0vqxMx1Y4O84Mtpi9TFOHdQ0JEnoFCVN4IeeAijuRvJU+FjMpES91lUPI7Q01wLY6z++ca76biPi" "bTpldTCF7ZvoaT6uP4S/cGDB/+04x+fpTAUdxr5oeNEqc5ce6mK+7XBGxvIlGYLK049aupI3WG4+CBF3yx/23hhMoMHJQyqBuxaQibc/wSCGw93RBZq/oFpk4rWGuOhbBVhSjT0Q2rMX2rPDYVBZQIDAQAB"
+idcfc-spf	300	IN	TXT	"v=spf1 ip4:203.137.176.0/20 ip4:203.137.192.0/20 ip4:210.129.8.0/21 ip4:210.140.40.0/21 ip4:210.152.80.0/20 ip4:210.152.96.0/21 ip4:210.239.71.177 ip4:210.236.254.0/21 ~all"
+s1-npvs73._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA467nb99L4nIvpDsWb6BmWpC9B9INI/ovwKYlGSMo4uBSk9cRGl+ZWqz0HkfhGHkyLgCZBlzCmV3O2K7nku1uSjPUXsIpu6+XNdTJeyFRvy6b7k24YntylG9QtG81gvpuB/xZOHsnQ8uTBnrv7dWtqAQd2Pz5qxIZFp3kbFHfdDQQfxnKlBi23q5v8AUrKJMy4" "CVimeEF/Ol5GpoXNc/mDOHnayd0zpyaOGDMGmdVlgJGxwr8HcofQLA9+GCmNxJfpqPSdy05QdOK6QLM1XCyMeRnV6OppA3eSFZloqcsuNMrwjM12y0632eGok65eG7tpa0GVtNsk14COAC38KQtmQIDAQAB"
+growthring-sitetest	84600	IN	TXT	"google-site-verification=m9v8nUrshOaRlHD_JlV6KwrK_jJJ47HbS_WYuPz0unw"
+growthring-sitetest	84600	IN	TXT	"v=spf1 mx ip4:210.140.41.61 include:mktomail.com ~all"
+mail	84600	IN	TXT	"google-site-verification=KdHMokybaGlu4-x349Lhu6O1bbqFkJpYz1tKeOOusRQ"
+mail	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:mki-spf.kizuna-ds.jp ~all"
+@	84600	IN	TXT	"google-site-verification=nzZZsh8-5Sl-XUTRgGC45b7up3LBBcqI1yscrxHpAEQ"
+@	84600	IN	TXT	"v=spf1 ip4:212.64.225.216 include:idcfc-spf.kizuna-ds.jp include:sf-spf.kizuna-ds.jp ~all"
+meiji-sense-webtest	86400	IN	A	210.140.47.134
+meiji-dev	300	IN	A	210.236.255.165
+growthring-webstg	300	IN	CNAME	growthring-webstg.kizuna-ds.jp.edgekey.net.
+s1-npvs67._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvwiUAt985Z4v4Dg/YBPdEf8ypJOLFxJSwwCBqbxOh0m451ssHrQ2YdaykK/mumHYG2hLBgGKbuRO5pvgQ75DF4wVXgTx7SHMV1oD7rR8IEHr+PAq3Zm6dWP9ng3V6FndpsCIh663DHfAoR4rEk/pRkz/Xsj9AOD+M+2EFaRDZUK3ZKa0kiMN5mFgP6NZzHz/w" "N9YswGr44C4kH8SuH8P4SrhfSQU4gFSl+DpIhPFo+5psU28SJFyfRpakOfR+LZy2uY3cu6U3lr/yb1IQSijNUCQPGuLund3O3gw/1ry0QRkaM26n08dLgy2VsTc/yE1Kt2qPs2Ug5brb+TI4/MWsQIDAQAB"
+s1-npvs83._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1eDqG2CKEad2jLyzTUbO5Q9ELmAfJkGdEwzkXoBGFKCchuGDcHG5eqliXR0Yoi05qvCMXbZHBNAAru6u1IX9IekhfmKGWT2nlki6nyXTinXp72lF0ZalUAkWKXpu5PO/YvJkmlMiNYvDRI+xwRzPWZITCAJFM80d50KyGXrzYjraZPvAQ58m/K2yAPg1ijr/C" "9e1q68SfHbPsemk/kHupRLGIiNJvr5NmpltFDj4rnXc6G3ovXyIMnaB9nXDwv83FBce8KkwmQhuQ8bqdOw888h1cZbCDoCn+U7z0V+3zmyU7smEn8+b3zgqU+D4Bsi+m8CFN5oWSvFlVbUnhu/17QIDAQAB"
+med-dev	300	IN	A	210.236.255.165
+medical-zeria-dev2	300	IN	A	210.236.255.165
+s1-npvs82._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsiLNQN7q+/4RPMPNoWobAYClGe9mOmAzbGEADl5eUajmht967Ukk9g88UZFDXrI18NhW25jMsIuqDIAiunTvoXiNKdFk8ZZJO+VTAao56VxC4oIpMrtxBCCIh1d9e4b38+PDGtflbsNVFBS7obgg2yPwairlDqWIi1S0gH38X2t6v/AT1WiVRi1KXolqhJZuP" "MFUbHXB031GnSEWb87w8Gjhdb0Ii4KA6/OiZqYwVoNLSqVYJTnIJ7kjcJJ7HFWBQgYEp3afiwmyhVJm3ZDbLp03ZghQU6En17HqBjZvDMCFIkmxSHIRXpc+WbJhxyEuntNq/y9/rczkbIGGHx3xUQIDAQAB"
+_bb25939822bf49fba22d514c845163c5	86400	IN	CNAME	325259ec5347e375667b6bcaec41c07d.2f90a914ba50be7e78d1e0bd7c8d4ae8.010a38f32abd4a52807a.sectigo.com.
+npvs93	86400	IN	A	210.239.64.164
+npvs93	86400	IN	MX	10 npvs93.kizuna-ds.jp.
+dmlab	86400	IN	A	210.239.64.164
+www7-mt	86400	IN	A	210.152.80.153
+s1-npvs33._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyCBEVJ4orwdb4PTsSZy/0Y6fw9wUithevC3t7sDmuRoPxhr3yfYxgraAnMutOa8u4byqqwNURWG80TNly1vrD2G9WccD9/FkjR60KMSe7/7LgX1+tXC9pVFJFh1UMvmtwgqJpL3B/4N22RuJ4xyrfti8GJqc9VBjusAosazqU9JCmDxv9cq5SuNkXfK+v+hul" "zFXDiNbQBxSHYnHJExHVoBPLM0Do+L+4U4J1BKca+Tl4pj+EEXsfgfS6D+JAZD9CeRnjFBSJFyKp66zoAhMF218hu6BulHZXRPznX1YHyNQ3jVXgr0ecvdwLDfjtRUMAOmkYP6M8Rdfdx7DYVxw1QIDAQAB"
+pre-lp	300	IN	A	210.236.255.81
+npvs85	86400	IN	MX	10 npvs85.kizuna-ds.jp.
+www	86400	IN	A	210.129.217.215
+npvs04	86400	IN	MX	10 npvs04.kizuna-ds.jp.
+npvs80	86400	IN	MX	10 npvs80.kizuna-ds.jp.
+medical-zeria-webtest	86400	IN	A	210.129.11.122
+smtp239	86400	IN	A	112.78.207.239
+npvs74	86400	IN	A	210.140.42.236
+npvs57	86400	IN	A	210.129.9.120
+dav-npvs21135-002	86400	IN	A	203.137.178.142
+msd-webtest2	86400	IN	A	133.162.231.118
+mail02	86400	IN	A	203.223.84.141
+mwp	86400	IN	A	210.140.45.23
+zeria	86400	IN	A	210.168.52.155
+cmdbuild	86400	IN	CNAME	npvs63.kizuna-ds.jp.
+npvs44	86400	IN	MX	10 npvs44.kizuna-ds.jp.
+www4	86400	IN	A	203.137.178.142
+npvs05	86400	IN	A	202.234.14.175
+dav-npvs21242-001	86400	IN	A	210.152.82.173
+glass-webtest	86400	IN	A	210.152.80.153
+meiji-webtest2	86400	IN	A	210.129.187.143
+@	86400	IN	A	112.78.207.230
+mail02	86400	IN	TXT	"v=spf1 include:mki-spf.kizuna-ds.jp ~all"
+web01	86400	IN	MX	10 web01.kizuna-ds.jp.
+new-zeriaonline-webtest	86400	IN	A	210.168.52.205
+npvs68	86400	IN	MX	10 npvs68.kizuna-ds.jp.
+hcp-portal-webtest	86400	IN	A	210.129.11.122
+sf-spf	86400	IN	TXT	"v=spf1 ip4:96.43.144.64 ip4:96.43.144.65 ip4:96.43.148.64 ip4:96.43.148.65 ip4:182.50.78.64/28 ip4:204.14.232.64/28 ip4:204.14.234.64/28 ~all"
+npvs69	86400	IN	MX	10 npvs69.kizuna-ds.jp.
+dav-npvs20978-009	86400	IN	A	202.234.14.70
+h-shinbun-webtest	86400	IN	A	202.234.14.70
+mail03	86400	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:mki-spf.kizuna-ds.jp ~all"
+npvs32	86400	IN	MX	10 npvs32.kizuna-ds.jp.
+npvs79	86400	IN	A	210.152.83.150
+www-drgw-webtest	86400	IN	A	210.152.80.153
+npvs78	86400	IN	MX	10 npvs78.kizuna-ds.jp.
+meiji-webtest	86400	IN	A	210.152.80.153
+npvs35	86400	IN	A	210.168.52.208
+dav-npvs21242-042	86400	IN	A	210.152.86.52
+meiji-stg	86400	IN	A	210.140.40.82
+npvs68	86400	IN	A	210.129.10.38
+meiji2	86400	IN	A	210.129.9.56
+maruho	86400	IN	A	112.78.207.241
+mki02	86400	IN	A	203.223.84.166
+mmwp	86400	IN	A	210.168.52.186
+npvs67	86400	IN	MX	10 npvs67.kizuna-ds.jp.
+dav-npvs21242-002	86400	IN	A	210.168.52.155
+npvs09	86400	IN	MX	10 npvs09.kizuna-ds.jp.
+dav-npvs20978-004	86400	IN	A	210.140.40.51
+npvs60	86400	IN	MX	10 npvs60.kizuna-ds.jp.
+smtptest231	86400	IN	A	112.78.207.231
+zeria-webtest2	86400	IN	A	210.129.11.122
+dav-npvs21135-001	86400	IN	A	203.137.178.27
+npvs76	86400	IN	MX	10 npvs76.kizuna-ds.jp.
+dav-npvs21135-005	86400	IN	A	203.137.180.209
+npvs70	86400	IN	A	210.152.96.3
+npvs33	86400	IN	MX	10 npvs33.kizuna-ds.jp.
+web01	86400	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp include:idcf-spf.kizuna-ds.jp ~all"
+tenormin	86400	IN	A	112.78.207.244
+npvs63	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp -all"
+npvs78	300	IN	A	210.236.255.160
+npvs75	86400	IN	MX	10 npvs75.kizuna-ds.jp.
+dav-npvs22643-001	86400	IN	A	210.129.11.122
+npvs67	86400	IN	A	203.137.193.228
+mki02	86400	IN	MX	10 mki02.kizuna-ds.jp.
+dav-npvs22643-023	86400	IN	A	210.129.9.120
+meijiseikap-webtest	86400	IN	A	210.140.40.51
+mail03	86400	IN	A	210.168.52.208
+npvs40	86400	IN	MX	10 npvs40.kizuna-ds.jp.
+nobel-lp-test	86400	IN	A	210.129.11.122
+npvs53	86400	IN	A	202.230.16.35
+smtptest231	86400	IN	MX	10 smtptest231.kizuna-ds.jp.
+npvs73	86400	IN	A	210.140.43.165
+npvs53	86400	IN	MX	10 npvs53.kizuna-ds.jp.
+sanofi-dashboard-webtest	86400	IN	A	210.129.11.122
+showa	86400	IN	A	210.168.52.142
+mt-npvs21135-015	86400	IN	A	203.137.176.233
+symbio-mt	86400	IN	A	210.140.40.191
+mki03	86400	IN	A	203.223.84.168
+pmrh	86400	IN	A	210.224.175.52
+npvs38	86400	IN	MX	10 npvs38.kizuna-ds.jp.
+dav-npvs21135-012	86400	IN	A	202.230.16.19
+mci	86400	IN	A	210.152.82.173
+dav-npvs20978-016	86400	IN	A	210.140.42.236
+growthring-webtest	86400	IN	A	210.140.41.61
+npvs77	86400	IN	A	210.129.13.146
+mail	86400	IN	A	202.234.14.67
+byev24hm9agh	86400	IN	A	210.129.187.169
+msp_ve	86400	IN	A	210.144.91.166
+cme-portal-webtest	86400	IN	A	203.137.178.142
+mki-spf	86400	IN	TXT	"v=spf1 ip4:203.223.84.141 ip4:203.223.84.166 ip4:203.223.84.168 ~all"
+npvs70	86400	IN	MX	10 npvs70.kizuna-ds.jp.
+npvs60	86400	IN	A	210.152.85.83
+quick-watch-webtest	86400	IN	A	210.129.11.122
+idcf4-spf	86400	IN	TXT	"v=spf1 ip4:210.129.187.137 ip4:210.129.187.138/31 ip4:210.129.187.140/30 ip4:210.129.187.144/29 ip4:210.129.187.152/31 ip4:210.129.187.154 ip4:210.129.187.196 ip4:203.137.176.218 ~all"
+quick-watch-dev	86400	IN	A	210.129.11.122
+dav-npvs21242-003	86400	IN	A	210.152.81.16
+eisai-webtest	86400	IN	A	202.230.16.20
+cme-portal-mt	86400	IN	A	203.137.176.218
+mailtest	86400	IN	A	202.234.14.175
+npvs63	86400	IN	MX	10 npvs63.kizuna-ds.jp.
+sakura-spf	86400	IN	TXT	"v=spf1 ip4:112.78.207.230 ip4:112.78.207.231 ip4:112.78.207.232 ip4:112.78.207.242 ip4:112.78.207.244 ip4:112.78.207.250 ip4:210.224.175.51 ~all"
+e-mr.sanofi	86400	IN	A	203.137.180.209
+npvs09	86400	IN	A	202.234.14.182
+hvc-webtest	86400	IN	A	203.137.178.142
+npvs41	86400	IN	A	202.230.7.2
+npvs37	86400	IN	MX	10 npvs37.kizuna-ds.jp.
+npvs73	86400	IN	MX	10 npvs73.kizuna-ds.jp.
+medical-zeria-dev	86400	IN	A	210.152.80.153
+smtp2	86400	IN	A	112.78.207.240
+smtp	86400	IN	A	112.78.207.232
+npvs69	86400	IN	A	203.137.178.104
+npvs01	86400	IN	A	210.140.40.200
+mr_movie	86400	IN	A	202.234.14.63
+btest	86400	IN	A	182.48.27.218
+new-zeria-webtest	86400	IN	A	210.168.52.206
+npvs63	86400	IN	A	210.129.8.170
+smtp239	86400	IN	MX	10 smtp239.kizuna-ds.jp.
+mto-adm	86400	IN	A	182.48.27.222
+npvs02	86400	IN	A	202.234.14.67
+zabbix2	86400	IN	CNAME	npvs63.kizuna-ds.jp.
+mto	86400	IN	A	182.48.27.221
+npvs72	86400	IN	A	210.140.41.61
+idcf-spf	86400	IN	TXT	"v=spf1 ip4:202.218.42.64/27 ip4:202.234.14.0/24 ip4:210.129.217.0/24 ip4:210.168.52.0/24 ip4:210.168.53.128/25 ip4:202.230.7.0/26 ip4:210.152.83.147 ip4:210.152.86.52 ip4:210.152.85.83 ip4:210.152.81.16 include:idcf4-spf.kizuna-ds.jp ~all"
+dav-npvs20978-017	86400	IN	A	210.140.46.179
+npvs76	86400	IN	A	210.152.101.107
+bms-admin	86400	IN	A	210.129.217.210
+npvs79	86400	IN	MX	10 npvs79.kizuna-ds.jp.
+npvs55	86400	IN	MX	10 npvs55.kizuna-ds.jp.
+drgw-webtest	86400	IN	A	210.152.80.153
+mt2-npvs21135-015	86400	IN	A	203.137.179.244
+dav-npvs22643-003	86400	IN	A	210.129.9.155
+npvs55	86400	IN	A	210.129.10.228
+npvs03	86400	IN	MX	10 npvs03.kizuna-ds.jp.
+npvs77	86400	IN	MX	10 npvs77.kizuna-ds.jp.
+prcold	86400	IN	A	210.224.175.49
+mki03	86400	IN	MX	10 mki03.kizuna-ds.jp.
+growthring-sitetest	86400	IN	A	210.140.41.61
+smtp2	86400	IN	MX	10 smtp2.kizuna-ds.jp.
+web01	86400	IN	A	210.140.40.200
+growthring-cms	86400	IN	A	210.140.41.61
+npvs03	86400	IN	A	210.152.82.173
+dav-npvs20978-001	86400	IN	A	210.140.40.200
+@	86400	IN	MX	10 mail.kizuna-ds.jp.
+mail	86400	IN	MX	10 mail.kizuna-ds.jp.
+meiji-pre	300	IN	A	210.140.43.146
+npvs49	86400	IN	A	210.129.187.148
+npvs05	86400	IN	MX	10 npvs05.kizuna-ds.jp.
+npvs57	86400	IN	MX	10 npvs57.kizuna-ds.jp.
+e-paincontrol-webtest	86400	IN	A	202.234.14.70
+zabbix3	86400	IN	CNAME	npvs63.kizuna-ds.jp.
+mvp	86400	IN	A	202.234.14.219
+npvs33	86400	IN	A	210.152.81.16
+genzyme	86400	IN	A	202.230.7.17
+www3	86400	IN	A	210.168.52.187
+npvs75	86400	IN	A	210.140.46.179
+npvs40	86400	IN	A	203.137.180.209
+npvs01	86400	IN	MX	10 npvs01.kizuna-ds.jp.
+novartis-line	300	IN	A	210.140.40.120
+meiji1	300	IN	A	210.236.254.158
+dav-npvs21135-015	86400	IN	A	203.137.176.218
+webtest01	86400	IN	A	202.234.14.173
+www2	86400	IN	A	210.152.81.16
+npvs44	86400	IN	A	203.137.176.218
+quick-watch-mt	86400	IN	A	203.137.178.73
+npvs39	86400	IN	MX	10 npvs39.kizuna-ds.jp.
+npvs32	86400	IN	A	210.168.52.155
+dav-npvs21135-004	86400	IN	A	202.230.7.9
+npvs04	86400	IN	A	210.140.40.51
+eisai-dev	86400	IN	A	203.137.178.142
+nobel-test	86400	IN	A	210.129.11.122
+npvs72	86400	IN	MX	10 npvs72.kizuna-ds.jp.
+mci-webtest	86400	IN	A	210.152.81.16
+npvs39	86400	IN	A	202.230.7.9
+npvs41	86400	IN	MX	10 npvs41.kizuna-ds.jp.
+npvs37	86400	IN	A	203.137.178.27
+npvs38	86400	IN	A	203.137.178.142
+msp	86400	IN	A	10.200.220.36
+e-paincontrol	86400	IN	A	210.168.52.253
+*	86400	IN	TXT	"v=spf1 -all"
+npvs88	86400	IN	MX	10 npvs88.kizuna-ds.jp.
+npvs83	86400	IN	MX	10 npvs83.kizuna-ds.jp.
+npvs84	86400	IN	MX	10 npvs84.kizuna-ds.jp.
+npvs81	86400	IN	MX	10 npvs81.kizuna-ds.jp.
+stg-www-xolair	86400	IN	A	210.239.69.64
+stg-hajimete-xolair	86400	IN	A	210.239.69.64
+pre-kksmile	86400	IN	MX	10 pre-kksmile.kizuna-ds.jp.
+npvs96	84600	IN	TXT	"v=spf1 ip4:210.239.85.9 ip4:210.239.64.140 include:idcfc-spf.kizuna-ds.jp ~all"
+sense	86400	IN	A	210.140.47.134
+npvs83	86400	IN	A	203.137.187.10
+npvs84	86400	IN	A	210.140.40.27
+npvs82	86400	IN	MX	10 npvs82.kizuna-ds.jp.
+dav-testweb-lux	86400	IN	A	210.140.47.134
+npvs82	86400	IN	A	210.140.41.45
+npvs88210.152.83.122	86400	IN	A	210.152.83.122
+dav-npvs20978-030	86400	IN	A	210.140.46.182
+dav-npvs20978-023	86400	IN	A	210.140.40.148
+s1-npvs63._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz6xucelEftEpGE9ZNsvd5HYA+9/cRTiX+RbSjIuX9PuxXgU6kT5Abvh/Dl7TLeO4sVrwWl0ltGAe+ue1MeUzHjI/ZnrIeyoznOsAJ3YD9gtDPP4Zd1tZhTRo52eU/iHi6rAo185ILXGxnIwWkQYWa3hhu3eHp8vwBE/p+LMa86LTiGVgYhMQnELbV+8F9LrTu" "XKGQpS0cCtZ0CGoUUCYViSOydtOjFmzgUdlcqGlmvKybsrIjF0SxY+f0pRMeX+pXEvt/SQNUtWB4zjP8bBI9BTJ3g8zpcajL37XER0pLT0lDtedjVikb7jK+3YgWii7kr1yb1K78L6+ZG6f8zK9twIDAQAB"
+npvs85	86400	IN	A	210.129.10.65
+pre-ecc-hisamitsu	300	IN	A	210.236.255.84
+pre-ecc-hisamitsu	300	IN	MX	10 pre-ecc-hisamitsu.kizuna-ds.jp.
+test	86400	IN	A	210.129.11.122
+takeda-sense	86400	IN	A	203.137.187.10
+npvs90	86400	IN	A	210.239.69.64
+npvs90	86400	IN	MX	10 npvs90.kizuna-ds.jp.
+s1-npvs90._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1zNdM7wV3ZoC8kWyIIPC72i4J1GZcWRZ0NCt90Ao2H5Wuo6EDmJoZ0scBrt8p+Sup7RTfjTUrEWGJk5q0UyIB73nLgkCLBcyEtOndvlOz53QZmgC86XHLPDCqCE7yu0zm7FnbthQEseFFj7U79OXMmtAfsDOKYDV0amVCcKDvtw4hgkthH89mttg2YCm0GRPL" "gdZE3Zr6ARB+0cQQLNgQOeemWEUyHDcUAlXdQ2GsgH7fu6EvgNTuY4EngyLEntj2yrONUexDpoB9gyjUcVh3psTusZTTUhY+AYGN48QxqPLaL1wXuH/G8B7Ws8plCCL4KIPdm3q0zwhGqW20bBtrQIDAQAB"
+pre-ecc-hisamitsu	84600	IN	TXT	"v=spf1 ip4:210.236.255.84 -all"
+s1-npvs76._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArPLf5UKebqqpIxgT1y5WeqZqWs5G8xClH12dtHLUYGUEzbuwB+7zhECURIF73BbXVm2A79eal7MWf/SQKXJYFcvRfUXofJfBS8rS+fKQwzuuV2u2MInQjnQh/FCLYsD7h/V3O4HcVgKNxvPUoIkDW16DtcjyVzi0k1GCuv6X5As9hUBZoS8cvyKz0gJ46evo4" "aaMGDJsPN+kmIBt04JlkXW27VcWkgYc8ADBXfoirEkNwXTXtNJYruZ4sfZpRrgztzopPUER5argZAG8mspnBi1qlZ5fUTFUzuoXzllg5iddX3fxU6WFQVVnLhHs/lZvRQOY3qZ/BG5o9AYweJvQ1wIDAQAB"
+s1-npvs57._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz/FSlVJg/RQc3pw53xSqfIxyK9r/MiWkhrbIavZZ8pd+HDwEEUV5JZknKCte8gzHc8QB9sfLNHw/NR9J7ITpYuMVBUoskN6P4JCaR8LJsAjEXV1VDJ7wSjD7/MP3zxBMBDuQrCmbwN4RG9zG47h9uZ4Ck1wqBceDzTGeYF39qi17EnvKaXsFxlvaJGZrsS5jL" "5C78VDjW/TBsXhrbNHdYd5rZU4GWS2RojL1qAsUhJJFarNlf5BofxY6Tf0xP7AzqaHRHF8VpXtSxu9dRgReXN1GEbgyC75VXplXFmSZZktUH2zLV7DdgwFt8iH7ayiIWDzFcLbbEGMnrfxJNh5LRQIDAQAB"
+s1-npvs88._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz82mGG9QeA3N00j0hCuHQDrZIxfbEZZxxoyV/iqHaAE4hOU48198OxsAOY1iymm0urmVPWkHraoD+CdfH5ZMpq/VPHK08lDksYnWPy26H6tJbtwoKlZK1rZYJPL1miB1VO4OMgZYxchGWJSq0yG9B976B8ugRXYRiLU5sReVwZ/LBUg2dAmEcAL1TwoJxG/a9" "g7tpo2HrrOcRNxCxjkM0+TKlt1dy5bUXbaB2ZpU0Mmqjf45owTyeU3vgVSpa1tGxMhO+9ppFmp/VeoceesEkTwvZuMolfzgHAtZcEcHfHSgOFhhGhYVXUlLw6XI/ooTjLjyasFqr9W3U510Us3WPQIDAQAB"
+test-hajimete-xolair	86400	IN	A	210.239.69.64
+test-www-xolair	86400	IN	A	210.239.69.64
+s1-npvs87._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvC6js/y87jy6Rui2dymL3wunwMfPzo8LxQblk0aCUFeD9lJNTXkm1YXo6QV6/EccQsCEctlWpgddbu3nKPin/ZwY1UrGhSWfncCc4KEzE6kjLFPPqf7FZZ/uBI6RkcyksAlYEvJyn4AijdoU2SCnma7g3RciQFThF4vqxAmFc7KkHoQ77V8mK3tGj1jjIy+GG" "C9JbehYFDLH90UoZjdCXRn1cZZbdCUy9lnH0U79A5LvaY49JEmMvc0eN0ugP6orInRZpjCLMvUDOn/N6fC94oDLTDZOs5w+nFT5OGc/CWAml1biOHKng0LSMng0TFuZST858ogZvfUFdZQBbYmTZwIDAQAB"
+sense-mci	86400	IN	A	210.140.47.134
+mwp-webtest2	86400	IN	A	210.140.40.27
+s1-npvs86._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvzY4Q9eL5NMNSfQWAlgJEnJk2SQlhOWovF7qYYGVBP0qZFg7/OHHXR4kDvV6HZWKm3VsJb3VF2evWvKXwe6Mk/+JwuqcBe6gLou3ET2ezm8PPwo9KPb3jfG83ZC0KsHcjpbO3AH3Ugpk0EeHudjwi7DHAubWkDCL7WdOHP2+rY8RK6jvPUkUv27ZLcRhPCxye" "BWIrC30WmOuT/l58tvvHK5WgfGIyuB2Fzj/8UxrOdCtK9U/z6hklLTKkAjntSfMQx5X20r5Q/TnDV1hA1Lc1R9RQQ5mBX9yRPObXNqum5VhHJ0pdjED1AuI0stoRidmVFqBEaU27FWT8FaALeZGyQIDAQAB"
+meiji-sense-stg	86400	IN	A	210.140.40.82
+s1-npvs44._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2utjNAgnQsqA1igXm6F2YDzlrpa1/hLqPb1qvJOosEVboW45XD3RFAtuhXK3aJaJGch2FboGNY4IVqmNGCZjT3hfRhiVkJ7WHeszSmBKfajB5TKLu8AKz+EGWiItEYLF4NcVGFyahsalwc65OgVhsnO4NRuBiPzsC1qDjl7g2N9nDf7+XjnmU+nDF4wxKiYRF" "ugKmGXkxLP4NEi5xY8bjiTkAQPkpIA/qQ6J0Bbs9gIKZBEuR4igaNjDHwwXG5mbdQ6+vB8y9njUWaDVVpjENNXqZvtGaSTH7OsG1FroNa5h/KvnMq1UPF7gvg7yDc3TpU5jhRfVBOW3uudQzm5j/QIDAQAB"
+sense-astellas-webtest	86400	IN	A	210.140.47.134
+npvs98	300	IN	A	210.236.255.165
+npvs98	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+s1-npvs60._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3n+5vs4h31TXxxh4igjTS5F2a5tTcASPNVCeWgL4xPS7p4pz2aQvVTT25FCzvGvvwjgBgO1OmDC8rPiyQNuUkkmM7xBS+dJG1Z3UArRhZp0+SZ5vpt5NUQUw6HucxRUgUqEX3dGLPZtv8hFM+gn8LSVFpSoLsurlXR2hOcIPQbWq345HpG4ULJ5RWX0vF1bSL" "AuWmr9RwwlR/VEgOW4U741FR9fOl9t+76zjCuM3jRFT92fZ/qrfk2MM30IS20oy9Tu7OrJmnDaa5cS9UT11Kd/QdHZ3MULPWmALJNaU3pkrYAw6u9nqzVtbpLoClb88cCpG+MDvNTjVMxyXqnRymQIDAQAB"
+sense-net-admin-test	300	IN	A	210.140.40.120
+medure-survey	86400	IN	A	210.140.41.61
+s1-npvs03._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3xGiTn6aWgInpyFfERqpgxzR4w8cPGl7K+8HELlEg5CU9ALDs7N30afJcWYyhQXVpuV9R1OvK+v6Y8LbvBBc9aglm8o/K4WOKCchIcg/Z9DH4K+u6UmnDpCAFK6NSw473ieztzJu1tN65gWbrPbBUb8iJN1bDj+ngB9ByUI+yGJQ0ErVmGmh4zC44K4sWusXv" "StrrvR/7UbpF9S2cUHUlqq99YXS8de1ICionwHCHYuGxB6b9iga8+ij3JhiQdnmbFheJY4ESsECTqwqDAtAnd2oXdt2SUkYJwylsYyHim3g0BLDfsWxgax+I72eY8J2ECSs2ZIUbKMJtjaHYyGUiwIDAQAB"
+sanofi-dashboard-dev	86400	IN	A	210.129.11.122
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+ae-report-office-test	300	IN	A	210.140.40.120
+s1-npvs75._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtQr4z6d16sSG57m+crvU5vV0AUDlnx6o9IkHkb3BK1ewf3g4Mw8fonp2OK3LHExM9T/Nx3yj1isSEtyS7S2DZYBaI7iQcBmWQ1bWsILHEpTK4XCoxRb/7h/xe3PxpeDOv+zAfMxXxuV3SbivFT6XTHmWXZcW7wYZVkHKE5ZEPW7iX4k1AKVjhtHTGVr0FXTm8" "hWgowgRi1WBIcJPWEJEWtsiWSqLAzIF3+4Yl7RkENls6Xy9UisQ2+EFAuiEEdXHgB+8HSyQDWYabeV7NxQ4J2bVquOM50xHbtCol//6BNvnfwNCxnr+C2uAsHv6Vrt/vELTaGhkCsdzlt+FWOW7gQIDAQAB"
+ae-report-office-test	86400	IN	MX	10 npvs78.kizuna-ds.jp.
+_acme-challenge.santensogyosya-dev	60	IN	CNAME	ac.e1d49aca423f5c4335da2aa32d838c3c.santensogyosya-dev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.santensogyosya-stg	60	IN	CNAME	ac.cb8257338dbfe66207014cedc5c87eed.santensogyosya-stg.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.medure-webdev	60	IN	CNAME	ac.6ca3766e9ee53f03998279d637c731c2.medure-webdev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.medure-sitedev	60	IN	CNAME	ac.f188dced1828517c4df2fde48f572fca.medure-sitedev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.growthring-sitedev	60	IN	CNAME	ac.1160cbc657ff71ca2701484a5a30641b.growthring-sitedev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.growthring-webdev	60	IN	CNAME	ac.2ab931fad253ce29089d9ece254ec35a.growthring-webdev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.mwp-dev	60	IN	CNAME	ac.8af86bdd5ac2f510bdbb452eb34bc042.mwp-dev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.mwp-stg	60	IN	CNAME	ac.2db77be7e2569162a2a8fad143194523.mwp-stg.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.research-dev	60	IN	CNAME	ac.62927acde8d25933e31fd22f951e68e3.research-dev.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.medure	60	IN	CNAME	ac.d8f028912a6b399d5dd9996ea9f08fb3.medure.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.growthring	60	IN	CNAME	ac.b14cbdb5feb2393918332645cb78535f.growthring.kizuna-ds.jp.validate-akdv.net.
+www7	86400	IN	A	210.152.80.153
+s1-npvs77._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnXkT3X6x2/vJbGHGiNd1GcVK3eQbbeJ5NjaTfqyQZ2tRfq5OArRJ8VfmQQHrJTW5GV0uv1h0FUSxng1kqker8fCtQJ7sbgvsAZPdLjBDXVE/GGa50Z1zdjkRPSmCrk4BJCZViA8Wo0NzxhUfasOxGeenhxZeIEADFdG8Yuk45QwoPDSCAV0sSqkFqiAw81dtm" "zFdCpe8HDd37rNrPNGcIekSHuLYl87JOadD3tllTgxy6ojrid0PmtnShQVCQNQvqBGOzsCFGyTM3v1XVe810f6Wwk2Mjo56ud95qpbzeR80+wynSBtur+MW7isPOPrITm11XRAu2iYgqgdoPGcy8wIDAQAB"
+s1-npvs69._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxdbqzqq/tBeK6JV20gjr7mp0R43uMrdLWRgrnv/rQszO6GzUDKSW3KEik+QNQUeXD+rbkcj/k/xPj+nW4MKQ+n8UuCfzKHlRE6qu9SeY1IejEOFlQkKXBU0yq1cVsk7EkxNBtAj1osBHiJ/XozNpUaKREzju7A4kEV73u9lH7QHda3Yyy7JIfLLyS0eS+xg89" "PBd4f6UP5axeoEPPmcQ3vD/UQgz+TKPixGdLOtD2ZCuLNGaue8/G7eyxY/tCWHgFODzvEjCdIvh7cQZHealHJoUMvfb7YFtVLdnL+lgdLEH68YvHqHi6d9ojt6R03BRDJ8W3WTvAeo67H4BkXmtUwIDAQAB"
+s1-npvs79._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzJe7Y8A1zkluahkmOGRw58bXFpWjI3XBQ06h0HBHJBE6n0Z9IdtwBe+3vAq92ZgFjVe0A0+crWaVFAw7224sURRCbNEeOhJqZjVbRFzHLEl54Vah2V5HWytfTyTMBMhZSG4nRKcH5Oo/rmdMreqVaIoTJLNyGXUtqDcWq30+LMIHgqIOICBzOWx6aI7QJe9ro" "o5e16MheSjHSYPaCNR297qMTjrkFslckR6iTuR6lxF6tPpoGZSIXSeoWPzrr10nnSAOPvN+kx6EwN9sAM1h3CkTYF6zq1i3eV16rRGxRt+1UJNOZquR1iks1C4CjKcfytWND+rRkaA/arpGMXsx8wIDAQAB"
+npvs86	86400	IN	MX	10 npvs86.kizuna-ds.jp.
+medure-webtest	86400	IN	A	210.140.41.61
+medure-sitetest	86400	IN	A	210.140.41.61
+medure-survey-gst	86400	IN	A	210.140.41.61
+medure-survey-adm	86400	IN	A	210.140.41.61
+s1-npvs40._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw/wukZzBcpIDPb1Q8qvTzec9sz6rXBtDQXrbYNncc+eoVtVBpqvMg53eFBmAWbbUpo/lAY/Sur0qk8eGzy6xQb80xRLm0+c8jBTxhHnST9RZb1GkcNlkF06cK9jKYayn0/qYtCrRneFKPezufLMuI8zT9UnOIMLUDUtO/JlKnY5N+DComTuKUmYUqwyWNwtp+" "yZYsrPweefJeFJcNirjOSkwDf7OvZn02s63AcF/5D1D0QcZyXaBNJtxxp8LZn42Vyb9BfbrdTx1uFEkTyYrtikPkgwIWhv1eJZQgCDen2lCOOqNOPgUnksoybrzlJToxw9XKe2Osvji5otMtb8w7QIDAQAB"
+npvs96	86400	IN	A	210.239.85.9
+npvs96	86400	IN	MX	10 npvs96.kizuna-ds.jp.
+s1-npvs96._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvlxhFtzTXo0x4ob5Tt7sKuIwMTB3PPPuGBmSpo/pMpw4e2XfsK9MyHVswjtnEmszCzKVPOQN8ZBAWD8f9VCPSb6cSreYK0fSV2t1d6bPIje0OlrZezCJd0ycX4ZYMF1CvEgi3fYU+0QoF1mSeRAkVlmMgl90I/mh/62hf/EMkHu77tOscbzO9dA8ZSYxfVpqU" "dIQE7PR3Eql59MK0lY+zoUofaSn9TN602wDx7lft4IYI8ojRZpnmvWYKjekTb+Lr2vDH4oZWIr4tcRYsGmXj7VytakqypaSL0mnxXZLIvvNCRuUEx8g56Ci0P4wzEyonyxZ2SEBBdHJvJGq+iTWwwIDAQAB"
+s1-npvs85._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAufoX+dJ5sNkp8V9xtL5mPscGELjjJe4v2Ek/MeohKL9awOCUpxLP3mBATrpFsCz3o2t5EaNzXuij2hwpvjPlK4BuAJIQgbCG7V/ppZdrkfXrDPuBeVOyrD60TwJ9b8vpOTj1kcbfeIzknDJQSaoRKun8FOiBCVo/ooLgTpri1Ig7uorZgFBbzvgAhH3EcWu4W" "YXLLZc2/6Vf2TBaNyyjN6PmRTl8EMeqqmUwccAf7lwSxfdy23i/Cy2hV1oKZfZHcUF5XKrezW1xhDgZ1LIt+HiznsfcDCr3Yncr06RzKpMFs0zJtzdmi/WkPlwypS2vCXUx/HrErydlEJ2JHZ4XgQIDAQAB"
+npvs91	86400	IN	MX	10 npvs91.kizuna-ds.jp.
+_acme-challenge.mwpdb	60	IN	CNAME	ac.af0c59f8ec70b1672d1bdfff60d3c517.mwpdb.kizuna-ds.jp.validate-akdv.net.
+npvs92	300	IN	A	210.239.71.147
+npvs92	86400	IN	MX	10 npvs92.kizuna-ds.jp.
+pre-medure-sitetest	300	IN	MX	10 pre-medure-sitetest.kizuna-ds.jp.
+_acme-challenge.medure-webstg	60	IN	CNAME	ac.1543221d5c068031e7731fc1d9d6fb0d.medure-webstg.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.medure-sitestg	60	IN	CNAME	ac.9ceb2a7095aa645d92fffefabd600815.medure-sitestg.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.growthring-sitestg	60	IN	CNAME	ac.275cbaa64f69780e966dec24ffecc11a.growthring-sitestg.kizuna-ds.jp.validate-akdv.net.
+_acme-challenge.growthring-webstg	60	IN	CNAME	ac.075b4728a21791dc9e180c88233a26dc.growthring-webstg.kizuna-ds.jp.validate-akdv.net.
+redirect_test	86400	IN	A	210.239.69.64
+duk4t5wsmwor3kiwhuzfonnina2c5vy5._domainkey	86400	IN	CNAME	duk4t5wsmwor3kiwhuzfonnina2c5vy5.dkim.amazonses.com.
+4ojvm2lym5hdegrlmf5ai6p2odxgajd7._domainkey	86400	IN	CNAME	4ojvm2lym5hdegrlmf5ai6p2odxgajd7.dkim.amazonses.com.
+3gnm373gwdzzujtd2wfhfwuqtii7wgbt._domainkey	86400	IN	CNAME	3gnm373gwdzzujtd2wfhfwuqtii7wgbt.dkim.amazonses.com.
+aws-gr	86400	IN	TXT	"v=spf1 include:amazonses.com ~all"
+aws-gr	86400	IN	MX	10 feedback-smtp.ap-northeast-1.amazonses.com.
+nnpvs60	300	IN	A	210.236.253.49
+nnpvs60	300	IN	MX	10 nnpvs60.kizuna-ds.jp.
+nnpvs60	300	IN	TXT	"v=spf1 ip4:210.236.253.49 -all"
+s1-nnpvs60._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/q7kXxVLXwVpUnwaanDfvEw5M3KtWWueTsmh2zITVIXIkJy/tBpfJv1UYen/rgAz1CvWS67nqP81bl0YqohxHKRHPgJfhxnc9HuVGfkYZqotT2DnMix3kcLV+8iuzX5gFwjfVkgy19FCRzYet0XFZOTpkRaUNKo+Skm/C06fH4O07ekYwY4yyNuq9a1oDvCz" "GZ7xMPvaF0NOIcDj4AHNpVVgVPXg30oXRbKmYuCLAQHXtcPPXVarZ1rM2uPkvlH5CbsCVlm81X/OmSYpMrO/XpuFZQSlKXz19FRcjW0r0oRO5VFMUPtqvxLz+WRZDr30UmHFWk/cVO1CXc28yzbYwIDAQAB"
+pre-teiaen	84600	IN	TXT	"v=spf1 ip4:210.236.255.81 -all"
+dmlab-stg	86400	IN	A	210.239.64.164
+_acme-challenge.research-stg	60	IN	CNAME	ac.2d3d2d40fbc83af4a3627ab3e34e934b.research-stg.kizuna-ds.jp.validate-akdv.net.
+s1-nnpvs78._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoF8lhSlIyriZ3vi/gR/VGat7iWwe0xhaO7iyZwyIDY54xNfYfdfYGtXj7jVrYtK8oTSiVAyP8HB7iq1KNT2W/Uv8s8CqJYW3J4XEbKJAF0XULkpXD1ZDGovMHhb5OVDOiGaNGjI6ABpXcDsM2S4ZnT2kOW3HQ2Ui8HqRBtnt3EZ7aAENtXtLPO7kqKSZA1WHX" "LoG07KoWJznNnC+bxSJ/JpqezixIbmKiseeXYFnUbg7R98gCzFWzw7QMzTRgD3ToHM0tG4Xc7HtS3A1yJ2sR6o4y225wrWG3yMl1LfO/SxKn1/s3CFm/71nYEkxHib/nrkJi5YWJMNdHgzfx8rh5wIDAQAB"
+s1-npvs78._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Zz0glHst6SQWF48qeOm1pYrL18Q6gof3pELiogu5pS+cHsRnVIxtk2YLa52vrb65Qd1/2CI2aGbkTUDhy2QgWKtkSc6J6DCUCBrK/mOgWl/ICApzdcbwy3SrWa4Cpw4HeA61Rr0pvrhb8W1eEy25roEoyi3Hogp1qxF1jY63hFWVO7IJa9Or7jFTnzSb9q87" "DaCQBZ3F+Uz5em45P4WCQyRCBDVee8uiRqJaxaa/QDQGB8ogxCbz60kIows1VAsDVgp4+9NSdsjgaX/6AkGaDMnVa5rcF8pM7iij//6Na6V4wkiAnyn8EhTpG3ba+mQLYqH2InVTFagNQ5lckh/nQIDAQAB"
+npvs78	300	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp include:worksmobile.certification.bef4z51uxd7rbz8f83.v5rrlebezgu8yl.en3aldx2f ~all"
+drsnet_connect	300	IN	A	210.140.40.120
+ae-report-office-test	300	IN	TXT	"google-site-verification=6zrkk_QRrnfb6CcKm5eJ7n5hSY51531537eI7z0fiDg"
+ae-report-office-test	300	IN	TXT	"v=spf1 ip4:210.140.40.120 ~all"
+s1-nnpvs89._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4ZCynbyDAXBwByO0YpJq4GLY0s7upCRtSGT1jV3JVw5ld9NwNa0gku+db/4kcTWZOHm2WtDKmZd1VaV46/MPxr6ISSWwrVPoFqCn3F2Kz1DuUTgF9RFcG0iG0hIFMQVE0nf8oSZFlDUX+s5CkSf68ya4N784CHio2hTaMmZmtXetclJ/hM8AhaDPg9c2hRQy" "MVFZlqJEBRgnTCIfIL71wQE5ZDsEsutGvpGFxL48XR84wzp0eeebHk/LVt9wNSTuaCdKTewUpcYWWsfYFjrSDj9OaGM6LX/Khp8pe+jgXjX2k+56W2RFojzNQVXUr7T2J64u1oii/wu1Ym+aXr0VwIDAQAB"
+sense-net-content-test	300	IN	A	210.140.40.120
+npvs81	300	IN	A	210.236.254.133
+s1-nnpvs81._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwWqA8BsYLxRd6SBFxEv4ur+o1sv0+XbanNvJmjmkhtOiYYROldvVtmBSQ2idyC0rRV0KGHPnUEAaGj04Ky2p5UPQxGDLh0rhdP+Jn1s3lw4cwlz7JSankc5BRM82gFBPLhk1XEe8mybHmbAZk7bX74KYnAyIi1JlgbpxW8IYdU4ByV3MqTrntoCS65xks1lVo" "s7O1CQn4IPjA5uyG0PMWBGfE1ej7VJ7PtPpUw4bWqwhnqNqC1aRdTaAmUviEpLzqoIx1Ak5BGn30f0KzscGpteUvCxSnw5oPLdj8l5sDEPZoUPCMWA7rCO/4lGY00tRJ7DLaI+CUY8ZI4jBP6PadwIDAQAB"
+npvs81	300	IN	TXT	"google-site-verification=3ig6TVIi54X3vcynms6gc4IiqVzKFRTkhBRiyEFkRh0"
+s1-npvs81._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0G9H506dJScJ1PfIs6ksYOc0u9tpA9osH2pyqCGZf/nuORq9Wp1WcmHSvKd6h8DrzHd8YUo2KeAOYkP/yKRtOyNhXgIdZj2d9E/reJT0Uj7KRKT1WUN75P4aCf6FfaqJsqOCWOiP3Cg6eybCwofSs5IrX8BcL2hK2hfL09WGhc5RqfN3onLbGya/3hnH845bP" "aF7m12t79+3SCaAw2bfhyCQa/qZHcFkHJ1iFH02rr1ahplsRddygPRdZZY3rLoqKww4AxJj91fM/HEAxNzd8kJOPChlbPa5hebq7ALeH4iLcKzQPztE95u83Gi89x5cba5zxqhYDaIVCzhRpE0SWQIDAQAB"
+s1-npvs89._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzNo+HanQ3GfFVPbL7s1gBHWGQpdmCg406fjajlxwfWNQIia9tissXKwG2v+l3Q7LHXPJ71UBeMWMZXtscv3/EPx8H7jJlmGHINsPPS9daFPT8Emr46UeQCAVxNrZn5/TEUGm1oFkVvtwRwJVs04tXmkBiDCI5tw/OIMgWFo9mG4GE5oyEB0jyd0vmU1oZ+kjS" "I4xD/yJB7nb/0OQJRg4szZYohDkQWKURT1nZzZA6JzfqQLYxFPaa1tWnBFWzmMOtKOtJlwV5SL4xHhsZFAKmtRFtaBkzcLwwN6OcLFjuxnqfDIVMSUZybgSJufQR3RNxQU1wHsuNGW69ePdf5siRwIDAQAB"
+npvs81	300	IN	TXT	"v=spf1 ip4:210.236.255.160 include:idcfc-spf.kizuna-ds.jp ~all"
+ae-report-office	300	IN	A	210.236.230.245
+ae-report-office	300	IN	TXT	"google-site-verification=ZQmlW45b21e2E-KbKMYDE53g3h4azGyWnlmYXlVPqPg"
+ae-report-office	300	IN	TXT	"v=spf1 ip4:210.236.230.245 ~all"
+cms-jinentai	300	IN	A	210.236.255.135
+npvs91	300	IN	A	210.239.70.242
+npvs91	300	IN	TXT	"google-site-verification=Ja_KroqmRfqPUnNUOeEqAOuswfnoUlaBzcp4t61Uzco"
+npvs91	300	IN	TXT	"v=spf1 ip4:210.239.70.242 include:idcfc-spf.kizuna-ds.jp ~all"
+s1-npvs91._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA10M+6Zdy+JRrTzxpUytVl6EK+W9Qcn5KvuYxaKZlE2IlDtnDQAXlUi/nR+SsyoWBCE7fx1kvXO2crtiS0+AtcnwlkoULToFj5LHSnE/l8y1lsJTjWkJFVtr01oaiQSMf4LjYpBAUEsCHIkbpjkLxAEcOvIliR5TMZ9cu3luwO7IAk/qr5ebTPJYYI8LB9WiQV" "b2J8rr60i0Oo2K/XTa8sXWfYD8pGnJ1yWuJGp4L3LRL7iXsmRhdmXmBvaLTtW43YEr1WA/Fzd5J9T5Jo6EjT2lIW01BLONi7fAMN9HbZZ7J07jZJvcNiwdMxlzPh2FsFrEcIPYsqqEdx21BKA3PGQIDAQAB"
+s1-nnpvs91._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8ox5kUhJl18D7PzZTcO019Ud5JTw7IhR9SbEtibuSVVRyZD2oe8spkX89rU7C5/MgtZ0tg+Jh0dxo6nw7NcdQKU1CiSII22Kd6UeUxMlFxRK4xz3Zs/ILaZ15TbUm03TFrUspqXOlYDV/ih3FzLFxRZqZJLGrJXDObpboRotiv8OaDvg3h1kx6j1gOGmD341E" "07BvbuJkt/4jTi6fxkgUfxYLWcCN7XhfeZQQ4UBZb4elGmJPva30O6J0lGZPHyVg9LML7J/TAgZojn/8mmtIIQxOLNTUmvtHH8npJfIVOxJOjVFCCVKQhJ2HwNW6wmcDu3O+CdWRLvsH3nNqN52iwIDAQAB"
+pre-npvs92	300	IN	TXT	"google-site-verification=O1yVlswC4hBkJ2KHwx1R01KXPvt1s7pyy6PYmQ3ARRk"
+npvs92	300	IN	TXT	"google-site-verification=FhcgW8Kh6OPxl45VUohTS4nf1bwXlUZXI_YAEY9kk34"
+npvs92	300	IN	TXT	"v=spf1 +ip4:210.239.71.147 include:idcfc-spf.kizuna-ds.jp ~all"
+s1-npvs92._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmA8INY1PDogYDbWV+PwDJ0V/HVx5MoXUKBbErULoRR2DHt26uNys2jvJpgDlZj7cyYgixQfz/ls0/8L1zsdNHGowIAzwSutw6Nw7r1WeBbDkoXMGKZ1+cZubJ8gBCoIdEuYJyzEvuyXRP/GmhM+Y1LwgH+OUjHavC1Cg42eDW4i4d9Nd29I4xrJObwb++MO1k" "wHHHTSVV+9UxadHilA4hFu3GYvO7xLfp3ZGnKeLBLmZTU6JrBWSX7mbqwpIZvFyxsC7AWvuyH5l0JyVnM/R9nNab3tX5rnaajjG0W9382hxdhT7Rnfdlo+pFlDfAG4zgRrgU/kLzn20OV5Z7qTx2wIDAQAB"
+s1-npvs80._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxt39Ljbaxaz8T7ZI28zOI5vWBU3+GEW9UR9xvD9NbQuplMXTs+SIB4r4Yv7hmgihJ8C+mGUlkQ+USRXXYaLZbKjaIyVtYYgAoVpuO7XuZGaCsoHbcBvr1X02obM0zCJmP0aJNW3g4nCU8zJpnOsRxqGt32kVtJHrTk6nowF5M5wSV0w4nhE9TU8pNuhQu4F0C" "HGPZWr48QBbym97keU/qDrSvgdsE3SI2YM5ZzzMJRS3gRrlt7qi4CqqnaKheMsvnS3JRmLDS6bQ26N7nLwNmAZw4tVbXDUTirbtTiewrW8X+CgZTYAe0Aw3QArNaAMNsqiPYfsukdB4TGi2NE5S4wIDAQAB"
+npvs80	300	IN	TXT	"google-site-verification=POzKZ4zLjymrvcdM_p_JxmqP_WoILmyzaYTJ5bjYTlk"
+npvs80	300	IN	TXT	"v=spf1 ip4:210.236.255.84 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-cms-hisamitsu	300	IN	A	210.236.255.84
+hisamitsu-sitetest	300	IN	A	210.236.227.230
+nnpvs88	300	IN	A	210.236.254.29
+nnpvs88	300	IN	TXT	"v=spf1 ip4:210.236.254.29 include:idcfc-spf.kizuna-ds.jp -all"
+s1-nnpvs80._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApuOS973njg20nM0XFgADTHYwQtSu526g+63TxX+rv/TUtrkP3TeRU1WBW3VKyaUPXerC8yjZR2bca6VO7OvcWUFm6ffXod3Ems5uzI6emgbI6W7/vh+tZ6SkWs1n3rVT5a9tT77WaGDTrkKthnE/kmiihC1GJIHskEaYmjaq5PEsIOtqIX0iJvD3JdRqzUFDN" "Ta1SJAD6r8tnikZPm/qJPVsgY1FfN/F3kddxYM4Upo6ypqTR5ZmLNuX1roysuDf2ZzckxoIJC7j3WnM303yRHWVU5RsEOJuKDnUEJyZJVA2hpJCFDyrtgZUIQiOLVYhtAElx9F4o+uNbDEvn3YeOwIDAQAB"
+nnpvs80	300	IN	A	210.236.255.84
+nnpvs80	300	IN	TXT	"v=spf1 ip4:210.236.255.84 include:idcfc-spf.kizuna-ds.jp -all"
+s1-nnpvs88._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArRpSJmb3lQgmZPOEhcaP0+MGaC1OXbkHKn6PCOfjqWCkcWZG4ctGG6XHdIGr2k7eWGAH9SyHSBB55t/PczrPouuV8W4/6EDUn0/c9Q6w3bUljK+cStb/U1jQ6oFa+OjFrtzA9FOlui5qdxR/Q2etxyB2xUodFbqJWh2Ob1Yi3Uti9lJ+B1Zny3b+4/LMBHP00" "LKdsqSKaeE7HEFTcebxkmRYgmi0niwZ8eaQ3S5+DD5V+InmW5xYzCpvXbNyyFCZIwdRChGUQuPj8vrLvYjhgoZ8ZJH/w6GKfW5cVTcFqkHw7/jQN1MGzH2LhcDLlggpIkgPf31mIwlesNgyEJ6zywIDAQAB"
+npvs88	300	IN	A	210.236.254.29
+pre-www-drgw	300	IN	A	210.236.254.21
+pre-www-drgw	300	IN	MX	10 pre-www-drgw.kizuna-ds.jp.
+pre-www-drgw	300	IN	TXT	"v=spf1 ip4:210.236.254.21 -all"
+s1._domainkey.pre-www-drgw	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxtmANpuDqVuwxy9YxnULTi/otFpis9HrlrKHeYJk6plh7OMEERzq86A1SRykrabqaoXM1XMirKF14eAy44e1mNcotJFkInX/oE2Y7GwwA108CVUEPogTKkppIO6LXdTHboRgXUe83rvOc2mDmuvVuZdcZvqfrgyZAGhdT1j6hGYVUsfirPZzhvUoVUpDZzh16" "L71UjcN7RwFZWKOpBi0ch4n5E6bzqG3n9VIMiU/hFwTUjKE8oo+GAj1PzKt5UzsqKXHxOxIUdfTBrl87Ecs49t3J81uxenHgxadH6waszBXAOMmA4sBIF3U6nxtbw5CJlvkUOgoPDn5HomXGmaDNwIDAQAB"
+npvs95	84600	IN	TXT	"google-site-verification=H_ETNc_sJdRnmDKVXQSYpRK-hsaqKUYHDi6PTGd3_YI"
+npvs95	84600	IN	TXT	"v=spf1 ip4:210.239.64.140 ip4:210.239.85.9 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-npvs87	84600	IN	TXT	"google-site-verification=9Y5AtuWC4ZSn4pGy8Y48K4GbF-aO-o1nF8twoThMdhQ"
+npvs88	84600	IN	TXT	"google-site-verification=-y-fKwbwU1w94Vqj6mN2otSRUuj2WUH7PXLLfGLZacw"
+pre-cms-jinentai	84600	IN	TXT	"google-site-verification=f5kNGG9FSG1CvI2oGC7xBaXXianu9mb3KSoSuO7HmlI"
+pre-zutsu-online-search	84600	IN	TXT	"google-site-verification=R8v9IChVu98WgIGwA_8CTyAFHEy8mfpV_xBxSm5RX4s"
+npvs41	84600	IN	TXT	"google-site-verification=XzDW_8aG91glgeyww0RsNM8gz_U2TWqhz_ZYVvYtg3o"
+npvs41	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs75	84600	IN	TXT	"google-site-verification=eGIOZzkKpxiWG3ZC2QdR-zDtrIlG8i0x3EYuZXS9sak"
+npvs55	84600	IN	TXT	"google-site-verification=bnyF85iS-VhsfWkmE1nFLuJDPTeeu4LxbiUekqQrNbg"
+pre-ae-report-office	84600	IN	TXT	"google-site-verification=t958WEPpQ1CQ3a6gXkzcK_YJ2cNoSH_QC3k7kZCpMK4"
+pre-hisamitsu	84600	IN	TXT	"google-site-verification=Y46uy4GEO477o9dtXi6_19x2FvyAeYUf66E61j1xlyQ"
+npvs37	84600	IN	TXT	"google-site-verification=xzhO7WaCxF1o-H24Q9MrRcdqTko-SQVvEKgK1TtYpXQ"
+npvs38	84600	IN	TXT	"google-site-verification=_UctFkimR0j2P-pvYqOVwj77VL_wQ5NjK9pIboHDUD0"
+npvs79	84600	IN	TXT	"google-site-verification=U28jr_b2kH2MRutnAzU3p8E_QTtgZ0AwFaHGP2BMRfA"
+npvs83	84600	IN	TXT	"google-site-verification=4g8qYOCosIlUK3wBH4NiqDuv0zuUPVF8w2yt8-iq6LA"
+npvs83	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs93	84600	IN	TXT	"google-site-verification=L1ezWR1xeKDyNbLt6BZY52o6whRtLH_6JPCjbdzDLII"
+pre-ecc-hisamitsu	84600	IN	TXT	"google-site-verification=WnMJnikvGfv-YQsucoEDZ-A4DHH7bIBYAus8fY_XEpk"
+pre-drgw	84600	IN	TXT	"google-site-verification=1NLM1_p7cfGarRNgwaYSiosl_qDTBF319YXBCEok-Wk"
+npvs93	84600	IN	TXT	"v=spf1 +ip4:210.239.64.164 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-meiji-sense	84600	IN	TXT	"google-site-verification=mxPt1OmjlYuVDYHDQ293ncNaM6i9xyDjsqzTukfjAno"
+npvs94	84600	IN	TXT	"google-site-verification=Z22PIwzsJ9C5-5vRxOfIBFfDrn3ZpUvdFc9kW8wvei0"
+pre-astellas-sense	84600	IN	TXT	"google-site-verification=kfGO0UyPxGgHD997XVVvNG_-Hb6460JT1sZ9zfusAn4"
+pre-astellas-sense	84600	IN	TXT	"v=spf1 ip4:210.236.255.172 -all"
+pre-ae-report-office	84600	IN	TXT	"v=spf1 ip4:210.236.230.245 -all"
+npvs39	84600	IN	TXT	"google-site-verification=8PnUFX9ecBU8qrFLlVjESpVm5BmsdnSIf2zy57gz9UU"
+npvs04	84600	IN	TXT	"google-site-verification=gSD6qfRGw7YbUZIo1A8HqUfnUc9ez7vOKz_017CzhLA"
+npvs96	84600	IN	TXT	"google-site-verification=2tMxf8G31Fc6WTo6YfXEHaLz3D4_DEKEF3vfMudQANc"
+npvs82	84600	IN	TXT	"google-site-verification=UoKySYxOVW8Lx0avflmENiFJjYFB2KXOtCruzryZuB0"
+npvs82	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-symbio-mt	84600	IN	TXT	"google-site-verification=WlpFJSmXaHipdLOlk5sE8BiopMgcjQ6yAWGCLOkTHUY"
+pre-symbio-mt	84600	IN	TXT	"v=spf1 ip4:210.236.254.59 -all"
+pre-shinzo-sos-com	84600	IN	TXT	"google-site-verification=WbnGsZtoN6W2F-HmVuCu2g6Coq1bm9nbGHQqVBKc80M"
+pre-symbio	84600	IN	TXT	"google-site-verification=ptKs5J3ADU7eSqYxdaaitCy86LWNarUykf6wZZeJHQs"
+pre-npvs75	84600	IN	TXT	"google-site-verification=vVeGw4H3v9kI3qyuh-dvwJ5Z7ebgsP0xIyQauQeW04A"
+pre-npvs85	84600	IN	TXT	"google-site-verification=AUYHe7QXu5QhncWDbglh-yqfOpUrPfgMA-H3CZjyrFg"
+pre-npvs85	84600	IN	TXT	"v=spf1 ip4:210.236.254.36 -all"
+pre-teiaen	84600	IN	TXT	"google-site-verification=bNuQcgUSxi9x16nuV7XKz-4U1H9H9SZaicIma49gtKA"
+npvs90	84600	IN	TXT	"google-site-verification=qDouBUgAbkB4d1mUgYvbKTNy4MKtgleWRxj9pZKCgXU"
+npvs90	84600	IN	TXT	"v=spf1 ip4:210.239.69.64 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-meiji-sense	84600	IN	TXT	"v=spf1 ip4:210.236.254.29 -all"
+pre-novartis-line	84600	IN	TXT	"google-site-verification=fUwnfAzZkuH4HPAdgFrn7r4TsdbGmMigOfNtVB1V7bo"
+pre-novartis-line	84600	IN	TXT	"v=spf1 ip4:210.236.230.245 -all"
+pre.growthring	84600	IN	TXT	"google-site-verification=QSXDeJbHMYz5NhOIupqgsc-b4kZbWXRi0RowUlu1jgQ"
+pre.growthring	84600	IN	TXT	"v=spf1 ip4:210.236.254.144 -all"
+pre-medure-webtest	84600	IN	TXT	"google-site-verification=cGBDMPG3VoVPxbP7XFYq3760BK-MPKfXqDU6iH9SvyE"
+pre-meiji	84600	IN	TXT	"google-site-verification=SLGI2dVdGqpGUduTzgEAdgyBQ6kMyi9zkSb5SGc4EoE"
+pre-jinentai	84600	IN	TXT	"google-site-verification=qiAV26gjs4gajI6XFEr60_ntsD1Gl2MihzpAKmV1tjs"
+pre-medical-zeria-dev	84600	IN	TXT	"google-site-verification=rbb3nyR9MnV2-QalpvBQ2QHOwz7DcnVdNk6T5aaAeo8"
+pre-medical-zeria-dev	84600	IN	TXT	"v=spf1 ip4:210.236.254.47 -all"
+pre-medure-sitetest	84600	IN	TXT	"google-site-verification=ygLR8cmcPepjmYtyaXGZnCv8Rpl5goz0KnwnLtP_bjU"
+pre-medure-sitetest	84600	IN	TXT	"v=spf1 ip4:210.236.254.119 -all"
+pre-kissei-cms	84600	IN	TXT	"google-site-verification=V7tiB2Fx4o_cEywR0euy_sR8eswrgVYjNmdIsxTMzdY"
+pre-med-kissei	84600	IN	TXT	"google-site-verification=qTh6TKIPhb3_JkA5g6yi6RbohtBV6zp9e4atHiXMozQ"
+smtp2	84600	IN	TXT	"google-site-verification=J5J5Al-zQnmEPqlWtYB8_yXXiOIr867gbMoXN-g3FnA"
+npvs30010	84600	IN	TXT	"google-site-verification=GKqH8UElhumrss91jW4irMl4iwTotnubwA04cyShIUs"
+pre-kksmile	84600	IN	TXT	"google-site-verification=cWp7Z8Yau5HqFQ220b8SvXlFCtmNNSe7j--upgwM-tc"
+pre-kksmile	84600	IN	TXT	"v=spf1 ip4:210.236.255.101 -all"
+pre-ketsuatsu-support	84600	IN	TXT	"google-site-verification=JFLrz8T_E1GZwwB4X9TZZFFloC4tOJcAXExbmkcih5w"
+mki02	84600	IN	TXT	"google-site-verification=DtQuiSLV1MyH_J-bqvVWJnyK0GG7gJRCSY750i0Ngv0"
+pre-growthring	84600	IN	TXT	"google-site-verification=tYe7tOapFY844j8fLUimyPhyxBBiaQmITxOClRnmoOU"
+pre-cms-hisamitsu	84600	IN	TXT	"google-site-verification=7XjQQcpSIgVVZP9IU1B3YvM35g5dDz2cX6O126i6H9Q"
+pre-cms-hisamitsu	84600	IN	TXT	"v=spf1 ip4:210.236.255.84 -all"
+pre-hcp-portal	84600	IN	TXT	"google-site-verification=QpKpL6M9AV9YzfFRLQ0HkMWyhTWXbVplwVhmYRHMuyg"
+pre-hcp-portal	84600	IN	TXT	"v=spf1 ip4:210.236.226.51 -all"
+npvs76	84600	IN	TXT	"google-site-verification=xfy3IHWPgYoTGGAItGIBa95zRxbUxW34ZtGLZhdKqR0"
+pre-growthring	84600	IN	TXT	"v=spf1 ip4:210.236.254.144 -all"
+npvs88	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs44	84600	IN	TXT	"google-site-verification=ZsxkdB_o9GzqND70pVPcMNsUCjIm03jt6eO0zA1LH0o"
+npvs67	84600	IN	TXT	"google-site-verification=2qK_tKlN1OqrAkkd0RFz3-U2C6kmaMnTuN7DD33V5Fc"
+pre-npvs73	84600	IN	TXT	"google-site-verification=nv5atRRIVmU4PO0cIIrL0lXHxQ21tLorxa4Wq1CXiHA"
+npvs86	84600	IN	TXT	"google-site-verification=JXbwseb456PHi9hWmbnPyoD_WfGEBt1kR-nas3EyFJM"
+npvs86	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp -all"
+npvs73	84600	IN	TXT	"google-site-verification=P_s_O3Cg8n1fDE27u2LJpmdJRZocerRfD_GsMgBNBmc"
+npvs68	84600	IN	TXT	"google-site-verification=xTwvkD1Yfz9QmV-e-MfqgGf2A7ACwRrersHi7SABhcw"
+npvs68	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs04	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs32	84600	IN	TXT	"google-site-verification=8UM0RE161108DMcwQlIO-d-JK2IPrDoEFaJalrsyKqY"
+npvs32	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs67	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs40	84600	IN	TXT	"google-site-verification=TkhPY1ZD5_OcA6-jA_3fmBuHhiTG78w8_-sf0K2ne2I"
+npvs40	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs33	84600	IN	TXT	"google-site-verification=KV1LqF9VdhfPIi48L4NKOSxUUi1F2ujdXYjfGinEK0Y"
+npvs33	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp -all"
+npvs38	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs63	84600	IN	TXT	"google-site-verification=yJyrH6TBUNDUeserFk_rHlOtHoHdxvpnny2IrQ_DWCE"
+npvs77	84600	IN	TXT	"google-site-verification=VD0pGpqoKrBJyWhmIjqz0R-o_VlxUJn3ALncbITb2ac"
+npvs77	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs73	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs78	300	IN	TXT	"google-site-verification=B6PhuKdvi7vfeAQxHZ7QirRhVdmMuW8DxyfN3Orq3-U"
+npvs37	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs39	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs05	84600	IN	TXT	"google-site-verification=AK9Ho26Nua5Rcz4kJrZyV3nVj9AF9naV_3rEN2M0hdA"
+npvs05	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs57	84600	IN	TXT	"google-site-verification=BMquwPLGmmu8HOmYCulctpBfzaNlS-tx7qI4jLniGg4"
+npvs57	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs55	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp -all"
+npvs53	84600	IN	TXT	"google-site-verification=oEvXr8x534NKrAR6MppxBpEbCbUvw-FNyK0JIBANKC4"
+npvs53	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs44	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs60	84600	IN	TXT	"google-site-verification=zW3SxgcoJPw-kpdzEPFDzVaCf3FQlmDlnQ_5mlluXkI"
+npvs60	84600	IN	TXT	"v=spf1 ip4:210.152.85.83 include:idcfc-spf.kizuna-ds.jp -all"
+npvs03	84600	IN	TXT	"google-site-verification=hqAijwYKwKW_qTSb1NGpXw5u4b-1f1zpe3v4YUbmneE"
+npvs03	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:idcfc-spf.kizuna-ds.jp ~all"
+npvs09	84600	IN	TXT	"google-site-verification=KYcUW0TXL-ePDPXnWlRAVspwqjV93Mg2xHPlLmgI4ag"
+npvs09	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp ~all"
+npvs75	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+mki03	84600	IN	TXT	"google-site-verification=yXwE00Bu-zm4JWEbWIov6A37WXgWJJ-CdHbKTFBt-DM"
+mki03	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:mki-spf.kizuna-ds.jp ~all"
+npvs72	84600	IN	TXT	"google-site-verification=eTmw5z_-eBs9kxQa_YnHZhVCQFPhAIKEJnR_cwsA4H0"
+npvs72	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp include: mktomail.com ~all"
+smtptest231	84600	IN	TXT	"google-site-verification=UpFY2aH3P5P4X23bWuRW28nOQuldVOwFPlDvu6dwTnU"
+npvs79	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs69	84600	IN	TXT	"google-site-verification=atq-DTQEvTA6YebWSYdoP29wayq8PdMK90irkw_huII"
+npvs69	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs84	84600	IN	TXT	"google-site-verification=Qjcc54VePzEY7RlYWWg461-z4NL8xTZ9jLHN_TN8izg"
+npvs84	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+mki02	84600	IN	TXT	"v=spf1 include:idcf-spf.kizuna-ds.jp include:mki-spf.kizuna-ds.jp ~all"
+npvs76	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+npvs85	84600	IN	TXT	"google-site-verification=fDDjj_fGXsS5c7n-tgIInxu1cxoagaq1CiqBrcOrc64"
+npvs85	84600	IN	TXT	"v=spf1 ip4:210.129.10.65 -all"
+npvs01	84600	IN	TXT	"google-site-verification=w2o2ZI90JXAZOomQ-8oZ82ppcgiadF32hhRxzr9_unQ"
+npvs01	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp include:idcf-spf.kizuna-ds.jp ~all"
+smtp239	84600	IN	TXT	"google-site-verification=COazzkfejAVqzfTaTpVkBiPuZ4WS3lgKuLm3f9sj96E"
+npvs70	84600	IN	TXT	"google-site-verification=D2FSOx2JLWorwANaP6Vs89hNz7vAaSAk6uvsavwO17o"
+npvs70	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+medure	300	IN	CNAME	medure.kizuna-ds.jp.edgekey.net.
+growthring	300	IN	CNAME	growthring.kizuna-ds.jp.edgekey.net.
+mwpdb	300	IN	CNAME	mwpdb.kizuna-ds.jp.edgekey.net.
+npvs97	300	IN	A	210.236.253.49
+npvs97	300	IN	MX	10 npvs97.kizuna-ds.jp.
+npvs97	300	IN	TXT	"v=spf1 ip4:210.236.253.49 -all"
+s1-npvs97._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/q7kXxVLXwVpUnwaanDfvEw5M3KtWWueTsmh2zITVIXIkJy/tBpfJv1UYen/rgAz1CvWS67nqP81bl0YqohxHKRHPgJfhxnc9HuVGfkYZqotT2DnMix3kcLV+8iuzX5gFwjfVkgy19FCRzYet0XFZOTpkRaUNKo+Skm/C06fH4O07ekYwY4yyNuq9a1oDvCz" "GZ7xMPvaF0NOIcDj4AHNpVVgVPXg30oXRbKmYuCLAQHXtcPPXVarZ1rM2uPkvlH5CbsCVlm81X/OmSYpMrO/XpuFZQSlKXz19FRcjW0r0oRO5VFMUPtqvxLz+WRZDr30UmHFWk/cVO1CXc28yzbYwIDAQAB"
+ae-report-office	300	IN	MX	10 npvs89.kizuna-ds.jp.
+npvs89	300	IN	TXT	"v=spf1 ip4:210.236.230.245 -all"
+pre-growthring	86400	IN	A	210.236.254.144
+pre-growthring	86400	IN	MX	10 pre-growthring.kizuna-ds.jp.
+npvs89	300	IN	A	210.236.230.245
+pre-npvs75	86400	IN	A	210.236.254.59
+pre-npvs75	86400	IN	MX	10 pre-npvs75.kizuna-ds.jp.
+npvs80	300	IN	A	210.236.255.84
+cms-hisamitsu	300	IN	A	210.236.227.230
+pre-ae-report-office	86400	IN	A	210.236.230.245
+pre-medical-zeria-dev	86400	IN	A	210.236.254.47
+pre-med-kissei	86400	IN	A	210.236.253.55
+pre-kissei-cms	86400	IN	A	210.236.253.55
+pre-symbio-mt	86400	IN	A	210.236.254.59
+pre-symbio	86400	IN	A	210.236.254.59
+pre-hisamitsu	86400	IN	A	210.236.255.84
+pre-teiaen	86400	IN	A	210.236.255.81
+npvs30010	86400	IN	A	210.236.253.55
+npvs30010	86400	IN	MX	10 npvs30010.kizuna-ds.jp.
+npvs30010	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-medure-webtest	86400	IN	MX	10 pre-medure-webtest.kizuna-ds.jp.
+s1._domainkey.pre-medure-webtest	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAve3X6va7pg9kW5XlBekFPOjbc/PgXAYmUpbZT42WBnhcAPPrS8f7AJcHVLvQoyJrLeSWdrlgl3o/czlhK7LKXuqp8ZkXVLnGhDaAzE1Mu4tSfmbXMr7vum/GBJWcbTs6nE/OVR98H3MRX+bvkodkg5uTiE7Fj1/F+NcTxQzuMOd+gbSogD3/jgKNmmuP0zrdf" "bXLNYvdIWJyUMEECrdxEIE5JsVXUSCDLLmchbt7EuhmhN6D8VEYzoofW9ynxjw8M/Hh9qdpZ5YlPSqTVIpq7kuWO1OsZpQvQI/9xuxiWgYzvImWPPYn+pkAkxsG/jFoUK8UWJItujZ3v7Y/UqRfLwIDAQAB"
+pre-medure-webtest	84600	IN	TXT	"v=spf1 ip4:210.236.254.144 -all"
+pre-jinentai	84600	IN	TXT	"v=spf1 ip4:210.236.255.160 -all"
+pre-jinentai	86400	IN	A	210.236.255.160
+pre-npvs92	300	IN	TXT	"v=spf1 ip4:210.236.255.160 -all"
+pre-npvs92	86400	IN	A	210.236.255.160
+pre-jinentai	86400	IN	MX	10 pre-jinentai.kizuna-ds.jp.
+pre-npvs92	86400	IN	MX	10 pre-npvs92.kizuna-ds.jp.
+pre-cms-jinentai	86400	IN	A	210.236.255.160
+pre-cms-jinentai	86400	IN	MX	10 pre-cms-jinentai.kizuna-ds.jp.
+pre-cms-jinentai	84600	IN	TXT	"v=spf1 ip4:210.236.255.160 -all"
+pre-meiji	86400	IN	MX	10 pre-meiji.kizuna-ds.jp.
+pre-meiji	84600	IN	TXT	"v=spf1 ip4:210.236.254.238 -all"
+s1._domainkey.pre-meiji	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsexmzEr+GQ6erKKvaT2/Z+pAkahMR8bfo8ztBSdd7LhUNvp8CiYHVsaTjarA0VeyvMK6wnEUJp8SrjfbtgtN0L1O/kCq1J8tH58g7i9s1oMX3bNQU0qTaztBjFkPJJWiTdougabetN1UtXnsUcSKL7kOF4SuLWLhqD/HycMdN9sGLXhQtCFltyANUZNwuQFg0" "DQ/Py1mE++MF9jcrZKMFAu/lBwwbn7v6NOiisq9RZ1L3jUYmaxrr7sYsDLbtSpEWBiTkLXyf9nf7M7Ub4PnkowcE5NmCld5BdIK1mvEC+30XNxHLVT/8q3warM4Db7UzZhgmfvMK/XfxitAiKgRVwIDAQAB"
+pre-shinzo-sos-com	86400	IN	A	210.236.255.160
+pre-shinzo-sos-com	86400	IN	MX	10 pre-shinzo-sos-com.kizuna-ds.jp.
+pre-shinzo-sos-com	84600	IN	TXT	"v=spf1 ip4:210.236.255.160 -all"
+pre-ketsuatsu-support	86400	IN	A	210.236.255.160
+pre-ketsuatsu-support	86400	IN	MX	10 pre-ketsuatsu-support.kizuna-ds.jp.
+pre-ketsuatsu-support	84600	IN	TXT	"v=spf1 ip4:210.236.255.160 -all"
+s1._domainkey.pre-ketsuatsu-support	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUuRZU666QnWP9IsNSZnRkDywUfUhKPF4Ihb277fGQYY5IwiztRMQPAurtYpLAxi5dXqfCpbzmGCh4d/5COgp2QWeP5vVbbWylcL4nJscKbe0S64ZSL0gVaDl4yOYAYsuQn1gT1fGXN5zPhtaSwf3Qc6IIcr6AM4F5WAmW3CXJCrSOaDfYVVvFg52oPXETUho" "2keAaAnnb+9FTKdLBjmbIJ0KmELxKnd+USpQHRSK+l57uq78IPEHCaNMf9RPpW4UzRWOzcipK6DHrQAv077D//rg2dLIuOyRcWTOKM2Py4X3TXkFiDMlX5MOZYxZKXdJj2x7GypObt6metGXVI4BQIDAQAB"
+pre-meiji	86400	IN	A	210.236.254.238
+s1._domainkey.pre-drgw	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmLsFMn9kLCKKv6m+/7wH94ETSHAI6uTvgbZl5O/HAAt3jwEXAp9fcndhtBgxJhZ6hRRRWGcy8kGmyF1ZvMcQnzjhCr+rfzmk1gpj5Jp5BPjT53EkP+pMZ0RD8z3OpN2WVFeTw45iuJ+etRSVjiWNhzmWD8VhJxyWEmBYZoexJ5xsRC5l9KFk8CpZxD1cadXNu" "sqQ1WDcprmV4S4h3FgSGE426LMQ9a6EzUO8gkEzAtk7HLhorEvGQLi5WXL/Yt3pg2o5AvIi0pra1SJhAEP+flhi/TNKfN6h/uIPMm74J7CypgA2NxXGTtXxee6sRpbq/tlIL9VL+A5A+ydD1Hqj9wIDAQAB"
+pre-drgw	86400	IN	MX	10 pre-drgw.kizuna-ds.jp.
+pre-drgw	84600	IN	TXT	"v=spf1 ip4:210.236.254.21 -all"
+pre-drgw	86400	IN	A	210.236.254.21
+pre-astellas-sense	86400	IN	A	210.236.255.172
+pre.npvs88	86400	IN	A	210.236.254.29
+pre-meiji-sense	86400	IN	A	210.236.254.29
+s1._domainkey.pre-meiji-sense	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn6X5s5oSswdjTcDfNAVZqENH6maUbCEcubfyYGlj5BZlX7k+Hbg7MOoFMsjRvGyPtaGB0W+QOrIS7vXzZ9uIRqu1hZqzgS54W1ZrJ/11zxPlbOFFJ0vwwaQra95MmONOUbC6O3Zcmj5a1fYNqeYm96p+oCRn36QLAx20icirWAzW7JxcKKtJ7fnHyk2D0g7Oi" "3o3+wRopCURDe2IDAxorXT+ai1/wxKuARpGjQf7/xWuUQvEdGt72Aa1u1/sKYsNy6ioul92KfFYavBl3nALkIR7qlH4nakQleZpSk1aRVLJg+6tV4+rcrXU5OXL1+EnAq45iivzBnwFGRik2DDOBwIDAQAB"
+pre-zutsu-online-search	86400	IN	A	210.236.254.241
+pre-zutsu-online-search	84600	IN	TXT	"v=spf1 ip4:210.236.254.241 -all"
+pre-zutsu-online-search	86400	IN	MX	10 pre-zutsu-online-search.kizuna-ds.jp.
+s1._domainkey.pre-zutsu-online-search	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtW/h366LGw/8LAzqLsm2UeaVjI1gA+90CWrCPc94OUlM5ye4zBKRItFvRVRnqAUL9JxQ5XjZPNVDP1ZLXvOd60bDnNuODZuPHKghJdh92dm48n9+PxqmLzmMKRjrvvGw7qRowGL3WBBMrQySaruimhHfdW9kj1XX+F3yGugmNprWfsyBgdqu/XqbTYWeV5gVt" "+c9wckFQlcqkih8fkkupbh1g9Zf80PeQn4jxGPMtTilcYMW/XeySd7X+VU+EehF5DUi93Oen/9wVMK/NTwUo37rvYIHUMxg4m5SBpDsUzg/I5WhiD+CYU+j0GBWcROeJjSOYgjJSwTHb/rTLXF3SwIDAQAB"
+pre-hcp-portal	86400	IN	A	210.236.226.51
+pre-npvs54	86400	IN	A	210.236.226.51
+pre-symbio	84600	IN	TXT	"v=spf1 ip4:210.236.254.59 -all"
+s1._domainkey.pre-symbio	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFBmbQc1AlZ4z7LVDCJR3voYDcetLSuttVwx+dxPXSYCh/jtZ+iZVjMggc7odS6gBOx8Zs63Sg4QwhIRKanvGXINImm1j0f5ok7RRci7TEWrUiaQh7atjPrz9j6+Tgvs9rNiSgrgVJSmRSco02ZCndEkVCcGKkRXJBV1yCNQm/V+Vp1D+RYA0q4l2PVzivs9P" "/+mdqev4NYfwx45AfjLkd+hJUoySN5lSqWecjs2xNhm9bjwbYr5FF7bZI9zkGb2Yig+HTclb14mXHsZLGZ2dWub/XczpuK4PSoixnp8vKRie76mHD3qKaak9M2xpW8xfBCDPFaZttuNp9Bp5XqX9wIDAQAB"
+pre-med-kissei	84600	IN	TXT	"v=spf1 ip4:210.236.253.55 -all"
+pre-med-kissei	86400	IN	MX	10 pre-med-kissei.kizuna-ds.jp.
+s1._domainkey.pre-cms-hisamitsu	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3+TvSEcjIG1BT4Li8p6SUBrrGfAenbX+pGhRioAW9olOGDTcWN+jydH+8I9KcuIeIfsBVPBqtIBJvP2BLP+fmgBa+yTVankCWCUZ7mng31pIORzo27FyThcDOurXCawSTbLQH0MHfwg8KBMU34YcYLNEx7jrytCD0x0A5k0iyg0VnLJ83CMHJuGxTjpccJ+xy" "eATlGaQfdHWctMsipbXwbrzioyvPVSFr5TlqeThjQD6hpHOUwcYS/NneGCvD2YbV9XF8/n4u+a4d1Ndmuwn5lv3PHD2nLhbaq2YlH/p+lnHWc3RRAfMJVA+pZ2p8oYCVMopkBqc74GT4iRoiRyx0wIDAQAB"
+pre-npvs80	86400	IN	A	210.236.255.84
+pre-hisamitsu	86400	IN	MX	10 pre-hisamitsu.kizuna-ds.jp.
+pre-hisamitsu	84600	IN	TXT	"v=spf1 ip4:210.236.255.84 -all"
+pre-ae-report-office	86400	IN	MX	10 pre-ae-report-office.kizuna-ds.jp.
+pre-npvs81	86400	IN	A	210.236.230.245
+s1._domainkey.pre-shinzo-sos-com	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2PgR2XMAwD24+3MvTveM10I89TZNP8dSYfZR1urhfWFDNpOzEE0sPL8grvo7aJTxMKc942ZnNaxkCG9J3W22jQ2NMCSUX5bCHnjQHSYLaYSXeg5aJ/9mIpMU3An8YoamL3UuA45AkRDXn99ufzJZPbQooZHR7r9yiUPAvORBXr20C+nSLrYFGSTR0kk0z578S" "YZd1M5+HgdwOFpzrAnJxf2xEJOShhZZUbBoP2waNeovB4YO/YrPPT0JnuycphCcOMCkGt9mM4FdHi/Mr5/j2Eqdn/VjZHostJmZCBQaJnn/TMwgrXLN9DdTmUJiuVziYQ1XXpa358AQyfPZDSQXlQIDAQAB"
+pre-npvs87	86400	IN	A	210.236.253.55
+pre-npvs85	86400	IN	A	210.236.254.36
+pre.growthring	86400	IN	A	210.236.254.144
+pre-npvs73	86400	IN	A	210.236.254.144
+pre-novartis-line	86400	IN	A	210.236.230.245
+pre-medical-kyowakirin	86400	IN	A	210.236.255.101
+pre-hcp-portal	86400	IN	MX	10 pre-hcp-portal.kizuna-ds.jp.
+pre-medure-webtest	86400	IN	A	210.236.254.144
+pre-kksmile	86400	IN	A	210.236.255.101
+pre-cms-hisamitsu	86400	IN	MX	10 pre-cms-hisamitsu.kizuna-ds.jp.
+pre-astellas-sense	86400	IN	MX	10 pre-astellas-sense.kizuna-ds.jp.
+pre-novartis-line	86400	IN	MX	10 pre-novartis-line.kizuna-ds.jp.
+pre-medical-zeria-dev	86400	IN	MX	10 pre-medical-zeria-dev.kizuna-ds.jp.
+pre-npvs73	86400	IN	MX	10 pre-npvs73.kizuna-ds.jp.
+pre-kissei-cms	86400	IN	MX	10 pre-kissei-cms.kizuna-ds.jp.
+pre-meiji-sense	86400	IN	MX	10 pre-meiji-sense.kizuna-ds.jp.
+pre-npvs87	86400	IN	MX	10 pre-npvs87.kizuna-ds.jp.
+pre-symbio	86400	IN	MX	10 pre-symbio.kizuna-ds.jp.
+pre-teiaen	86400	IN	MX	10 pre-teiaen.kizuna-ds.jp.
+pre-symbio-mt	86400	IN	MX	10 pre-symbio-mt.kizuna-ds.jp.
+pre-npvs75	84600	IN	TXT	"v=spf1 ip4:210.236.254.59 -all"
+pre-kissei-cms	84600	IN	TXT	"v=spf1 ip4:210.236.253.55 -all"
+pre-npvs87	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+pre-npvs73	84600	IN	TXT	"v=spf1 include:idcfc-spf.kizuna-ds.jp ~all"
+s1._domainkey.pre-teiaen	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA18C/GKxQWv0wUip99dJ8VbLLdwiuFkzWY76vC+s4cUQ8dHsmXKVwj8YyN6Hmi1Js+Ov+g/2bysPPaV6OlXlA53l2J0EitlyMKWrCH+wNbhINhl8XAJ+J2RzARSYwPikth/k7ABemp/QnKACZYn4k7YMf34GJzC3GPzkq38yP6IoDjrP6Uyfv/K2W9rjt8dfkd" "u0Gjcqn2E3FtmzvXMStKrQIo23YNyGfRf9EYwA6diOj5MHm0mBPh5FhPb0SO2UTVadxM+sC8kp5GeO3J3CuMjOxxe1zV1s3JzOeEFvXNYKeoARGPmQefbYp/jwxLx4wu9XDh5ols7BArW0fNcCMUwIDAQAB"
+s1._domainkey.pre-symbio-mt	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1t4CPUfEDEQZZtDBq92Pt2ze9bj6pHUswKWo18xx/In7wjasMLAH6gw/YRLceVECTbnoGqxY7VEs8H50LyaFsARnaZOHa7mqhFHkWiFJbcoew1obuWKbUIwzuwIfg5GjGpQUtU1skRIP8fr/LIs3JZdX0h7B2ln+jvVOkbHl01nSd6kNQ2apY84C0LTVMznHR" "daHiOKdfqaZNBBql4goiqPe4B6WoqDv2oAXNGBlDJM+/qp9ASBP6onnu5Jgy0kwA7QcxUfSp3mlbV7GzFrK2iHYj7wYmlY3D4qs3QjLxQjyZvUhJ6kpL1TlY/K9WVJwzfem/CCUCH5ir2f+/hOFnwIDAQAB"
+s1._domainkey.pre-kissei-cms	86400	IN	TXT	"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVHe6vxUaUXlPckf0sVby6XNcdPiyt0t3w1UO53ACWNv/kJ8S9ZtqOzIznzaRFiaiIPdu7Fr7dfmPgT8YNvISj3Pp3u8nCC6dlR9yD2BeSDYySW4lLHGLJFsyTAJvq8Ww+hJ2dMipz09sl10u+rQaSLjyx8+8J6mz60lWVg9ppgJA6QOLIhUZM+C6qKAIwdHt1EOHcr4b8tp0Vi2G" "raJu90rsJnFt2PZktvF+JFqyqvDJ3YK+Sky1FuG3DoixjcVfb8FXKiTqvkqkcjc2gFYcplNKrj+rWqD/RDhTFWblV7mNv5g4S3lqbHTC3QCr0jV56EXrmKoHLDj0fiWc4pt4wIDAQAB"
+s1._domainkey.pre-astellas-sense	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzs5yb9+bHG3/WNRh/S9/xk/G8QyYA0+zSCdAadGRfdt24sGwHd3TjTBc6na0wHvq3JG5z1dT2x2u9KWeOBpii++yBp+3lXTdJ3dWSE3KgqY1/cHnJfClfBdl7qtGKMW7dtNvnT1Bxy2gg9j4j7IjJwoycZBPwxYx1h+IFV0SztzLCwFZalb5rpXK6h9+Wl7pK" "WKfD++wCrJgUXSCsrGX8nvK+s2egj4SaXZWyoVR0xrqcoOgTgkim83AGULZqwTuwRXaLLy6bEYuLqw4DuFJrUKfqxho7UAPZcrHTAvcaGQ2ax/MANBbSnTkVUiBHsnM54hyZPm+oOW0dIRpXWsC0wIDAQAB"
+s1._domainkey.pre-cms-jinentai	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx7esgrEhSMpiY5R2CcyR9r0lkjDi2OA837egQvcOYDzmQKnaqdC1/yXK86Lz9zPP6C6cbg9id/aC2ukstZv2ra5s+db0WSOYD4ZkkrbhaMMziO9ArUcdIH1H1bJnkz/rbZ3DSTS6R1AdVAcplV1+dBTPHU9ILYpT52BBjW6ZVl3tN27x+kKke4nfdtoiSZ4tb" "s2GwbJ2Z/fL1fsKXgU/TYWHN1Ow0l1M0hQM6ZKYi7Ag/AXQS4h3rvxtkyUanhrYgKehMO78oh8ht1TM+9aCpQ4gApRUi9/LVrWy3bBnJXHXTgEbqb1v/j2TNbZ4nNTH6RaxfDPSvIBB190XQO40PwIDAQAB"
+s1._domainkey.pre-hisamitsu	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr/JFghHdbJJ5mv/ZWN/sJFve4h0RDYvISL2i1LhwwfDNjjrjC30B2lRypRgCC/R/o5vLVUqp14W69X1NdTf3Wjn082EIz6PbnxOiTXqFUrFYWy5ZCsPOiNT52hhCnBmjZbKV34Sw87Gw0zYsyqn3jNKWjGMMjMi4xJD0HMKMU+n18lCTjOubAABv65vA81685" "CPMMOtc6IUB2WzIr8CBZJmxVuahoeIXb45IfB6P6UK8pMaiP52s6tVGIC7pr6iVHgjWEwJwYzVEmDGwxvzyoneFx754ZSo5t9lpHsa3Q2mVlYZA+HF87I1+ku6za1anas4NEf6w6rRh7EPUR1lWCwIDAQAB"
+s1._domainkey.pre-novartis-line	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7zL+LUYrqkh0SyB/rE/yzimr3CeNuHPIJ6DmNPDbjHctGoMRf9jNJ3sbfKYtRYzS6FFKoUB7KrcPA9EFfklAon5P2KgI3eydA5ciWDfCo1AMNPM1AUYKNcSp49BJftpribNZf9yOc5N/nUiFZhIIRsdRiMSJ5XPn02pJ6nvTdiQ11N6+dzhrgoNfs7ew+JVy" "MZm/YqzgGM97zUan5Z/n4u70fqfRU2tMNRTTEKIp6mDOhDUJ9dku0ZYtmRI2I8+6LuJ+ggapEW9qbhiGZBqE0VxFB67tb+yMkS0DHWVnrFgv1ClD0wZaTg3/OD9fY0xz0KMbagreSS9fSaieOGxEwIDAQAB"
+s1._domainkey.pre-hcp-portal	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzeBS14dD7LUaDR+TfaYsyDpbgkrwQ+kIxPuhk93qFFnJmGjHBEjlNUnbY4ssZpGogkGweOCd++veDY3XqD4UZjPrJAP8LcCmDY2O7jXbT3iT1SMjNu5BnfUf0UlihYhGiKCrbDerTaCSjWDaZdFlrjVRDXvnZvrUvy8g5/axR9mqi4XleEyLAA93VEf1uDyLD" "E/iaG1tWq7d7RppRWAY93vdc16D0YJrgFskVLrlN3hDiQxbmOHSifgXjwA3qxnUD/SJwwkAlsnVtGdyrsIaprMJLvem+wKbWJFzJxgzAV+NeIxfDMsbOqsNoUXfqHhAohnazRiumVyY8r0cWwhGFQIDAQAB"
+s1-pre-npvs75._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArg9tBRjVEGrXH86x8CaqHqb54UKhPCdkZjexcdbV5UGobTy/Srrva5UB+BCzWHacjt9sbPBzNG2JAdifWZ/RUvITqmyVCKajlTg+91DSgzInkNzkZmgSFYGLSCtyjmqvwYINKkSWtblNcfEm4Ad2Q5Son5eE0DwqMLbHVjuMQgA/G+w8goaTLPLEgVz9jir3L" "+I0nreJUByA0J2lQ4diYY3POmW+yj/Ea5QmUkBHGaLH7sveVnLEfAQ9Hpi+4vSEKuJKTwHmlpOy2uuo4U+9BArdvhOYyE8xUyGFS2cz9fhXOp6gJ76XTIuAUx1bEHERUop5WlkcZ3ygniT4IOCRawIDAQAB"
+s1._domainkey.pre-medical-zeria-dev	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAliu/0rRNQy9uS86z9Zm8K++gWHvbIohvvwafOfDh7ye2pJ26zIiTQp4adbuZAvHhrGvDDgClNWBRpSeWcTQ9MHIvVozJc0+fInSDonqftYl3lnq56niXiYzhXI2I/KB3gkFDGo3bu5lDU0+n1MXnygmB/uSVRqsN++NZLZ094p4HQLySYT5MH6w1nCJQhu57d" "weu+gX1cfuUGEXntXqHXKL2Z1M4RFIMX6VWHBZTCFZ0NbAnW8VlN8/z5AvCm6F+xanfCapm3YfS4ptCN37CLK92aQ0nbNhbvIqDgWA1Heq8Xftygj5Kzrde1KS46KjYS2hZV+qByfNQ73cFAYcXFQIDAQAB"
+s1._domainkey.pre-med-kissei	86400	IN	TXT	"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwjzQWU+nygSciylwWrwsevsBbKrb4F1cQ6frNwnabksnxsVNeBdxXlZfNa7jzTSZXeqYmaagXRPWWUfVAkhfqhQlFa/13GIAQQcLjYgCJ39V2jZrSJU2q0CLyS9wPRWPBzfjPeXTDA3BLlW7CwXZmGiIz/H3k3yDuRYFRIzHoek8V83xZHS9+iZZvML4z4NxG7a4jwbY+jmeE7DdQ" "ULukvtg7bxOvxsYQHIxREP4qeRCiMS4vfQKKNIfBJ1mrltSXtpvd2y6bvv6EQ7h76/7fKNsonNDm1br/fFd3VqxVQqOV8nJX54GPng5i6EmCExqhMyw051PYiLQHCEiA710AQIDAQAB"
+s1._domainkey.pre-jinentai	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0l2738bJhTYjaCIGJbISAAPoXq1VTt+tySjQxcygi6G4Wz8Ol4dpdhuz6eN6A2j9qFwB+yXYe4+sP/K+XQBke4DmcdugKZMYmoso4nUzIC6af+G1cYnxiWZ4xruWXKdhNtdvCUdzrU5MB55nz6iod3EDsBWduWLAeh6wgGDMCiGh/iSXaTD7N1g+R/L6rYvR3" "kT9qndIBtTMSUNxqB293ww+qS0H/GAVdOb5yxON1FDsdDFl3+qTyjzQWK4cnj/2sIt9udM7DXUbxwNZVJ4tPBo3kuVPx1izulCW8+/n8mHbxUq8dNBsvUcGstgPIAWvTw+XcLZiTJPIAG6j5PP0vwIDAQAB"
+s1._domainkey.pre-ae-report-office	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxDlUBQYJyiAURHcq3y/8Q71862UQRqY2aclOPjGCQstCZK5Df9HKb9yDaKO0lyEg35NXIq5uvVErWp3kD4YcdsoK5aAhBKffr1eUQeMebBUlTmezQaaMh6AocEzXUaL1OFum6tqY6aCd2QfES2WyNT3cjdycDbIORJTZ9QQRlxYF2PTO7wYzKe4qZpaDZm9XT" "PULrlibZoXl9a1/sCNjnbvcY8U/zwwdzUe/N9LYT749se8SMPuSPl6sVdi6F1av9YRVoxT6KJtywwIvrIrm54Q3J63QoMgOcNA4RcAXNJdcFSB4EklqPaioTdwQIVXYvpFhRgoHn7bcPIraXysjOwIDAQAB"
+s1._domainkey.pre-kksmile	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArKzNlVRIUC7n2xcvNxjKPjKRWWTb8inlcz7+gpjrzIOc5YVDMV7U1eCNnhaBULOnxYrt2iGjw9ma2tdVZ7mxkvtRycqMzqZrv9qrAfdXHuPsZbpIV6zTMjAIFlW+0GJ/+FqVrgrUfhp/iVouM9h1ZbulojHq4R3yvnynb3i75Y2S2zjgBPOSE5qFeZcCBBysp" "UwHTFTMda6q917pLcUaPXZ0Vh2etSdl63iEA4E5DmV/pq13xb0B8ZPHRwRN/UuT8dV6rYF+eEWesxFLapRyXFr4yBGEbfp29bWbdTJf29W5jjUAeuQrmsTmWJnmmmCI2/7oBlTLC3pWuY47wWGVAwIDAQAB"
+pre-npvs85	86400	IN	MX	10 pre-npvs85.kizuna-ds.jp.
+s1-pre-npvs85._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtpwEJXikmJ6Zb5dvChue/vWrZUXZDAMNmYSDWnGsI5Lr48PxnYj4rRSXUtn59i7y2x9NugcrLR6Mkp5xHCK2QWvWyVj/OfCHriMvbCjsteaMu/siRgRI/HV/k79RDhA90zP4DV72SD8q2vjf2vwnMAIlPklRDUBBqq02B8dYzexMDf9n0f4YSt6rQZSJhmF8I" "kHpYVWKiy2dyy/CAUreEGdR52I8PNlqajryjYf6CBV/U1EZsWE7GAgcd0u7KBhjmSJ8IYwm5MCDw4m63v4Qv0NhEHe18IUPS4z4tAF0+npGPDly/9AFmKQwOnL+uk6qeuJLf624npm/V4k+ytFIUwIDAQAB"
+pre.growthring	86400	IN	MX	10 pre.growthring.kizuna-ds.jp.
+s1._domainkey.pre.growthring	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6l9ljYarKRnLGChDr22QDXLCwIZIjlZ69b38hJ8SPGnT6s+hiPD5Mcv01e0ZvD4PF1oR+k8lgAY6SRk6WL0IdYkbmhhlgnEjgD5z0yTeILS6hbxVAURBd9r8hAIsi72tlWfUI0s/iAmalwAqCV5AvUkfFN+A/pyriU+epXuILG0i6YnB3/xMmVUCKvVcqnbX2" "eYeLZ8ERA0tcyqGz0qHWrAtj1g+9LdIDHAJ31vj2FoVaWEk6+Un3e+zScXReXZlN/Xa4VAVCSecBpY4fAzsElGC/0PcIeNCGRG5JTX1JFKFfpr1jeeAaQoGOGscEfTK8l3Dym7K0a944X1jpuqXOQIDAQAB"
+s1._domainkey.pre-growthring	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArLTRP6gxikTZdlf6XUD9/2zkqjiQ8EJv7PlMCXSjKZfeqP6AQK0WsRtAIUGnajjjLHQyXftyg7ZOGd6XL/I9YisOodms3r/5vEUouarrAQLBl5Xz9IW6cneny6EpBLBa4NTWXk93mkW/gf2U7O3fGVcvMtvY4V/gxRvHVDF3dSDzWSmYI9CGVLRsNOo9bcNVg" "vwK45HGx2YTr5plog+ZaJcIuA3uCs/JH0QPw/vayNDW/dH1rdma3cwtVkCxbzFFrRwjO5uWQI5RMJJdeN/uuWfgOW6YWVITy6fpbNhR7U3cZXGm7qgvw872CqE6Bc0WXMkur5yASCeY8pHcXeJrtQIDAQAB"
+pre-medure-sitetest	300	IN	A	210.236.254.119
+s1._domainkey.pre-medure-sitetest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxNosJ+9qHZHgMQBeMXAY2Ipha1jwzKFG6T6x/IFd19VprDVyexoM6eGlBKwRVzEAHDUttPivL8RfJJJhzgfNZGJN1XAg2gsW0G9tAnsqOW736IvcA/1dbf/oj2c3cmdxCM5M0CaxI8B81yLwMIZVrT/mw4TME+6hU3aGJiQhKl7SnP8ONOW6a5NSjytyElM43" "hCXa5dmxKN5T63Jzw/9sfTTKziA+Q3WOOJOZxbtOpLvc5GwhLVHJhEyy5UsXREFCnLZ7CP2s9wZwkj8rzezAJXZYoGp/zunpBsHG1cZvGLxysIpFPtnd8mjVz3tghWx9okpDiKRb2n/b/AYccUG7QIDAQAB"
+s1._domainkey.pre-ecc-hisamitsu	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1t4CPUfEDEQZZtDBq92Pt2ze9bj6pHUswKWo18xx/In7wjasMLAH6gw/YRLceVECTbnoGqxY7VEs8H50LyaFsARnaZOHa7mqhFHkWiFJbcoew1obuWKbUIwzuwIfg5GjGpQUtU1skRIP8fr/LIs3JZdX0h7B2ln+jvVOkbHl01nSd6kNQ2apY84C0LTVMznHR" "daHiOKdfqaZNBBql4goiqPe4B6WoqDv2oAXNGBlDJM+/qp9ASBP6onnu5Jgy0kwA7QcxUfSp3mlbV7GzFrK2iHYj7wYmlY3D4qs3QjLxQjyZvUhJ6kpL1TlY/K9WVJwzfem/CCUCH5ir2f+/hOFnwIDAQAB"
+test-cms-hisamitsu	300	IN	A	210.236.227.230
+test-cms-hisamitsu	300	IN	MX	10 test-cms-hisamitsu.kizuna-ds.jp.
+test-cms-hisamitsu	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+s1._domainkey.test-cms-hisamitsu	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz0iIcq0qXRoLHa+rmOyMv4USGpOf2uzZkLPra13F0MiW3L4w0RIkB8Rl4NcWOaMotDfhG/sX/bduC2mAkvc4IJybKRZpMTYxSLQfXdbmnTqA4BxjqfKmDDMGOCFxlMW/9jFmiqTSlV3PCaCyr18+rFFWaFbfieb8cgODOopRXTdXknKnScTNodH5QKjj/93gE" "04E6BX9ktDGBsNUNVckYgor5qv5yDO50CwJVBQG6zel67a4i+4YM/ebVQ4okmXxgPwDsYRiXtbZVG518oj0uX2J2iDW8teNW7JvZfMtz8ldYLODqlmKlbXYgjWKKbJ0ZtoQRlu6dxgR/mIKcZFe0QIDAQAB"
+test-hisamitsu-sitetest	300	IN	A	210.236.227.230
+test-hisamitsu-sitetest	300	IN	MX	10 test-hisamitsu-sitetest.kizuna-ds.jp.
+test-hisamitsu-sitetest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+s1._domainkey.test-hisamitsu-sitetest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsB7aYATmqhTzPSXop+l6FiG8iuQIx3MgQfrRo3IO1M+RkQT4GimvhiK1RusfwrVaPe6YzVJEjWA56EfXNf862Bx6ApYQATQhAjfHIqvSpw4wHBDOM2Q0jkSTFPRvPwf4/SgUZPMPrTwM5TqKdUIChdo08sYtjKo9bD9m9ZD0Z0kCy50OvOxkF+7po2sLk4Xn" "O0P4fEmvjXuhFbI18zEM3MR53yRYhWeDh6NuCqktRfwvY2MLTADsd6w2J1wL+dcZZkMG4/Dk4lnJiYHLKpg7N39Uek9fCHphGuTKYghWMfJXlSq7NmUDSrLMFETgEHij/PVqh7VQTWOXQX2W76RGwIDAQAB"
+pre3-medical-kyowakirin	300	IN	A	203.137.196.186
+pre-drsnet_connect	300	IN	A	210.236.254.133
+pre-drsnet_connect	300	IN	MX	10 pre-drsnet_connect.kizuna-ds.jp.
+pre-drsnet_connect	300	IN	TXT	"v=spf1 ip4:210.236.254.133 -all"
+s1._domainkey.pre-drsnet_connect	300	IN	TXT	"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2FELIl+MLlqPUawGbL5SotavVsbr4/pDmL600FrbWEQHPNxRfj1gmRlEloTKLwuZyUFZR38V9YHfCQec/VypRyE46AJc98taec3s2voPf8Qu2l7OyUzOw+CZTB87GSaN8yU9Nxwh2kS1jjM1N3PntyMEt/glBDoFGnX3JM2tDZnmuc7lew6UfshueAw2Zb4yvrdl+ZBx20a/MhUpA" "EUNHCT65hkNC9vjQAknentbC7XohbxkQyb16lSWSsZut3JEz4U+7oSbdOGvFdtSul37SmwJEeRLGG9Vi+xrk98LpN3fI0YC09kavevcBo7aIjq3wLSQ/iAbbzIi9e4d63d0YwIDAQAB"
+test-meiji1	300	IN	A	210.236.254.158
+s1._domainkey.test-meiji1	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvyRnKp3OacncQrXwqB0PdPyp5DjIJ/TiaEkCxUG4O8OTZxUEZXCTouwTkGd+g7kcxH2rOedQr1MBgNp3SyCO9OQg+c2IJn+7ySWqdGC4pA+roDEJuwDySMlA3PD4+dClLP/hh3iMhXpZqZaxXsyd3wG4O8F/ZcNadhp0/s9DEuulzjXrOAKcSTw412oYuXRCq" "tdORrNwh+B9y2kUt76QrGizTwsDZwny4KwXBm2wMHO5EiMLnGlMhpnKV3UINuzVEWiZi6JdZ6zdblvUiMaaE1f41aGUCWgYiR7zAqyVk/Pxj1uNN/L+aFzO4iE29213HnxFYCYoctsnCI3bc9ymVwIDAQAB"
+test-meiji1	300	IN	MX	10 test-meiji1.kizuna-ds.jp.
+test-meiji1	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+test-cms-jinentai	300	IN	A	210.236.255.135
+test-cms-jinentai	300	IN	TXT	"v=spf1 ip4:210.236.255.135 -all"
+s1._domainkey.test-cms-jinentai	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQ4SrBfw80C4eNWOaxsRVjSFMEesYQGSAZVAvihppxPT/3C4hzM8fzqt7WSmhOL9zqCuJMyDNyq4fUlzn0An050KX6KwWdtpnGaLgAWwA6Fm2baOsfEaqT+EBNAc2JJXGQmnAkQuWY7nKbb7b13PEay91uT7kzrHpxd/6GYMog67HAdBIonIBjKMcPrKgd+Hl" "6/xR4VLmUXGSAlC3rQmxdGT0pmXNacYAJDqLrEFb9Nz1rA2XznxZpSiQWqaeXrZPPkAgiPOvfJfwdQ3HfPojYGjMLIOq8LG6LtuRQdviWJLjGP6w2eaaGqe8sLMdXpLWfyDHAhf3Bap4ZwaSK+QNQIDAQAB"
+test-cms-jinentai	300	IN	MX	10 test-cms-jinentai.kizuna-ds.jp.
+test-jinentai	300	IN	A	210.236.255.135
+test-jinentai	300	IN	MX	10 test-jinentai.kizuna-ds.jp.
+test-jinentai	300	IN	TXT	"v=spf1 ip4:210.236.255.135 -all"
+s1._domainkey.test-jinentai	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3KtfigO430cdnrmpiinq8HzVVwqYzWhyeSs6NFVocuQJudlH9IlsFWhbx+PoQHl0ks39a/XzJJzSIao+yrEQSh7MIVRnP1l81Sxny9qxXI285ZufX0fkmhgncWpfb89vSP5MAEtDUakfYXMiVyjNudn8Niho8k0gPWv5sjDw3jdaPuf14ft7u3w0WFqoaPklY" "iBS8T3xh6Xg2WMEJ7L92ptFvH4ANC6FqRPADtzuvockbbnowJkRPOcZs8xA57MtoR47GwiP9BTkeVhZapK0tCLHEzF3pEk1L6cyS8Mv5ZBaRQGLLdkDzWJTqtTGuOPtM5U8c8X+ZZ9Wk8d10j4RewIDAQAB"
+test-med-kissei-mt	300	IN	A	210.236.254.158
+s1._domainkey.test-med-kissei-mt	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA278w8AradxlWbK6qM0oE8u6UV+uRlpKwVEhvlcI9AA+698VJSTZj0NE3p3AMWbV2KkieuVRC1Ttp2af2gqFWyt0HbGoBdS+/4vgrE0tR6o2O9Fy801WZEpqO81w8RngG9Ri/fq7otmMbhIl72O0vMSeWJ6Pi6/CvfdL9GVRClDWTJp+HnBpPGuIuEWS3bzluh" "FbptVsjaDJlt+5LKVFDl+L9HvdFnNKDO78XuBBN/pqRZ/4dlncoOIdtTUKdwqm3Gyqi1rfa0yeyYNqwOyN0mRgO3SAFkocgqo5cs96V2dE+I4IgVyB9my7DC+T/3Kz2LnLsuV69nCBuqgsFsMV00wIDAQAB"
+test-med-kissei-mt	300	IN	MX	10 test-med-kissei-mt.kizuna-ds.jp.
+test-med-kissei-mt	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+pre2-cms-hisamitsu	300	IN	A	210.236.227.230
+pre2-cms-hisamitsu	300	IN	MX	10 pre2-cms-hisamitsu.kizuna-ds.jp.
+pre2-cms-hisamitsu	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+s1._domainkey.pre2-cms-hisamitsu	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArNUEEmmNITen9LUOVFewf3kcB6iILpBCNZBtbpMxhiKjk0Bf43bxofLGmXyIq6eQUOQkyTkIpbSarriAoze/k3PLPtQMzzY2id3TUKzi54V2cOWMp3kyYWZERDSf/UH+nFbLu4VnUwiP+fl7slRw3en5UJLIDsUElP3z3Fg4mDA0IUQzS+TY46VDzlD5JIV54" "K1tGDG4kEJ+8tCTghwvsnbz04t21OT9G4+Mrw0Vo/byIvv3PXhZR/uIftFXTmhPAW6iGSqjAFqja1ND8yNkZ+UM/KotQSk/3jlzXZ0j3yvZKf3Ari/Vjlo8RBBS/XgYIaOgXSvdF+ZN7L2BTKv94QIDAQAB"
+pre2-hisamitsu-sitetest	300	IN	A	210.236.227.230
+pre2-hisamitsu-sitetest	300	IN	MX	10 pre2-hisamitsu-sitetest.kizuna-ds.jp.
+pre2-hisamitsu-sitetest	300	IN	TXT	"v=spf1 ip4:210.236.227.230 -all"
+pre2-med-kissei-mt	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+pre2-meiji1	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.pre2-med-kissei-mt	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA278w8AradxlWbK6qM0oE8u6UV+uRlpKwVEhvlcI9AA+698VJSTZj0NE3p3AMWbV2KkieuVRC1Ttp2af2gqFWyt0HbGoBdS+/4vgrE0tR6o2O9Fy801WZEpqO81w8RngG9Ri/fq7otmMbhIl72O0vMSeWJ6Pi6/CvfdL9GVRClDWTJp+HnBpPGuIuEWS3bzluh" "FbptVsjaDJlt+5LKVFDl+L9HvdFnNKDO78XuBBN/pqRZ/4dlncoOIdtTUKdwqm3Gyqi1rfa0yeyYNqwOyN0mRgO3SAFkocgqo5cs96V2dE+I4IgVyB9my7DC+T/3Kz2LnLsuV69nCBuqgsFsMV00wIDAQAB"
+s1._domainkey.pre2-meiji1	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvyRnKp3OacncQrXwqB0PdPyp5DjIJ/TiaEkCxUG4O8OTZxUEZXCTouwTkGd+g7kcxH2rOedQr1MBgNp3SyCO9OQg+c2IJn+7ySWqdGC4pA+roDEJuwDySMlA3PD4+dClLP/hh3iMhXpZqZaxXsyd3wG4O8F/ZcNadhp0/s9DEuulzjXrOAKcSTw412oYuXRCq" "tdORrNwh+B9y2kUt76QrGizTwsDZwny4KwXBm2wMHO5EiMLnGlMhpnKV3UINuzVEWiZi6JdZ6zdblvUiMaaE1f41aGUCWgYiR7zAqyVk/Pxj1uNN/L+aFzO4iE29213HnxFYCYoctsnCI3bc9ymVwIDAQAB"
+s1._domainkey.pre2-hisamitsu-sitetest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx080y61OuhRQjDTsphQGuojj7hyB6yAATNE6NRoQLRXytNyyF+L5jgMbpSg9nKg89m+XiJiqJdp00BbdsAOrdQbnIcuQQjHfpHLdZJkD5twWuSl/p+pnvW+zy21CGNgDuBKiHgZUEBKGXMcx4Mk0SZOG+zK2tsecOaM2UPtNQT7lnBxR3t+fA5CWPpSR3y+lR" "OWNTjobddUJqqmcxqFBOzwQSS6RxF4AXuIXFfLGpwQDPWTA2VWLxPsFSkuSP2TFLdQLe5qM8NzoxKGg1HsEIjdYKzvxXvYMrhunJyx9sbfTlA+bI7SaI2s+ABLcfBzZrH71xCzS11pC7bWd2xLelwIDAQAB"
+pre2-meiji1	300	IN	A	210.236.254.158
+pre2-meiji1	300	IN	MX	10 pre2-meiji1.kizuna-ds.jp.
+pre2-med-kissei-mt	300	IN	A	210.236.254.158
+pre2-med-kissei-mt	300	IN	MX	10 pre2-med-kissei-mt.kizuna-ds.jp.
+pre2-cms-jinentai	300	IN	TXT	"v=spf1 ip4:210.236.255.135 -all"
+pre2-jinentai	300	IN	TXT	"v=spf1 ip4:210.236.255.135 -all"
+pre2-cms-jinentai	300	IN	MX	10 pre2-cms-jinentai.kizuna-ds.jp.
+pre2-cms-jinentai	300	IN	A	210.236.255.135
+pre2-jinentai	300	IN	MX	10 pre2-jinentai.kizuna-ds.jp.
+pre2-jinentai	300	IN	A	210.236.255.135
+s1._domainkey.pre2-cms-jinentai	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQ4SrBfw80C4eNWOaxsRVjSFMEesYQGSAZVAvihppxPT/3C4hzM8fzqt7WSmhOL9zqCuJMyDNyq4fUlzn0An050KX6KwWdtpnGaLgAWwA6Fm2baOsfEaqT+EBNAc2JJXGQmnAkQuWY7nKbb7b13PEay91uT7kzrHpxd/6GYMog67HAdBIonIBjKMcPrKgd+Hl" "6/xR4VLmUXGSAlC3rQmxdGT0pmXNacYAJDqLrEFb9Nz1rA2XznxZpSiQWqaeXrZPPkAgiPOvfJfwdQ3HfPojYGjMLIOq8LG6LtuRQdviWJLjGP6w2eaaGqe8sLMdXpLWfyDHAhf3Bap4ZwaSK+QNQIDAQAB"
+s1._domainkey.pre2-jinentai	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3KtfigO430cdnrmpiinq8HzVVwqYzWhyeSs6NFVocuQJudlH9IlsFWhbx+PoQHl0ks39a/XzJJzSIao+yrEQSh7MIVRnP1l81Sxny9qxXI285ZufX0fkmhgncWpfb89vSP5MAEtDUakfYXMiVyjNudn8Niho8k0gPWv5sjDw3jdaPuf14ft7u3w0WFqoaPklY" "iBS8T3xh6Xg2WMEJ7L92ptFvH4ANC6FqRPADtzuvockbbnowJkRPOcZs8xA57MtoR47GwiP9BTkeVhZapK0tCLHEzF3pEk1L6cyS8Mv5ZBaRQGLLdkDzWJTqtTGuOPtM5U8c8X+ZZ9Wk8d10j4RewIDAQAB"
+med-kissei-mt	300	IN	A	210.236.254.158
+npvs87	300	IN	TXT	"google-site-verification=RdtFrZhPe3xK-kNF-VtPeC5Xk9YyzpAu0R5y8wZOPyE"
+npvs87	300	IN	TXT	"v=spf1 ip4:210.236.253.55 include:idcfc-spf.kizuna-ds.jp ~all"
+pre2-drsnet_connect	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+s1._domainkey.pre2-drsnet_connect	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1wnu4tusM8nymodbXyyZXUPjmVKVGDR+5ScCHtNx3zlrijepa5Aon/pOrWgb0XHLOyJTeHvg2yBUtUGB4zKtnYlMlegVu3MiNC7CM7MfpyKQbrdGtvXClUwQOqhWUiap3Yvctm7JrLXrZdgb5n7aa8PtT8+SgAJveBeh/35YbVtlLmwmyUVRkx555kFZgHI8v" "G8uHd2W1A8lhxMzEzx/gE08jEx3l+C+7SNQii5w1B/zKFwR8RFQ83R1TWCnl3sOM4fLnaWXV6TI2VdSyzgeXUdG3e751zS5eZvjuQFzWK8ZKmL7tz8KMutDQLFZiu69xbGULIN631rwjvWGZJqdZQIDAQAB"
+pre2-drsnet_connect	300	IN	MX	10 pre2-drsnet_connect.kizuna-ds.jp.
+pre2-cms-drsnet-connect	300	IN	A	210.236.255.165
+pre2-cms-drsnet-connect	300	IN	MX	10 pre2-cms-drsnet-connect.kizuna-ds.jp.
+pre2-cms-drsnet-connect	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+s1._domainkey.pre2-cms-drsnet-connect	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhvWetDm03DKNqd2Yt5cAPRgKQP4gpzDWfJc/fW/Mpa90aN2Jxm5s/V3QBNwizmXpTBwKqce5Zls8jpx7cMm1Mx0ZQ46zOYWse0b4AZX3bC1tix/EjNbH9g/kdEulZm4LWQZ3dYFjMpqmh1fNqH9AXh/2ZYmJCLSs/1AHJTMOITZuKzqBEdnjdRqRsZuDFCPdx" "DO8gnJxAk2Wb4UhB5RhNyLfy0f4PitZcw0loXN7PpJrZRBamgKllT048sYECQ3+oD5v195kx0GB/AGv28TDNh8f9R7injS5oVdb4DaCUb4jUel+xWi192yq6xP0TCeOeBYMt5nVxDpsyeWtDT0qKwIDAQAB"
+pre2-novartis-line	300	IN	A	210.236.255.165
+pre2-novartis-line	300	IN	MX	10 pre2-novartis-line.kizuna-ds.jp.
+pre2-novartis-line	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+s1._domainkey.pre2-novartis-line	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlLGHXMuK1oVIYjZvSMGg5/sTFLmIv6HcKvFwc7NvxPPqeOXEzhYZjwzoT4rDIUpCDVKpUpedX4E3wzMampiGAz2/T55QP3YFkMz5/nHBIHK5zqM5+Uq3i85DBrgYr790m0wgyaGD2iYMEj9+1zj3hB2rdV+uJtwEmn7rZ4oMRuwc+FJ9+GphiTyzFyKFEah5C" "QER88y8U/TWyemDyGTwrABTjzJqk3rW1a4AgCTqyOBCc5r8skt1mKGCTNMUgBc27jwuF+Zk1sVMcpgoyNVqA/NRtdXbek/DIditpD+cnKCTJYri8vOW4yL31rafT7IU/fqWnXN+lBkEcKVFhH6MQQIDAQAB"
+pre2-ae-report-office-test	300	IN	A	210.236.255.165
+pre2-ae-report-office-test	300	IN	TXT	"v=spf1 ip4:210.236.255.165 -all"
+pre2-ae-report-office-test	300	IN	MX	10 pre2-ae-report-office-test.kizuna-ds.jp.
+s1._domainkey.pre2-ae-report-office-test	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjZx4qSq9DmpV9rVCglk+2WWBITxUAMR4wTcqFmxRC+z8IGU3H35WW1dEZkZp21gfApoL+/eZnGMzkSQulKkOjQ1w9XWyktjxXnKFWQAzmCgehBKFUZg7sjrcqhUdaOU3KRBU84got3yACTjnWInunap6Zcl0+Isq+/K3GVfdalw2eseLm6yJWxiSkRoQRchx/" "3GYzaeYDR9EEO27SDt2gWsqeEOKXZYq8cl9ZCewCpozjOCGYfkcms7rJtqJVWG/sO6JgHm+b5cEU1kEXaQ1x3DD3RVw3R+nWJ6F7GqDpQNpo9B2v7XNueBe482inTzMA7Z4u9QNwsYsxBo/pH3eRwIDAQAB"
+pre2-drsnet_connect	300	IN	A	210.236.255.165
+cms-drsnet-connect	300	IN	A	210.236.255.160
+pre-di-kissei	300	IN	A	210.236.253.55
+jinentai	300	IN	A	210.236.255.135
+nnpvs87	300	IN	MX	10 nnpvs87.kizuna-ds.jp.
+nnpvs87	300	IN	TXT	"v=spf1 ip4:210.236.253.55 -all"
+nnpvs87	300	IN	A	210.236.253.55
+s1-nnpvs87._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjkpWZKmnK1xs8Y7GKd9HCzgOprvdfIgI2yHUQ/MuN6t+69PXvnKJtPApg0QQxEmKVwItUNfd2+9JE9mF5c/1DwqmGGoTvzhW4qT7K+ouR78VN5bjtwJ+tZUjrl3Qzl6jbW2K8/d8ArNM0F0OhMVg3EQ4Zyv6uCofa2vGzMZUkjoBqF1NuChrt5eZRtKtz68iU" "F56oRpvCszXMby5sGZBhy6IgJvs1e8Gne6qbOJWU1S4y/uL63HIW9LOcc2GM9eFpu9Mc8iXnX9+9upz9ezj8hao9AZgZjt8cu50oO75nDuC2Kau8E5kO37GBph0pnWxip7l5OBlSivDaK2WQumHCwIDAQAB"
+pre-lp	300	IN	MX	10 pre-lp.kizuna-ds.jp.
+pre-lp	300	IN	TXT	"v=spf1 ip4:210.236.255.81 -all"
+s1._domainkey.pre-lp	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApD3ao63uTjlHBbObGH1B7ns9xCawXmO7XvwkUGJ3XzZtSX20nZI6AGBuzRvFPZe8lfxtBfqfiJGiod8fhGbSK2lhlpnLHZ81OnXFMiJttCTEryskpXJYLuxdDfGg+3AmO83i9wlQ3wrIW+KePTXZfOu6cUVzkKhoEuChWIDHgVOLr1CjXd6kTDFzJUOXdVWAz" "MYwbUhB2mnZtMK6xPPA/zFc/GM2oMBVPtr1LJaE8j4ZzvSXd/UC9umHqAdoRcqlzsxmxMN6ITKz7MXcstNHFG95DlxY+fVJCsoPzNX1vloA65g8cMlyt4qQZIfd2A6ErkDdJNqjLRuWeJsDj2fCHwIDAQAB"
+pre2-meiji-webtest	300	IN	A	210.236.254.158
+pre2-meiji-webtest	300	IN	MX	10 pre2-meiji-webtest.kizuna-ds.jp.
+pre2-meiji-webtest	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+nnpvs65	300	IN	A	210.236.254.158
+nnpvs65	300	IN	MX	10 nnpvs65.kizuna-ds.jp.
+nnpvs65	300	IN	TXT	"v=spf1 ip4:210.236.254.158 -all"
+s1._domainkey.pre2-meiji-webtest	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnzUyNHqMkGwQ7qCWni62kCKxehblfggEcxJXY3oioO+INfSIPQ70aTRB7WwG5NUlIR6IuB1E0oUgGArpzrFk0TXRuwvP8A9qeFJzotrqOfWpmk/e/+prENzHyszslFURS5MBDds6UwYUJtJiDMhF1PGt0fjYKGNxVXRzPzNcvU76GxRbFbp7VuljlPZCmEm0/" "Tsdpw7raVD1Tp+3ABCtBMlcKdD/nMVTLfAHDji+ElEbHO9kErHTa7dVRMEL8VA36C/wHvYqrROkN1DjzFep3H1nc1buxVUVJ2ExX+MMggf/7k1OigNzV3bwHVN7GzwOD2r7faPOhC7E94OpOQSFTwIDAQAB"
+santensogyosya-stg	300	IN	CNAME	santensogyosya-stg.kizuna-ds.jp.edgekey.net.
+growthring-sitedev	300	IN	CNAME	growthring-sitedev.kizuna-ds.jp.edgekey.net.
+medure-sitedev	300	IN	CNAME	medure-sitedev.kizuna-ds.jp.edgekey.net.
+mwp-stg	300	IN	CNAME	mwp-stg.kizuna-ds.jp.edgekey.net.
+research-dev	300	IN	CNAME	research-dev.kizuna-ds.jp.edgekey.net.
+growthring-sitestg	300	IN	CNAME	growthring-sitestg.kizuna-ds.jp.edgekey.net.
+research-stg	300	IN	CNAME	research-stg.kizuna-ds.jp.edgekey.net.

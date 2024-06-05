@@ -1,0 +1,31 @@
+;File created: 05/29/2024 18:02
+;Record count: 22
+$ORIGIN baxduoarcticckdstudy.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2024030427	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	APEXALIAS	BaxDuoArcticCKDStudy.com.edgekey.net.
+dev	86400	IN	CNAME	dev.baxduoarcticckdstudy.com.edgekey.net.
+review	86400	IN	CNAME	review.baxduoarcticckdstudy.com.edgekey.net.
+www	86400	IN	CNAME	www.BaxDuoArcticCKDStudy.com.edgekey.net.
+@	86400	IN	TXT	"google-site-verification=M0q16grFkCPWvgrF685KaPW9QmEpSwOJR0VR1GN5Pac"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge.www	60	IN	CNAME	ac.a532d08a883f841fdfa60285177ade3e.www.baxduoarcticckdstudy.com.validate-akdv.net.
+_acme-challenge	60	IN	CNAME	ac.8a9bb7838491d0e7adbfac605f4baefd.baxduoarcticckdstudy.com.validate-akdv.net.
+_acme-challenge.dev	60	IN	CNAME	ac.9a67fc4a429a53dd5cbc329769834473.dev.baxduoarcticckdstudy.com.validate-akdv.net.
+_acme-challenge.review	60	IN	CNAME	ac.81fe99bdfd7c2248b6461f4f53e1eec1.review.baxduoarcticckdstudy.com.validate-akdv.net.

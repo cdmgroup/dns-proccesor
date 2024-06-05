@@ -1,0 +1,66 @@
+;File created: 05/29/2024 18:15
+;Record count: 57
+$ORIGIN excerptamedica.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020011068	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	dagg5tzpaqvp.wpeproxy.com.
+jobs	86400	IN	CNAME	dagg5tzpaqvp.wpeproxy.com.
+vacancies	86400	IN	CNAME	dagg5tzpaqvp.wpeproxy.com.
+@	86400	IN	APEXALIAS	dagg5tzpaqvp.wpeproxy.com.
+newsocialmedia	86400	IN	A	54.76.196.36
+innovation	86400	IN	CNAME	8y9hst4ulvdt.wpeproxy.com.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+google586b2d4e26ccfdbf	86400	IN	CNAME	google.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+slidesxpress	86400	IN	A	66.197.164.185
+filesharing	86400	IN	A	96.91.190.68
+digital	86400	IN	A	54.76.196.36
+ftq	86400	IN	A	96.91.190.68
+localhost	86400	IN	A	127.0.0.1
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+cme-review	86400	IN	A	96.91.190.68
+beyondqualitypresentations	86400	IN	A	96.91.190.68
+@	86400	IN	TXT	"adobe-idp-site-verification=c7d3db98-b2a8-48af-8c52-a6ae1da70797"
+pitch	86400	IN	A	96.91.190.68
+flowplayer	86400	IN	A	96.91.190.68
+@	86400	IN	TXT	"google-site-verification=0VH-UM6qDjvFbfZ1_BuFNzmB2JB6S8qvEskHPOqdDB0"
+thejamanetwork	86400	IN	A	96.91.190.68
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+trans	86400	IN	A	178.22.59.114
+trans	86400	IN	AAAA	2a00:1e28:3:3098:0:0:0:1
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+recruitment	86400	IN	A	96.91.190.68
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+newdemo	86400	IN	A	54.76.196.36
+demo	86400	IN	CNAME	demo.excerptamedica.com.edgekey.net.
+socialmedia	86400	IN	CNAME	socialmedia.excerptamedica.com.edgekey.net.
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3mHPdBrBRTU2f6Qkc8iIvCuqRtBLTZTI9SccFoxxuhXpDoa1Dz6fOCfKYI0Ylpch5lPD8w7vh6AAyd1PrHa08BN/KNq8Sc2BVRuuVlpooIShsS90/OqMrLQGaDEHY9b1UPI/0tPsx6PL6U3cA6eMb+gkTuWgAt9/hXNJI/Sk4BiaVzaPu5schYTHJLmxp8I15" "Yt8/nRmJKhtKvhBuBNkahmJhRue9KuWvRdY3HcsLHU3bXw5T1+MR9d7jWKgEhR5ARb8sEGk7Js7uWQwvTrYaO3c8zJADW5YKKrEARHkCdwW103PRN8z99D3xGFdf+GfyWU6gN9vWb9fY4YPijIUGwIDAQAB"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+crohnsapp	86400	IN	A	52.212.200.121
+psysummit	86400	IN	A	52.212.200.121
+link	86400	IN	CNAME	track.smtp2go.net.
+ismpp22	86400	IN	A	52.212.200.121
+immunologymaf	86400	IN	A	52.212.200.121
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+eoeacg21	86400	IN	A	192.254.150.202
+_7f089e4e0f487cd15388ee180e534e93	86400	IN	CNAME	c12df3f8b7a5252c7cc191be6c3a1613.8ecc529aae22a649c328bb82496b8278.c322e40448984545bb72.sectigo.com.
+selector1._domainkey	86400	IN	CNAME	selector1-excerptamedica-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-excerptamedica-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 excerptamedica-com.mail.protection.outlook.com.

@@ -1,0 +1,33 @@
+;File created: 05/29/2024 15:31
+;Record count: 24
+$ORIGIN engagehealthmedia.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016122094	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	86400	IN	A	157.245.246.148
+www	86400	IN	CNAME	engagehealthmedia.com.
+ftp	86400	IN	CNAME	engagehealthmedia.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXHiKGPE6+ocoBj9rdKOYS/FHAsWlwe98YUMD3/emzRpnJeWbfr/aTa+J/OySrjAli9ZH58IUdcLVip5AxzcWYcosHrhtUbY+aa4lgq/CgjrkETQiNs0xnyWIGUQT96+iIYIEDmJm3p50qWOxyFre5LLC/PZ09EyCHCASutJB96GhzgtgHdtGH4GJjUdD9kUv" "tXyGmMqG9f0DzsgdNzkyUaZdAllWCZCzFBBrg0m5LZ2H8eAVul6yJ+m5lesyqa8/ehQPtU0TU0n8mr/36bJqdBLYWXPETHhQClnU4TU749wytoh7LS+KK4DrSr6ZMRjO4aEkDuCn6SbNKLa6jzmgQIDAQAB"
+@	86400	IN	TXT	"google-site-verification=B_LVAqTA3Z0GN-S9XfHU2ODOLq099r5DfkYzN2tBc0Q"
+selector2._domainkey	86400	IN	CNAME	selector2-engagehealthmedia-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-engagehealthmedia-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 engagehealthmedia-com.mail.protection.outlook.com.

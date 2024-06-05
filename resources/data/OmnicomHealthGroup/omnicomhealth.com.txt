@@ -1,0 +1,39 @@
+;File created: 05/29/2024 15:21
+;Record count: 30
+$ORIGIN omnicomhealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020022070	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmO17UmrgXv7cKCSp1Rv5EzVx6ezaU80gA4X0m8SlE2/SZywTRJzgLp69pelnYWrnzx2E8ZlhfEkauP+yWjwXn2rGIf7flITZQneGTH8EbwtfbGEPPw0SXx06evuwc7XbG2bvOg5JGKZDpd0A49kZqwqKQ20AyHG6Nkr1tLT0ypxUFX1dvk09ZvtYqPEQ1LNzs" "NTTs0RKr7KOHECS5xDdk+B5sEsWAviapZls/g97BxC1Am0pRKgolHHj16j2mmtfBw1MW3YQFRVa0SGCkPuDjpzDcfLxukvLmII7JV6d3LvGjlL8E7DbMuFGuPXNG9L/MTF/eyw/1M3b7PGwaVlSMwIDAQAB"
+@	86400	IN	TXT	"2812151"
+@	86400	IN	TXT	"9ee37f7ae37efe84cc4fe80cbb6d595cf05afdd79d4f096e05878bf4d3e52836"
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+@	86400	IN	TXT	"google-site-verification=Nz2tgeNLDFtAMlu0SEs02c0aw3H8X1bQh8mgR8iVxVo"
+@	86400	IN	TXT	"ibmid=3727ed14-9d1f-4e67-9cb2-ba5655de7ca4"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+@	86400	IN	TXT	"onetrust-domain-verification=6aefd200e81747af815fe3923d0c0f92"
+@	86400	IN	TXT	"onetrust-domain-verification=b2a92fc36e6d468faf1b90a98950fb93"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com ip4:80.169.158.135 ip4:80.169.158.136 ip4:107.20.210.250 ip4:52.1.14.157 ip4:107.23.16.222 ip4:54.173.83.138 -all"
+@	300	IN	A	204.74.99.100
+www	300	IN	A	204.74.99.100
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+selector2._domainkey	86400	IN	CNAME	selector2-omnicomhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-omnicomhealth-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 omnicomhealth-com.mail.protection.outlook.com.

@@ -1,0 +1,16 @@
+;File created: 05/29/2024 14:11
+;Record count: 7
+$ORIGIN idorsiapharmaindustrypresentation.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023012505	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.
+@	86400	IN	APEXALIAS	TSG-AWS-PWEB03-ALB-165867473.us-east-1.elb.amazonaws.com.

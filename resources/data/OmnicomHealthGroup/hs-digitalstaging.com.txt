@@ -1,0 +1,64 @@
+;File created: 05/29/2024 15:21
+;Record count: 55
+$ORIGIN hs-digitalstaging.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023062877	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+ascomds.s	86400	IN	A	34.194.237.59
+cd47.s	86400	IN	A	34.194.237.59
+azbooth.s	86400	IN	A	34.194.237.59
+csv	86400	IN	A	34.194.237.59
+email	86400	IN	A	34.194.237.59
+hcc-asco2022.s	86400	IN	A	34.194.237.59
+immunivation-v2	86400	IN	A	34.194.237.59
+immunivation	86400	IN	A	34.194.237.59
+mag.s	86400	IN	A	34.194.237.59
+magday1.s	86400	IN	A	34.194.237.59
+mdsglobal.s	86400	IN	A	34.194.237.59
+me.s	86400	IN	A	34.194.237.59
+phpmyadmin	86400	IN	A	34.194.237.59
+rcc-asco2022.s	86400	IN	A	34.194.237.59
+talk.s	86400	IN	A	34.194.237.59
+tools	86400	IN	A	34.194.237.59
+hyacinth	86400	IN	A	34.194.237.59
+il2	86400	IN	A	34.194.237.59
+imds.s	86400	IN	A	34.194.237.59
+sandbox.s	86400	IN	A	34.194.237.59
+training	86400	IN	A	34.194.237.59
+eha.s	86400	IN	A	34.194.237.59
+dtc-asco2022.s	86400	IN	A	34.194.237.59
+zepbooth.s	86400	IN	A	34.194.237.59
+volume.s	86400	IN	A	34.194.237.59
+vekluryhcp.s	86400	IN	A	34.194.237.59
+veklury	86400	IN	A	34.194.237.59
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+tigit.s	300	IN	A	34.194.237.59
+evotoh.s	300	IN	A	34.194.237.59
+biktarvyidweek	86400	IN	A	34.194.237.59
+ashmds.s	86400	IN	A	34.194.237.59
+ct	86400	IN	A	34.194.237.59
+_6479b0235a295c545f9538d0056405dd	86400	IN	CNAME	2e9f70c736ca572f6e31dcfe4da0b507.22005dd44466bec979d8dda725bf1f58.54160e0ad70f40ac8961.sectigo.com.
+evomri.s	300	IN	A	34.194.237.59
+omlonti.s	86400	IN	A	34.194.237.59
+descovyidweek	86400	IN	A	34.194.237.59
+zepbooth-v2.s	86400	IN	A	34.194.237.59
+vekluryhcp	86400	IN	A	34.194.237.59
+lcp.s	86400	IN	A	34.194.237.59
+vekhcp.s	86400	IN	A	34.194.237.59
+evomod.s	300	IN	A	34.194.237.59
+evoptnt.s	300	IN	A	34.194.237.59
+www	86400	IN	CNAME	hs-digitalstaging.com.
+vemlidy.s	300	IN	A	34.194.237.59
+vekidweek.s	86400	IN	A	34.194.237.59
+_cbe145ef28734347c9ca1c62971ff49c	86400	IN	CNAME	3401cb8f62b966d5b001c2dcaec73107.45370e12eecf9e4becaec2b84e36b463.c59abef9e6d4442b9925.sectigo.com.

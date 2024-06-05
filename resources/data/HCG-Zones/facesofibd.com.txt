@@ -1,0 +1,19 @@
+;File created: 05/29/2024 14:11
+;Record count: 10
+$ORIGIN facesofibd.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023060931	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+www	86400	IN	CNAME	www.facesofibd.com.edgekey.net.
+@	86400	IN	APEXALIAS	facesofibd.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"RbA3Lg2BbcuoBnK-jxhcjsWxJ03wEt_p22S_cgUFZUk"
+_acme-challenge	60	IN	TXT	"ccqA0P0dL4Z9zSUkJB9ZY8ibCVLKR81izN2hN2M-oRU"
+_acme-challenge	60	IN	TXT	"Fj0Voh53i57MIaA0VFCKq_2iAgBGEvqu2oRZzC-pGMU"

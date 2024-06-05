@@ -1,0 +1,51 @@
+;File created: 05/29/2024 18:00
+;Record count: 42
+$ORIGIN sense.healthcare.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102380	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	APEXALIAS	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+ws	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+mmn	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+amn-idc	84600	IN	TXT	"google-site-verification=VvQGwBcqfAC59OfY7K9iK9_M3EhEq9ONaCPi-tQNRMM"
+amn-idc	84600	IN	TXT	"v=spf1 ip4:203.137.187.123 -all"
+_e80acf8479460ac8c4805500b9dfb0c2	86400	IN	CNAME	8da4bd290ae8a50aceea7ef5b60b7d20.15c9f50e483cb7ab949f10e995839dad.5095a42d0b654d60b724.sectigo.com.
+*	86400	IN	TXT	"v=spf1 -all"
+demo	86400	IN	A	210.152.80.153
+_amazonses	86400	IN	TXT	"x+8/grqv/wpmaQms0pt1EQr6L9Lil08YOm0zi9Nx7io="
+@	86400	IN	MX	10 inbound-smtp.us-east-1.amazonaws.com.
+info	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+tkd	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+ono-idc	86400	IN	A	203.137.191.116
+amn-idc	86400	IN	MX	10 amn-idc.sense.healthcare.
+tkd-idc	86400	IN	TXT	"v=spf1 ip4:203.137.191.181 -all"
+tkd-idc	86400	IN	MX	10 tkd-idc.sense.healthcare.
+takeda	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+tkd-idc	86400	IN	A	203.137.191.181
+ono-idc	86400	IN	MX	10 ono-idc.sense.healthcare.
+amn-ws	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+amn-idc	86400	IN	A	203.137.187.123
+em5821	86400	IN	CNAME	u25220204.wl205.sendgrid.net.
+amn	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+ono_chat	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+ono	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+mmn-ws	86400	IN	CNAME	dualstack.sense-healthcare-alb-1015479166.ap-northeast-1.elb.amazonaws.com.
+tkd-aws	86400	IN	MX	10 tkd-aws.sense.healthcare.
+s1._domainkey	86400	IN	CNAME	s1.domainkey.u25220204.wl205.sendgrid.net.
+s2._domainkey	86400	IN	CNAME	s2.domainkey.u25220204.wl205.sendgrid.net.
+tkd-aws	86400	IN	A	3.115.191.117
+tkd-aws	86400	IN	TXT	"v=spf1 a:www3398.sakura.ne.jp ip4:54.95.42.34 ip4:3.115.191.117 -all"
+_38c16d693897b976629e73ce3b2865ba	86400	IN	CNAME	21ffc4b74b368b8b7b34dbe81cc45159.d2f2bfe9001bd6f12c390dd69d9a6014.0abe5c46ca8345c5b2c5.sectigo.com.
+ono-idc	84600	IN	TXT	"google-site-verification=ztLU1cYFHGKhuTRaB_eS8n-e5W1IPfI3ugdWt1HYB-Q"
+ono-idc	84600	IN	TXT	"v=spf1 ip4:203.137.191.116 -all"
+@	84600	IN	TXT	"google-site-verification=WFAObL_hkZV28l6fAsUWpDkb6C-J3ZlWRUwffizy8Xc"
+@	84600	IN	TXT	"v=spf1 ip4:49.212.235.108 -all"

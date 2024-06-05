@@ -1,0 +1,22 @@
+;File created: 05/29/2024 15:31
+;Record count: 13
+$ORIGIN managedcarebriefs.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091728	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_fb36a79e4557738a4f6b64d2e0b08ced	86400	IN	CNAME	7ACD73FC632BF17C54D4D598EEDCB00C.06512653FAE8CE4F78E7E387E08F03C9.sectigo.com.
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+analytics	86400	IN	CNAME	250analytics.com.
+@	86400	IN	A	3.21.69.112
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	A	3.21.69.112
+_fbb57a3b508c1300346fa228c3e54f15	86400	IN	CNAME	b348ad377b64514297e0aa11e0ae81d2.fce8c44faad1c061c35c0ec3ff848418.c9733080e33a40af8b31.sectigo.com.

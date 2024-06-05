@@ -1,0 +1,24 @@
+;File created: 05/29/2024 18:08
+;Record count: 15
+$ORIGIN mail-noreplypharming.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021011118	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+bounce	84600	IN	TXT	"google-site-verification=vBzO3P9aJHHQFAfnDsXGHGosLj2Rbh9Lg_SORk3OIpM"
+@	84600	IN	TXT	"google-site-verification=cStNWo7l6VUKoFZJOdqSPn8hOT5r_xouObqprPbI5g8"
+@	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+10dkim1._domainkey	86400	IN	CNAME	10dkim1._domainkey.s10.exacttarget.com.
+@	86400	IN	MX	10 reply.s10.exacttarget.com.
+bounce	86400	IN	MX	10 bounce.s10.exacttarget.com.
+@	86400	IN	A	13.111.18.27
+bounce	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"

@@ -1,0 +1,27 @@
+;File created: 05/29/2024 15:31
+;Record count: 18
+$ORIGIN topicsinmanagedcare.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091732	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+email	172800	IN	NS	ns2.exacttarget.com.
+email	172800	IN	NS	ns4.exacttarget.com.
+email	172800	IN	NS	ns1.exacttarget.com.
+email	172800	IN	NS	ns3.exacttarget.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	A	3.21.69.112
+@	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"SFMC-Z4J-qGeuA5G5YizSDWYE87nru2FT-1N04MYXzMZD"
+@	86400	IN	TXT	"google-site-verification=64j9jDDjk6hhuVYgWjs27wNVUZGG4gz6owsGsAknDh8"
+*	86400	IN	A	3.21.69.112
+analytics	86400	IN	CNAME	250analytics.com.
+_1d88ca3e8b6798a344b7a0161c548987	86400	IN	CNAME	da9ef0138cd944329ca985cb03f07edd.838e765d0f4d2d3c4e5289aa5e86cf73.611b843a365f40e896af.sectigo.com.

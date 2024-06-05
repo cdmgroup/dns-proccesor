@@ -1,0 +1,84 @@
+;File created: 05/29/2024 18:08
+;Record count: 75
+$ORIGIN whatnext.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022012109	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.biz.
+start	86400	IN	CNAME	ghs.google.com.
+docs	86400	IN	CNAME	ghs.google.com.
+testpage	86400	IN	CNAME	pageserve.co.
+em3859	86400	IN	CNAME	email.vanillahosted.com.
+vf._domainkey	86400	IN	CNAME	vf.domainkey.vanillahosted.com.
+vf2._domainkey	86400	IN	CNAME	vf2.domainkey.vanillahosted.com.
+community	86400	IN	CNAME	site-6037113.onvanilla.net.
+@	86400	IN	A	141.193.213.20
+@	86400	IN	A	141.193.213.21
+@	86400	IN	MX	0 whatnext-com.mail.protection.outlook.com.
+_xmpp-server._tcp	86400	IN	SRV	5 0 5269 xmpp-server.l.google.com.
+_999f38892ad8c7d44eb52311c6e29682.staging	86400	IN	CNAME	_446a380b71d137437dcd4c2d2fd406d4.auiqqraehs.acm-validations.aws.
+_jabber._tcp	86400	IN	SRV	5 0 5269 xmpp-server.l.google.com.
+what._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDP7KO/yBGsV3QTLvirO8anM+QvQ/lfc+h9Hw9jDpF4nT+gHh9G0O0h6Ijyfl/KbutisV408l8UJCg3YXs4nxq5Oly+eRt9chv5gj9A2Nxp6DLOmJtwQ86IVOgY1m5kSWTDFA5T3ONPn7dgUL1E6G4qhsvg8oxvJ5oFJcfdWS9OPwIDAQAB"
+new	86400	IN	CNAME	d4ag1urlurl60.cloudfront.net.
+smtpapi._domainkey.contactus	86400	IN	TXT	"k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB"
+lp	86400	IN	CNAME	unbouncepages.com.
+bounce.mail	84600	IN	TXT	"google-site-verification=zuZxEJGOewKJuG6CiLG9gXIGR5bdyg7Umxs6th3ZZG0"
+mail	84600	IN	TXT	"google-site-verification=YXaVwdqdFWBxwANT1RCR4TTSwzcmoz-zDBV1Il3gwF8"
+_jabber._tcp	86400	IN	SRV	20 0 5269 xmpp-server4.l.google.com.
+_xmpp-server._tcp	86400	IN	SRV	20 0 5269 xmpp-server4.l.google.com.
+_jabber._tcp	86400	IN	SRV	20 0 5269 xmpp-server1.l.google.com.
+www.staging-new	86400	IN	CNAME	staging-elb-1183068378.us-east-1.elb.amazonaws.com.
+www.staging	86400	IN	CNAME	de126yaie10d9.cloudfront.net.
+calendar	86400	IN	CNAME	ghs.google.com.
+_cce1fc8dbcb2277c470aef4a7c7e5963	86400	IN	CNAME	_13dfce9c0160b8f0e6aba733781f5a37.auiqqraehs.acm-validations.aws.
+contactus	86400	IN	CNAME	sendgrid.net.
+staging-new	86400	IN	CNAME	staging-elb-1183068378.us-east-1.elb.amazonaws.com.
+sites	86400	IN	CNAME	ghs.google.com.
+www.new	86400	IN	CNAME	d4ag1urlurl60.cloudfront.net.
+_xmpp-server._tcp	86400	IN	SRV	20 0 5269 xmpp-server2.l.google.com.
+_xmpp-server._tcp	86400	IN	SRV	20 0 5269 xmpp-server1.l.google.com.
+smtpapi._domainkey	86400	IN	TXT	"k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB"
+_jabber._tcp	86400	IN	SRV	20 0 5269 xmpp-server3.l.google.com.
+_xmpp-server._tcp	86400	IN	SRV	20 0 5269 xmpp-server3.l.google.com.
+_jabber._tcp	86400	IN	SRV	20 0 5269 xmpp-server2.l.google.com.
+k3._domainkey	86400	IN	CNAME	dkim3.mcsv.net.
+k2._domainkey	86400	IN	CNAME	dkim2.mcsv.net.
+@	86400	IN	TXT	"Target: 0ed1fe018a4ba305cb8aa346cf82ef95166f2066cc"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2x3fWwyRDBOlJY9f5rZIXDblKl9bXxdX5ZD7ktO3kpCjYOTIr+IrPgyxK7OmbEBq7d8EGVku6GMUefbgQ6Kx2SxDcvwUsJt/oQC0W6bivNqxc2BJWdPzLgJUYmhDiDB6jpg75afEkim0nu6G7dOxsj+2s9VjKMkarujgnbFkyr5QGzCUvqMQEQEyeHS0cAlRM" "epsGLvL0464Tn2gySG2J2jD56fpPdcjegdBZBsc6MF+IY87PNsk/1ykdwHYqd9OqBVg+QEHIhqGzfRyq6QJV1ogNGMb7Uer8q6A/gW0R75ybGQ2R/E6aGkZkBEXC0VwFIbwopau9B/tqzX4Q8fPCwIDAQAB"
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+whatnext._domainkey	86400	IN	CNAME	whatnext.6wdwj1.custdkim.salesforce.com.
+whatnextalt._domainkey	86400	IN	CNAME	whatnextalt.pg3a4i.custdkim.salesforce.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:_spf.salesforce.com include:sendgrid.net include:_spf.google.com ip4:46.22.189.51 ip4:80.95.173.197 -all"
+whatnextjan23._domainkey	86400	IN	CNAME	whatnextjan23.702vaz.custdkim.salesforce.com.
+whatnextjan23alt._domainkey	86400	IN	CNAME	whatnextjan23alt.ssfze2.custdkim.salesforce.com.
+bounce.mail	86400	IN	MX	10 bounce.s10.exacttarget.com.
+mail	86400	IN	A	13.111.18.27
+cloud.mail	86400	IN	CNAME	pub.s10.exacttarget.com.
+10dkim1._domainkey.mail	86400	IN	CNAME	10dkim1._domainkey.s10.exacttarget.com.
+mail	86400	IN	MX	10 reply.s10.exacttarget.com.
+bounce.mail	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+_dmarc.mail	86400	IN	TXT	"v=DMARC1; p=reject; pct=100;"
+www	86400	IN	CNAME	whatnext.com.
+test	86400	IN	CNAME	d4ag1urlurl60.cloudfront.net.
+@	86400	IN	TXT	"google-site-verification=ykkCXe-4mFO0w0d6eR7FE2Ge8VwDJCAEgj2a3zzfjlc"
+mail	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+selector2._domainkey	86400	IN	CNAME	selector2-whatnext-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-whatnext-com._domainkey.oneomnicom.onmicrosoft.com.

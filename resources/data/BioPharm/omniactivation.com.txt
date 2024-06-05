@@ -1,0 +1,15 @@
+;File created: 05/29/2024 15:31
+;Record count: 6
+$ORIGIN omniactivation.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023071003	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_abc2626a75856bebe4981bbc00568862	86400	IN	CNAME	8539575d3328b2196301c00daeb994ed.f84eb9c607929245f244e3dd2d3b6d20.35dac798ad4f4ad09f30.sectigo.com.

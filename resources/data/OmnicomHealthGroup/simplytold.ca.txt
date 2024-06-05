@@ -1,0 +1,38 @@
+;File created: 05/29/2024 15:21
+;Record count: 29
+$ORIGIN simplytold.ca.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023042515	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+@	86400	IN	MX	0 simplytold-ca.mail.protection.outlook.com.
+@	86400	IN	TXT	"google-site-verification=MSACMDMfNOyXCKTgVskKN07QeLW1ntAU-3Bbs1wwm34"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+@	86400	IN	TXT	"Target: 0ed1fe018a4581b16c3b684e70909cb27e1f5198f8"
+@	86400	IN	TXT	"MS=ms95050014"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjl/1sGkZKtpiucylrQP5CrCEdWP6lD2V+S2wyO3XYt23lhnQQ9//K6pAcIwz66bnxfD71goARp69Y3I3OK5RRusfVnqP4/dPAoRLDCCAjML4hWBEgnwTVvcSVQBnQB52RMK3PsRsLSLad6GpPh4RyX7LuwvlLdium2wJ3KWX4eMV921K8Zpcw7A/TLrXAMe4V" "3nD6kaKvclg+Ygi3cQ4oM1sz40IX0Mne8X9VBWfEJEOcpxr3qWMl33NeWq0DNb0ytHZrwY1UrkUonqjxF7SvVu9roxxjctTc4szsWGwVWqeCxdEfteMY66eeARN2Lk0NP70wUi0m03c4zCtnP5XxwIDAQAB"
+selector1._domainkey	86400	IN	CNAME	selector1-simplytold-ca._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-simplytold-ca._domainkey.oneomnicom.onmicrosoft.com.
+_c23d1381db228a52d310573646d358e0	86400	IN	CNAME	906fa2c23da1fb1b2ddf4d9b99167e8a.d1e6685db30924e83ecde064d5b1e292.e89b1386a8c64843b038.sectigo.com.
+www	86400	IN	CNAME	simplytold.ca.
+@	86400	IN	A	3.233.13.178

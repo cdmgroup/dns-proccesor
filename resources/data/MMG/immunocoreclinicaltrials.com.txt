@@ -1,0 +1,30 @@
+;File created: 05/29/2024 18:02
+;Record count: 21
+$ORIGIN immunocoreclinicaltrials.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2024012527	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+dev	86400	IN	CNAME	dev.immunocoreclinicaltrials.com.edgekey.net.
+review	86400	IN	CNAME	review.immunocoreclinicaltrials.com.edgekey.net.
+www	86400	IN	CNAME	www.immunocoreclinicaltrials.com.edgekey.net.
+@	86400	IN	APEXALIAS	immunocoreclinicaltrials.com.edgekey.net.
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.marcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+*	86400	IN	TXT	"v=spf1 -all"
+_acme-challenge.review	60	IN	CNAME	ac.8f836fb346b1992e1ec5ee2d3abdd5bd.review.immunocoreclinicaltrials.com.validate-akdv.net.
+_acme-challenge.dev	60	IN	CNAME	ac.dd3e7e17d320426bc7fe45768d5ecd40.dev.immunocoreclinicaltrials.com.validate-akdv.net.
+_acme-challenge.www	60	IN	CNAME	ac.9a41409a1ddad13c686649df4807e958.www.immunocoreclinicaltrials.com.validate-akdv.net.
+_acme-challenge	60	IN	CNAME	ac.41859c3e380f601db575591d8459a98d.immunocoreclinicaltrials.com.validate-akdv.net.

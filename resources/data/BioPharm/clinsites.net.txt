@@ -1,0 +1,23 @@
+;File created: 05/29/2024 15:31
+;Record count: 14
+$ORIGIN clinsites.net.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020091732	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+sanofi	86400	IN	A	127.0.0.1
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+lexicon	86400	IN	A	65.39.154.28
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	A	3.21.69.112
+analytics	86400	IN	CNAME	250analytics.com.
+*	86400	IN	A	3.21.69.112
+_ecb33f4e438e8510d4e2cb6d2e533b27	86400	IN	CNAME	904d0f03f2cb4297cd5eef20c40d87da.547fd5f34321e4af2e5458232111c0ab.de61c05308af4626b68d.sectigo.com.

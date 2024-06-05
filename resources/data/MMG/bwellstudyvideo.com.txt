@@ -1,0 +1,28 @@
+;File created: 05/29/2024 18:02
+;Record count: 19
+$ORIGIN bwellstudyvideo.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023050450	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*._domainkey.bewellstudyvideo.com	86400	IN	TXT	"v=DKIM1; p="
+*.bewellstudyvideo.com	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+asuid.dev	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.www	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid.review	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+asuid	86400	IN	TXT	"CE6FBC483DEE4C418512457F292257A9431899C4A1BEDD8DFBF3BAF77304B4E8"
+_acme-challenge.www	60	IN	CNAME	ac.2aaad36c48a1504f0e2c3d8b95ac6966.www.bwellstudyvideo.com.validate-akdv.net.
+_acme-challenge.dev	60	IN	CNAME	ac.052be6e71fe83109bac2e36405288688.dev.bwellstudyvideo.com.validate-akdv.net.
+_acme-challenge.review	60	IN	CNAME	ac.2697fdee11f389e9b575866ef0b35102.review.bwellstudyvideo.com.validate-akdv.net.
+www	86400	IN	CNAME	www.bwellstudyvideo.com.edgekey.net.
+@	86400	IN	APEXALIAS	bwellstudyvideo.com.edgekey.net.
+_acme-challenge	60	IN	CNAME	ac.412358593b1fed41a7b331f0105879f4.bwellstudyvideo.com.validate-akdv.net.

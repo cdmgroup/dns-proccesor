@@ -1,0 +1,33 @@
+;File created: 05/29/2024 14:11
+;Record count: 24
+$ORIGIN health-ny.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020010950	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+opportunities	86400	IN	CNAME	www.hcg-int.com.
+evm	86400	IN	CNAME	evm.hcg-int.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+www	86400	IN	CNAME	www.hcg-int.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+proed	86400	IN	CNAME	proed.hcg-int.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+@	86400	IN	TXT	"google-site-verification=fvlGxl6pErRbsZUM0M734K12eK4ZXzOLmTHEUjfZCBo"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoEi2+meaZtPjBVelGRpaTAYjewOidPYadngy7/T2Jsqo3age3Ut3VOgCZlE/NII9HsXwYKiJm6CvRIBgfUOt3DZidYVxUXOm2AYkTCq3dwNkPgxu810QJu8mHEKn4AjKb3UIA7K12mzgtSzFNDh4hJ/wbcql9Enx0IUhte4HPsFSlSDFAP1cyqqCVHqI+Wkez" "asUOEgfIziv8h6NqtZ8rQbhRC7omuyDx5tEceBst8uVO9K454/vvngltPDBzvlkIP3wLT4gHz2W/UtcnLoFRqKyi41Eg1vWa0doyTG0ME3yrkUdDF3dQYgEMzFS+s5k0HF13A8kyI5fMuwMdvg47QIDAQAB"
+selector1._domainkey	60	IN	CNAME	selector1-healthny-com01e._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	60	IN	CNAME	selector2-healthny-com01e._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 healthny-com01e.mail.protection.outlook.com.

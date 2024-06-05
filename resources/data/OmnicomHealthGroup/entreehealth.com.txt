@@ -1,0 +1,50 @@
+;File created: 05/29/2024 15:21
+;Record count: 41
+$ORIGIN entreehealth.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2019111421	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.org.
+_acme-challenge	60	IN	TXT	"BpAA93_B2yvHFMWvq2qjJsfoE_5gsqqIt4slYa4Liyg"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+gate2	86400	IN	A	38.117.238.30
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+m	86400	IN	A	12.154.40.236
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+*	86400	IN	TXT	"v=spf1 -all"
+mandrill._domainkey.takeda	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+@	86400	IN	TXT	"google-site-verification=9vdArH40aEuBdTqgaxrqBcOdsyCGiWKm4GMU7r9L_yc "
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+data	86400	IN	CNAME	data-entreehealth-com.o.waas.oci.oraclecloud.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+stage	86400	IN	CNAME	stage.entreehealth.com.edgekey.net.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhXpH45c1cX0cnKvHSpK6MXTOmB3HuXkVoWxEPs6Q8/mYyVYXY0KggYRP5RTviKJgXthtO+xL25ESKaszhmfU7NrgGb9Vkifhw1rS0+HntM4TQJp9q2EfvA7T7xTiAIRx6Yy5z/6+V9cnX2k1Nwhy/suv98/qe0wXWTYBKzLYsO59WvQesVzLc0KMqYaZK1wiT" "95smMoSoGoT8S2TqEsm+EcUrE6qNhlXlM1fWlnL7mI2GXS6SyfCaWCVfV0XGorb4qrLk2L/ad2zCRCoK3XrVMte8BpZjL49C066dQ5NMgpdtIQWdZin4BunaYVcWDLtSaZ1EQoLk45dw01QyRTAjQIDAQAB"
+origin	86400	IN	A	20.62.194.53
+_acme-challenge	60	IN	TXT	"Kpx4L-BbdLjdnSKYMFQj4WDnh2YTPqnsyyqShnY2G8g"
+@	86400	IN	TXT	"smartsheet-site-validation=b-4tV64EbVOTPXIrMOqZV1i7HxgB2Gfe"
+www	86400	IN	CNAME	www.entreehealth.com.edgekey.net.
+origin-stage	86400	IN	A	20.62.194.53
+origin-www	86400	IN	A	20.62.194.53
+takeda	86400	IN	TXT	"mandrill_verify.M_Dl7BpOdDo5LNEhTTrwqw"
+takeda	86400	IN	TXT	"v=spf1 include:spf.mandrillapp.com ?all"
+@	86400	IN	APEXALIAS	entreehealth.com.edgekey.net.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+_d4b0869087db701a5dad27682e737dcb	86400	IN	CNAME	00468c10d7542998101271290c40fc70.0ca7dae281a32ff124d68d1ad2ca7104.bcd156436cae4c86b88a.sectigo.com.
+selector2._domainkey	86400	IN	CNAME	selector2-entreehealth-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-entreehealth-com._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 entreehealth-com.mail.protection.outlook.com.

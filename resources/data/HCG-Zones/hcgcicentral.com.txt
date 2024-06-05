@@ -1,0 +1,22 @@
+;File created: 05/29/2024 14:11
+;Record count: 13
+$ORIGIN hcgcicentral.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022031128	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"v=spf1 -all"
+www	86400	IN	CNAME	hcgcicentral.com.edgekey.net.
+@	86400	IN	APEXALIAS	hcgcicentral.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"TXxkg38xWm3aT0fb49SVcRGw-Gy5_DXIH1HLLaUx-BY"
+_acme-challenge.www	60	IN	TXT	"Q7oNYtnx1a_8c1xO3LJwI0ijMQqsuJgzi03MubCCZ-8"

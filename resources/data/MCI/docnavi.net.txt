@@ -1,0 +1,21 @@
+;File created: 05/29/2024 18:00
+;Record count: 12
+$ORIGIN docnavi.net.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020102309	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+@	86400	IN	A	153.127.33.163
+@	86400	IN	TXT	"v=spf1 -all"
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_ddda556d4d8f3c01638e98577e8b2610	86400	IN	CNAME	8c28b1805e0a0530207c3d9a2f08ae8a.e76fc2d467f9818ebab78645efdd7381.0c563a48d9e841b4bd30.sectigo.com.
+_dafd44964cc0ecff973c25ecba8563fe	86400	IN	CNAME	ec1140ec3b5f1e9afc6554ce0083a989.2be4794d9c3615104b3462707daf5d06.db29b23d8e0c4f3ca6df.sectigo.com.

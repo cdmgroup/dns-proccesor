@@ -1,0 +1,27 @@
+;File created: 05/29/2024 18:04
+;Record count: 18
+$ORIGIN propeller-staging.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022032930	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+_d7de33bbd7f6c1441fe9a72a541681f9	86400	IN	CNAME	1703b8b6033df8aed45d73bf8605b0b1.917f708c993fdc9be22fa72067fd85b2.a0cb04f1eff24ef5a8c1.sectigo.com.
+_4f9c8c092ed077fa7151836fdd9d780e	86400	IN	CNAME	7374bf07674f677fc9c1ed6015b7d052.d319d7ae538af68d365d585aba0b91c0.2073043692d949168082.sectigo.com.
+intercept	86400	IN	A	3.82.144.69
+_e9810c2695eabb66b1fd13ce5efcddaf	86400	IN	CNAME	_694d5517190f9ef6029e9d9847200469.duyqrilejt.acm-validations.aws.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	APEXALIAS	propeller-staging.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"Drk0tEIMUb8spS3dkEbAkOQXx_qS8hrf4Ss0JGMLl9I"
+www	86400	IN	CNAME	www.propeller-staging.com.edgekey.net.
+api	86400	IN	CNAME	api.propeller-staging.com.edgekey.net.
+_acme-challenge	60	IN	TXT	"pDAsHXOSG2GeBmYI8rn87XnOkkEmwsqWkWVfk42_PuI"

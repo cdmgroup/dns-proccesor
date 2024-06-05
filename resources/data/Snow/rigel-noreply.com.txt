@@ -1,0 +1,35 @@
+;File created: 05/29/2024 18:08
+;Record count: 26
+$ORIGIN rigel-noreply.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081335	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 rigelnoreply-com01c.mail.protection.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+*	86400	IN	TXT	"v=spf1 -all"
+www	86400	IN	CNAME	rigel-noreply.com.
+cpanel	86400	IN	A	173.254.104.237
+@	86400	IN	A	173.254.104.237
+whm	86400	IN	A	173.254.104.237
+ftp	86400	IN	CNAME	rigel-noreply.com.
+webdisk	86400	IN	A	173.254.104.237
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2ul4Z5h4+Hi220REgOWs7iofIOjW4kN6ZnnhpTQ1C3dJG0MfsGQx9eXNRbeLdzEo5gyv8EWIohHdzyO3Fr0oCEXlda1DRwCuMc7o/W/egMvav48FEr07E/t2hl9guNK9Lcgkazc8sQ7mkVCc8cYVgxfO6K79HndjoCwpSZy9MKu5mLJUcNqaC5e3yWDQbfSos" "iHgFd8ZPVjVqzbvinsQdRhanTrWzJTzT6hGy8ejS1Dq4SfHJpaec9kATnktdGXJaYcbNYBx3Y1hp+BRHsOKQfcZTSVz/wi0J1sjKe/sBVgvXzL3vbwxnkbf1IdDr/6/XyKWd7OPNl8u4eLCBQK7MwIDAQAB"
+@	86400	IN	TXT	"google-site-verification=I7MNrZEzHtLzMAAG9C0j6fDYbsJPQ-UPGX8WGRlb4aY"
+selector1._domainkey	60	IN	CNAME	selector1-rigelnoreply-com01c._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	60	IN	CNAME	selector2-rigelnoreply-com01c._domainkey.oneomnicom.onmicrosoft.com.

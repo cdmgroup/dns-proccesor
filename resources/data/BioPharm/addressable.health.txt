@@ -1,0 +1,32 @@
+;File created: 05/29/2024 15:31
+;Record count: 23
+$ORIGIN addressable.health.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2022100521	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+*	86400	IN	TXT	"v=spf1 -all"
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+ppsa._domainkey	86400	IN	CNAME	ppsa._domainkey.oneomnicom.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+ppsb._domainkey	86400	IN	CNAME	ppsb._domainkey.oneomnicom.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLC8yeRwW/tDtk24pdbZuvHJLMOYH0RWP5oDNryroguJ4I3BlP1lAMZXvN873f3s8S43fdwo2/cX7o2XwTqzn0nljbPnEeHNCMhvSPGeLvFQPLT3+hNVzhsQBws4BnRSa9gq+QS13Zun5fV7VN4HPW4WCkWWtIvt98schHZu5SkTWD464QJtWBxNCnWBGazxs" "0iVLiNWFgV6vP6T3gBXb+03EPX+NcPDj4lrq4qmjBwBoBSEW0nVELDJCR7pUn5P30SDxX88tYcUGi8SezMut8yRGQIJQvSKryWK41Vad67A66S6b4SqWKPxnv6uwBNqJxDxDGrF257YvNv9jCVt2wIDAQAB"
+@	86400	IN	TXT	"google-site-verification=8a_IXT0BTRpq1n5vfRm5u3G5BZuwxT-Y5d-G4uOwy9A"
+selector1._domainkey	86400	IN	CNAME	selector1-addressable-health._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	86400	IN	CNAME	selector2-addressable-health._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 addressable-health.mail.protection.outlook.com.

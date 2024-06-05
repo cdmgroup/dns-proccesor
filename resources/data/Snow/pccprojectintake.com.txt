@@ -1,0 +1,18 @@
+;File created: 05/29/2024 18:08
+;Record count: 9
+$ORIGIN pccprojectintake.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2023032828	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_c828ab6b77d6c0e921686e4107673129	60	IN	CNAME	2e5a81a48c1965b54b3f29cfc30dea74.45f31634c1ac3819194533fe52f7a184.ab5c8257d72544688b41.sectigo.com.
+@	60	IN	APEXALIAS	pccprojectintake.com.00da0000000gy9pmau.live.siteforce.com.
+_acme-challenge.www	86400	IN	CNAME	_acme-challenge.www.pccprojectintake.com.00da0000000gy9pmau.live.siteforce.com.
+www	86400	IN	CNAME	www.pccprojectintake.com.00da0000000gy9pmau.live.siteforce.com.

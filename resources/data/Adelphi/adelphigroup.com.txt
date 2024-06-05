@@ -1,0 +1,74 @@
+;File created: 05/29/2024 18:15
+;Record count: 65
+$ORIGIN adelphigroup.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2016013018	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.org.
+compliance.intranet	86400	IN	CNAME	c5yaen4qxk3w.wpeproxy.com.
+web	86400	IN	CNAME	analytics.clickdimensions.com.
+email	86400	IN	CNAME	elink.clickdimensions.com.
+ait.intranet	86400	IN	CNAME	5fhxcik0767j.wpeproxy.com.
+www	86400	IN	CNAME	zuj042r0gg77.wpeproxy.com.
+@	86400	IN	APEXALIAS	zuj042r0gg77.wpeproxy.com.
+arw-web	86400	IN	CNAME	analytics.clickdimensions.com.
+aihc	86400	IN	CNAME	3mposmjpzafl.wpeproxy.com.
+aihc.intranet	86400	IN	CNAME	3mposmjpzafl.wpeproxy.com.
+@	86400	IN	MX	0 adelphigroup-com.mail.protection.outlook.com.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+connectservices	86400	IN	CNAME	connectservices.adelphigroup.com.edgekey.net.
+p7	86400	IN	A	82.0.85.196
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+p4	86400	IN	A	82.0.85.196
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5GHUmEmZhFD64jdsVD5XmBT0069QyQqcIZzY/niP7TsAX3ZgBO2red21wfkO+VBtgxHvwICXx8NJS6qkC+xjNfeCt27UY3GYcjPtb1w5woLmgoOTjqc7sjjIaoRa+Y6LTUpD49crdmGNQmNTW1JqCtWFgg3rNwu2V665/xlMHwbpr3caT6TdoNtWfwNYz+q8" "QRekjgXxp8O+Kg8AijZUnhkTp4MqYxvnPwGMEeqDUWUsqIyzTHk5U2mI9k/D8L7pKHXXFYx2bPG9KODrGnJNuKIqncZyOwSnE8WEiGFhAqiKkhPn7qSvQD/owybcJvow0nasUS89N/FJy1yTbDlPQIDAQAB"
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:customers.clickdimensions.com -all"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+cdmailer	84600	IN	TXT	"google-site-verification=_Ct1O75MZnrSHk6rZUMljrxLD7ks_s-UpJeYAJpVkl8"
+cdmailer	84600	IN	TXT	"spf2.0/pra include:_auth.messagegears.net -all"
+qms	86400	IN	A	64.18.207.171
+dzc	86400	IN	TXT	"p8BdWXp"
+p9	86400	IN	A	82.0.85.196
+p1	86400	IN	A	82.0.85.196
+p3	86400	IN	A	82.0.85.196
+p5	86400	IN	A	82.0.85.196
+p2	86400	IN	A	82.0.85.196
+p6	86400	IN	A	82.0.85.196
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+p8	86400	IN	A	82.0.85.196
+@	86400	IN	TXT	"adobe-idp-site-verification=53961954-e5a4-4f20-9251-f7c9bd0ad9d1"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+p0	86400	IN	A	82.0.85.196
+backup	86400	IN	A	217.45.214.73
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_df6a27f97cb6f76472982b2aadf2ffa5	86400	IN	CNAME	e8f09541c27bb4a03faa0b704d1ea8e0.e3b7dd44afae83d95dbff1ad15ffa2d4.b4f9ba1dfab54c589377.sectigo.com.
+arw-email	86400	IN	CNAME	elink.clickdimensions.com.
+apprenticeships	86400	IN	CNAME	tjlwbqws0a47.wpeproxy.com.
+_domainkey.cdmailer	86400	IN	TXT	"o=-;"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+gears._domainkey	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnnZ67teJIQQLcfbzztAOx7UMJyFVpz29RX1ZlrV9xf5yJDQyCMCHcwcN5qNaqLMr/cuVzkSW3e1vYqO/9lqfXWkXSgYM8kVeywfubh07vNxTia/5pggiiCPD0+wgSgrMqJFDoKzzFAf+wWwidaHQ9Q9Zel0+w9gWmsi56xt7mRwIDAQAB"
+*	86400	IN	TXT	"v=spf1 -all"
+s481634._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em481634	86400	IN	CNAME	return.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+cdmailer	86400	IN	MX	10 inbound2.messagegears.net.
+cdmailer	84600	IN	TXT	"v=spf1 include:_spf.messagegears.net -all"
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+gears._domainkey.cdmailer	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnnZ67teJIQQLcfbzztAOx7UMJyFVpz29RX1ZlrV9xf5yJDQyCMCHcwcN5qNaqLMr/cuVzkSW3e1vYqO/9lqfXWkXSgYM8kVeywfubh07vNxTia/5pggiiCPD0+wgSgrMqJFDoKzzFAf+wWwidaHQ9Q9Zel0+w9gWmsi56xt7mRwIDAQAB"
+gateway	86400	IN	A	54.195.73.8
+link	86400	IN	CNAME	track.smtp2go.net.
+cdmailer	86400	IN	MX	10 inbound1.messagegears.net.
+arwhive	86400	IN	CNAME	tspnjbouyl9a.wpeproxy.com.
+adelphicentral	86400	IN	CNAME	ros6hlbp3kfh.wpeproxy.com.
+renaissance	86400	IN	CNAME	1a018e6clk6z.wpeproxy.com.
+careers	86400	IN	CNAME	fda3aluhdzvv.wpeproxy.com.
+selector2._domainkey	86400	IN	CNAME	selector2-adelphigroup-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-adelphigroup-com._domainkey.oneomnicom.onmicrosoft.com.

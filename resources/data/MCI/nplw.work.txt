@@ -1,0 +1,25 @@
+;File created: 05/29/2024 18:00
+;Record count: 16
+$ORIGIN nplw.work.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020120222	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	300	IN	A	210.236.230.245
+@	86400	IN	MX	10 npvs81.kizuna-ds.jp.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+_63a36fccc2b287252d9f2465612fffd1	86400	IN	CNAME	1d4dd826192d2e935957a3c3893290ba.11b07d7edebf32628f37a42b9fbd6f1c.8735645eff194f3886f9.sectigo.com.
+@	300	IN	TXT	"google-site-verification=tl8jFGKDeJ8Ea1cLv36ZuRBpty1T4xHGZKTjYzDc0S4"
+@	300	IN	TXT	"v=spf1 ip4:210.236.230.245 include:idcfc-spf.kizuna-ds.jp ~all"
+s1-nnpvs89._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0/O0n3bQVkDXagiU4MLrAXjED//JzrqtKGKhz/o86VgsZ6XJ9NT9bl3RZ6yt7DplFRl+UMmhd0gyxaKd5Sctl1hcoRop7JFGxWB5u1XqtLLduzAUbFZYq0oh2mt0UrydIMBAzAH2EaC5AjZpBC2gFhB5ghy2+1lUrobMNCT5db5Qnwy9oX42z2bT+Q3yhJRyC" "svKsbguYrQ7ZKoPyjWvIEsFsj04KW/pNXf6Oo+0a0Oy6QbfGdpxo4TFsO60I2I3zdSc8uLvn+jFH4Vk9OoaqUTdnL45M+b+b0JstCYUeR8Mg+jzAAwVN4RKaWUpI+pHaTu/5l5Bqb/kivEcj5M+9QIDAQAB"
+s1._domainkey	300	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7oJEP/ZkFUzzqeKwbxJmxFGKw+N0x/as3CK1WQSPQb9mMLT0zq9NaBFnFFTLHioY2J0jrDGofqhsR3qVxsSN6hp8pMKZpiVDv35kBYvOak3H+sMUZmqtFh44+9ovJWhdY3DxSFoPemFJgX5QxWIq0nwqEZaxyCj1EJoWjWs7KoEfzdrWk5C//GNjc40KKrXu4" "9lhCbTh/h32eFBqQmpdEbP65vvDq2qSp7VahVz5+1Fli5k01EHSnw0FR9W03EGd+SehXwGG6x29kUF0WgSFxdic7zkdqIxlxR1I4OFLLRUWhnwMNZhAfYjLiI09cE+rMWTjoAKIBaAo4ao4p2N7WwIDAQAB"
+_60a5e39cd75860cf541dd99348b7a07a	86400	IN	CNAME	b3ef2465831821292a9c64659bf1fdb6.75eeb5a0e3901820fec6ce7453c54559.436f7eb6e5054d89b106.sectigo.com.

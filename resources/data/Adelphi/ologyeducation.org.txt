@@ -1,0 +1,42 @@
+;File created: 05/29/2024 18:15
+;Record count: 33
+$ORIGIN ologyeducation.org.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2017100322	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+learnonco	86400	IN	CNAME	zwubc4fu7f0y.wpeproxy.com.
+www	86400	IN	CNAME	lqqsolgi4wzi.wpeproxy.com.
+@	86400	IN	APEXALIAS	lqqsolgi4wzi.wpeproxy.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+testing	86400	IN	A	52.212.200.121
+demo	86400	IN	CNAME	demo.ologyeducation.org.edgekey.net.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+em478202	86400	IN	CNAME	return.smtp2go.net.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+link	86400	IN	CNAME	track.smtp2go.net.
+stepepa22	86400	IN	A	52.212.200.121
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9ffWEesyOc89gJuFsnbhoQshb+KBYNW6vN+1tAL93d3lWsiqgOD1ZcMuG2hEgfle12OuWcNlxOi4zP/+m3KUkh0Quv43TfODbBeQoYVs0IGnBOLOMy4P2KAIXwvGXylF3Nm8YtgsqY60ra2HXDXc8QGaCK4PWt7sH7EVDD7vTctRHqWxFKj3EYcnRQ5lnZvGG" "e++WAlh7EoiM2WuB7ZPw2gamQfjfGIfw6DyRYvN9grD3UeI6GlBuHB8njTsZKnAGf5OZUYsoanM5otLbHAOBX2FT9y752M7p2Gs0jb2nhT7pJwclbS5v5bEcDrOK6cCamzsGrbERVDR24LS/MSXlQIDAQAB"
+_ad8011a7b8e4f679f5d0031eae363a44	86400	IN	CNAME	502f73876487e9700730a40c86cdaf20.45747ab62334c7692425f17c184dc0e9.94063a58bae84c02bf83.sectigo.com.
+testing2	86400	IN	A	52.212.200.121
+@	86400	IN	TXT	"google-site-verification=7Vu1UY_-pKyt9n45BXkias44WuSfBT0hQkRKEOmCdUI"
+selector2._domainkey	86400	IN	CNAME	selector2-ologyeducation-org._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-ologyeducation-org._domainkey.oneomnicom.onmicrosoft.com.
+@	86400	IN	MX	0 ologyeducation-org.mail.protection.outlook.com.

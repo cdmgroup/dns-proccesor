@@ -1,0 +1,30 @@
+;File created: 05/29/2024 15:21
+;Record count: 21
+$ORIGIN cdmelixir.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020072329	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	MX	0 cdmelixir-com.mail.protection.outlook.com.
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAludxkxjyouI7HsHCfnsRtT6Nrf/Ninl2rLJV31VC8CXXOxXx8wj+vKI/xqj75bQ4JXo1LgwChiOkSvvFN6EDPmHT6hgflfE3YtpCzXHohYuFfZzj+aZRd1c2ldzLEuFlYxipihE+yhbzwfarxaMTv72rGecGRCG01WVBtD6M6tv1jUEhhXFXmsto71jjpINVW" "IIIjZ2fFfB1CJyUlOLljOScxahv4hdvrowyojrM0EPhBl3S9PvMe23zLQpr4Vhou1RS31s5YknnEPatj5ZMHEC4S1xyW4djMHeFM8pt+dfrfpwDolmWIbOtz2a0DqPtMeZMJEHyE/5uxo13dM4VrQIDAQAB"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	TXT	"google-site-verification=ENpxGFAFqBXDkY77MUGh-tLBHf2k3HX2PHuYdnYb55Q"
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+*	86400	IN	TXT	"v=spf1 -all"
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+selector2._domainkey	86400	IN	CNAME	selector2-cdmelixir-com._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey	86400	IN	CNAME	selector1-cdmelixir-com._domainkey.oneomnicom.onmicrosoft.com.

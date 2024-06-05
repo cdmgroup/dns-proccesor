@@ -1,0 +1,23 @@
+;File created: 05/29/2024 18:15
+;Record count: 14
+$ORIGIN crohnsapp.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021061519	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			0		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.org.
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+@	86400	IN	APEXALIAS	crohnsapp.com.edgekey.net.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+@	86400	IN	TXT	"v=spf1 -all"
+_5880ed9bc904db18750e6db47c3357e8	86400	IN	CNAME	2512fae75dfcd9165b34b2d1705cdfc4.ecf71d2246c6fc6a2c742ea128313a08.ab2f915e299546839940.sectigo.com.
+_acme-challenge	60	IN	TXT	"Ib47tlbgrv7mfi0qYZOhuW8z1A2ExobuAPlGmAfoABQ"
+_5196683f39bd4ffa26edd67225b03a54	86400	IN	CNAME	2e9e6364c68822081b91f8d7f7ced1f5.c3dcfae7b2570ae8d6bfe122116e6e48.eb39d160cf3d4d89822c.sectigo.com.
+_acme-challenge	60	IN	TXT	"ZythBLQbAXvdYf8rkfxubhjvH8OsjKF-1aSEskXgosk"

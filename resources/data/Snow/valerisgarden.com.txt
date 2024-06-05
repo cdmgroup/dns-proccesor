@@ -1,0 +1,16 @@
+;File created: 05/29/2024 18:08
+;Record count: 7
+$ORIGIN valerisgarden.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2024022103	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+@	86400	IN	APEXALIAS	442hnmmqo9c8.wpeproxy.com.
+www	86400	IN	CNAME	valerisgarden.com.

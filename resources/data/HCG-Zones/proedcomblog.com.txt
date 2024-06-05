@@ -1,0 +1,24 @@
+;File created: 05/29/2024 14:11
+;Record count: 15
+$ORIGIN proedcomblog.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2021101466	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+@	172800	IN	NS	pdns82.ultradns.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+_b8d48aa6a9f701cb29f1bad8d7391699	300	IN	CNAME	ac9d44f53401fa83b91f9d849f1b3866.d06da7d1eb16e90acb522115b61c47d2.e0b5b73d60514e508944.sectigo.com.
+www	86400	IN	CNAME	7aj0f71s037q.wpeproxy.com.
+*._domainkey	86400	IN	TXT	"v=DKIM1; p="
+*	86400	IN	TXT	"v=spf1 -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+default._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnOZtZg8ri6H1gcHNXNcGdV8pXnKMX1LATIKWpveRvQb2fTW7LEduK2x6Yb8Z2iTv9ZKZJdjrsV38jYpp32VZvdAQDoh952oV02/2MHf+cg2Ra0mwHEH7N7H/8zaIkMcrkmM+eZNbL9o+gMcHpNJBspbm6XxTbTba20f6T/hKzrpnPGCof3BiRFqAtAvcemBQM" "/B/4VTi4Q0llYNgxJEc/AiF724mIzgZ0M3yrxrOZBBYap6JRuhAKBxPkTJEJS1q+Im4OcYYn0eifKyYcWFpvOdYaoDii+I49pV7WG5CT6p8kmUSJJG2+PZQh4Vegr2ppLQHd4+W///RW7Xz4ecrLQIDAQAB;"
+default._domainkey.server	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAylUhMvtboqepJuGlWNFPb391OpLU2sA5xASHhVaJtlR/BowRj/akSIz5a2E6E1xFhTz9q6PdzokEq4U2pBssFPR36sqBUu3g3hmeLRjWdBC7d6Zli7A/wiNQHtiDI5ZS0IUoEX3qo+5bB0mbJ70m/u01QhNNEdZZzb5Cm3rMM11k7WrTt6Rr295L9KSJMbNpT" "k2GIlYkhZBAfInddAAq0sjCO2wKifRHYbx4+GDsdYhZSp4dqr7i4L/LtWIASbFaY+tNBGNY1ifDoHE4zSplXXs6PAjEH2pBp5AzC1e5YThTwttwODK8FWxRaxuwKeHsY1AQ6sYDznD1Ddjolk+2LwIDAQAB;"
+@	86400	IN	TXT	"v=spf1 ip4:162.214.2.9 -all"
+@	86400	IN	APEXALIAS	7aj0f71s037q.wpeproxy.com.
+_20a2d94264cc1e34d79a0d5e5acce10d	86400	IN	CNAME	3a6e12595ce27b52980503cd3b695824.dc39b19f78936cf901c448ade007043e.7e00ec5e22764dc6aff3.sectigo.com.

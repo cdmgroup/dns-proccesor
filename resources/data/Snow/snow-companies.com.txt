@@ -1,0 +1,122 @@
+;File created: 05/29/2024 18:08
+;Record count: 113
+$ORIGIN snow-companies.com.
+@	86400	IN	SOA pdns82.ultradns.com. hostmaster.omnicomgroup.com. (
+			2020081583	;Serial
+			7200		;Refresh
+			600		;Retry
+			2419200		;Expire
+			3600		;Minimum
+		)
+mail	172800	IN	NS	ns3.exacttarget.com.
+mail	172800	IN	NS	ns4.exacttarget.com.
+mail	172800	IN	NS	ns1.exacttarget.com.
+@	172800	IN	NS	pdns82.ultradns.net.
+@	172800	IN	NS	pdns82.ultradns.biz.
+@	172800	IN	NS	pdns82.ultradns.org.
+mail	172800	IN	NS	ns2.exacttarget.com.
+@	172800	IN	NS	pdns82.ultradns.com.
+_6b2c16bd6d7c6f50b18d90e67acfff94	86400	IN	CNAME	b0992a9b2c05a861ca8b46d473d7b6c8.402a7dacbd42fc7027e032434450d164.1bfa26a39e6c4b9fab0c.sectigo.com.
+digital	86400	IN	CNAME	wbhz15kgci52.wpeproxy.com.
+@	86400	IN	MX	0 snowcompanies-com01b.mail.protection.outlook.com.
+bounce.mc-test	84600	IN	TXT	"google-site-verification=z2bLAK5OLk5Y6L5EYtOfoFncP4JnUNr5bCYRQhfftA0"
+bounce.mc-test	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+mc-test	84600	IN	TXT	"google-site-verification=eZlMRHsqSbCVBdpxQFoNW0RfCqOmqLFjrCqrUzGyHb4"
+mc-test	84600	IN	TXT	"SFMC-OSAWjOg8PAM7wKmspZ2pYq9UC3z5UN_ZgduEqt8Z"
+mg	84600	IN	TXT	"google-site-verification=62omr_cgqaSxOopAr3SnnBVXXCpTqGoPQzQfUHhZUSQ"
+mg	84600	IN	TXT	"v=spf1 include:mailgun.org -all"
+_acme-challenge.aws-dev	60	IN	CNAME	ac.bca816b56d335b2878b339cd2b6c11c6.aws-dev.snow-companies.com.validate-akdv.net.
+_acme-challenge.haeandmeapp-dev	60	IN	CNAME	ac.9f7deed0b66d87d62af5ae4079e2e695.haeandmeapp-dev.snow-companies.com.validate-akdv.net.
+_acme-challenge.ruconestapp-dev	60	IN	CNAME	ac.333e9b56fb6b208ece0af5396da8b6e0.ruconestapp-dev.snow-companies.com.validate-akdv.net.
+have-i-been-pwned-verification	86400	IN	TXT	"b50881b18b5da3e2515b5f5ad407e481"
+sip	86400	IN	CNAME	sipdir.online.lync.com.
+_sip._tls	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+_sipfederationtls._tcp	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+@	86400	IN	TXT	"ec0bae45438c46f98d3aad714026eabd"
+aws	86400	IN	A	44.235.12.1
+*	86400	IN	TXT	"v=spf1 -all"
+krs._domainkey.mg	86400	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5dlRZ6t6vtXMy6lcXpqmWPTBHC2cNRgQuFepm9oRFAR8ORCw9JJGzsoZZrnsI49bgttWeGIUuP6GBQIcq3rm7EiT09Zzxd/d5bBElQFWZIbglTawG3Tka2S1ObE11OlrRTSuYf1VDv862W4Pg8fGKpmYbyKViFeDdYWb97XSYUQIDAQAB"
+dzc	86400	IN	TXT	"qwcJGq9U"
+@	86400	IN	TXT	"have-i-been-pwned-verification=b50881b18b5da3e2515b5f5ad407e481"
+requests	86400	IN	A	141.193.213.20
+mg	86400	IN	MX	10 mxa.mailgun.org.
+@	86400	IN	TXT	"adobe-idp-site-verification=6c9dedea9efeb67f02477f233d993b573b355af7324452757e37e0ffea1d83b4"
+enterpriseenrollment.gne	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+sip.gne	86400	IN	CNAME	sipdir.online.lync.com.
+_sipfederationtls._tcp.gne	86400	IN	SRV	100 1 5061 sipfed.online.lync.com.
+lyncdiscover.gne	86400	IN	CNAME	webdir.online.lync.com.
+autodiscover.gne	86400	IN	CNAME	autodiscover.outlook.com.
+_sip._tls.gne	86400	IN	SRV	100 1 443 sipdir.online.lync.com.
+enterpriseregistration.gne	86400	IN	CNAME	enterpriseregistration.windows.net.
+snowcoalt._domainkey	86400	IN	CNAME	SnowCoAlt.yztags.custdkim.salesforce.com.
+ruconestapp	86400	IN	A	44.237.150.8
+@	86400	IN	TXT	"google-site-verification=fmitxD-xvHRUG04VhNer00lZxpySXqAb-37slmejpxg"
+@	86400	IN	TXT	"uu7642ma4q2keunt123btfe5ap"
+mandrill._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+mg	86400	IN	MX	10 mxb.mailgun.org.
+autodiscover	86400	IN	CNAME	autodiscover.outlook.com.
+awstest	86400	IN	A	44.229.183.108
+panel	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com -all"
+_dmarc	86400	IN	TXT	"v=DMARC1; p=reject; rua=mailto:1e9b317813bb873@rep.dmarcanalyzer.com; ruf=mailto:1e9b317813bb873@for.dmarcanalyzer.com; fo=1;"
+snowco._domainkey	86400	IN	CNAME	snowco.7gakt4.custdkim.salesforce.com.
+enterpriseregistration	86400	IN	CNAME	enterpriseregistration.windows.net.
+@	86400	IN	TXT	"cisco-ci-domain-verification=7c94e47ec36bd8b805b29a73193abb073d0f1f870dc77c81b51a39b3331e344c"
+panel	86400	IN	A	77.240.11.105
+@	86400	IN	TXT	"dropbox-domain-verification=bfvepr909zzx"
+@	86400	IN	TXT	"google-site-verification=eZUcz-JoF395_D3Hj1sbj6EWlZNQ78HQe45i_xhe4Do"
+lyncdiscover	86400	IN	CNAME	webdir.online.lync.com.
+enterpriseenrollment	86400	IN	CNAME	enterpriseenrollment.manage.microsoft.com.
+@	86400	IN	TXT	"miro-verification=6b6471e34048e8509061d7a1c2c3726d6ab88f53"
+email.mg	86400	IN	CNAME	mailgun.org.
+@	86400	IN	A	141.193.213.20
+www	86400	IN	A	141.193.213.21
+mc-test	84600	IN	TXT	"v=spf1 include:cust-spf.exacttarget.com -all"
+snowco2021q2._domainkey	86400	IN	CNAME	snowco2021q2.6p2o88.custdkim.salesforce.com.
+bounce.mc-test	86400	IN	MX	10 bounce.s10.exacttarget.com.
+ftp-relay-testing	86400	IN	TXT	"v=spf1 ipv4:216.54.114.74 -all"
+mc-test	86400	IN	MX	10 reply.s10.exacttarget.com.
+@	86400	IN	TXT	"apple-domain-verification=7Ff9igsIbGErAxZS"
+10dkim1._domainkey.mc-test	86400	IN	CNAME	10dkim1._domainkey.s10.exacttarget.com.
+@	86400	IN	TXT	"box-domain-verification=9ee37f7ae37efe84cc4fe80cbb6d595cf05afdd79d4f096e05878bf4d3e52836"
+cloud.mc-test	86400	IN	CNAME	pub.s10.exacttarget.com.
+mc-test	86400	IN	A	13.111.18.27
+ruconestapp-staging	86400	IN	A	44.233.114.141
+mimecast20220120._domainkey	86400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgxnoiJX+z7tYyMt78jmafz4bLItksBNKIpw6o8tb8xjIuLxa+XB3DqYaBq1wiVAt+AZNS7XkkKXkRXmVJp/Egyc2bATvEYjIF8w1qAeC1++PU1rIPthC6wkdfU2PV5BeRu5KSqlcsimTti9iRj28pNTyUkn0lB9qAHSXRys9uII9554xg6DPnHS7aKLRRLnd4" "lnFb1L47MiOGdyOtbemAU1lggs5/yvxLUWeSCLaN9xIVshRco2WbNjPaRcSDJrvyHeMtTsVxD4GpVn7A6OZSMpSBoT5BzR6G5MJRA6f/txzj8RsIDvMlAbn911opNTmLwoNouoTdiJkdf8w1SN4mwIDAQAB"
+km	86400	IN	CNAME	cx49q0f495ml.wpeproxy.com.
+haeandmeapp	86400	IN	A	44.227.27.61
+@	86400	IN	A	141.193.213.21
+haeandmeapp-staging	86400	IN	A	34.208.16.189
+snowcoqaw20._domainkey	86400	IN	CNAME	snowcoqaw20.3v1rme.custdkim.salesforce.com.
+snowcoqaw20alt._domainkey	86400	IN	CNAME	snowcoqaw20alt.q5lt1j.custdkim.salesforce.com.
+snowcomar24alt._domainkey	60	IN	CNAME	snowcomar24alt.uhcqsy.custdkim.salesforce.com.
+snowcomar24._domainkey	60	IN	CNAME	snowcomar24.rqezhc.custdkim.salesforce.com.
+snowco2021q2alt._domainkey	86400	IN	CNAME	SnowCo2021Q2Alt.p0apw4.custdkim.salesforce.com.
+s478202._domainkey	86400	IN	CNAME	dkim.smtp2go.net.
+em478202	86400	IN	CNAME	return.smtp2go.net.
+www	86400	IN	A	141.193.213.20
+snowcodomain._domainkey	86400	IN	CNAME	snowcodomain.odytt5.custdkim.salesforce.com.
+snowcodomain1._domainkey	86400	IN	CNAME	SnowCoDomain1.139x1v.custdkim.salesforce.com.
+requests	86400	IN	A	141.193.213.21
+playbook	86400	IN	CNAME	cx49q0f495ml.wpeproxy.com.
+@	86400	IN	TXT	"v=spf1 include:_spf.oneomnicom.com include:spf.mandrillapp.com include:spf.salesforce.com include:amazonses.com ip4:216.54.114.74 -all"
+mzjm67uzf6g7oxqdrn42sxbq7lqnrgxm._domainkey	86400	IN	CNAME	mzjm67uzf6g7oxqdrn42sxbq7lqnrgxm.dkim.amazonses.com.
+ldyn6dtxmgfxifbel6qifjm76x5sprxb._domainkey	86400	IN	CNAME	ldyn6dtxmgfxifbel6qifjm76x5sprxb.dkim.amazonses.com.
+hky2vhhtyraqcs7fpzer7qmpxcfchvw6._domainkey	86400	IN	CNAME	hky2vhhtyraqcs7fpzer7qmpxcfchvw6.dkim.amazonses.com.
+gne	86400	IN	TXT	"google-site-verification=8Y-CWY83c6pnOGglWSL20fDqHkS4uRTJ4CMy7TNnkRs"
+aws-staging	86400	IN	A	44.240.197.100
+blog	60	IN	CNAME	4u27q52kpq4t.wpeproxy.com.
+@	86400	IN	TXT	"google-site-verification=mmpUSlydVQQTqkmRjKrz3Y-25b-P7Za6NHIlhxP5JwU"
+_acme-challenge.aws-staging	60	IN	CNAME	ac.1a22c66f04b4cd1482e6e03c6bad2573.aws-staging.snow-companies.com.validate-akdv.net.
+_acme-challenge.haeandmeapp-staging	60	IN	CNAME	ac.7f326c250736e3ab673e814a6ada756a.haeandmeapp-staging.snow-companies.com.validate-akdv.net.
+_acme-challenge.ruconestapp-staging	60	IN	CNAME	ac.e128e4b5dda4e85f5b49e50f2599a2aa.ruconestapp-staging.snow-companies.com.validate-akdv.net.
+aws-dev	86400	IN	CNAME	aws-dev.snow-companies.com.edgekey.net.
+haeandmeapp-dev	86400	IN	CNAME	haeandmeapp-dev.snow-companies.com.edgekey.net.
+ruconestapp-dev	86400	IN	CNAME	ruconestapp-dev.snow-companies.com.edgekey.net.
+4d024e37-51c3-4c13-8587-9d4807ca6804	86400	IN	CNAME	verifydomain.docusign.net.
+@	86400	IN	TXT	"extensis-domain-verification=06b041df-fe40-4c1f-a90b-fb471da5f501"
+www.requests	86400	IN	A	141.193.213.21
+www.requests	86400	IN	A	141.193.213.20
+selector1._domainkey	60	IN	CNAME	selector1-snowcompanies-com01b._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey	60	IN	CNAME	selector2-snowcompanies-com01b._domainkey.oneomnicom.onmicrosoft.com.
+selector1._domainkey.gne	86400	IN	CNAME	selector1-gne-snow-companies-com._domainkey.oneomnicom.onmicrosoft.com.
+selector2._domainkey.gne	86400	IN	CNAME	selector2-gne-snow-companies-com._domainkey.oneomnicom.onmicrosoft.com.
